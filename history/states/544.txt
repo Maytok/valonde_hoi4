@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = ILI
+		owner = TIZ
 		buildings = {
 			infrastructure = 1
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = ILI
+		add_core_of = TIZ
 	}
 
 	provinces={
