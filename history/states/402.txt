@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = GEC
+		owner = XUV
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = GEC
+		add_core_of = XUV
 	}
 
 	provinces={

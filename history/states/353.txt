@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = NAN
+		owner = XUV
 		buildings = {
 			infrastructure = 3
 			
@@ -27,7 +27,7 @@ state={
 			dockyard = 1
 			
 		}
-		add_core_of = NAN
+		add_core_of = XUV
 	}
 
 	provinces={

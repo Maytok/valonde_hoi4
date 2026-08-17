@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = GEC
+		owner = XUV
 		buildings = {
 			infrastructure = 2
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = GEC
+		add_core_of = XUV
 	}
 
 	provinces={

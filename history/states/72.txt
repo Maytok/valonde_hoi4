@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = TUV
+		owner = XUV
 		buildings = {
 			infrastructure = 1
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = TUV
+		add_core_of = XUV
 	}
 
 	provinces={
