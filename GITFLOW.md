@@ -2,7 +2,7 @@
 
 ## Ramas principales
 
-- `main`: rama estable y de producción
+- `master`: rama estable y de producción
 - `develop`: rama de integración para desarrollo activo
 - `feature/*`: nuevas funcionalidades
 - `release/*`: preparación de versiones
@@ -32,16 +32,16 @@
    - `git checkout develop`
    - `git checkout -b release/x.y.z`
    - preparar ajustes finales y tags
-   - `git checkout main`
+   - `git checkout master`
    - `git merge --no-ff release/x.y.z`
    - `git tag vX.Y.Z`
-   - `git push origin main --tags`
+   - `git push origin master --tags`
 
 5. Para hotfix:
-   - `git checkout main`
+   - `git checkout master`
    - `git checkout -b hotfix/correcion-urgente`
    - corregir y confirmar
-   - mezclar en `main` y `develop`
+   - mezclar en `master` y `develop`
 
 ## Reglas de estilo
 
