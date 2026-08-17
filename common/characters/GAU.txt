@@ -1,0 +1,1083 @@
+characters = {
+	GAU_Asier_Eskusmoa={
+		name="Asier Eskusmoa"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GAU_Harkaizkaito_Lagur={
+		name="Harkaizkaito Lagur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Harkaizkaito_Lagur
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Aitz_Aintzuna={
+		name="Aitz Aintzuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Aitz_Aintzuna
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Ander_Hiza={
+		name="Ander Hiza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ander_Hiza
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Ekaitz_Gizarra={
+		name="Ekaitz Gizarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ekaitz_Gizarra
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Ekaitz_Zena={
+		name="Ekaitz Zena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ekaitz_Zena
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Ibanti_Badea={
+		name="Ibanti Badea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ibanti_Badea
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Unai_Grin={
+		name="Unai Grin"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Unai_Grin
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GAU_Ibaiur_Badei={
+		name="Ibaiur Badei"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Ibaiur_Badei
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GAU_Harkaizka_Elurra={
+		name="Harkaizka Elurra"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Harkaizka_Elurra
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GAU_Ibaitorkaiur_Euskets={
+		name="Ibaitorkaiur Euskets"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Ibaitorkaiur_Euskets
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GAU_Ekaitorka_Amen={
+		name="Ekaitorka Amen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Ekaitorka_Amen
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GAU_Gaitz_Euskets={
+		name="Gaitz Euskets"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Gaitz_Euskets
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	GAU_Ekaitz_Argi={
+		name="Ekaitz Argi"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Ekaitz_Argi
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	GAU_Harkai_Abetaso={
+		name="Harkai Abetaso"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Harkai_Abetaso
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	GAU_Harkaizkaito_Semea={
+		name="Harkaizkaito Semea"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Harkaizkaito_Semea
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GAU_Amaizkaizka_Arga={
+		name="Amaizkaizka Arga"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Amaizkaizka_Arga
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	GAU_Ikel_Alaitzalmuga={
+		name="Ikel Alaitzalmuga"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Ikel_Alaitzalmuga
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	GAU_Eneko_Hotzakaporia={
+		name="Eneko Hotzakaporia"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Eneko_Hotzakaporia
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	GAU_Ekaitorka_Herrimena={
+		name="Ekaitorka Herrimena"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Ekaitorka_Herrimena
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	GAU_Aitz_Hotza={
+		name="Aitz Hotza"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Aitz_Hotza
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	GAU_Ibaitz_Orotzartza={
+		name="Ibaitz Orotzartza"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GAU_Ibanti_Lagur={
+		name="Ibanti Lagur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ibanti_Lagur
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Amai_Muga={
+		name="Amai Muga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Amai_Muga
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Miker_Herrimena={
+		name="Miker Herrimena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Miker_Herrimena
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Benat_Bizea={
+		name="Benat Bizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Benat_Bizea
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Gorka_Oroa={
+		name="Gorka Oroa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Gorka_Oroa
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Eder_Hezua={
+		name="Eder Hezua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Eder_Hezua
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Koldo_Eusmena={
+		name="Koldo Eusmena"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Koldo_Eusmena
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	GAU_Amaiur_Balmuga={
+		name="Amaiur Balmuga"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Amaiur_Balmuga
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	GAU_Harkaitz_Lagutza={
+		name="Harkaitz Lagutza"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Harkaitz_Lagutza
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	GAU_Amaiur_Ilardadea={
+		name="Amaiur Ilardadea"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Amaiur_Ilardadea
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GAU_Harkaiur_Elka={
+		name="Harkaiur Elka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Harkaiur_Elka
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GAU_Harkaitz_Usaizirai={
+		name="Harkaitz Usaizirai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Harkaitz_Usaizirai
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	GAU_Amai_Zarra={
+		name="Amai Zarra"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Amai_Zarra
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	GAU_Ibaitorkaiur_Muga={
+		name="Ibaitorkaiur Muga"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Ibaitorkaiur_Muga
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	GAU_Amai_Herrimena={
+		name="Amai Herrimena"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Amai_Herrimena
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	GAU_Harkai_Egun={
+		name="Harkai Egun"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Harkai_Egun
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	GAU_Xabier_Alaitzalmuga={
+		name="Xabier Alaitzalmuga"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Xabier_Alaitzalmuga
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	GAU_Koldo_Garria={
+		name="Koldo Garria"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Koldo_Garria
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	GAU_Iker_Egun={
+		name="Iker Egun"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Iker_Egun
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	GAU_Aitor_Garria={
+		name="Aitor Garria"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Aitor_Garria
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	GAU_Xanti_Hezumena={
+		name="Xanti Hezumena"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GAU_Harkaizkaito_Garria={
+		name="Harkaizkaito Garria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Harkaizkaito_Garria
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Aitor_Gogo={
+		name="Aitor Gogo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Aitor_Gogo
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Xanti_Lurra={
+		name="Xanti Lurra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Xanti_Lurra
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Aitor_Aintzuna={
+		name="Aitor Aintzuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Aitor_Aintzuna
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Amaizka_Poza={
+		name="Amaizka Poza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Amaizka_Poza
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Eder_Eusmena={
+		name="Eder Eusmena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Eder_Eusmena
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Ekaitz_Badea={
+		name="Ekaitz Badea"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Ekaitz_Badea
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GAU_Unat_Zendimen={
+		name="Unat Zendimen"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Unat_Zendimen
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	GAU_Ekai_Balmuga={
+		name="Ekai Balmuga"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Ekai_Balmuga
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GAU_Gaiur_Hezua={
+		name="Gaiur Hezua"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Gaiur_Hezua
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GAU_Unat_Gogo={
+		name="Unat Gogo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Unat_Gogo
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GAU_Miker_Hezua={
+		name="Miker Hezua"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Miker_Hezua
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GAU_Harka_Hotza={
+		name="Harka Hotza"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Harka_Hotza
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	GAU_Koldo_Bidei={
+		name="Koldo Bidei"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Koldo_Bidei
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	GAU_Ander_Badea={
+		name="Ander Badea"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Ander_Badea
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	GAU_Iker_Bizea={
+		name="Iker Bizea"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Iker_Bizea
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	GAU_Miker_Aitzmina={
+		name="Miker Aitzmina"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Miker_Aitzmina
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	GAU_Ekaitorka_Arga={
+		name="Ekaitorka Arga"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Ekaitorka_Arga
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	GAU_Iker_Argi={
+		name="Iker Argi"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Iker_Argi
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	GAU_Eder_Oroa={
+		name="Eder Oroa"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Eder_Oroa
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	GAU_Ikel_Elka={
+		name="Ikel Elka"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GAU_Iban_Hitzumendadi={
+		name="Iban Hitzumendadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Iban_Hitzumendadi
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Unat_Gizarra={
+		name="Unat Gizarra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Unat_Gizarra
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Eder_Arna={
+		name="Eder Arna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Eder_Arna
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Harkaizkaito_Grin={
+		name="Harkaizkaito Grin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Harkaizkaito_Grin
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	GAU_Ibaiur_Hezumena={
+		name="Ibaiur Hezumena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Ibaiur_Hezumena
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	GAU_Eneko_Jakimen={
+		name="Eneko Jakimen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GAU_Eneko_Jakimen
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	GAU_Ekaitz_Zubi={
+		name="Ekaitz Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Ekaitz_Zubi
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	GAU_Unat_Ihina={
+		name="Unat Ihina"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Unat_Ihina
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GAU_Gorka_Arrak={
+		name="Gorka Arrak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Gorka_Arrak
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	GAU_Amai_Hitzumendadi={
+		name="Amai Hitzumendadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = GAU_Amai_Hitzumendadi
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	GAU_Aitz_Zena={
+		name="Aitz Zena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Aitz_Zena
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GAU_Eder_Eluraitu={
+		name="Eder Eluraitu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GAU_Eder_Eluraitu
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	GAU_Unat_Zarra={
+		name="Unat Zarra"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Unat_Zarra
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	GAU_Xabier_Aintzua={
+		name="Xabier Aintzua"
+
+		advisor={
+			slot = air_chief
+			idea_token = GAU_Xabier_Aintzua
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	GAU_Ibaitor_Eguzki={
+		name="Ibaitor Eguzki"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Ibaitor_Eguzki
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	GAU_Mikel_Ahartea={
+		name="Mikel Ahartea"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Mikel_Ahartea
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	GAU_Amaizkaizka_Poza={
+		name="Amaizkaizka Poza"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Amaizkaizka_Poza
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	GAU_Amaizkaizka_Nori={
+		name="Amaizkaizka Nori"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Amaizkaizka_Nori
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	GAU_Harkaitz_Lurrak={
+		name="Harkaitz Lurrak"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Harkaitz_Lurrak
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	GAU_Aitor_Orotzartza={
+		name="Aitor Orotzartza"
+
+		advisor={
+			slot = high_command
+			idea_token = GAU_Aitor_Orotzartza
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	GAU_Amai_Semea={
+		name="Amai Semea"
+
+		advisor={
+			slot = theorist
+			idea_token = GAU_Amai_Semea
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GAU_Amaiur_Egurua={
+		name="Amaiur Egurua"
+
+		advisor={
+			slot = theorist
+			idea_token = GAU_Amaiur_Egurua
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GAU_Ekai_Grin={
+		name="Ekai Grin"
+
+		advisor={
+			slot = theorist
+			idea_token = GAU_Ekai_Grin
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

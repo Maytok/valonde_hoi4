@@ -1,0 +1,37 @@
+
+state={
+	id=1361
+	name="STATE_1361"
+	manpower = 2509005
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = VAN
+	}
+
+	provinces={
+		15811 15812 15813 15814 15815 15816 15817 15818 15819 15820 15821 15822 15823 15824 
+	}
+	local_supplies=0.0 
+}

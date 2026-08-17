@@ -1,0 +1,37 @@
+
+state={
+	id=23
+	name="STATE_23"
+	manpower = 3130011
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KAN
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 
+	}
+	local_supplies=0.0 
+}

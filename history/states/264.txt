@@ -1,0 +1,37 @@
+
+state={
+	id=264
+	name="STATE_264"
+	manpower = 2595686
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		3264 3265 3266 3267 3268 3269 3270 3271 3272 3273 3274 3275 3276 3277 
+	}
+	local_supplies=0.0 
+}

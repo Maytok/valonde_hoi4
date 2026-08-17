@@ -1,0 +1,37 @@
+
+state={
+	id=61
+	name="STATE_61"
+	manpower = 1343102
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		849 850 851 852 853 854 855 
+	}
+	local_supplies=0.0 
+}

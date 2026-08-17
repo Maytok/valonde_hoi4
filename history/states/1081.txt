@@ -1,0 +1,37 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+	manpower = 1274648
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KEL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = KEL
+	}
+
+	provinces={
+		12832 12833 12834 12835 12836 12837 12838 
+	}
+	local_supplies=0.0 
+}

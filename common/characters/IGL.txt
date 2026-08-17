@@ -1,0 +1,1083 @@
+characters = {
+	IGL_Slav_Kulak={
+		name="Slav Kulak"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { veteran_anti_bolshevik  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IGL_Petarko_Zlaksinaga={
+		name="Petarko Zlaksinaga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Petarko_Zlaksinaga
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Maroslav_Reka={
+		name="Maroslav Reka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Maroslav_Reka
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Miloslavko_Mesnika={
+		name="Miloslavko Mesnika"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Miloslavko_Mesnika
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Miloslav_Kulak={
+		name="Miloslav Kulak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Miloslav_Kulak
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Kazimitrilos_Slino={
+		name="Kazimitrilos Slino"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Kazimitrilos_Slino
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Tomir_Narodarst={
+		name="Tomir Narodarst"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Tomir_Narodarst
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Lubosh_Ostvor={
+		name="Lubosh Ostvor"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Lubosh_Ostvor
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	IGL_Niko_Brzava={
+		name="Niko Brzava"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Niko_Brzava
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	IGL_Radenek_Reka={
+		name="Radenek Reka"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Radenek_Reka
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	IGL_Bohdan_Olost={
+		name="Bohdan Olost"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Bohdan_Olost
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	IGL_Lubomirosh_Kralada={
+		name="Lubomirosh Kralada"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Lubomirosh_Kralada
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	IGL_Radovan_Imetno={
+		name="Radovan Imetno"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Radovan_Imetno
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	IGL_Radenek_Alas={
+		name="Radenek Alas"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Radenek_Alas
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	IGL_Bohdan_Muda={
+		name="Bohdan Muda"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Bohdan_Muda
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	IGL_Stan_Zlaksinaga={
+		name="Stan Zlaksinaga"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Stan_Zlaksinaga
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	IGL_Juri_Losla={
+		name="Juri Losla"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Juri_Losla
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	IGL_Juri_Morefekt={
+		name="Juri Morefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Juri_Morefekt
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	IGL_Miroslav_Cvetak={
+		name="Miroslav Cvetak"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Miroslav_Cvetak
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	IGL_Sergei_Puto={
+		name="Sergei Puto"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Sergei_Puto
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	IGL_Sergei_Nebo={
+		name="Sergei Nebo"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Sergei_Nebo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	IGL_Niko_Stra={
+		name="Niko Stra"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IGL_Jarko_Losof={
+		name="Jarko Losof"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Jarko_Losof
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	IGL_Marko_Kralj={
+		name="Marko Kralj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Marko_Kralj
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Radoslavkola_Slino={
+		name="Radoslavkola Slino"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Radoslavkola_Slino
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Draj_Kralj={
+		name="Draj Kralj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Draj_Kralj
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Slavko_Glatrvot={
+		name="Slavko Glatrvot"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Slavko_Glatrvot
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Lubomirosh_Vodnostrad={
+		name="Lubomirosh Vodnostrad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Lubomirosh_Vodnostrad
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Milos_Kulturana={
+		name="Milos Kulturana"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Milos_Kulturana
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	IGL_Kazimeon_Vrefeka={
+		name="Kazimeon Vrefeka"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Kazimeon_Vrefeka
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	IGL_Rado_Postor={
+		name="Rado Postor"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Rado_Postor
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	IGL_Alexei_Nebo={
+		name="Alexei Nebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Alexei_Nebo
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	IGL_Milosh_Zemir={
+		name="Milosh Zemir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Milosh_Zemir
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	IGL_Stan_Grana={
+		name="Stan Grana"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Stan_Grana
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	IGL_Nikita_Visina={
+		name="Nikita Visina"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Nikita_Visina
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	IGL_Kiroslav_Hlemir={
+		name="Kiroslav Hlemir"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Kiroslav_Hlemir
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	IGL_Steusan_Knja={
+		name="Steusan Knja"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Steusan_Knja
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	IGL_Ivan_Vrefeka={
+		name="Ivan Vrefeka"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Ivan_Vrefeka
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	IGL_Radoslanovan_Morefeka={
+		name="Radoslanovan Morefeka"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Radoslanovan_Morefeka
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	IGL_Peta_Morefeka={
+		name="Peta Morefeka"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Peta_Morefeka
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	IGL_Velimiroslav_Teat={
+		name="Velimiroslav Teat"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Velimiroslav_Teat
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	IGL_Juri_Nebo={
+		name="Juri Nebo"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Juri_Nebo
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	IGL_Ilya_Stra={
+		name="Ilya Stra"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IGL_Radenek_Sunce={
+		name="Radenek Sunce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Radenek_Sunce
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	IGL_Yuranislav_Imetno={
+		name="Yuranislav Imetno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Yuranislav_Imetno
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	IGL_Ivanovan_Smrt={
+		name="Ivanovan Smrt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Ivanovan_Smrt
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Mateusz_Muda={
+		name="Mateusz Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Mateusz_Muda
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Lubomir_Konzulturadz={
+		name="Lubomir Konzulturadz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Lubomir_Konzulturadz
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Velimiroslav_Prisa={
+		name="Velimiroslav Prisa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Velimiroslav_Prisa
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Milosh_Losof={
+		name="Milosh Losof"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Milosh_Losof
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	IGL_Ilya_Nebo={
+		name="Ilya Nebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Ilya_Nebo
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	IGL_Kazimitrilos_Hramen={
+		name="Kazimitrilos Hramen"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Kazimitrilos_Hramen
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	IGL_Milados_Suma={
+		name="Milados Suma"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Milados_Suma
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	IGL_Stan_Teatraljst={
+		name="Stan Teatraljst"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Stan_Teatraljst
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	IGL_Juri_Ostvotinost={
+		name="Juri Ostvotinost"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Juri_Ostvotinost
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	IGL_Ilya_Smrt={
+		name="Ilya Smrt"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Ilya_Smrt
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	IGL_Sergei_Slostrabrod={
+		name="Sergei Slostrabrod"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Sergei_Slostrabrod
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	IGL_Viko_Zlaksinaga={
+		name="Viko Zlaksinaga"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Viko_Zlaksinaga
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	IGL_Kazimeon_Vresec={
+		name="Kazimeon Vresec"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Kazimeon_Vresec
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	IGL_Lubomir_Slik={
+		name="Lubomir Slik"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Lubomir_Slik
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	IGL_Aleg_Tvrdja={
+		name="Aleg Tvrdja"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Aleg_Tvrdja
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	IGL_Juraj_Puto={
+		name="Juraj Puto"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Juraj_Puto
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	IGL_Bohdan_Plovo={
+		name="Bohdan Plovo"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Bohdan_Plovo
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	IGL_Aleg_Smrt={
+		name="Aleg Smrt"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IGL_Ivanislav_Past={
+		name="Ivanislav Past"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Ivanislav_Past
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	IGL_Petarko_Obicak={
+		name="Petarko Obicak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Petarko_Obicak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	IGL_Vladek_Strana={
+		name="Vladek Strana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Vladek_Strana
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	IGL_Radovan_Nebrom={
+		name="Radovan Nebrom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Radovan_Nebrom
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Radimir_Kapija={
+		name="Radimir Kapija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Radimir_Kapija
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Starosladov_Stor={
+		name="Starosladov Stor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IGL_Starosladov_Stor
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	IGL_Lubomir_Teat={
+		name="Lubomir Teat"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Lubomir_Teat
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	IGL_Slavko_Losla={
+		name="Slavko Losla"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Slavko_Losla
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	IGL_Radovan_Oblator={
+		name="Radovan Oblator"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Radovan_Oblator
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	IGL_Kazimitrilos_Suma={
+		name="Kazimitrilos Suma"
+
+		advisor={
+			slot = army_chief
+			idea_token = IGL_Kazimitrilos_Suma
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	IGL_Kazimir_Zven={
+		name="Kazimir Zven"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Kazimir_Zven
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	IGL_Sergei_Kucaj={
+		name="Sergei Kucaj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IGL_Sergei_Kucaj
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	IGL_Vladek_Kralada={
+		name="Vladek Kralada"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Vladek_Kralada
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	IGL_Simeon_Vodnostrad={
+		name="Simeon Vodnostrad"
+
+		advisor={
+			slot = air_chief
+			idea_token = IGL_Simeon_Vodnostrad
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	IGL_Ivanis_Olost={
+		name="Ivanis Olost"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Ivanis_Olost
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	IGL_Simir_Kapija={
+		name="Simir Kapija"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Simir_Kapija
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	IGL_Kazimir_Visina={
+		name="Kazimir Visina"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Kazimir_Visina
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	IGL_Miroslav_Ruca={
+		name="Miroslav Ruca"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Miroslav_Ruca
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	IGL_Radosh_Visina={
+		name="Radosh Visina"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Radosh_Visina
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	IGL_Kazimiroslan_Losof={
+		name="Kazimiroslan Losof"
+
+		advisor={
+			slot = high_command
+			idea_token = IGL_Kazimiroslan_Losof
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	IGL_Bohdan_Cvetak={
+		name="Bohdan Cvetak"
+
+		advisor={
+			slot = theorist
+			idea_token = IGL_Bohdan_Cvetak
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	IGL_Milados_Brzava={
+		name="Milados Brzava"
+
+		advisor={
+			slot = theorist
+			idea_token = IGL_Milados_Brzava
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	IGL_Vlavel_Vresec={
+		name="Vlavel Vresec"
+
+		advisor={
+			slot = theorist
+			idea_token = IGL_Vlavel_Vresec
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

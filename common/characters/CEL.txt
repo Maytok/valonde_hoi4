@@ -1,0 +1,1083 @@
+characters = {
+	CEL_Marcellius_Ignum={
+		name="Marcellius Ignum"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { national_determinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEL_Marcus_Sonsarita={
+		name="Marcus Sonsarita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Marcus_Sonsarita
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Drus_Strum={
+		name="Drus Strum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Drus_Strum
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Antonginus_Ratortiscium={
+		name="Antonginus Ratortiscium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Antonginus_Ratortiscium
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Publius_Argensulticu={
+		name="Publius Argensulticu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Publius_Argensulticu
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Titelius_Ignum={
+		name="Titelius Ignum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Titelius_Ignum
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Nerviustustu_Silicola={
+		name="Nerviustustu Silicola"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Nerviustustu_Silicola
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Vitus_Herta={
+		name="Vitus Herta"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Vitus_Herta
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	CEL_Coraticusus_Fonitastia={
+		name="Coraticusus Fonitastia"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Coraticusus_Fonitastia
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CEL_Cornellius_Regotithare={
+		name="Cornellius Regotithare"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Cornellius_Regotithare
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CEL_Lucimus_Cama={
+		name="Lucimus Cama"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Lucimus_Cama
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	CEL_Gaianlius_Scatoriberra={
+		name="Gaianlius Scatoriberra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Gaianlius_Scatoriberra
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	CEL_Quinus_Otiscientia={
+		name="Quinus Otiscientia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Quinus_Otiscientia
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CEL_Vitus_Domenator={
+		name="Vitus Domenator"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Vitus_Domenator
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CEL_Quinus_Lachilla={
+		name="Quinus Lachilla"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Quinus_Lachilla
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CEL_Priscus_Tenatrum={
+		name="Priscus Tenatrum"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Priscus_Tenatrum
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CEL_Titelius_Corsulmenebr={
+		name="Titelius Corsulmenebr"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Titelius_Corsulmenebr
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	CEL_Scaevolavius_Pophus={
+		name="Scaevolavius Pophus"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Scaevolavius_Pophus
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CEL_Longinus_Parvus={
+		name="Longinus Parvus"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Longinus_Parvus
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CEL_Drutus_Maculmen={
+		name="Drutus Maculmen"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Drutus_Maculmen
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	CEL_Gaius_Oticaella={
+		name="Gaius Oticaella"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Gaius_Oticaella
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CEL_Priscus_Vilicien={
+		name="Priscus Vilicien"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { falangist_militarist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEL_Severviusus_Orbum={
+		name="Severviusus Orbum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Severviusus_Orbum
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Marcus_Sempes={
+		name="Marcus Sempes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Marcus_Sempes
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Decius_Nomena={
+		name="Decius Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Decius_Nomena
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Claus_Domus={
+		name="Claus Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Claus_Domus
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Aulus_Herta={
+		name="Aulus Herta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Aulus_Herta
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Regulus_Sapiensus={
+		name="Regulus Sapiensus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Regulus_Sapiensus
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Aulus_Milis={
+		name="Aulus Milis"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Aulus_Milis
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CEL_Attius_Deus={
+		name="Attius Deus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Attius_Deus
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CEL_Vitus_Scae={
+		name="Vitus Scae"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Vitus_Scae
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CEL_Caius_Poetericolor={
+		name="Caius Poetericolor"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Caius_Poetericolor
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CEL_Cassiustus_Silita={
+		name="Cassiustus Silita"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Cassiustus_Silita
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	CEL_Titellius_Malum={
+		name="Titellius Malum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Titellius_Malum
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CEL_Scaeverus_Scribunumbus={
+		name="Scaeverus Scribunumbus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Scaeverus_Scribunumbus
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CEL_Nongintonius_Poetelebs={
+		name="Nongintonius Poetelebs"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Nongintonius_Poetelebs
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	CEL_Flaudius_Maculmen={
+		name="Flaudius Maculmen"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Flaudius_Maculmen
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	CEL_Graiustustus_Spertas={
+		name="Graiustustus Spertas"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Graiustustus_Spertas
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	CEL_Graticus_Domus={
+		name="Graticus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Graticus_Domus
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	CEL_Julusustus_Corsulmenebr={
+		name="Julusustus Corsulmenebr"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Julusustus_Corsulmenebr
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	CEL_Antonginus_Cama={
+		name="Antonginus Cama"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Antonginus_Cama
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	CEL_Nonginus_Poetericolor={
+		name="Nonginus Poetericolor"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Nonginus_Poetericolor
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CEL_Nonginus_Gloriptoruda={
+		name="Nonginus Gloriptoruda"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEL_Gaianlius_Sempes={
+		name="Gaianlius Sempes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Gaianlius_Sempes
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Otho_Silita={
+		name="Otho Silita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Otho_Silita
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Vibius_Sonsum={
+		name="Vibius Sonsum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Vibius_Sonsum
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Nongintonius_Sonsum={
+		name="Nongintonius Sonsum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Nongintonius_Sonsum
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Neriscus_Famma={
+		name="Neriscus Famma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Neriscus_Famma
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Coraticusus_Spertas={
+		name="Coraticusus Spertas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Coraticusus_Spertas
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Scaevolavius_Litas={
+		name="Scaevolavius Litas"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Scaevolavius_Litas
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CEL_Cornellius_Virtum={
+		name="Cornellius Virtum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Cornellius_Virtum
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CEL_Cornellianus_Tenatrum={
+		name="Cornellianus Tenatrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Cornellianus_Tenatrum
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CEL_Publius_Picus={
+		name="Publius Picus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Publius_Picus
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CEL_Manus_Militas={
+		name="Manus Militas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Manus_Militas
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CEL_Livius_Virtum={
+		name="Livius Virtum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Livius_Virtum
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CEL_Priscus_Scribunumbus={
+		name="Priscus Scribunumbus"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Priscus_Scribunumbus
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	CEL_Coratius_Scaella={
+		name="Coratius Scaella"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Coratius_Scaella
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	CEL_Severo_Celebs={
+		name="Severo Celebs"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Severo_Celebs
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	CEL_Cassius_Corsulmenebr={
+		name="Cassius Corsulmenebr"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Cassius_Corsulmenebr
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CEL_Scaeverus_Agritastrum={
+		name="Scaeverus Agritastrum"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Scaeverus_Agritastrum
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CEL_Claus_Poetelebs={
+		name="Claus Poetelebs"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Claus_Poetelebs
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CEL_Otho_Nobis={
+		name="Otho Nobis"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Otho_Nobis
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CEL_Cornellus_Celebs={
+		name="Cornellus Celebs"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Cornellus_Celebs
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	CEL_Decius_Strum={
+		name="Decius Strum"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CEL_Longinus_Carvus={
+		name="Longinus Carvus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Longinus_Carvus
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	CEL_Titellius_Poetelebs={
+		name="Titellius Poetelebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Titellius_Poetelebs
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Cornellius_Gloriptoruda={
+		name="Cornellius Gloriptoruda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Cornellius_Gloriptoruda
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Cornellus_Plumensul={
+		name="Cornellus Plumensul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Cornellus_Plumensul
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	CEL_Cassiustus_Conor={
+		name="Cassiustus Conor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Cassiustus_Conor
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Cassiustus_Citternistor={
+		name="Cassiustus Citternistor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CEL_Cassiustus_Citternistor
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	CEL_Severviusus_Scribunumbus={
+		name="Severviusus Scribunumbus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Severviusus_Scribunumbus
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CEL_Titius_Tenatrum={
+		name="Titius Tenatrum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Titius_Tenatrum
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CEL_Nonginus_Nomentus={
+		name="Nonginus Nomentus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Nonginus_Nomentus
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CEL_Coraticusus_Anis={
+		name="Coraticusus Anis"
+
+		advisor={
+			slot = army_chief
+			idea_token = CEL_Coraticusus_Anis
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CEL_Lucius_Prum={
+		name="Lucius Prum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Lucius_Prum
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	CEL_Severo_Litas={
+		name="Severo Litas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CEL_Severo_Litas
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CEL_Gaianlius_Domenator={
+		name="Gaianlius Domenator"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Gaianlius_Domenator
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CEL_Antonginus_Regotithare={
+		name="Antonginus Regotithare"
+
+		advisor={
+			slot = air_chief
+			idea_token = CEL_Antonginus_Regotithare
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	CEL_Nongintonius_Regotithare={
+		name="Nongintonius Regotithare"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Nongintonius_Regotithare
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	CEL_Flaudius_Milis={
+		name="Flaudius Milis"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Flaudius_Milis
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	CEL_Lonius_Taberria={
+		name="Lonius Taberria"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Lonius_Taberria
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	CEL_Caius_Parvus={
+		name="Caius Parvus"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Caius_Parvus
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	CEL_Gaianlius_Verba={
+		name="Gaianlius Verba"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Gaianlius_Verba
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CEL_Nerius_Nomena={
+		name="Nerius Nomena"
+
+		advisor={
+			slot = high_command
+			idea_token = CEL_Nerius_Nomena
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	CEL_Julusustus_Maculmen={
+		name="Julusustus Maculmen"
+
+		advisor={
+			slot = theorist
+			idea_token = CEL_Julusustus_Maculmen
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CEL_Nerius_Galus={
+		name="Nerius Galus"
+
+		advisor={
+			slot = theorist
+			idea_token = CEL_Nerius_Galus
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CEL_Faus_Sonsum={
+		name="Faus Sonsum"
+
+		advisor={
+			slot = theorist
+			idea_token = CEL_Faus_Sonsum
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=860
+	name="STATE_860"
+	manpower = 1043227
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=14
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		10171 10172 10173 10174 10175 10176 10177 
+	}
+	local_supplies=0.0 
+}

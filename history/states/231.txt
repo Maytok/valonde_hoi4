@@ -1,0 +1,37 @@
+
+state={
+	id=231
+	name="STATE_231"
+	manpower = 1514752
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		2922 2923 2924 2925 2926 2927 2928 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,433 @@
+capital = 237
+
+oob = "TAD_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TAD_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TAD_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Azegzi Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tamat Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Amezwasnast Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tawen Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tawen Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tifawt Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TAD_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "TAD_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TAD_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Azrawinim Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TAD_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Azrawinim Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TAD_Mokrannis_Takranem
+recruit_character = TAD_Taharimokran_Tazart
+recruit_character = TAD_Iderfane_Tart
+recruit_character = TAD_Massa_Tazzur
+recruit_character = TAD_Iderfane_Tigh
+recruit_character = TAD_Ziri_Tamsalt
+recruit_character = TAD_Mokrane_Thant
+recruit_character = TAD_Mimokrane_Tazegzilt
+recruit_character = TAD_Saidi_Tizir
+recruit_character = TAD_Ziri_Tiwin
+recruit_character = TAD_Ziri_Ayurt
+recruit_character = TAD_Mimokrane_Azrarwas
+recruit_character = TAD_Meziz_Afsut
+recruit_character = TAD_Tarim_Tafawin
+recruit_character = TAD_Amad_Tiwizrar
+recruit_character = TAD_Taren_Tafassirt
+recruit_character = TAD_Yuba_Tigmmi
+recruit_character = TAD_Amariq_Tadday
+recruit_character = TAD_Amad_Tawen
+recruit_character = TAD_Mokran_Tart
+recruit_character = TAD_Tarim_Akalt
+recruit_character = TAD_Tahariq_Asirit
+recruit_character = TAD_Meziane_Tazrourt
+recruit_character = TAD_Ziri_Tissirt
+recruit_character = TAD_Massinissa_Azrawinim
+recruit_character = TAD_Aselmad_Azegzart
+recruit_character = TAD_Tafsut_Tazmerwal
+recruit_character = TAD_Amoun_Afus
+recruit_character = TAD_Aselmarim_Amdirart
+recruit_character = TAD_Ziriq_Imnayen
+recruit_character = TAD_Sifax_Tamazrou
+recruit_character = TAD_Amoun_Takfarem
+recruit_character = TAD_Taren_Tamazrawt
+recruit_character = TAD_Sifan_Tamazrou
+recruit_character = TAD_Ziri_Azert
+recruit_character = TAD_Sifax_Tazrar
+recruit_character = TAD_Zirim_Tawin
+recruit_character = TAD_Sifan_Tighzi
+recruit_character = TAD_Tahar_Tamassirt
+recruit_character = TAD_Tahariq_Tazrar
+recruit_character = TAD_Mokran_Amdir
+recruit_character = TAD_Aselmad_Tissirt
+recruit_character = TAD_Iderfane_Tighzi
+recruit_character = TAD_Tahariq_Tigmmi
+recruit_character = TAD_Ziriq_Tamdar
+recruit_character = TAD_Aselmad_Tazrar
+recruit_character = TAD_Meziane_Amenzar
+recruit_character = TAD_Karen_Amdarwast
+recruit_character = TAD_Kariq_Azrouka
+recruit_character = TAD_Mimokran_Tamsalt
+recruit_character = TAD_Taren_Amezwasnast
+recruit_character = TAD_Meziz_Agadiremmi
+recruit_character = TAD_Karen_Amdir
+recruit_character = TAD_Tarim_Azrart
+recruit_character = TAD_Lyes_Tamazrawt
+recruit_character = TAD_Amariq_Tasnast
+recruit_character = TAD_Mezian_Tist
+recruit_character = TAD_Kariq_Asifast
+recruit_character = TAD_Tarim_Amenzar
+recruit_character = TAD_Massa_Tawt
+recruit_character = TAD_Aziz_Tifawt
+recruit_character = TAD_Sifan_Azert
+recruit_character = TAD_Yuba_Tadday
+recruit_character = TAD_Massinissa_Tidra
+recruit_character = TAD_Mimokran_Agou
+recruit_character = TAD_Aselmarim_Tart
+recruit_character = TAD_Tariq_Tigmmi
+recruit_character = TAD_Mimokran_Afus
+recruit_character = TAD_Meziane_Tislit
+recruit_character = TAD_Lyes_Tighbalalt
+recruit_character = TAD_Iskari_Amdirart
+recruit_character = TAD_Mokrannis_Tadin
+recruit_character = TAD_Ziri_Azrouka
+recruit_character = TAD_Aziane_Takfar
+recruit_character = TAD_Mokrane_Tazmerwal
+recruit_character = TAD_Mimokrane_Tazrawizrouf
+recruit_character = TAD_Mokrane_Afrart
+recruit_character = TAD_Massa_Azrawinim
+recruit_character = TAD_Mokran_Tamazrawt
+recruit_character = TAD_Amad_Azrawt
+recruit_character = TAD_Iderfane_Tigman
+recruit_character = TAD_Taharimokran_Azrarwas
+recruit_character = TAD_Iskari_Asifast
+recruit_character = TAD_Mimokrane_Anzawt
+recruit_character = TAD_Iskar_Tawt
+recruit_character = TAD_Mimokran_Anzawt
+recruit_character = TAD_Mezian_Takfar
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.06
+set_war_support = 0.62
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1881.11.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 22
+	fascism = 37
+	communism = 20
+	neutrality = 21
+}
+
+
+
+
+

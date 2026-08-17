@@ -1,0 +1,17 @@
+air_wings = {
+		883 = { 								
+		strat_bomber_equipment_0 = { owner = "NUT" amount = 2 version_name = "Bubuk Mk 2" }
+
+	}
+	801 = { 								
+		CAS_equipment_0 = { owner = "NUT" amount = 10 version_name = "Nunak Mk 1" }
+tac_bomber_equipment_0 = { owner = "NUT" amount = 6 version_name = "Iluk Mk 2" }
+
+	}
+	1584 = { 								
+		fighter_equipment_0 = { owner = "NUT" amount = 6 version_name = "Tunak Mk 0" }
+
+	}
+
+
+}

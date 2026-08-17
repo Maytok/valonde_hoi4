@@ -1,0 +1,37 @@
+
+state={
+	id=867
+	name="STATE_867"
+	manpower = 235257
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TUV
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUV
+	}
+
+	provinces={
+		10230 10231 10232 10233 10234 10235 10236 10237 10238 10239 10240 
+	}
+	local_supplies=0.0 
+}

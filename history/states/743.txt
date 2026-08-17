@@ -1,0 +1,37 @@
+
+state={
+	id=743
+	name="STATE_743"
+	manpower = 3543570
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAW
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = TAW
+	}
+
+	provinces={
+		8876 8877 8878 8879 8880 8881 8882 8883 8884 8885 8886 8887 8888 8889 8890 8891 8892 
+	}
+	local_supplies=0.0 
+}

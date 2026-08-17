@@ -1,0 +1,38 @@
+air_wings = {
+		1658 = { 								
+		small_plane_airframe_0 = { owner = "SOG" amount = 34 version_name = "Kalp Mk 2" }
+
+	}
+	1565 = { 								
+		small_plane_airframe_1 = { owner = "SOG" amount = 37 version_name = "Sani Mk 2" }
+
+	}
+	734 = { 								
+		large_plane_airframe_1 = { owner = "SOG" amount = 29 version_name = "Duyum Mk 0" }
+large_plane_airframe_0 = { owner = "SOG" amount = 31 version_name = "Asket Mk 1" }
+
+	}
+	763 = { 								
+		small_plane_cas_airframe_0 = { owner = "SOG" amount = 33 version_name = "Akinlik Mk 1" }
+
+	}
+	709 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SOG" amount = 28 version_name = "Yolge Mk 2" }
+
+	}
+	1494 = { 								
+		small_plane_cas_airframe_1 = { owner = "SOG" amount = 23 version_name = "Efsarla Mk 0" }
+
+	}
+	469 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "SOG" amount = 26 version_name = "Basarin Mk 2" }
+medium_plane_airframe_0 = { owner = "SOG" amount = 22 version_name = "Sehildi Mk 1" }
+
+	}
+	678 = { 								
+		medium_plane_airframe_1 = { owner = "SOG" amount = 35 version_name = "Sani Mk 1" }
+
+	}
+
+
+}

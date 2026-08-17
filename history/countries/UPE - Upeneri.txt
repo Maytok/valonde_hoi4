@@ -1,0 +1,391 @@
+capital = 1188
+
+oob = "UPE_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "UPE_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "UPE_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	gw_artillery= 1
+	marines= 1
+	tech_mountaineers= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Haaj Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Yaxchen Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tojilaktun Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Sotzal Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Witzal Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "UPE_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "UPE_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "UPE_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Ajpu Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "UPE_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Ajpu Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = UPE_Acatl_Tzampakha
+recruit_character = UPE_Nacab_Xbalanil
+recruit_character = UPE_Kukulkalam_Canai
+recruit_character = UPE_Chichen_Tzampakha
+recruit_character = UPE_Nacom_Akbe
+recruit_character = UPE_Nacab_Bonai
+recruit_character = UPE_Bacab_Kanah
+recruit_character = UPE_Ahkin_Kabalen
+recruit_character = UPE_Ekchichen_Bahpu
+recruit_character = UPE_Tohil_Cozumel
+recruit_character = UPE_Tecun_Bakmulkanila
+recruit_character = UPE_Tohil_Palacol
+recruit_character = UPE_Ekchil_Zotz
+recruit_character = UPE_Popo_Bonai
+recruit_character = UPE_Bacom_Chilan
+recruit_character = UPE_Ekchua_Nacan
+recruit_character = UPE_Bacom_Aguatun
+recruit_character = UPE_Ahkin_Tzol
+recruit_character = UPE_Ekchichen_Palanamna
+recruit_character = UPE_Tecun_Tzampakha
+recruit_character = UPE_Chakal_Aguatun
+recruit_character = UPE_Chakanek_Kabalen
+recruit_character = UPE_Acatl_Ikal
+recruit_character = UPE_Chakanek_Haax
+recruit_character = UPE_Pakan_Beca
+recruit_character = UPE_Nacom_Nacan
+recruit_character = UPE_Pakan_Chilacom
+recruit_character = UPE_Acab_Palacol
+recruit_character = UPE_Tohichen_Katun
+recruit_character = UPE_Pakal_Cozumel
+recruit_character = UPE_Chak_Bona
+recruit_character = UPE_Kukulkal_Balakcha
+recruit_character = UPE_Yaxkin_Tzolkab
+recruit_character = UPE_Bacom_Bonai
+recruit_character = UPE_Chichen_Akbanek
+recruit_character = UPE_Acatl_Baktunam
+recruit_character = UPE_Kukulkal_Ajawak
+recruit_character = UPE_Chakanek_Canai
+recruit_character = UPE_Tohil_Tzampakha
+recruit_character = UPE_Popo_Naax
+recruit_character = UPE_Chua_Naax
+recruit_character = UPE_Chakalam_Ahcan
+recruit_character = UPE_Pakal_Baktunam
+recruit_character = UPE_Itzam_Aguatun
+recruit_character = UPE_Ekchil_Mutal
+recruit_character = UPE_Itzam_Chichel
+recruit_character = UPE_Oxib_Bachel
+recruit_character = UPE_Acatl_Ajaw
+recruit_character = UPE_Ahkin_Katecan
+recruit_character = UPE_Tohichen_Bonai
+recruit_character = UPE_Tohil_Katecan
+recruit_character = UPE_Ekchua_Tojilaktun
+recruit_character = UPE_Balam_Ikal
+recruit_character = UPE_Chakanek_Bach
+recruit_character = UPE_Tohichen_Haaj
+recruit_character = UPE_Itzam_Akbah
+recruit_character = UPE_Balam_Witzal
+recruit_character = UPE_Bacab_Tojilaktun
+recruit_character = UPE_Chakanek_Palanamna
+recruit_character = UPE_Chichen_Tzib
+recruit_character = UPE_Balam_Zotz
+recruit_character = UPE_Bacatl_Chilan
+recruit_character = UPE_Acatl_Mutal
+recruit_character = UPE_Itzam_Palanamna
+recruit_character = UPE_Chakal_Bakmulkanila
+recruit_character = UPE_Bacom_Becan
+recruit_character = UPE_Kukulkan_Ahca
+recruit_character = UPE_Chakal_Bakab
+recruit_character = UPE_Bacab_Balakcha
+recruit_character = UPE_Acatl_Katun
+recruit_character = UPE_Chakanek_Balahualaktu
+recruit_character = UPE_Tohil_Bonai
+recruit_character = UPE_Chil_Uxmanjo
+recruit_character = UPE_Pakal_Mutal
+recruit_character = UPE_Bacab_Ahcan
+recruit_character = UPE_Bacatl_Cozumel
+recruit_character = UPE_Chakal_Mutal
+recruit_character = UPE_Chil_Chichel
+recruit_character = UPE_Bacab_Mutal
+recruit_character = UPE_Tecun_Xbalanil
+recruit_character = UPE_Chakanek_Chakalahuale
+recruit_character = UPE_Ahkin_Ahcan
+recruit_character = UPE_Pakan_Bach
+recruit_character = UPE_Chakal_Yaxchen
+recruit_character = UPE_Acab_Nahuna
+recruit_character = UPE_Chakanek_Bachel
+recruit_character = UPE_Popo_Kanjo
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.84
+set_war_support = 0.51
+
+add_ideas = {
+volunteer_only
+civilian_economy
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1897.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 24
+	fascism = 18
+	communism = 27
+	neutrality = 31
+}
+
+
+
+
+

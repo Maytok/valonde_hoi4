@@ -1,0 +1,37 @@
+
+state={
+	id=1039
+	name="STATE_1039"
+	manpower = 2960787
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJP
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AJP
+	}
+
+	provinces={
+		12326 12327 12328 12329 12330 12331 12332 12333 12334 12335 12336 12337 12338 12339 12340 12341 12342 12343 12344 12345 
+	}
+	local_supplies=0.0 
+}

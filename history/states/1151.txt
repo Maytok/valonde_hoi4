@@ -1,0 +1,37 @@
+
+state={
+	id=1151
+	name="STATE_1151"
+	manpower = 1255700
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTL
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MTL
+	}
+
+	provinces={
+		13628 13629 13630 13631 13632 13633 13634 13635 
+	}
+	local_supplies=0.0 
+}

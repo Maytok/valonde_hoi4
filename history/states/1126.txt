@@ -1,0 +1,37 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+	manpower = 3312638
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJP
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AJP
+	}
+
+	provinces={
+		13354 13355 13356 13357 13358 13359 13360 13361 13362 13363 13364 13365 13366 13367 13368 13369 13370 13371 13372 
+	}
+	local_supplies=0.0 
+}

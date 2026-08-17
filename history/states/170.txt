@@ -1,0 +1,37 @@
+
+state={
+	id=170
+	name="STATE_170"
+	manpower = 2072057
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		
+		owner = TAD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TAD
+	}
+
+	provinces={
+		2123 2124 2125 2126 2127 2128 2129 2130 2131 2132 2133 
+	}
+	local_supplies=0.0 
+}

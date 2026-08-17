@@ -1,0 +1,37 @@
+
+state={
+	id=490
+	name="STATE_490"
+	manpower = 1645114
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		5818 5819 5820 5821 5822 5823 5824 5825 5826 5827 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1194
+	name="STATE_1194"
+	manpower = 2310747
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NJN
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NJN
+	}
+
+	provinces={
+		14040 14041 14042 14043 14044 14045 14046 14047 14048 14049 14050 14051 14052 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=991
+	name="STATE_991"
+	manpower = 3363065
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VIT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VIT
+	}
+
+	provinces={
+		11683 11684 11685 11686 11687 11688 11689 11690 11691 11692 11693 11694 11695 11696 11697 11698 11699 11700 11701 11702 
+	}
+	local_supplies=0.0 
+}

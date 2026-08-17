@@ -1,0 +1,1083 @@
+characters = {
+	PNR_Lucimus_Tabul={
+		name="Lucimus Tabul"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PNR_Drus_Portifex={
+		name="Drus Portifex"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Drus_Portifex
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Tratius_Vulus={
+		name="Tratius Vulus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Tratius_Vulus
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	PNR_Maximus_Plerba={
+		name="Maximus Plerba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Maximus_Plerba
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Gemus_Caenaturumen={
+		name="Gemus Caenaturumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Gemus_Caenaturumen
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Antonius_Aques={
+		name="Antonius Aques"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Antonius_Aques
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Regus_Lenturumensa={
+		name="Regus Lenturumensa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Regus_Lenturumensa
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Titus_Nobis={
+		name="Titus Nobis"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Titus_Nobis
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PNR_Decius_Officium={
+		name="Decius Officium"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Decius_Officium
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	PNR_Lonius_Mentum={
+		name="Lonius Mentum"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Lonius_Mentum
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	PNR_Viberius_Solumens={
+		name="Viberius Solumens"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Viberius_Solumens
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	PNR_Spuriscus_Reginus={
+		name="Spuriscus Reginus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Spuriscus_Reginus
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	PNR_Fabius_Gena={
+		name="Fabius Gena"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Fabius_Gena
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	PNR_Gaius_Tris={
+		name="Gaius Tris"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Gaius_Tris
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	PNR_Quinus_Ordo={
+		name="Quinus Ordo"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Quinus_Ordo
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	PNR_Augulus_Argentithare={
+		name="Augulus Argentithare"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Augulus_Argentithare
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	PNR_Drus_Flos={
+		name="Drus Flos"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Drus_Flos
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	PNR_Regulus_Vera={
+		name="Regulus Vera"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Regulus_Vera
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	PNR_Coraius_Orbors={
+		name="Coraius Orbors"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Coraius_Orbors
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	PNR_Gaianus_Timina={
+		name="Gaianus Timina"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Gaianus_Timina
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	PNR_Lucimus_Civitteritas={
+		name="Lucimus Civitteritas"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Lucimus_Civitteritas
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	PNR_Gaius_Camper={
+		name="Gaius Camper"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PNR_Remus_Volum={
+		name="Remus Volum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Remus_Volum
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Drus_Gena={
+		name="Drus Gena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Drus_Gena
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Nonius_Fluvis={
+		name="Nonius Fluvis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Nonius_Fluvis
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	PNR_Traius_Viturum={
+		name="Traius Viturum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Traius_Viturum
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Nonius_Caenaturumen={
+		name="Nonius Caenaturumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Nonius_Caenaturumen
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Marcus_Domenturribu={
+		name="Marcus Domenturribu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Marcus_Domenturribu
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Scaevero_Frumen={
+		name="Scaevero Frumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Scaevero_Frumen
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PNR_Publius_Famalatus={
+		name="Publius Famalatus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Publius_Famalatus
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	PNR_Noniusus_Timina={
+		name="Noniusus Timina"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Noniusus_Timina
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	PNR_Remus_Libers={
+		name="Remus Libers"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Remus_Libers
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	PNR_Regus_Aurria={
+		name="Regus Aurria"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Regus_Aurria
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	PNR_Publius_Bontus={
+		name="Publius Bontus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Publius_Bontus
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	PNR_Nerus_Deatorta={
+		name="Nerus Deatorta"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Nerus_Deatorta
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	PNR_Marro_Civitteritas={
+		name="Marro Civitteritas"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Marro_Civitteritas
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	PNR_Gaius_Tabuna={
+		name="Gaius Tabuna"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Gaius_Tabuna
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	PNR_Fabius_Flus={
+		name="Fabius Flus"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Fabius_Flus
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	PNR_Regustus_Coluvia={
+		name="Regustus Coluvia"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Regustus_Coluvia
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	PNR_Augulus_Centudo={
+		name="Augulus Centudo"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Augulus_Centudo
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	PNR_Varcellius_Timina={
+		name="Varcellius Timina"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Varcellius_Timina
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	PNR_Fabiustus_Nator={
+		name="Fabiustus Nator"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Fabiustus_Nator
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	PNR_Nerus_Ordo={
+		name="Nerus Ordo"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PNR_Gemus_Tempus={
+		name="Gemus Tempus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Gemus_Tempus
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Cornellius_Caenaturumen={
+		name="Cornellius Caenaturumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Cornellius_Caenaturumen
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Servius_Mentum={
+		name="Servius Mentum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Servius_Mentum
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Titus_Bellaelebs={
+		name="Titus Bellaelebs"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Titus_Bellaelebs
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Spuriscus_Honsus={
+		name="Spuriscus Honsus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Spuriscus_Honsus
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	PNR_Nonius_Flum={
+		name="Nonius Flum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Nonius_Flum
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Atticustus_Vulus={
+		name="Atticustus Vulus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Atticustus_Vulus
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	PNR_Decius_Tabul={
+		name="Decius Tabul"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Decius_Tabul
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PNR_Marro_Literba={
+		name="Marro Literba"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Marro_Literba
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	PNR_Tratius_Agria={
+		name="Tratius Agria"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Tratius_Agria
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	PNR_Claulus_Malum={
+		name="Claulus Malum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Claulus_Malum
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	PNR_Maximus_Agrium={
+		name="Maximus Agrium"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Maximus_Agrium
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	PNR_Noniusus_Vera={
+		name="Noniusus Vera"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Noniusus_Vera
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	PNR_Julus_Scistra={
+		name="Julus Scistra"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Julus_Scistra
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	PNR_Atticustus_Ventiumen={
+		name="Atticustus Ventiumen"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Atticustus_Ventiumen
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	PNR_Scaevero_Deatorta={
+		name="Scaevero Deatorta"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Scaevero_Deatorta
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	PNR_Drus_Centudo={
+		name="Drus Centudo"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Drus_Centudo
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	PNR_Sevolavius_Tura={
+		name="Sevolavius Tura"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Sevolavius_Tura
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	PNR_Lucimus_Pluvia={
+		name="Lucimus Pluvia"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Lucimus_Pluvia
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	PNR_Horaianus_Aetes={
+		name="Horaianus Aetes"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Horaianus_Aetes
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	PNR_Julustus_Flum={
+		name="Julustus Flum"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PNR_Titus_Vilor={
+		name="Titus Vilor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Titus_Vilor
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	PNR_Maximus_Tempus={
+		name="Maximus Tempus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Maximus_Tempus
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	PNR_Marcus_Amortis={
+		name="Marcus Amortis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Marcus_Amortis
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Titus_Codes={
+		name="Titus Codes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Titus_Codes
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	PNR_Coraius_Honsus={
+		name="Coraius Honsus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Coraius_Honsus
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Tracchus_Pluvia={
+		name="Tracchus Pluvia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PNR_Tracchus_Pluvia
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	PNR_Titellius_Tempus={
+		name="Titellius Tempus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Titellius_Tempus
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	PNR_Nonius_Domenturribu={
+		name="Nonius Domenturribu"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Nonius_Domenturribu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	PNR_Publius_Honsus={
+		name="Publius Honsus"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Publius_Honsus
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	PNR_Marcus_Caenaturumen={
+		name="Marcus Caenaturumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = PNR_Marcus_Caenaturumen
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	PNR_Drus_Pluvia={
+		name="Drus Pluvia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Drus_Pluvia
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	PNR_Manus_Bontus={
+		name="Manus Bontus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PNR_Manus_Bontus
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	PNR_Traius_Flum={
+		name="Traius Flum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Traius_Flum
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	PNR_Viberus_Resariptorum={
+		name="Viberus Resariptorum"
+
+		advisor={
+			slot = air_chief
+			idea_token = PNR_Viberus_Resariptorum
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	PNR_Atticustus_Equa={
+		name="Atticustus Equa"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Atticustus_Equa
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	PNR_Urbanlius_Vinum={
+		name="Urbanlius Vinum"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Urbanlius_Vinum
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	PNR_Scaevolaudiu_Medicus={
+		name="Scaevolaudiu Medicus"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Scaevolaudiu_Medicus
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	PNR_Sevolavius_Aurria={
+		name="Sevolavius Aurria"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Sevolavius_Aurria
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	PNR_Regulus_Fulmenticus={
+		name="Regulus Fulmenticus"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Regulus_Fulmenticus
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	PNR_Servius_Vinum={
+		name="Servius Vinum"
+
+		advisor={
+			slot = high_command
+			idea_token = PNR_Servius_Vinum
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	PNR_Tracchus_Bellaelebs={
+		name="Tracchus Bellaelebs"
+
+		advisor={
+			slot = theorist
+			idea_token = PNR_Tracchus_Bellaelebs
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	PNR_Julustus_Aurria={
+		name="Julustus Aurria"
+
+		advisor={
+			slot = theorist
+			idea_token = PNR_Julustus_Aurria
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	PNR_Viberus_Reginus={
+		name="Viberus Reginus"
+
+		advisor={
+			slot = theorist
+			idea_token = PNR_Viberus_Reginus
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

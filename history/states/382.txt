@@ -1,0 +1,37 @@
+
+state={
+	id=382
+	name="STATE_382"
+	manpower = 693301
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		4617 4618 4619 4620 4621 
+	}
+	local_supplies=0.0 
+}

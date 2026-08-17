@@ -1,0 +1,37 @@
+
+state={
+	id=114
+	name="STATE_114"
+	manpower = 2630396
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		1467 1468 1469 1470 1471 1472 1473 1474 1475 1476 1477 1478 1479 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=611
+	name="STATE_611"
+	manpower = 2074854
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=8
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 1
+			air_base = 4
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		7314 7315 7316 7317 7318 7319 7320 7321 7322 7323 7324 7325 
+	}
+	local_supplies=0.0 
+}

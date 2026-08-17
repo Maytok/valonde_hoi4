@@ -1,0 +1,8 @@
+air_wings = {
+		487 = { 								
+		tac_bomber_equipment_0 = { owner = "KWV" amount = 12 version_name = "Ipik Mk 2" }
+
+	}
+
+
+}

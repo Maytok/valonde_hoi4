@@ -1,0 +1,37 @@
+
+state={
+	id=542
+	name="STATE_542"
+	manpower = 1742766
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		6432 6433 6434 6435 6436 6437 6438 6439 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,33 @@
+air_wings = {
+		895 = { 								
+		CAS_equipment_0 = { owner = "YAS" amount = 50 version_name = "Efsarla Mk 0" }
+
+	}
+	562 = { 								
+		fighter_equipment_0 = { owner = "YAS" amount = 50 version_name = "Bedeniz Mk 2" }
+
+	}
+	536 = { 								
+		nav_bomber_equipment_0 = { owner = "YAS" amount = 50 version_name = "Yaske Mk 1" }
+
+	}
+	928 = { 								
+		CAS_equipment_0 = { owner = "YAS" amount = 50 version_name = "Efsarla Mk 0" }
+
+	}
+	171 = { 								
+		tac_bomber_equipment_0 = { owner = "YAS" amount = 50 version_name = "Atesiman Mk 0" }
+
+	}
+	342 = { 								
+		nav_bomber_equipment_0 = { owner = "YAS" amount = 50 version_name = "Yaske Mk 1" }
+tac_bomber_equipment_0 = { owner = "YAS" amount = 50 version_name = "Atesiman Mk 0" }
+
+	}
+	90 = { 								
+		fighter_equipment_0 = { owner = "YAS" amount = 50 version_name = "Bedeniz Mk 2" }
+
+	}
+
+
+}

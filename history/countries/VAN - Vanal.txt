@@ -1,0 +1,451 @@
+capital = 1353
+
+oob = "VAN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "VAN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "VAN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_mountaineers= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Thunbu Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Paadu Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kavu Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kattu Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pagam Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nadil Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "VAN_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			engines_1 = 1
+			iw_small_airframe = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Urchi Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Manneeranbam Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "VAN_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			strategic_bomber1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "VAN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Porunaignam Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "VAN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Porunaignam Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = VAN_Mandran_Siran
+recruit_character = VAN_Gandrakash_Thunai
+recruit_character = VAN_Chandrak_Kavam
+recruit_character = VAN_Vijay_Kazhurai
+recruit_character = VAN_Rajesh_Poru
+recruit_character = VAN_Pran_Suvam
+recruit_character = VAN_Harun_Vidutru
+recruit_character = VAN_Raveesh_Thar
+recruit_character = VAN_Manoj_Vilalai
+recruit_character = VAN_Harun_Mozhunaraign
+recruit_character = VAN_Navi_Merasi
+recruit_character = VAN_Manoj_Pasi
+recruit_character = VAN_Raveenthil_Vanaru
+recruit_character = VAN_Raveenthik_Thunbu
+recruit_character = VAN_Presh_Magantham
+recruit_character = VAN_Raveenth_Magantham
+recruit_character = VAN_Vinod_Merasi
+recruit_character = VAN_Mandranesh_Nadhunam
+recruit_character = VAN_Moharun_Kulichakkiri
+recruit_character = VAN_Deenth_Nadakku
+recruit_character = VAN_Varthik_Mozhi
+recruit_character = VAN_Rajesh_Kalichilam
+recruit_character = VAN_Surem_Mozhi
+recruit_character = VAN_Deenth_Oosai
+recruit_character = VAN_Chav_Kazhurai
+recruit_character = VAN_Pran_Siran
+recruit_character = VAN_Dinoj_Udappu
+recruit_character = VAN_Mohaveepakas_Kanaiaru
+recruit_character = VAN_Raghanesh_Porunaignam
+recruit_character = VAN_Deenth_Thuram
+recruit_character = VAN_Chav_Nilal
+recruit_character = VAN_Raveenthil_Vanal
+recruit_character = VAN_Ajay_Kulichakkiri
+recruit_character = VAN_Krish_Natrangugamb
+recruit_character = VAN_Harun_Pasi
+recruit_character = VAN_Raveenth_Kavu
+recruit_character = VAN_Varun_Pesu
+recruit_character = VAN_Surem_Mani
+recruit_character = VAN_Varun_Nadil
+recruit_character = VAN_Moharun_Pesu
+recruit_character = VAN_Dinoj_Kuramudhunbu
+recruit_character = VAN_Rajiv_Valam
+recruit_character = VAN_Navi_Aaravu
+recruit_character = VAN_Siddhav_Puyam
+recruit_character = VAN_Pran_Kattidu
+recruit_character = VAN_Siddhav_Tham
+recruit_character = VAN_Moharthik_Irai
+recruit_character = VAN_Manoj_Pesu
+recruit_character = VAN_Mohaveepakas_Thagamai
+recruit_character = VAN_Manoj_Veer
+recruit_character = VAN_Pranesh_Mozhi
+recruit_character = VAN_Suresh_Kattu
+recruit_character = VAN_Charun_Aaravu
+recruit_character = VAN_Dinoj_Irai
+recruit_character = VAN_Deenth_Magantham
+recruit_character = VAN_Ravi_Kulichakkiri
+recruit_character = VAN_Varthik_Merasi
+recruit_character = VAN_Chaveesh_Inbam
+recruit_character = VAN_Kumar_Kattu
+recruit_character = VAN_Manoj_Thunavithil
+recruit_character = VAN_Prandrak_Kavu
+recruit_character = VAN_Raghavi_Thunbu
+recruit_character = VAN_Moharthik_Poru
+recruit_character = VAN_Navi_Pesu
+recruit_character = VAN_Bala_Thunai
+recruit_character = VAN_Chav_Kalichilam
+recruit_character = VAN_Raghavi_Katruvaivizh
+recruit_character = VAN_Mandran_Irai
+recruit_character = VAN_Suresh_Siran
+recruit_character = VAN_Rajiv_Nilal
+recruit_character = VAN_Moharthik_Kuramudhunbu
+recruit_character = VAN_Charun_Nattu
+recruit_character = VAN_Gandrakash_Kavam
+recruit_character = VAN_Mandranesh_Kanbam
+recruit_character = VAN_Chandrak_Kazhurai
+recruit_character = VAN_Vinod_Thar
+recruit_character = VAN_Chaveesh_Thuranam
+recruit_character = VAN_Moharthik_Ariyalaiyam
+recruit_character = VAN_Ajay_Kattu
+recruit_character = VAN_Harthil_Sirai
+recruit_character = VAN_Chandrak_Natrangugamb
+recruit_character = VAN_Chandran_Paal
+recruit_character = VAN_Karun_Arai
+recruit_character = VAN_Siddhav_Thirangam
+recruit_character = VAN_Dinoj_Mozhakku
+recruit_character = VAN_Moharun_Vidal
+recruit_character = VAN_Deen_Pasi
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.89
+set_war_support = 0.66
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1900.7.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 38
+	fascism = 40
+	communism = 18
+	neutrality = 4
+}
+
+
+
+
+

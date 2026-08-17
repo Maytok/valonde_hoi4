@@ -1,0 +1,37 @@
+
+state={
+	id=573
+	name="STATE_573"
+	manpower = 5027260
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=49
+		chromium=53
+		oil=1
+		rubber=1
+		steel=4
+		tungsten=50
+		coal=127
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		6860 6861 6862 6863 6864 6865 6866 6867 6868 6869 6870 6871 6872 6873 6874 6875 6876 6877 6878 6879 6880 6881 6882 6883 6884 6885 6886 6887 6888 6889 
+	}
+	local_supplies=0.0 
+}

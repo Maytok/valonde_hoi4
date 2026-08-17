@@ -1,0 +1,37 @@
+
+state={
+	id=659
+	name="STATE_659"
+	manpower = 5329326
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=8
+		oil=0
+		rubber=0
+		steel=21
+		tungsten=8
+		coal=20
+	}
+
+	history={
+		
+		owner = KOP
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KOP
+	}
+
+	provinces={
+		7888 7889 7890 7891 7892 7893 7894 7895 7896 7897 7898 7899 7900 7901 7902 7903 7904 7905 7906 7907 7908 7909 7910 7911 7912 7913 7914 7915 7916 7917 7918 7919 7920 
+	}
+	local_supplies=0.0 
+}

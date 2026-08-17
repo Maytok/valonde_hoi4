@@ -1,0 +1,37 @@
+
+state={
+	id=79
+	name="STATE_79"
+	manpower = 30565
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=10
+		chromium=11
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=27
+	}
+
+	history={
+		
+		owner = IMA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IMA
+	}
+
+	provinces={
+		1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 
+	}
+	local_supplies=0.0 
+}

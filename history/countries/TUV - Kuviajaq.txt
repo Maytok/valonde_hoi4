@@ -1,0 +1,270 @@
+capital = 72
+
+oob = "TUV_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TUV_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TUV_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TUV_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "TUV_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TUV_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Kuvik Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TUV_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Kuvik Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TUV_Kuniku_Nuni
+recruit_character = TUV_Panik_Nalawik
+recruit_character = TUV_Panik_Nulok
+recruit_character = TUV_Pana_Nuvigaq
+recruit_character = TUV_Mikigaq_Saniq
+recruit_character = TUV_Kana_Kuvik
+recruit_character = TUV_Kuniku_Imarutaq
+recruit_character = TUV_Iluk_Kamnak
+recruit_character = TUV_Amaq_Qikiq
+recruit_character = TUV_Iluk_Niviajaqpaga
+recruit_character = TUV_Kanuq_Nulok
+recruit_character = TUV_Ukpikigaq_Iliya
+recruit_character = TUV_Iluk_Selaq
+recruit_character = TUV_Panik_Nuskon
+recruit_character = TUV_Pana_Kaniq
+recruit_character = TUV_Manaq_Nangmi
+recruit_character = TUV_Kanuq_Nangmi
+recruit_character = TUV_Atka_Spurtak
+recruit_character = TUV_Kanuq_Nuliamarutak
+recruit_character = TUV_Kunik_Alini
+recruit_character = TUV_Mana_Alini
+recruit_character = TUV_Qajaq_Nangmi
+recruit_character = TUV_Olikigaq_Imaruq
+recruit_character = TUV_Kuniku_Tatchagutanu
+recruit_character = TUV_Naluk_Nalawik
+recruit_character = TUV_Pana_Selaq
+recruit_character = TUV_Ukpikigaq_Qajaqtuaqak
+recruit_character = TUV_Atka_Tatchagutanu
+recruit_character = TUV_Manik_Forak
+recruit_character = TUV_Panaq_Imarutaq
+recruit_character = TUV_Kunikigaq_Kuviku
+recruit_character = TUV_Qajaq_Imak
+recruit_character = TUV_Nanuq_Selaq
+recruit_character = TUV_Nanik_Kuvigak
+recruit_character = TUV_Kanuq_Angmiaqpaq
+recruit_character = TUV_Kuniku_Nivanuk
+recruit_character = TUV_Panaq_Kuvut
+recruit_character = TUV_Amaq_Nuliamarutak
+recruit_character = TUV_Kuniku_Nalaq
+recruit_character = TUV_Nana_Spurtak
+recruit_character = TUV_Manik_Tuna
+recruit_character = TUV_Manaq_Angutaruq
+recruit_character = TUV_Olik_Kigaq
+recruit_character = TUV_Kanaq_Nulok
+recruit_character = TUV_Naluk_Kuviq
+recruit_character = TUV_Pana_Silawik
+recruit_character = TUV_Manuq_Kuvik
+recruit_character = TUV_Panik_Angutaruq
+recruit_character = TUV_Ukpikigaq_Nall
+recruit_character = TUV_Kanuq_Iliggik
+recruit_character = TUV_Nana_Oliak
+recruit_character = TUV_Naluk_Nuskon
+recruit_character = TUV_Manaq_Nalaq
+recruit_character = TUV_Nanik_Kuvigaq
+recruit_character = TUV_Kanuq_Tingiq
+recruit_character = TUV_Nana_Napik
+recruit_character = TUV_Manuq_Nall
+recruit_character = TUV_Panik_Kuvigaq
+recruit_character = TUV_Olikigaq_Tanuk
+recruit_character = TUV_Kanuq_Nuskon
+recruit_character = TUV_Amaq_Upik
+recruit_character = TUV_Mana_Saniq
+recruit_character = TUV_Iluk_Tuna
+recruit_character = TUV_Taluk_Avana
+recruit_character = TUV_Tulok_Avana
+recruit_character = TUV_Mikigaq_Ukkuvikipiku
+recruit_character = TUV_Ukpik_Nivak
+recruit_character = TUV_Kana_Nivaq
+recruit_character = TUV_Naluk_Kuvaq
+recruit_character = TUV_Olik_Nalawik
+recruit_character = TUV_Kanik_Avanak
+recruit_character = TUV_Ukpik_Sikiglupaq
+recruit_character = TUV_Manaq_Nivaq
+recruit_character = TUV_Sila_Nuni
+recruit_character = TUV_Nuvuk_Imaruq
+recruit_character = TUV_Manaq_Nalupaq
+recruit_character = TUV_Qajaq_Inuat
+recruit_character = TUV_Nanik_Kaniq
+recruit_character = TUV_Ukpikigaq_Kuvaq
+recruit_character = TUV_Manik_Spurtak
+recruit_character = TUV_Iluk_Iglapik
+recruit_character = TUV_Panaq_Kuvuk
+recruit_character = TUV_Ukpiku_Avanu
+recruit_character = TUV_Kanuq_Avanu
+recruit_character = TUV_Panaq_Nivak
+recruit_character = TUV_Nana_Avana
+recruit_character = TUV_Amaq_Nigaq
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.21
+set_war_support = 0.43
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1914.7.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 18
+	fascism = 30
+	communism = 28
+	neutrality = 24
+}
+
+
+
+
+

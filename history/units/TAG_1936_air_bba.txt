@@ -1,0 +1,24 @@
+air_wings = {
+		290 = { 								
+		medium_plane_airframe_0 = { owner = "TAG" amount = 21 version_name = "Tighbalut Mk 2" }
+
+	}
+	815 = { 								
+		medium_plane_airframe_1 = { owner = "TAG" amount = 13 version_name = "Tagzi Mk 0" }
+
+	}
+	575 = { 								
+		small_plane_airframe_0 = { owner = "TAG" amount = 21 version_name = "Taghzi Mk 1" }
+
+	}
+	831 = { 								
+		small_plane_cas_airframe_0 = { owner = "TAG" amount = 22 version_name = "Asirt Mk 1" }
+
+	}
+	93 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TAG" amount = 23 version_name = "Takfar Mk 0" }
+
+	}
+
+
+}

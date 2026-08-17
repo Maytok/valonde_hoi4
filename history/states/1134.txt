@@ -1,0 +1,37 @@
+
+state={
+	id=1134
+	name="STATE_1134"
+	manpower = 588668
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NJN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NJN
+	}
+
+	provinces={
+		13456 13457 13458 
+	}
+	local_supplies=0.0 
+}

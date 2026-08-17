@@ -1,0 +1,30 @@
+air_wings = {
+		1038 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MWA" amount = 50 version_name = "Taanguzi Mk 1" }
+
+	}
+	1142 = { 								
+		medium_plane_airframe_0 = { owner = "MWA" amount = 50 version_name = "Wima Mk 0" }
+
+	}
+	1682 = { 								
+		small_plane_cas_airframe_0 = { owner = "MWA" amount = 34 version_name = "Saua Mk 2" }
+
+	}
+	1152 = { 								
+		medium_plane_airframe_0 = { owner = "MWA" amount = 50 version_name = "Wima Mk 0" }
+
+	}
+	1103 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "MWA" amount = 50 version_name = "Taanguzi Mk 1" }
+
+	}
+	1114 = { 								
+		medium_plane_airframe_1 = { owner = "MWA" amount = 37 version_name = "Kanara Mk 2" }
+small_plane_airframe_0 = { owner = "MWA" amount = 50 version_name = "Neno Mk 2" }
+small_plane_airframe_0 = { owner = "MWA" amount = 50 version_name = "Neno Mk 2" }
+
+	}
+
+
+}

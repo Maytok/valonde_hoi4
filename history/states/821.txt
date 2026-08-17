@@ -1,0 +1,37 @@
+
+state={
+	id=821
+	name="STATE_821"
+	manpower = 2090754
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=6
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=14
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		9752 9753 9754 9755 9756 9757 9758 9759 9760 9761 9762 9763 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	AMI_Ramo_Scudo={
+		name="Ramo Scudo"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Jeandro_Alberritta={
+		name="Jeandro Alberritta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Jeandro_Alberritta
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Giacolos_Allaggeriavo={
+		name="Giacolos Allaggeriavo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Giacolos_Allaggeriavo
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Robertonario_Cuocelo={
+		name="Robertonario Cuocelo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Robertonario_Cuocelo
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Roberto_Prito={
+		name="Roberto Prito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Roberto_Prito
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Julien_Poria={
+		name="Julien Poria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Julien_Poria
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Pablos_Prito={
+		name="Pablos Prito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Pablos_Prito
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Robertonio_Scuolaggera={
+		name="Robertonio Scuolaggera"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Robertonio_Scuolaggera
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	AMI_Ramon_Vale={
+		name="Ramon Vale"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Ramon_Vale
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	AMI_Anto_Ricolo={
+		name="Anto Ricolo"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Anto_Ricolo
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	AMI_Julien_Laggio={
+		name="Julien Laggio"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Julien_Laggio
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AMI_Matteo_Cuocelo={
+		name="Matteo Cuocelo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Matteo_Cuocelo
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	AMI_Felierry_Desso={
+		name="Felierry Desso"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Felierry_Desso
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	AMI_Vico_Vittezza={
+		name="Vico Vittezza"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Vico_Vittezza
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	AMI_Stefano_Mappada={
+		name="Stefano Mappada"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Stefano_Mappada
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	AMI_Vica_Vittezza={
+		name="Vica Vittezza"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Vica_Vittezza
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	AMI_Antonio_Guelleano={
+		name="Antonio Guelleano"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Antonio_Guelleano
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	AMI_Andre_Laggio={
+		name="Andre Laggio"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Andre_Laggio
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	AMI_Roberto_Popoleanza={
+		name="Roberto Popoleanza"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Roberto_Popoleanza
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	AMI_Lucarlo_Bene={
+		name="Lucarlo Bene"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Lucarlo_Bene
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	AMI_Lucarlo_Malediavale={
+		name="Lucarlo Malediavale"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Lucarlo_Malediavale
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	AMI_Matteo_Scubo={
+		name="Matteo Scubo"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Antor_Scriave={
+		name="Antor Scriave"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Antor_Scriave
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Lucario_Aria={
+		name="Lucario Aria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Lucario_Aria
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Alexancesco_Messa={
+		name="Alexancesco Messa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Alexancesco_Messa
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Luis_Mempo={
+		name="Luis Mempo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Luis_Mempo
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Rico_Tria={
+		name="Rico Tria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Rico_Tria
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Ramonardo_Campa={
+		name="Ramonardo Campa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Ramonardo_Campa
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Robertonario_Truppa={
+		name="Robertonario Truppa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Robertonario_Truppa
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	AMI_Rico_Albero={
+		name="Rico Albero"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Rico_Albero
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AMI_Anto_Gionta={
+		name="Anto Gionta"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Anto_Gionta
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	AMI_Vica_Cito={
+		name="Vica Cito"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Vica_Cito
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AMI_Vico_Fordo={
+		name="Vico Fordo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Vico_Fordo
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	AMI_Nico_Guelleano={
+		name="Nico Guelleano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Nico_Guelleano
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AMI_Ramo_Stestizianto={
+		name="Ramo Stestizianto"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Ramo_Stestizianto
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	AMI_Pedre_Accipesime={
+		name="Pedre Accipesime"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Pedre_Accipesime
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	AMI_Pedre_Abbato={
+		name="Pedre Abbato"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Pedre_Abbato
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	AMI_Luca_Mancudo={
+		name="Luca Mancudo"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Luca_Mancudo
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	AMI_Jeancesco_Giume={
+		name="Jeancesco Giume"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Jeancesco_Giume
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	AMI_Antonio_Pore={
+		name="Antonio Pore"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Antonio_Pore
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	AMI_Enzo_Mago={
+		name="Enzo Mago"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Enzo_Mago
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	AMI_Antor_Silede={
+		name="Antor Silede"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Antor_Silede
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AMI_Antonio_Casi={
+		name="Antonio Casi"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Lucario_Gionta={
+		name="Lucario Gionta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Lucario_Gionta
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Jeancesco_Scriave={
+		name="Jeancesco Scriave"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Jeancesco_Scriave
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Thierry_Guelleano={
+		name="Thierry Guelleano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Thierry_Guelleano
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Ramonio_Merroe={
+		name="Ramonio Merroe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Ramonio_Merroe
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	AMI_Giaco_Pria={
+		name="Giaco Pria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Giaco_Pria
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Stefandro_Camenza={
+		name="Stefandro Camenza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Stefandro_Camenza
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Thien_Ricolo={
+		name="Thien Ricolo"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Thien_Ricolo
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	AMI_Roberry_Ventaggionto={
+		name="Roberry Ventaggionto"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Roberry_Ventaggionto
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	AMI_Enzo_Odizionto={
+		name="Enzo Odizionto"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Enzo_Odizionto
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AMI_Giacolos_Pionte={
+		name="Giacolos Pionte"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Giacolos_Pionte
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AMI_Enzo_Truppa={
+		name="Enzo Truppa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Enzo_Truppa
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	AMI_Nico_Desima={
+		name="Nico Desima"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Nico_Desima
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AMI_Lucarlo_Pore={
+		name="Lucarlo Pore"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Lucarlo_Pore
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	AMI_Pablos_Casaggiore={
+		name="Pablos Casaggiore"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Pablos_Casaggiore
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AMI_Andre_Popoleanza={
+		name="Andre Popoleanza"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Andre_Popoleanza
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	AMI_Lucarlos_Ghia={
+		name="Lucarlos Ghia"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Lucarlos_Ghia
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	AMI_Julien_Mancudo={
+		name="Julien Mancudo"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Julien_Mancudo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	AMI_Giacolos_Toreto={
+		name="Giacolos Toreto"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Giacolos_Toreto
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	AMI_Jeancesco_Albero={
+		name="Jeancesco Albero"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Jeancesco_Albero
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	AMI_Stefandre_Ombazio={
+		name="Stefandre Ombazio"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Stefandre_Ombazio
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	AMI_Alberry_Desso={
+		name="Alberry Desso"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AMI_Giacolos_Silede={
+		name="Giacolos Silede"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Giacolos_Silede
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Thiertor_Poritalla={
+		name="Thiertor Poritalla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Thiertor_Poritalla
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Thierto_Scudo={
+		name="Thierto Scudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Thierto_Scudo
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Felien_Pore={
+		name="Felien Pore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Felien_Pore
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Thierry_Navaleanto={
+		name="Thierry Navaleanto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Thierry_Navaleanto
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	AMI_Giaco_Cito={
+		name="Giaco Cito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AMI_Giaco_Cito
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	AMI_Roberry_Lamenturace={
+		name="Roberry Lamenturace"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Roberry_Lamenturace
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	AMI_Luis_Messa={
+		name="Luis Messa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Luis_Messa
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AMI_Vico_Scriave={
+		name="Vico Scriave"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Vico_Scriave
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	AMI_Steo_Truppa={
+		name="Steo Truppa"
+
+		advisor={
+			slot = army_chief
+			idea_token = AMI_Steo_Truppa
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AMI_Jeandro_Fordo={
+		name="Jeandro Fordo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Jeandro_Fordo
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	AMI_Ramonardo_Mempo={
+		name="Ramonardo Mempo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AMI_Ramonardo_Mempo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	AMI_Leonio_Lincubo={
+		name="Leonio Lincubo"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Leonio_Lincubo
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	AMI_Vico_Albero={
+		name="Vico Albero"
+
+		advisor={
+			slot = air_chief
+			idea_token = AMI_Vico_Albero
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	AMI_Julien_Lincubo={
+		name="Julien Lincubo"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Julien_Lincubo
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	AMI_Stefandre_Ricolo={
+		name="Stefandre Ricolo"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Stefandre_Ricolo
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	AMI_Jeancesco_Odizionto={
+		name="Jeancesco Odizionto"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Jeancesco_Odizionto
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	AMI_Nico_Notturanza={
+		name="Nico Notturanza"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Nico_Notturanza
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	AMI_Roberry_Luce={
+		name="Roberry Luce"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Roberry_Luce
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	AMI_Antor_Popoleanza={
+		name="Antor Popoleanza"
+
+		advisor={
+			slot = high_command
+			idea_token = AMI_Antor_Popoleanza
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	AMI_Leonio_Tria={
+		name="Leonio Tria"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Leonio_Tria
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	AMI_Jeandro_Ghia={
+		name="Jeandro Ghia"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Jeandro_Ghia
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	AMI_Roberto_Libro={
+		name="Roberto Libro"
+
+		advisor={
+			slot = theorist
+			idea_token = AMI_Roberto_Libro
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

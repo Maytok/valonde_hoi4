@@ -1,0 +1,37 @@
+
+state={
+	id=674
+	name="STATE_674"
+	manpower = 1580106
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=8
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=7
+		coal=19
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		8028 8029 8030 8031 8032 8033 8034 8035 8036 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=195
+	name="STATE_195"
+	manpower = 2009607
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=6
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SAN
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			
+		}
+		add_core_of = SAN
+	}
+
+	provinces={
+		2489 2490 2491 2492 2493 2494 2495 2496 2497 
+	}
+	local_supplies=0.0 
+}

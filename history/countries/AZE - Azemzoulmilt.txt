@@ -1,0 +1,405 @@
+capital = 733
+
+oob = "AZE_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AZE_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AZE_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AZE_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			basic_small_airframe = 1
+			basic_medium_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Tifella Mk 0"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tint Mk 0"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadirawt Mk 0"
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tigmi Mk 2"
+			type = medium_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Izegga Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadir Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tinassouka Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tigmi Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tazrourt Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "AZE_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "AZE_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Izegzi Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "AZE_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Izegzi Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = AZE_Lyes_Tazmelt
+recruit_character = AZE_Ziriq_Tissirinaska
+recruit_character = AZE_Karen_Ameqraw
+recruit_character = AZE_Yuba_Agadirt
+recruit_character = AZE_Massa_Tifellayt
+recruit_character = AZE_Sifan_Tazrarem
+recruit_character = AZE_Tafsut_Tamelt
+recruit_character = AZE_Aselmarimokr_Asit
+recruit_character = AZE_Amar_Tafawrirt
+recruit_character = AZE_Yuba_Tazmelt
+recruit_character = AZE_Iskariq_Tazrarem
+recruit_character = AZE_Iderfane_Akala
+recruit_character = AZE_Tahar_Takli
+recruit_character = AZE_Tahariq_Tighbal
+recruit_character = AZE_Tari_Taddaklit
+recruit_character = AZE_Tahar_Tazrarem
+recruit_character = AZE_Tari_Agrawen
+recruit_character = AZE_Azian_Tamdakhmi
+recruit_character = AZE_Massa_Tazirt
+recruit_character = AZE_Massa_Tamazrart
+recruit_character = AZE_Zirim_Tamurt
+recruit_character = AZE_Massinissini_Adrawt
+recruit_character = AZE_Aselmariq_Takfast
+recruit_character = AZE_Iderfax_Taziri
+recruit_character = AZE_Karen_Agadirem
+recruit_character = AZE_Tahar_Akal
+recruit_character = AZE_Massinissa_Takrant
+recruit_character = AZE_Yuba_Takrant
+recruit_character = AZE_Aselmarimokr_Tifawizirit
+recruit_character = AZE_Tahar_Tazemt
+recruit_character = AZE_Sifan_Takrant
+recruit_character = AZE_Amariq_Tazrourt
+recruit_character = AZE_Amariq_Tislit
+recruit_character = AZE_Iskar_Tadinas
+recruit_character = AZE_Mimokran_Tissoukal
+recruit_character = AZE_Mimoun_Nfou
+recruit_character = AZE_Amokrane_Tighbal
+recruit_character = AZE_Taharen_Amerwar
+recruit_character = AZE_Karen_Tiwizilt
+recruit_character = AZE_Meziane_Agrawen
+recruit_character = AZE_Karimoun_Tamasnay
+recruit_character = AZE_Aziane_Tamelt
+recruit_character = AZE_Amariq_Takfast
+recruit_character = AZE_Mezian_Takfast
+recruit_character = AZE_Aselmariq_Azem
+recruit_character = AZE_Taharen_Azegza
+recruit_character = AZE_Mokrannis_Tazrarit
+recruit_character = AZE_Ziri_Amert
+recruit_character = AZE_Amad_Azegza
+recruit_character = AZE_Massinissa_Takfast
+recruit_character = AZE_Lyes_Tiwiziri
+recruit_character = AZE_Iderfax_Tifellayt
+recruit_character = AZE_Saidi_Tazzu
+recruit_character = AZE_Amokran_Tinassouka
+recruit_character = AZE_Kariq_Taghremt
+recruit_character = AZE_Sifane_Izegga
+recruit_character = AZE_Sifan_Tamsa
+recruit_character = AZE_Amad_Tazirt
+recruit_character = AZE_Mezian_Tamdakilt
+recruit_character = AZE_Mokrannis_Tinassouka
+recruit_character = AZE_Taharen_Tamdart
+recruit_character = AZE_Saidi_Tamdart
+recruit_character = AZE_Massinissa_Tafawrirt
+recruit_character = AZE_Aselmariq_Amert
+recruit_character = AZE_Mimoun_Takfas
+recruit_character = AZE_Taharen_Ameqraw
+recruit_character = AZE_Meziane_Izegzi
+recruit_character = AZE_Taharim_Tazmelt
+recruit_character = AZE_Meziane_Akal
+recruit_character = AZE_Yuba_Tifella
+recruit_character = AZE_Yane_Takilenza
+recruit_character = AZE_Iskariq_Tiwiziraska
+recruit_character = AZE_Sifan_Tifawizirit
+recruit_character = AZE_Massinissa_Tighrart
+recruit_character = AZE_Karen_Tissit
+recruit_character = AZE_Iskar_Tighist
+recruit_character = AZE_Amokran_Adrawt
+recruit_character = AZE_Iderfax_Tigmmirem
+recruit_character = AZE_Lyes_Tazrarit
+recruit_character = AZE_Mimoun_Agaddar
+recruit_character = AZE_Aziane_Thalal
+recruit_character = AZE_Azian_Akala
+recruit_character = AZE_Tari_Tafawrirt
+recruit_character = AZE_Sifan_Takilenza
+recruit_character = AZE_Iderfax_Amert
+recruit_character = AZE_Tahar_Tamelt
+recruit_character = AZE_Iskari_Taghakra
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 0
+set_stability = 0.96
+set_war_support = 0.25
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+export_focus
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1905.5.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 8
+	fascism = 29
+	communism = 12
+	neutrality = 51
+}
+
+
+create_faction_from_template = faction_template_anti_fascist
+add_to_faction = AZE
+

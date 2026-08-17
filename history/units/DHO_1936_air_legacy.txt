@@ -1,0 +1,9 @@
+air_wings = {
+		1109 = { 								
+		fighter_equipment_0 = { owner = "DHO" amount = 8 version_name = "Aduiyanaja Mk 2" }
+nav_bomber_equipment_0 = { owner = "DHO" amount = 14 version_name = "Jota Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,82 @@
+areas = {
+	# Generated continents
+		lancuola = {
+		continents = {
+			lancuola
+		}
+	}
+	toko = {
+		continents = {
+			toko
+		}
+	}
+	litas = {
+		continents = {
+			litas
+		}
+	}
+	saatturani = {
+		continents = {
+			saatturani
+		}
+	}
+	ping = {
+		continents = {
+			ping
+		}
+	}
+	kiondwano = {
+		continents = {
+			kiondwano
+		}
+	}
+	inbam = {
+		continents = {
+			inbam
+		}
+	}
+
+
+	#Vanilla continents kept in for compatibility. Removing them breaks a lot of references to them
+	europe = {
+		continents = {
+			europe
+		}
+	}
+
+	north_america = {
+		continents = {
+			north_america
+		}
+	}
+
+	south_america = {
+		continents = {
+			south_america
+		}
+	}
+
+	africa = {
+		continents = {
+			africa
+		}
+	}
+
+	australia = {
+		continents = {
+			australia
+		}
+	}
+
+	asia = {
+		continents = {
+			asia
+		}
+	}
+
+	middle_east = {
+		continents = {
+			middle_east
+		}
+	}
+}

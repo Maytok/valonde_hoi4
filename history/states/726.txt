@@ -1,0 +1,37 @@
+
+state={
+	id=726
+	name="STATE_726"
+	manpower = 1611074
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		8577 8578 8579 8580 8581 8582 8583 8584 8585 
+	}
+	local_supplies=0.0 
+}

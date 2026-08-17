@@ -1,0 +1,37 @@
+
+state={
+	id=403
+	name="STATE_403"
+	manpower = 2931327
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		
+		owner = TAD
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TAD
+	}
+
+	provinces={
+		4847 4848 4849 4850 4851 4852 4853 4854 4855 4856 4857 4858 4859 4860 4861 
+	}
+	local_supplies=0.0 
+}

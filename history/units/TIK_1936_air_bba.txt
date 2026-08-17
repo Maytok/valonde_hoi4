@@ -1,0 +1,20 @@
+air_wings = {
+		753 = { 								
+		small_plane_airframe_0 = { owner = "TIK" amount = 28 version_name = "Tingiq Mk 1" }
+
+	}
+	57 = { 								
+		medium_plane_airframe_0 = { owner = "TIK" amount = 24 version_name = "Nipaapak Mk 0" }
+
+	}
+	1586 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TIK" amount = 39 version_name = "Kangelle Mk 0" }
+
+	}
+	452 = { 								
+		small_plane_cas_airframe_0 = { owner = "TIK" amount = 21 version_name = "Nanuata Mk 1" }
+
+	}
+
+
+}

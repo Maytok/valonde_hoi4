@@ -1,0 +1,1083 @@
+characters = {
+	ANI_Luis_Torrittana={
+		name="Luis Torrittana"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ANI_Vicarco_Fattesaggio={
+		name="Vicarco Fattesaggio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Vicarco_Fattesaggio
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	ANI_Stefancesco_Mortine={
+		name="Stefancesco Mortine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Stefancesco_Mortine
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	ANI_Jeano_Temicolorna={
+		name="Jeano Temicolorna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Jeano_Temicolorna
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Rico_Cappamone={
+		name="Rico Cappamone"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Rico_Cappamone
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Paolose_Seggia={
+		name="Paolose Seggia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Paolose_Seggia
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Paolo_Sano={
+		name="Paolo Sano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Paolo_Sano
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Marco_Guelo={
+		name="Marco Guelo"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Marco_Guelo
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	ANI_Nicarlos_Segnale={
+		name="Nicarlos Segnale"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Nicarlos_Segnale
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	ANI_Thierry_Amonedine={
+		name="Thierry Amonedine"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Thierry_Amonedine
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	ANI_Mario_Neve={
+		name="Mario Neve"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Mario_Neve
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	ANI_Lucardo_Animo={
+		name="Lucardo Animo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Lucardo_Animo
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	ANI_Leon_Vissaggio={
+		name="Leon Vissaggio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Leon_Vissaggio
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	ANI_Andre_Guardo={
+		name="Andre Guardo"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Andre_Guardo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ANI_Thierry_Citando={
+		name="Thierry Citando"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Thierry_Citando
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	ANI_Julien_Torrittana={
+		name="Julien Torrittana"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Julien_Torrittana
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	ANI_Jeano_Ricolo={
+		name="Jeano Ricolo"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Jeano_Ricolo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	ANI_Paolose_Divaledintel={
+		name="Paolose Divaledintel"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Paolose_Divaledintel
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	ANI_Antonio_Arina={
+		name="Antonio Arina"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Antonio_Arina
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	ANI_Rica_Valle={
+		name="Rica Valle"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Rica_Valle
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	ANI_Alexandre_Visi={
+		name="Alexandre Visi"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Alexandre_Visi
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	ANI_Steo_Sogna={
+		name="Steo Sogna"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ANI_Bruno_Reggintra={
+		name="Bruno Reggintra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Bruno_Reggintra
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Mario_Sogna={
+		name="Mario Sogna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Mario_Sogna
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Roberry_Anieste={
+		name="Roberry Anieste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Roberry_Anieste
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Nica_Cielle={
+		name="Nica Cielle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Nica_Cielle
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	ANI_Stefan_Dello={
+		name="Stefan Dello"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Stefan_Dello
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Ramonio_Spiria={
+		name="Ramonio Spiria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Ramonio_Spiria
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	ANI_Rico_Guardo={
+		name="Rico Guardo"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Rico_Guardo
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	ANI_Rica_Paura={
+		name="Rica Paura"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Rica_Paura
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	ANI_Paolas_Luna={
+		name="Paolas Luna"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Paolas_Luna
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	ANI_Nicomonarlos_Guardo={
+		name="Nicomonarlos Guardo"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Nicomonarlos_Guardo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	ANI_Nicarlos_Abisi={
+		name="Nicarlos Abisi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Nicarlos_Abisi
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	ANI_Roberto_Batta={
+		name="Roberto Batta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Roberto_Batta
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	ANI_Giaco_Libra={
+		name="Giaco Libra"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Giaco_Libra
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	ANI_Anto_Labiria={
+		name="Anto Labiria"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Anto_Labiria
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	ANI_Luca_Freccade={
+		name="Luca Freccade"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Luca_Freccade
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	ANI_Alexandre_Piontelta={
+		name="Alexandre Piontelta"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Alexandre_Piontelta
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	ANI_Alexandro_Prolo={
+		name="Alexandro Prolo"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Alexandro_Prolo
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	ANI_Giacomon_Verofezio={
+		name="Giacomon Verofezio"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Giacomon_Verofezio
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	ANI_Rico_Mortine={
+		name="Rico Mortine"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Rico_Mortine
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	ANI_Giacomon_Torrittana={
+		name="Giacomon Torrittana"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Giacomon_Torrittana
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	ANI_Nicardo_Abiria={
+		name="Nicardo Abiria"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ANI_Ricto_Onortelo={
+		name="Ricto Onortelo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Ricto_Onortelo
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Steo_Malledia={
+		name="Steo Malledia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Steo_Malledia
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Alexandre_Onortelo={
+		name="Alexandre Onortelo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Alexandre_Onortelo
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	ANI_Nicarlos_Cielle={
+		name="Nicarlos Cielle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Nicarlos_Cielle
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Antonio_Abiria={
+		name="Antonio Abiria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Antonio_Abiria
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Giacolos_Segione={
+		name="Giacolos Segione"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Giacolos_Segione
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Pedro_Labiria={
+		name="Pedro Labiria"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Pedro_Labiria
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ANI_Ricto_Reggintra={
+		name="Ricto Reggintra"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Ricto_Reggintra
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	ANI_Nica_Odizio={
+		name="Nica Odizio"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Nica_Odizio
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	ANI_Steo_Capircama={
+		name="Steo Capircama"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Steo_Capircama
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ANI_Vicarco_Riconedizia={
+		name="Vicarco Riconedizia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Vicarco_Riconedizia
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	ANI_Steo_Alla={
+		name="Steo Alla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Steo_Alla
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	ANI_Ramonio_Guerotta={
+		name="Ramonio Guerotta"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Ramonio_Guerotta
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	ANI_Steo_Maggelta={
+		name="Steo Maggelta"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Steo_Maggelta
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	ANI_Victor_Sogna={
+		name="Victor Sogna"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Victor_Sogna
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	ANI_Luca_Guelo={
+		name="Luca Guelo"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Luca_Guelo
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	ANI_Ricto_Piontelta={
+		name="Ricto Piontelta"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Ricto_Piontelta
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	ANI_Nica_Abiria={
+		name="Nica Abiria"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Nica_Abiria
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	ANI_Robertonarlo_Guercada={
+		name="Robertonarlo Guercada"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Robertonarlo_Guercada
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	ANI_Marcolos_Valle={
+		name="Marcolos Valle"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Marcolos_Valle
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	ANI_Antonio_Labiria={
+		name="Antonio Labiria"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ANI_Alexandro_Maggiore={
+		name="Alexandro Maggiore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Alexandro_Maggiore
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Pedre_Citando={
+		name="Pedre Citando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Pedre_Citando
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Nicto_Fatta={
+		name="Nicto Fatta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Nicto_Fatta
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Paolo_Freccade={
+		name="Paolo Freccade"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Paolo_Freccade
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Vicarco_Fiortima={
+		name="Vicarco Fiortima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Vicarco_Fiortima
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	ANI_Nictor_Spade={
+		name="Nictor Spade"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ANI_Nictor_Spade
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	ANI_Vicarco_Spade={
+		name="Vicarco Spade"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Vicarco_Spade
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	ANI_Francescolas_Prolo={
+		name="Francescolas Prolo"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Francescolas_Prolo
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	ANI_Ramon_Animo={
+		name="Ramon Animo"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Ramon_Animo
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	ANI_Thierto_Ghia={
+		name="Thierto Ghia"
+
+		advisor={
+			slot = army_chief
+			idea_token = ANI_Thierto_Ghia
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	ANI_Nicto_Incipessagio={
+		name="Nicto Incipessagio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Nicto_Incipessagio
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	ANI_Stefancesco_Libra={
+		name="Stefancesco Libra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ANI_Stefancesco_Libra
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	ANI_Thien_Lancuola={
+		name="Thien Lancuola"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Thien_Lancuola
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ANI_Ramonio_Come={
+		name="Ramonio Come"
+
+		advisor={
+			slot = air_chief
+			idea_token = ANI_Ramonio_Come
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ANI_Paolose_Pone={
+		name="Paolose Pone"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Paolose_Pone
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	ANI_Julipe_Come={
+		name="Julipe Come"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Julipe_Come
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	ANI_Nictor_Pone={
+		name="Nictor Pone"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Nictor_Pone
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	ANI_Enzo_Mera={
+		name="Enzo Mera"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Enzo_Mera
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	ANI_Robertonarlo_Messo={
+		name="Robertonarlo Messo"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Robertonarlo_Messo
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	ANI_Ramon_Guerotta={
+		name="Ramon Guerotta"
+
+		advisor={
+			slot = high_command
+			idea_token = ANI_Ramon_Guerotta
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	ANI_Steo_Solo={
+		name="Steo Solo"
+
+		advisor={
+			slot = theorist
+			idea_token = ANI_Steo_Solo
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	ANI_Lucardo_Lancuola={
+		name="Lucardo Lancuola"
+
+		advisor={
+			slot = theorist
+			idea_token = ANI_Lucardo_Lancuola
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	ANI_Thierto_Messo={
+		name="Thierto Messo"
+
+		advisor={
+			slot = theorist
+			idea_token = ANI_Thierto_Messo
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

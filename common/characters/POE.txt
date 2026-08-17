@@ -1,0 +1,1083 @@
+characters = {
+	POE_Cassiustus_Vultis={
+		name="Cassiustus Vultis"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POE_Nerius_Altus={
+		name="Nerius Altus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Nerius_Altus
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Cornelius_Alturaesaes={
+		name="Cornelius Alturaesaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Cornelius_Alturaesaes
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Nervius_Domentus={
+		name="Nervius Domentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Nervius_Domentus
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Priscus_Parvus={
+		name="Priscus Parvus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Priscus_Parvus
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Otho_Bella={
+		name="Otho Bella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Otho_Bella
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Marcellusus_Poetericolor={
+		name="Marcellusus Poetericolor"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Marcellusus_Poetericolor
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Cassiustus_Hertia={
+		name="Cassiustus Hertia"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Cassiustus_Hertia
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	POE_Gracchus_Galatus={
+		name="Gracchus Galatus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Gracchus_Galatus
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	POE_Severo_Domus={
+		name="Severo Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Severo_Domus
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	POE_Cornelius_Orbum={
+		name="Cornelius Orbum"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Cornelius_Orbum
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	POE_Vitelianus_Conor={
+		name="Vitelianus Conor"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Vitelianus_Conor
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	POE_Cornellus_Tenatrum={
+		name="Cornellus Tenatrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Cornellus_Tenatrum
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	POE_Fabius_Medix={
+		name="Fabius Medix"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Fabius_Medix
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	POE_Cornellius_Milis={
+		name="Cornellius Milis"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Cornellius_Milis
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	POE_Gaianlius_Spertas={
+		name="Gaianlius Spertas"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Gaianlius_Spertas
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	POE_Gratius_Poetericolor={
+		name="Gratius Poetericolor"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Gratius_Poetericolor
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	POE_Priscus_Fulgus={
+		name="Priscus Fulgus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Priscus_Fulgus
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	POE_Titellius_Famma={
+		name="Titellius Famma"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Titellius_Famma
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	POE_Longinus_Famma={
+		name="Longinus Famma"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Longinus_Famma
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	POE_Regulius_Alturaesaes={
+		name="Regulius Alturaesaes"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Regulius_Alturaesaes
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	POE_Attius_Vicus={
+		name="Attius Vicus"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POE_Scaeverutus_Verba={
+		name="Scaeverutus Verba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Scaeverutus_Verba
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Cassiustus_Structus={
+		name="Cassiustus Structus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Cassiustus_Structus
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Varro_Plumensul={
+		name="Varro Plumensul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Varro_Plumensul
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Manus_Bella={
+		name="Manus Bella"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Manus_Bella
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Drutus_Anis={
+		name="Drutus Anis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Drutus_Anis
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Nervius_Sempes={
+		name="Nervius Sempes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Nervius_Sempes
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Severviusus_Maculmen={
+		name="Severviusus Maculmen"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Severviusus_Maculmen
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	POE_Nonginus_Scaella={
+		name="Nonginus Scaella"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Nonginus_Scaella
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	POE_Julusustus_Pons={
+		name="Julusustus Pons"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Julusustus_Pons
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	POE_Cornellianus_Taberria={
+		name="Cornellianus Taberria"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Cornellianus_Taberria
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	POE_Vitus_Bellus={
+		name="Vitus Bellus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Vitus_Bellus
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	POE_Marcus_Tenatrum={
+		name="Marcus Tenatrum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Marcus_Tenatrum
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	POE_Cassiustus_Carvus={
+		name="Cassiustus Carvus"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Cassiustus_Carvus
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	POE_Julusustus_Scae={
+		name="Julusustus Scae"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Julusustus_Scae
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	POE_Cassius_Scribunumbus={
+		name="Cassius Scribunumbus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Cassius_Scribunumbus
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	POE_Titellius_Otiscientia={
+		name="Titellius Otiscientia"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Titellius_Otiscientia
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	POE_Cassiustus_Domentus={
+		name="Cassiustus Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Cassiustus_Domentus
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	POE_Gratius_Bella={
+		name="Gratius Bella"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Gratius_Bella
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	POE_Severo_Domentus={
+		name="Severo Domentus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Severo_Domentus
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	POE_Faus_Porpus={
+		name="Faus Porpus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Faus_Porpus
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	POE_Flaudius_Galus={
+		name="Flaudius Galus"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { socialist_autocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POE_Drus_Famma={
+		name="Drus Famma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Drus_Famma
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Cassiustus_Scatoriberra={
+		name="Cassiustus Scatoriberra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Cassiustus_Scatoriberra
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Decius_Milis={
+		name="Decius Milis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Decius_Milis
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Graiustustus_Galatus={
+		name="Graiustustus Galatus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Graiustustus_Galatus
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Gratius_Domentus={
+		name="Gratius Domentus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Gratius_Domentus
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Cornellius_Sterbulgus={
+		name="Cornellius Sterbulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Cornellius_Sterbulgus
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Varro_Libunus={
+		name="Varro Libunus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Varro_Libunus
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	POE_Julusustus_Nomena={
+		name="Julusustus Nomena"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Julusustus_Nomena
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	POE_Caius_Anis={
+		name="Caius Anis"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Caius_Anis
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	POE_Cornellianus_Sempes={
+		name="Cornellianus Sempes"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Cornellianus_Sempes
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	POE_Titelius_Medix={
+		name="Titelius Medix"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Titelius_Medix
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	POE_Claus_Militas={
+		name="Claus Militas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Claus_Militas
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	POE_Titius_Orbum={
+		name="Titius Orbum"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Titius_Orbum
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	POE_Marcus_Porpus={
+		name="Marcus Porpus"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Marcus_Porpus
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	POE_Tibiustus_Structus={
+		name="Tibiustus Structus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Tibiustus_Structus
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	POE_Severviusus_Citternistor={
+		name="Severviusus Citternistor"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Severviusus_Citternistor
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	POE_Flaudius_Vincies={
+		name="Flaudius Vincies"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Flaudius_Vincies
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	POE_Faus_Herta={
+		name="Faus Herta"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Faus_Herta
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	POE_Claus_Plumensul={
+		name="Claus Plumensul"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Claus_Plumensul
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	POE_Gaianlius_Orbum={
+		name="Gaianlius Orbum"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Gaianlius_Orbum
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	POE_Gracchus_Altus={
+		name="Gracchus Altus"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POE_Gaius_Herta={
+		name="Gaius Herta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Gaius_Herta
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Titelius_Domenator={
+		name="Titelius Domenator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Titelius_Domenator
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Titelius_Nator={
+		name="Titelius Nator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Titelius_Nator
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	POE_Coratius_Sterbulgus={
+		name="Coratius Sterbulgus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Coratius_Sterbulgus
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Marcus_Virtum={
+		name="Marcus Virtum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Marcus_Virtum
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	POE_Augus_Vicus={
+		name="Augus Vicus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = POE_Augus_Vicus
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	POE_Graiustustus_Scribunumbus={
+		name="Graiustustus Scribunumbus"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Graiustustus_Scribunumbus
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	POE_Lonius_Celebs={
+		name="Lonius Celebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Lonius_Celebs
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	POE_Spurius_Vincies={
+		name="Spurius Vincies"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Spurius_Vincies
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	POE_Regulus_Celebs={
+		name="Regulus Celebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = POE_Regulus_Celebs
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	POE_Aulus_Sapiens={
+		name="Aulus Sapiens"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Aulus_Sapiens
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	POE_Vibius_Domenator={
+		name="Vibius Domenator"
+
+		advisor={
+			slot = navy_chief
+			idea_token = POE_Vibius_Domenator
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	POE_Cornellus_Villa={
+		name="Cornellus Villa"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Cornellus_Villa
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	POE_Nerius_Domentus={
+		name="Nerius Domentus"
+
+		advisor={
+			slot = air_chief
+			idea_token = POE_Nerius_Domentus
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	POE_Cassius_Vicus={
+		name="Cassius Vicus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Cassius_Vicus
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	POE_Priscus_Oticaella={
+		name="Priscus Oticaella"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Priscus_Oticaella
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	POE_Coratius_Domenator={
+		name="Coratius Domenator"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Coratius_Domenator
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	POE_Brutus_Picus={
+		name="Brutus Picus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Brutus_Picus
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	POE_Titellius_Porpus={
+		name="Titellius Porpus"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Titellius_Porpus
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	POE_Cornellus_Domenator={
+		name="Cornellus Domenator"
+
+		advisor={
+			slot = high_command
+			idea_token = POE_Cornellus_Domenator
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	POE_Longinus_Nator={
+		name="Longinus Nator"
+
+		advisor={
+			slot = theorist
+			idea_token = POE_Longinus_Nator
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	POE_Titius_Sapiensus={
+		name="Titius Sapiensus"
+
+		advisor={
+			slot = theorist
+			idea_token = POE_Titius_Sapiensus
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	POE_Varro_Silita={
+		name="Varro Silita"
+
+		advisor={
+			slot = theorist
+			idea_token = POE_Varro_Silita
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=56
+	name="STATE_56"
+	manpower = 1670606
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KWV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KWV
+	}
+
+	provinces={
+		753 754 755 756 757 758 759 760 761 762 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=112
+	name="STATE_112"
+	manpower = 2271401
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		1450 1451 1452 1453 1454 1455 1456 1457 1458 1459 
+	}
+	local_supplies=0.0 
+}

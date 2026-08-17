@@ -1,0 +1,37 @@
+
+state={
+	id=1038
+	name="STATE_1038"
+	manpower = 1759490
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=6
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=14
+	}
+
+	history={
+		
+		owner = MWA
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MWA
+	}
+
+	provinces={
+		12316 12317 12318 12319 12320 12321 12322 12323 12324 12325 
+	}
+	local_supplies=0.0 
+}

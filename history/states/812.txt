@@ -1,0 +1,37 @@
+
+state={
+	id=812
+	name="STATE_812"
+	manpower = 1485901
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KAN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		9638 9639 9640 9641 9642 9643 9644 
+	}
+	local_supplies=0.0 
+}

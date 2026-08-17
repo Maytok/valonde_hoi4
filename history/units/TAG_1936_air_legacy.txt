@@ -1,0 +1,24 @@
+air_wings = {
+		290 = { 								
+		tac_bomber_equipment_0 = { owner = "TAG" amount = 21 version_name = "Tighbalut Mk 2" }
+
+	}
+	815 = { 								
+		tac_bomber_equipment_0 = { owner = "TAG" amount = 13 version_name = "Tagzi Mk 0" }
+
+	}
+	575 = { 								
+		fighter_equipment_0 = { owner = "TAG" amount = 21 version_name = "Taghzi Mk 1" }
+
+	}
+	831 = { 								
+		CAS_equipment_0 = { owner = "TAG" amount = 22 version_name = "Asirt Mk 1" }
+
+	}
+	93 = { 								
+		nav_bomber_equipment_0 = { owner = "TAG" amount = 23 version_name = "Takfar Mk 0" }
+
+	}
+
+
+}

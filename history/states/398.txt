@@ -1,0 +1,37 @@
+
+state={
+	id=398
+	name="STATE_398"
+	manpower = 2361599
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=9
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=9
+		coal=22
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		4810 4811 4812 4813 4814 4815 4816 4817 4818 4819 4820 4821 4822 
+	}
+	local_supplies=0.0 
+}

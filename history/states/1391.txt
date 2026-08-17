@@ -1,0 +1,37 @@
+
+state={
+	id=1391
+	name="STATE_1391"
+	manpower = 2733837
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=12
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ANI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ANI
+	}
+
+	provinces={
+		16127 16128 16129 16130 16131 16132 16133 16134 16135 16136 16137 16138 16139 16140 16141 16142 16143 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=370
+	name="STATE_370"
+	manpower = 170970
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=25
+		chromium=26
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=25
+		coal=63
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		4467 4468 4469 4470 4471 
+	}
+	local_supplies=0.0 
+}

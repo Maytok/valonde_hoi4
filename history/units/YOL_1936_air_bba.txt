@@ -1,0 +1,22 @@
+air_wings = {
+		186 = { 								
+		medium_plane_airframe_0 = { owner = "YOL" amount = 31 version_name = "Topru Mk 0" }
+
+	}
+	660 = { 								
+		small_plane_cas_airframe_0 = { owner = "YOL" amount = 14 version_name = "Yaske Mk 2" }
+
+	}
+	334 = { 								
+		small_plane_airframe_0 = { owner = "YOL" amount = 31 version_name = "Isilis Mk 2" }
+large_plane_airframe_0 = { owner = "YOL" amount = 31 version_name = "Sicak Mk 0" }
+
+	}
+	472 = { 								
+		medium_plane_airframe_1 = { owner = "YOL" amount = 26 version_name = "Savar Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "YOL" amount = 28 version_name = "Basarin Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,55 @@
+air_wings = {
+		1060 = { 								
+		small_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1136 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "AJP" amount = 50 version_name = "Tzolkab Mk 1" }
+medium_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Oxib Mk 0" }
+
+	}
+	1597 = { 								
+		small_plane_cas_airframe_1 = { owner = "AJP" amount = 50 version_name = "Chilacom Mk 2" }
+
+	}
+	1173 = { 								
+		large_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+medium_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Oxib Mk 0" }
+
+	}
+	1615 = { 								
+		small_plane_airframe_1 = { owner = "AJP" amount = 50 version_name = "Bakmulkanila Mk 1" }
+
+	}
+	1126 = { 								
+		small_plane_cas_airframe_1 = { owner = "AJP" amount = 50 version_name = "Chilacom Mk 2" }
+
+	}
+	1174 = { 								
+		small_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1154 = { 								
+		small_plane_cas_airframe_0 = { owner = "AJP" amount = 48 version_name = "Zotz Mk 1" }
+
+	}
+	1552 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AJP" amount = 50 version_name = "Uxun Mk 1" }
+
+	}
+	1102 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AJP" amount = 50 version_name = "Uxun Mk 1" }
+large_plane_airframe_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1135 = { 								
+		small_plane_airframe_1 = { owner = "AJP" amount = 50 version_name = "Bakmulkanila Mk 1" }
+
+	}
+	1138 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "AJP" amount = 50 version_name = "Tzolkab Mk 1" }
+
+	}
+
+
+}

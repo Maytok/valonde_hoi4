@@ -1,0 +1,37 @@
+
+state={
+	id=1351
+	name="STATE_1351"
+	manpower = 1713447
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VAN
+	}
+
+	provinces={
+		15718 15719 15720 15721 15722 15723 15724 15725 15726 15727 
+	}
+	local_supplies=0.0 
+}

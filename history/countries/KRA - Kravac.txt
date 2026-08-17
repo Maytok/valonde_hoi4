@@ -1,0 +1,496 @@
+capital = 1262
+
+oob = "KRA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KRA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KRA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Nadzbica Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Zeme Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Hrabrija Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Knjican Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Grmlja Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KRA_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			basic_medium_airframe = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Dobar Mk 0"
+			type = large_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Semenitak Mk 1"
+			type = medium_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Muzikar Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Sven Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Scen Mk 2"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Knjican Mk 1"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ptirisacin Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "KRA_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KRA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Veroda Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KRA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Veroda Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = KRA_Dusan_Glaverav
+recruit_character = KRA_Milav_Trabrom
+recruit_character = KRA_Velimiri_Ratadje
+recruit_character = KRA_Vikitri_Dusa
+recruit_character = KRA_Radimir_Svezduh
+recruit_character = KRA_Boran_Glas
+recruit_character = KRA_Milos_Ptirisacin
+recruit_character = KRA_Velimiri_Plovo
+recruit_character = KRA_Nikita_Hlemetlo
+recruit_character = KRA_Rado_Oblik
+recruit_character = KRA_Kazimitanova_Teat
+recruit_character = KRA_Janisladovan_Vrefekt
+recruit_character = KRA_Luboslavel_Oblik
+recruit_character = KRA_Andrej_Hlebo
+recruit_character = KRA_Juragomas_Delik
+recruit_character = KRA_Slado_Sneg
+recruit_character = KRA_Aleksei_Suma
+recruit_character = KRA_Dran_Oblik
+recruit_character = KRA_Oleksei_Teat
+recruit_character = KRA_Kazimir_Sven
+recruit_character = KRA_Kiroslavko_Ratadje
+recruit_character = KRA_Vladeksei_Svezduh
+recruit_character = KRA_Juran_Ptinjava
+recruit_character = KRA_Yuris_Glatar
+recruit_character = KRA_Bohdanko_Prija
+recruit_character = KRA_Starkolan_Ratadje
+recruit_character = KRA_Stan_Vecnost
+recruit_character = KRA_Vlavko_Scen
+recruit_character = KRA_Miroslav_Meska
+recruit_character = KRA_Niktoraj_Sporebo
+recruit_character = KRA_Starko_Kovozduh
+recruit_character = KRA_Radovan_Seme
+recruit_character = KRA_Bragomirosla_Casina
+recruit_character = KRA_Vlav_Muzik
+recruit_character = KRA_Luboslavel_Suma
+recruit_character = KRA_Vladeksei_Hlemetlo
+recruit_character = KRA_Jarko_Vatak
+recruit_character = KRA_Vikitri_Dobav
+recruit_character = KRA_Juragomas_Oblik
+recruit_character = KRA_Matefan_Jeza
+recruit_character = KRA_Radov_Veroda
+recruit_character = KRA_Niktor_Obicak
+recruit_character = KRA_Dragomas_Lekt
+recruit_character = KRA_Janisladovan_Glatar
+recruit_character = KRA_Radovanovan_Muzikar
+recruit_character = KRA_Rado_Scen
+recruit_character = KRA_Sergei_Jezerod
+recruit_character = KRA_Niktoran_Verojska
+recruit_character = KRA_Lubos_Voda
+recruit_character = KRA_Ivanis_Svetlo
+recruit_character = KRA_Juran_Sporebo
+recruit_character = KRA_Nikita_Nadzbica
+recruit_character = KRA_Niktoraj_Svezduh
+recruit_character = KRA_Pavkoladov_Kravac
+recruit_character = KRA_Juran_Muzikar
+recruit_character = KRA_Mirosh_Ratadje
+recruit_character = KRA_Viko_Hlebo
+recruit_character = KRA_Bogdan_Sunce
+recruit_character = KRA_Dusz_Hrabroda
+recruit_character = KRA_Niktor_Sneg
+recruit_character = KRA_Milos_Svezduh
+recruit_character = KRA_Peta_Ribava
+recruit_character = KRA_Radovanovan_Reka
+recruit_character = KRA_Juran_Oblik
+recruit_character = KRA_Slado_Ptinjava
+recruit_character = KRA_Velimiri_Hrabro
+recruit_character = KRA_Starkolan_Tvrdje
+recruit_character = KRA_Bran_Ptirisacin
+recruit_character = KRA_Luboslav_Voda
+recruit_character = KRA_Dusz_Boginjiv
+recruit_character = KRA_Vikitri_Narst
+recruit_character = KRA_Bragomirosla_Lekt
+recruit_character = KRA_Nikita_Verojska
+recruit_character = KRA_Kazimiri_Jeza
+recruit_character = KRA_Ivanis_Plovo
+recruit_character = KRA_Pavkoladov_Dobav
+recruit_character = KRA_Nikita_Obicak
+recruit_character = KRA_Dusan_Zeme
+recruit_character = KRA_Dusan_Hrabro
+recruit_character = KRA_Dragomir_Plovo
+recruit_character = KRA_Draj_Hrabrija
+recruit_character = KRA_Ivanis_Doba
+recruit_character = KRA_Juragomas_Kulast
+recruit_character = KRA_Luboslavel_Grmlja
+recruit_character = KRA_Jarko_Kapija
+recruit_character = KRA_Mirosh_Pesnit
+recruit_character = KRA_Niktoraj_Nebro
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.41
+set_war_support = 0.64
+
+add_ideas = {
+limited_conscription
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1890.11.4"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 16
+	communism = 31
+	neutrality = 33
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+state={
+	id=1187
+	name="STATE_1187"
+	manpower = 2197675
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DHO
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DHO
+	}
+
+	provinces={
+		13956 13957 13958 13959 13960 13961 13962 13963 13964 13965 13966 13967 
+	}
+	local_supplies=0.0 
+}

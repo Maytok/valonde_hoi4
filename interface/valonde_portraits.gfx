@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_SHA_tarkan_rohendel"
+		texturefile = "gfx/leaders/SHA/portrait_SHA_tarkan_rohendel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SHA_tarkan_rohendel_small"
+		texturefile = "gfx/interface/ideas/portrait_SHA_tarkan_rohendel_small.dds"
+	}
+}

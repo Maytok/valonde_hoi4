@@ -1,0 +1,478 @@
+capital = 407
+
+oob = "TAW_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TAW_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TAW_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Tazrar Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tamazrawt Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Azert Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Azrawinim Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Taghan Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Asifast Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TAW_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			engines_2 = 1
+			range_improvements = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Tigmmi Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tazrawizrouf Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tigh Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TAW_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TAW_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Imnayen Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TAW_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Imnayen Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TAW_Mimokrane_Tamsirt
+recruit_character = TAW_Tahari_Tamazrou
+recruit_character = TAW_Amokrane_Tamsalt
+recruit_character = TAW_Taren_Tamsirt
+recruit_character = TAW_Iskari_Imghrem
+recruit_character = TAW_Meziane_Tawen
+recruit_character = TAW_Ziri_Tamazrawt
+recruit_character = TAW_Mimokrane_Imnayen
+recruit_character = TAW_Tariq_Tamdar
+recruit_character = TAW_Iskari_Tislit
+recruit_character = TAW_Sifax_Imnayen
+recruit_character = TAW_Sifan_Agou
+recruit_character = TAW_Tahar_Azrawinim
+recruit_character = TAW_Mimokran_Tazda
+recruit_character = TAW_Saidi_Tissirt
+recruit_character = TAW_Tarim_Tawen
+recruit_character = TAW_Aziane_Tazrawizrouf
+recruit_character = TAW_Sifax_Asifast
+recruit_character = TAW_Amariq_Tifasnast
+recruit_character = TAW_Mokrane_Tissirt
+recruit_character = TAW_Meziz_Agou
+recruit_character = TAW_Mezian_Azrouka
+recruit_character = TAW_Mimokrane_Afrart
+recruit_character = TAW_Zirim_Tighbalut
+recruit_character = TAW_Mimokran_Tifelt
+recruit_character = TAW_Iderfane_Tiwizrar
+recruit_character = TAW_Mimokran_Tazzur
+recruit_character = TAW_Mokrane_Agou
+recruit_character = TAW_Iderfane_Afsut
+recruit_character = TAW_Massinissa_Than
+recruit_character = TAW_Taren_Azenzawin
+recruit_character = TAW_Iderfan_Tigmmi
+recruit_character = TAW_Amariq_Afsut
+recruit_character = TAW_Ziri_Tazrar
+recruit_character = TAW_Aselmarim_Takfaw
+recruit_character = TAW_Meziane_Afsut
+recruit_character = TAW_Mokrane_Tislit
+recruit_character = TAW_Amariq_Asirt
+recruit_character = TAW_Aselmarim_Amdarwast
+recruit_character = TAW_Azian_Tawen
+recruit_character = TAW_Meziz_Tazrar
+recruit_character = TAW_Karen_Tart
+recruit_character = TAW_Mimokran_Takfar
+recruit_character = TAW_Amariq_Tawin
+recruit_character = TAW_Iderfane_Nfou
+recruit_character = TAW_Mokrannis_Tiwizrar
+recruit_character = TAW_Ziriq_Azrarwas
+recruit_character = TAW_Massinis_Tazrawizrouf
+recruit_character = TAW_Amariq_Tamazrawt
+recruit_character = TAW_Massinissa_Amdarwast
+recruit_character = TAW_Iskar_Afus
+recruit_character = TAW_Amokrane_Taru
+recruit_character = TAW_Kariq_Tazrar
+recruit_character = TAW_Mokran_Taru
+recruit_character = TAW_Amokrane_Tart
+recruit_character = TAW_Meziz_Adrart
+recruit_character = TAW_Aziz_Takfaw
+recruit_character = TAW_Saidi_Taru
+recruit_character = TAW_Mimokrane_Tamazrou
+recruit_character = TAW_Tafsut_Ayurt
+recruit_character = TAW_Taren_Tamassirt
+recruit_character = TAW_Iderfax_Tamsirt
+recruit_character = TAW_Azian_Azegzi
+recruit_character = TAW_Meziane_Tifasnast
+recruit_character = TAW_Tariq_Tighbalalt
+recruit_character = TAW_Aselmad_Tifelt
+recruit_character = TAW_Lyes_Afrart
+recruit_character = TAW_Mezian_Azrarwas
+recruit_character = TAW_Tarim_Azrawt
+recruit_character = TAW_Massinis_Adrart
+recruit_character = TAW_Tahari_Tafaru
+recruit_character = TAW_Tafsut_Tadin
+recruit_character = TAW_Iderfan_Tamsirt
+recruit_character = TAW_Yannis_Asifast
+recruit_character = TAW_Taharimokran_Tigmmi
+recruit_character = TAW_Mimoun_Tigman
+recruit_character = TAW_Iderfax_Tizir
+recruit_character = TAW_Yuba_Taghzi
+recruit_character = TAW_Aselmarim_Tifawt
+recruit_character = TAW_Aziz_Tifasnast
+recruit_character = TAW_Meziz_Tasnast
+recruit_character = TAW_Saidi_Amenzar
+recruit_character = TAW_Sifan_Tazrar
+recruit_character = TAW_Tahar_Taru
+recruit_character = TAW_Kariq_Tigman
+recruit_character = TAW_Iskari_Thant
+recruit_character = TAW_Tahari_Tamsiri
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.70
+set_war_support = 0.45
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1902.11.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 33
+	communism = 12
+	neutrality = 25
+}
+
+
+
+
+

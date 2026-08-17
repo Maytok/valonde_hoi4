@@ -1,0 +1,70 @@
+air_wings = {
+		2 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tinassouka Mk 1" }
+
+	}
+	307 = { 								
+		medium_plane_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	69 = { 								
+		small_plane_cas_airframe_0 = { owner = "AZE" amount = 50 version_name = "Izegga Mk 2" }
+
+	}
+	314 = { 								
+		small_plane_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tint Mk 0" }
+
+	}
+	434 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tinassouka Mk 1" }
+
+	}
+	446 = { 								
+		small_plane_cas_airframe_0 = { owner = "AZE" amount = 50 version_name = "Izegga Mk 2" }
+small_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Agadir Mk 1" }
+
+	}
+	1655 = { 								
+		medium_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tazrourt Mk 1" }
+
+	}
+	937 = { 								
+		large_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	958 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "AZE" amount = 50 version_name = "Agadirawt Mk 0" }
+
+	}
+	771 = { 								
+		small_plane_cas_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tifella Mk 0" }
+
+	}
+	690 = { 								
+		medium_plane_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	1631 = { 								
+		large_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	607 = { 								
+		medium_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Tazrourt Mk 1" }
+
+	}
+	155 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "AZE" amount = 50 version_name = "Agadirawt Mk 0" }
+
+	}
+	625 = { 								
+		small_plane_cas_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tifella Mk 0" }
+
+	}
+	109 = { 								
+		small_plane_airframe_1 = { owner = "AZE" amount = 50 version_name = "Tint Mk 0" }
+small_plane_airframe_0 = { owner = "AZE" amount = 50 version_name = "Agadir Mk 1" }
+
+	}
+
+
+}

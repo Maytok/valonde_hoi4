@@ -1,0 +1,37 @@
+
+state={
+	id=760
+	name="STATE_760"
+	manpower = 4131161
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=22
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VZR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = VZR
+	}
+
+	provinces={
+		9071 9072 9073 9074 9075 9076 9077 9078 9079 9080 9081 9082 9083 9084 9085 9086 9087 9088 9089 9090 9091 9092 9093 9094 9095 
+	}
+	local_supplies=0.0 
+}

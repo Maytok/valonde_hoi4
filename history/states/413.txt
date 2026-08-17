@@ -1,0 +1,37 @@
+
+state={
+	id=413
+	name="STATE_413"
+	manpower = 1480802
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=4
+	}
+
+	history={
+		
+		owner = KOP
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = KOP
+	}
+
+	provinces={
+		5002 5003 5004 5005 5006 5007 5008 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	TAD_Mokrannis_Takranem={
+		name="Mokrannis Takranem"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAD_Taharimokran_Tazart={
+		name="Taharimokran Tazart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Taharimokran_Tazart
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Iderfane_Tart={
+		name="Iderfane Tart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Iderfane_Tart
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Massa_Tazzur={
+		name="Massa Tazzur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Massa_Tazzur
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Iderfane_Tigh={
+		name="Iderfane Tigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Iderfane_Tigh
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Ziri_Tamsalt={
+		name="Ziri Tamsalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Ziri_Tamsalt
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Mokrane_Thant={
+		name="Mokrane Thant"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Mokrane_Thant
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Mimokrane_Tazegzilt={
+		name="Mimokrane Tazegzilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Mimokrane_Tazegzilt
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TAD_Saidi_Tizir={
+		name="Saidi Tizir"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Saidi_Tizir
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAD_Ziri_Tiwin={
+		name="Ziri Tiwin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Ziri_Tiwin
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAD_Ziri_Ayurt={
+		name="Ziri Ayurt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Ziri_Ayurt
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TAD_Mimokrane_Azrarwas={
+		name="Mimokrane Azrarwas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Mimokrane_Azrarwas
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TAD_Meziz_Afsut={
+		name="Meziz Afsut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Meziz_Afsut
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TAD_Tarim_Tafawin={
+		name="Tarim Tafawin"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Tarim_Tafawin
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TAD_Amad_Tiwizrar={
+		name="Amad Tiwizrar"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Amad_Tiwizrar
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TAD_Taren_Tafassirt={
+		name="Taren Tafassirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Taren_Tafassirt
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	TAD_Yuba_Tigmmi={
+		name="Yuba Tigmmi"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Yuba_Tigmmi
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	TAD_Amariq_Tadday={
+		name="Amariq Tadday"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Amariq_Tadday
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TAD_Amad_Tawen={
+		name="Amad Tawen"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Amad_Tawen
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	TAD_Mokran_Tart={
+		name="Mokran Tart"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Mokran_Tart
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	TAD_Tarim_Akalt={
+		name="Tarim Akalt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Tarim_Akalt
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	TAD_Tahariq_Asirit={
+		name="Tahariq Asirit"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAD_Meziane_Tazrourt={
+		name="Meziane Tazrourt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Meziane_Tazrourt
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Ziri_Tissirt={
+		name="Ziri Tissirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Ziri_Tissirt
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Massinissa_Azrawinim={
+		name="Massinissa Azrawinim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Massinissa_Azrawinim
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Aselmad_Azegzart={
+		name="Aselmad Azegzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Aselmad_Azegzart
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Tafsut_Tazmerwal={
+		name="Tafsut Tazmerwal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Tafsut_Tazmerwal
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Amoun_Afus={
+		name="Amoun Afus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Amoun_Afus
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Aselmarim_Amdirart={
+		name="Aselmarim Amdirart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Aselmarim_Amdirart
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TAD_Ziriq_Imnayen={
+		name="Ziriq Imnayen"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Ziriq_Imnayen
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TAD_Sifax_Tamazrou={
+		name="Sifax Tamazrou"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Sifax_Tamazrou
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TAD_Amoun_Takfarem={
+		name="Amoun Takfarem"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Amoun_Takfarem
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TAD_Taren_Tamazrawt={
+		name="Taren Tamazrawt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Taren_Tamazrawt
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TAD_Sifan_Tamazrou={
+		name="Sifan Tamazrou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Sifan_Tamazrou
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TAD_Ziri_Azert={
+		name="Ziri Azert"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Ziri_Azert
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TAD_Sifax_Tazrar={
+		name="Sifax Tazrar"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Sifax_Tazrar
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	TAD_Zirim_Tawin={
+		name="Zirim Tawin"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Zirim_Tawin
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	TAD_Sifan_Tighzi={
+		name="Sifan Tighzi"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Sifan_Tighzi
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	TAD_Tahar_Tamassirt={
+		name="Tahar Tamassirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Tahar_Tamassirt
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	TAD_Tahariq_Tazrar={
+		name="Tahariq Tazrar"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Tahariq_Tazrar
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	TAD_Mokran_Amdir={
+		name="Mokran Amdir"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Mokran_Amdir
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	TAD_Aselmad_Tissirt={
+		name="Aselmad Tissirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Aselmad_Tissirt
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	TAD_Iderfane_Tighzi={
+		name="Iderfane Tighzi"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAD_Tahariq_Tigmmi={
+		name="Tahariq Tigmmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Tahariq_Tigmmi
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Ziriq_Tamdar={
+		name="Ziriq Tamdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Ziriq_Tamdar
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Aselmad_Tazrar={
+		name="Aselmad Tazrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Aselmad_Tazrar
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Meziane_Amenzar={
+		name="Meziane Amenzar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Meziane_Amenzar
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Karen_Amdarwast={
+		name="Karen Amdarwast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Karen_Amdarwast
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Kariq_Azrouka={
+		name="Kariq Azrouka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Kariq_Azrouka
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAD_Mimokran_Tamsalt={
+		name="Mimokran Tamsalt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Mimokran_Tamsalt
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TAD_Taren_Amezwasnast={
+		name="Taren Amezwasnast"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Taren_Amezwasnast
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TAD_Meziz_Agadiremmi={
+		name="Meziz Agadiremmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Meziz_Agadiremmi
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TAD_Karen_Amdir={
+		name="Karen Amdir"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Karen_Amdir
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TAD_Tarim_Azrart={
+		name="Tarim Azrart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Tarim_Azrart
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TAD_Lyes_Tamazrawt={
+		name="Lyes Tamazrawt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Lyes_Tamazrawt
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TAD_Amariq_Tasnast={
+		name="Amariq Tasnast"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Amariq_Tasnast
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TAD_Mezian_Tist={
+		name="Mezian Tist"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Mezian_Tist
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TAD_Kariq_Asifast={
+		name="Kariq Asifast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Kariq_Asifast
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TAD_Tarim_Amenzar={
+		name="Tarim Amenzar"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Tarim_Amenzar
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	TAD_Massa_Tawt={
+		name="Massa Tawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Massa_Tawt
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	TAD_Aziz_Tifawt={
+		name="Aziz Tifawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Aziz_Tifawt
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	TAD_Sifan_Azert={
+		name="Sifan Azert"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Sifan_Azert
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	TAD_Yuba_Tadday={
+		name="Yuba Tadday"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Yuba_Tadday
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TAD_Massinissa_Tidra={
+		name="Massinissa Tidra"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAD_Mimokran_Agou={
+		name="Mimokran Agou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Mimokran_Agou
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Aselmarim_Tart={
+		name="Aselmarim Tart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Aselmarim_Tart
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Tariq_Tigmmi={
+		name="Tariq Tigmmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Tariq_Tigmmi
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Mimokran_Afus={
+		name="Mimokran Afus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Mimokran_Afus
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAD_Meziane_Tislit={
+		name="Meziane Tislit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Meziane_Tislit
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Lyes_Tighbalalt={
+		name="Lyes Tighbalalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAD_Lyes_Tighbalalt
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAD_Iskari_Amdirart={
+		name="Iskari Amdirart"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Iskari_Amdirart
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TAD_Mokrannis_Tadin={
+		name="Mokrannis Tadin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Mokrannis_Tadin
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TAD_Ziri_Azrouka={
+		name="Ziri Azrouka"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Ziri_Azrouka
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAD_Aziane_Takfar={
+		name="Aziane Takfar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAD_Aziane_Takfar
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TAD_Mokrane_Tazmerwal={
+		name="Mokrane Tazmerwal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Mokrane_Tazmerwal
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TAD_Mimokrane_Tazrawizrouf={
+		name="Mimokrane Tazrawizrouf"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAD_Mimokrane_Tazrawizrouf
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	TAD_Mokrane_Afrart={
+		name="Mokrane Afrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Mokrane_Afrart
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TAD_Massa_Azrawinim={
+		name="Massa Azrawinim"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAD_Massa_Azrawinim
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TAD_Mokran_Tamazrawt={
+		name="Mokran Tamazrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Mokran_Tamazrawt
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	TAD_Amad_Azrawt={
+		name="Amad Azrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Amad_Azrawt
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	TAD_Iderfane_Tigman={
+		name="Iderfane Tigman"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Iderfane_Tigman
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TAD_Taharimokran_Azrarwas={
+		name="Taharimokran Azrarwas"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Taharimokran_Azrarwas
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TAD_Iskari_Asifast={
+		name="Iskari Asifast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Iskari_Asifast
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	TAD_Mimokrane_Anzawt={
+		name="Mimokrane Anzawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAD_Mimokrane_Anzawt
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TAD_Iskar_Tawt={
+		name="Iskar Tawt"
+
+		advisor={
+			slot = theorist
+			idea_token = TAD_Iskar_Tawt
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TAD_Mimokran_Anzawt={
+		name="Mimokran Anzawt"
+
+		advisor={
+			slot = theorist
+			idea_token = TAD_Mimokran_Anzawt
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TAD_Mezian_Takfar={
+		name="Mezian Takfar"
+
+		advisor={
+			slot = theorist
+			idea_token = TAD_Mezian_Takfar
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

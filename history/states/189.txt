@@ -1,0 +1,37 @@
+
+state={
+	id=189
+	name="STATE_189"
+	manpower = 1133662
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		2419 2420 2421 2422 2423 
+	}
+	local_supplies=0.0 
+}

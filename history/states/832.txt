@@ -1,0 +1,37 @@
+
+state={
+	id=832
+	name="STATE_832"
+	manpower = 1482860
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		9862 9863 9864 9865 9866 9867 9868 9869 
+	}
+	local_supplies=0.0 
+}

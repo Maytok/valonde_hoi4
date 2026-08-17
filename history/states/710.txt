@@ -1,0 +1,37 @@
+
+state={
+	id=710
+	name="STATE_710"
+	manpower = 2490693
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SOG
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SOG
+	}
+
+	provinces={
+		8450 8451 8452 8453 8454 8455 8456 8457 8458 8459 8460 
+	}
+	local_supplies=0.0 
+}

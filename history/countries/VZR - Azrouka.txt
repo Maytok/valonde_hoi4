@@ -1,0 +1,333 @@
+capital = 60
+
+oob = "VZR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "VZR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "VZR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	tech_mountaineers= 1
+	tech_engineers= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "VZR_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			engines_1 = 1
+			aa_lmg = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Agou Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Than Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Amenzar Mk 1"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tizir Mk 0"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "VZR_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "VZR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Tist Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "VZR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Tist Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = VZR_Ziriq_Asirt
+recruit_character = VZR_Taharimokran_Tazart
+recruit_character = VZR_Zirim_Imghrem
+recruit_character = VZR_Iderfan_Asifast
+recruit_character = VZR_Iskar_Tidett
+recruit_character = VZR_Tahariq_Afus
+recruit_character = VZR_Yuba_Asirit
+recruit_character = VZR_Taharimokran_Tawen
+recruit_character = VZR_Meziane_Tazda
+recruit_character = VZR_Zirim_Takfar
+recruit_character = VZR_Ziriq_Tigman
+recruit_character = VZR_Yannissiniss_Azegzi
+recruit_character = VZR_Zirim_Tazran
+recruit_character = VZR_Lyes_Tiwizrar
+recruit_character = VZR_Kariq_Tifawt
+recruit_character = VZR_Amariq_Tamsalt
+recruit_character = VZR_Iderfane_Tamat
+recruit_character = VZR_Mokran_Amella
+recruit_character = VZR_Tarim_Amella
+recruit_character = VZR_Meziz_Tazegzilt
+recruit_character = VZR_Iskariq_Tighbalalt
+recruit_character = VZR_Mimokrane_Azemouka
+recruit_character = VZR_Karen_Tissirt
+recruit_character = VZR_Sifax_Taru
+recruit_character = VZR_Sifan_Tigman
+recruit_character = VZR_Tahari_Azemouka
+recruit_character = VZR_Aziane_Asirt
+recruit_character = VZR_Iskari_Tighbalalt
+recruit_character = VZR_Tahari_Nfou
+recruit_character = VZR_Mimoun_Azrarwas
+recruit_character = VZR_Meziz_Azegzi
+recruit_character = VZR_Taharimokran_Azrawt
+recruit_character = VZR_Tarim_Tafawenzal
+recruit_character = VZR_Taren_Tizir
+recruit_character = VZR_Aziane_Tafassirt
+recruit_character = VZR_Iskar_Tazrourt
+recruit_character = VZR_Ziri_Tifawt
+recruit_character = VZR_Tahar_Aghrart
+recruit_character = VZR_Sifan_Tafaru
+recruit_character = VZR_Iskariq_Amdir
+recruit_character = VZR_Tahariq_Tazrourt
+recruit_character = VZR_Tariq_Ayurt
+recruit_character = VZR_Amad_Azegzi
+recruit_character = VZR_Ziriq_Amdarwast
+recruit_character = VZR_Mimoun_Taru
+recruit_character = VZR_Iderfax_Aghrart
+recruit_character = VZR_Mokrannis_Takfaw
+recruit_character = VZR_Tahariq_Taghan
+recruit_character = VZR_Azian_Taghzi
+recruit_character = VZR_Aselmad_Taghan
+recruit_character = VZR_Amokrane_Imghrem
+recruit_character = VZR_Massinis_Afrart
+recruit_character = VZR_Mezian_Tazmerwal
+recruit_character = VZR_Mokrane_Azenzawin
+recruit_character = VZR_Mokran_Afrart
+recruit_character = VZR_Sifan_Tasnast
+recruit_character = VZR_Aselmarim_Thant
+recruit_character = VZR_Tahar_Tatrit
+recruit_character = VZR_Zirim_Tawin
+recruit_character = VZR_Massinis_Tafassirt
+recruit_character = VZR_Massinis_Ayurt
+recruit_character = VZR_Zirim_Tazzur
+recruit_character = VZR_Tahari_Tiwizi
+recruit_character = VZR_Mezian_Tidett
+recruit_character = VZR_Massinis_Azrarwas
+recruit_character = VZR_Taren_Tadday
+recruit_character = VZR_Iderfan_Tiwizi
+recruit_character = VZR_Amad_Tazrourt
+recruit_character = VZR_Iskariq_Adrart
+recruit_character = VZR_Saidi_Tart
+recruit_character = VZR_Iderfan_Azert
+recruit_character = VZR_Ziriq_Tafaru
+recruit_character = VZR_Mezian_Amdirart
+recruit_character = VZR_Iderfane_Amdir
+recruit_character = VZR_Mokran_Tadday
+recruit_character = VZR_Aselmarim_Imghrem
+recruit_character = VZR_Tariq_Tazzur
+recruit_character = VZR_Karen_Afrart
+recruit_character = VZR_Yuba_Tasnast
+recruit_character = VZR_Taharimokran_Tiwizi
+recruit_character = VZR_Massinissa_Tighbalut
+recruit_character = VZR_Tahariq_Tighbalut
+recruit_character = VZR_Yuba_Azrouka
+recruit_character = VZR_Mimoun_Tighzi
+recruit_character = VZR_Iderfane_Azemouka
+recruit_character = VZR_Sifan_Takfawint
+recruit_character = VZR_Taharimokran_Agou
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.98
+set_war_support = 0.74
+
+add_ideas = {
+extensive_conscription
+civilian_economy
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1896.3.7"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 9
+	fascism = 9
+	communism = 44
+	neutrality = 38
+}
+
+
+
+
+

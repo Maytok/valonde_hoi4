@@ -1,0 +1,432 @@
+capital = 1567
+
+oob = "DAU_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DAU_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DAU_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Pekua Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kelak Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pempunun Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Geremuruh Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pemah Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Pembuku Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "DAU_1936_air_bba"
+		set_technology = {
+			photo_reconnaisance = 1
+			
+		}
+
+	else = {
+		set_air_oob = "DAU_1936_air_legacy"
+		set_technology = {
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "DAU_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Menyarempung Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "DAU_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Menyarempung Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = DAU_Wayan_Pembuku
+recruit_character = DAU_Andi_Tepinga
+recruit_character = DAU_Fajario_Trah
+recruit_character = DAU_Suryan_Menyarempung
+recruit_character = DAU_Lutfi_Dewanpulan
+recruit_character = DAU_Ketutra_Terah
+recruit_character = DAU_Putra_Legenjaga
+recruit_character = DAU_Lutfi_Toko
+recruit_character = DAU_Hari_Bintuatasung
+recruit_character = DAU_Putra_Suat
+recruit_character = DAU_Surya_Sedih
+recruit_character = DAU_Surya_Kertan
+recruit_character = DAU_Ketutra_Ping
+recruit_character = DAU_Sakti_Kulang
+recruit_character = DAU_Fajar_Rambata
+recruit_character = DAU_Andi_Lani
+recruit_character = DAU_Joko_Petawa
+recruit_character = DAU_Agus_Pemah
+recruit_character = DAU_Ketutfi_Jeni
+recruit_character = DAU_Rizal_Danaharanamb
+recruit_character = DAU_Lutra_Sejargagembu
+recruit_character = DAU_Ramban_Mimpacakak
+recruit_character = DAU_Lutfi_Gurgarahroh
+recruit_character = DAU_Fajari_Sehaba
+recruit_character = DAU_Sakti_Geremuruh
+recruit_character = DAU_Sakti_Suci
+recruit_character = DAU_Dewa_Musai
+recruit_character = DAU_Arjuna_Kelak
+recruit_character = DAU_Fajari_Kampata
+recruit_character = DAU_Fajar_Ayaremu
+recruit_character = DAU_Waya_Apisuana
+recruit_character = DAU_Bama_Pempunun
+recruit_character = DAU_Sakti_Senda
+recruit_character = DAU_Hari_Trah
+recruit_character = DAU_Fajario_Bintuatasung
+recruit_character = DAU_Fajar_Pemu
+recruit_character = DAU_Joko_Sehat
+recruit_character = DAU_Hari_Bulut
+recruit_character = DAU_Suryan_Ratuarahat
+recruit_character = DAU_Surya_Jaluar
+recruit_character = DAU_Joko_Kuluah
+recruit_character = DAU_Hario_Gerah
+recruit_character = DAU_Mario_Sejargagembu
+recruit_character = DAU_Lutra_Sahroh
+recruit_character = DAU_Lutfi_Bahliatan
+recruit_character = DAU_Wayan_Badik
+recruit_character = DAU_Bambang_Senjahayi
+recruit_character = DAU_Hario_Berejat
+recruit_character = DAU_Lutra_Bintuatasung
+recruit_character = DAU_Rambang_Gerah
+recruit_character = DAU_Agus_Dewanpulan
+recruit_character = DAU_Wayan_Sehaba
+recruit_character = DAU_Rambang_Kuluah
+recruit_character = DAU_Wayan_Sahroh
+recruit_character = DAU_Andi_Terada
+recruit_character = DAU_Bambang_Legenjaga
+recruit_character = DAU_Waya_Bahliatan
+recruit_character = DAU_Dewa_Bununyah
+recruit_character = DAU_Arjuna_Pung
+recruit_character = DAU_Rizal_Trah
+recruit_character = DAU_Fajari_Terada
+recruit_character = DAU_Hario_Ratuarahat
+recruit_character = DAU_Rama_Gurgarga
+recruit_character = DAU_Hari_Tarap
+recruit_character = DAU_Dewa_Sahroh
+recruit_character = DAU_Mario_Pemah
+recruit_character = DAU_Lutfi_Kebintan
+recruit_character = DAU_Bama_Petawa
+recruit_character = DAU_Rizal_Suat
+recruit_character = DAU_Surya_Suci
+recruit_character = DAU_Fajar_Menyarempung
+recruit_character = DAU_Lutra_Teri
+recruit_character = DAU_Mario_Pemu
+recruit_character = DAU_Agus_Tarap
+recruit_character = DAU_Fajari_Apisuana
+recruit_character = DAU_Budi_Mimbat
+recruit_character = DAU_Fajario_Danaharanamb
+recruit_character = DAU_Lutfi_Bapangis
+recruit_character = DAU_Dewa_Bahliatan
+recruit_character = DAU_Suryang_Petir
+recruit_character = DAU_Andi_Sensi
+recruit_character = DAU_Lutra_Terah
+recruit_character = DAU_Agus_Pencara
+recruit_character = DAU_Hari_Kerejara
+recruit_character = DAU_Fajari_Lelaka
+recruit_character = DAU_Bambang_Alaununungag
+recruit_character = DAU_Surya_Tarap
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.18
+set_war_support = 0.46
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1904.8.12"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 1
+	fascism = 44
+	communism = 41
+	neutrality = 14
+}
+
+
+
+
+

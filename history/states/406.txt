@@ -1,0 +1,37 @@
+
+state={
+	id=406
+	name="STATE_406"
+	manpower = 2342294
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=10
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=9
+		coal=23
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		4897 4898 4899 4900 4901 4902 4903 4904 4905 4906 
+	}
+	local_supplies=0.0 
+}

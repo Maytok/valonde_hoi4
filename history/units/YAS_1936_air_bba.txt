@@ -1,0 +1,33 @@
+air_wings = {
+		895 = { 								
+		small_plane_cas_airframe_0 = { owner = "YAS" amount = 50 version_name = "Efsarla Mk 0" }
+
+	}
+	562 = { 								
+		small_plane_airframe_0 = { owner = "YAS" amount = 50 version_name = "Bedeniz Mk 2" }
+
+	}
+	536 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "YAS" amount = 50 version_name = "Yaske Mk 1" }
+
+	}
+	928 = { 								
+		small_plane_cas_airframe_0 = { owner = "YAS" amount = 50 version_name = "Efsarla Mk 0" }
+
+	}
+	171 = { 								
+		medium_plane_airframe_0 = { owner = "YAS" amount = 50 version_name = "Atesiman Mk 0" }
+
+	}
+	342 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "YAS" amount = 50 version_name = "Yaske Mk 1" }
+medium_plane_airframe_0 = { owner = "YAS" amount = 50 version_name = "Atesiman Mk 0" }
+
+	}
+	90 = { 								
+		small_plane_airframe_0 = { owner = "YAS" amount = 50 version_name = "Bedeniz Mk 2" }
+
+	}
+
+
+}

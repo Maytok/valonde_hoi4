@@ -1,0 +1,505 @@
+capital = 1214
+
+oob = "BUA_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "BUA_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "BUA_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	tech_engineers= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Faill Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Eachas Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Snasamh Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Gluac Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Milt Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Domh Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BUA_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			engines_2 = 1
+			basic_medium_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Cluas Mk 1"
+			type = medium_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Talte Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Dubh Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Faill Mk 2"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Greintigh Mk 1"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Spiona Mk 0"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "BUA_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "BUA_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Aonach Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "BUA_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Aonach Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = BUA_Seamus_Grion
+recruit_character = BUA_Hugh_Muidh
+recruit_character = BUA_Mall_Geach
+recruit_character = BUA_Malcolm_Maile
+recruit_character = BUA_Seam_Spiona
+recruit_character = BUA_Lialcolm_Each
+recruit_character = BUA_Gareth_Gealte
+recruit_character = BUA_Taran_Faill
+recruit_character = BUA_Ciaran_Trathainta
+recruit_character = BUA_Eoinn_Gorch
+recruit_character = BUA_Quin_Boglach
+recruit_character = BUA_Tareth_Scean
+recruit_character = BUA_Hugh_Buimha
+recruit_character = BUA_Malcolm_Muidh
+recruit_character = BUA_Fergus_Dubh
+recruit_character = BUA_Niareth_Boglas
+recruit_character = BUA_Owen_Luas
+recruit_character = BUA_Ciall_Snasamh
+recruit_character = BUA_Seam_Feille
+recruit_character = BUA_Garaig_Cuin
+recruit_character = BUA_Gareth_Buimha
+recruit_character = BUA_Iwan_Glas
+recruit_character = BUA_Eoin_Sabha
+recruit_character = BUA_Niareth_Buais
+recruit_character = BUA_Aidan_Radh
+recruit_character = BUA_Garan_Each
+recruit_character = BUA_Padraig_Buing
+recruit_character = BUA_Eoinn_Eachas
+recruit_character = BUA_Niaran_Crodailinne
+recruit_character = BUA_Cialcolm_Deach
+recruit_character = BUA_Garan_Leas
+recruit_character = BUA_Malcolm_Eachas
+recruit_character = BUA_Niam_Ceil
+recruit_character = BUA_Malcolm_Tras
+recruit_character = BUA_Rhys_Eirian
+recruit_character = BUA_Tareth_Radh
+recruit_character = BUA_Padraig_Gluac
+recruit_character = BUA_Ciaraig_Buath
+recruit_character = BUA_Quin_Radh
+recruit_character = BUA_Quinn_Dorm
+recruit_character = BUA_Niareth_Criath
+recruit_character = BUA_Cialcolm_Feancha
+recruit_character = BUA_Keiraig_Milt
+recruit_character = BUA_Gareth_Fuan
+recruit_character = BUA_Garan_Buath
+recruit_character = BUA_Liamus_Laidirseamh
+recruit_character = BUA_Niam_Solamhradhai
+recruit_character = BUA_Eoin_Eachas
+recruit_character = BUA_Braig_Ronn
+recruit_character = BUA_Aidan_Glearg
+recruit_character = BUA_Padraig_Domh
+recruit_character = BUA_Keiran_Radh
+recruit_character = BUA_Liall_Lucht
+recruit_character = BUA_Niareth_Trochaidir
+recruit_character = BUA_Hugh_Dorc
+recruit_character = BUA_Niareth_Dubh
+recruit_character = BUA_Eoinn_Dorm
+recruit_character = BUA_Eoin_Buair
+recruit_character = BUA_Malcolm_Ardaith
+recruit_character = BUA_Niareth_Buail
+recruit_character = BUA_Padran_Cluas
+recruit_character = BUA_Owen_Fuan
+recruit_character = BUA_Keiran_Abha
+recruit_character = BUA_Padraig_Deach
+recruit_character = BUA_Seam_Buath
+recruit_character = BUA_Seam_Fuair
+recruit_character = BUA_Eoinn_Gealte
+recruit_character = BUA_Quin_Croc
+recruit_character = BUA_Niam_Tras
+recruit_character = BUA_Lialcolm_Crodailinne
+recruit_character = BUA_Ulrich_Buail
+recruit_character = BUA_Ciall_Trathainta
+recruit_character = BUA_Niam_Fuair
+recruit_character = BUA_Niaran_Trathainta
+recruit_character = BUA_Liamus_Boglas
+recruit_character = BUA_Malcolm_Gealte
+recruit_character = BUA_Seam_Feath
+recruit_character = BUA_Padran_Feille
+recruit_character = BUA_Niam_Spiona
+recruit_character = BUA_Liall_Fean
+recruit_character = BUA_Rhys_Glearg
+recruit_character = BUA_Mall_Greintigh
+recruit_character = BUA_Iwan_Sabha
+recruit_character = BUA_Keiraig_Bais
+recruit_character = BUA_Aidan_Gluac
+recruit_character = BUA_Ciall_Bairim
+recruit_character = BUA_Garaig_Beath
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.63
+set_war_support = 0.24
+
+add_ideas = {
+volunteer_only
+low_economic_mobilisation
+free_trade
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.5.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 45
+	fascism = 25
+	communism = 11
+	neutrality = 19
+}
+
+
+
+
+

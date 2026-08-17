@@ -1,0 +1,1083 @@
+characters = {
+	KOP_Kerkan_Sehildi={
+		name="Kerkan Sehildi"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { right_industrialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOP_Isker_Sanak={
+		name="Isker Sanak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Isker_Sanak
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Yusul_Kadeni={
+		name="Yusul Kadeni"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Yusul_Kadeni
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Serkan_Golge={
+		name="Serkan Golge"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Serkan_Golge
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Emir_Sonba={
+		name="Emir Sonba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Emir_Sonba
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Farun_Anat={
+		name="Farun Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Farun_Anat
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Ilker_Isilis={
+		name="Ilker Isilis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Ilker_Isilis
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Iskerem_Sehir={
+		name="Iskerem Sehir"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Iskerem_Sehir
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Emir_Ormane={
+		name="Emir Ormane"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Emir_Ormane
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KOP_Ertugrunc_Sonba={
+		name="Ertugrunc Sonba"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ertugrunc_Sonba
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KOP_Ertugrunc_Yanlik={
+		name="Ertugrunc Yanlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ertugrunc_Yanlik
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KOP_Muratugrun_Sani={
+		name="Muratugrun Sani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Muratugrun_Sani
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KOP_Utku_Deniz={
+		name="Utku Deniz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Utku_Deniz
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	KOP_Ener_Saat={
+		name="Ener Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Ener_Saat
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KOP_Hakanerkan_Duyum={
+		name="Hakanerkan Duyum"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Hakanerkan_Duyum
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KOP_Ader_Kirla={
+		name="Ader Kirla"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Ader_Kirla
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KOP_Kadir_Gunce={
+		name="Kadir Gunce"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Kadir_Gunce
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	KOP_Ertugruk_Yayla={
+		name="Ertugruk Yayla"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Ertugruk_Yayla
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	KOP_Selil_Doru={
+		name="Selil Doru"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Selil_Doru
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KOP_Isker_Kalp={
+		name="Isker Kalp"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Isker_Kalp
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KOP_Iskendem_Ordu={
+		name="Iskendem Ordu"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Iskendem_Ordu
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	KOP_Yilmazan_Obahirli={
+		name="Yilmazan Obahirli"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOP_Isker_Akgun={
+		name="Isker Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Isker_Akgun
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Salih_Doguk={
+		name="Salih Doguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Salih_Doguk
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Iskent_Umut={
+		name="Iskent Umut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Iskent_Umut
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Boran_Deniz={
+		name="Boran Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Boran_Deniz
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Utku_Akgun={
+		name="Utku Akgun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Utku_Akgun
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Isker_Sogac={
+		name="Isker Sogac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Isker_Sogac
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Musulendem_Busun={
+		name="Musulendem Busun"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Musulendem_Busun
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Salih_Ormane={
+		name="Salih Ormane"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Salih_Ormane
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KOP_Iskent_Busun={
+		name="Iskent Busun"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Iskent_Busun
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KOP_Zafa_Ilcek={
+		name="Zafa Ilcek"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Zafa_Ilcek
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KOP_Hakan_Efsarla={
+		name="Hakan Efsarla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Hakan_Efsarla
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Sinan_Gecmis={
+		name="Sinan Gecmis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Sinan_Gecmis
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Ertuhan_Koprakinlik={
+		name="Ertuhan Koprakinlik"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Ertuhan_Koprakinlik
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KOP_Bekir_Sogukarli={
+		name="Bekir Sogukarli"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Bekir_Sogukarli
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KOP_Musul_Golge={
+		name="Musul Golge"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Musul_Golge
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	KOP_Yustafer_Deni={
+		name="Yustafer Deni"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Yustafer_Deni
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KOP_Ilkender_Bele={
+		name="Ilkender Bele"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Ilkender_Bele
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	KOP_Haruk_Ilcek={
+		name="Haruk Ilcek"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Haruk_Ilcek
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	KOP_Mustafa_Asimseke={
+		name="Mustafa Asimseke"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Mustafa_Asimseke
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	KOP_Zafe_Koprakinlik={
+		name="Zafe Koprakinlik"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Zafe_Koprakinlik
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	KOP_Kadir_Haynat={
+		name="Kadir Haynat"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOP_Boran_Asket={
+		name="Boran Asket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Boran_Asket
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Muratugrun_Isiman={
+		name="Muratugrun Isiman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Muratugrun_Isiman
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Kaan_Aksaniz={
+		name="Kaan Aksaniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Kaan_Aksaniz
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Ilkerkan_Sana={
+		name="Ilkerkan Sana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Ilkerkan_Sana
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Eminan_Anat={
+		name="Eminan Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Eminan_Anat
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Iskerha_Gece={
+		name="Iskerha Gece"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Iskerha_Gece
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Tunc_Gunci={
+		name="Tunc Gunci"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Tunc_Gunci
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KOP_Yusul_Sani={
+		name="Yusul Sani"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Yusul_Sani
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	KOP_Ilker_Ilcek={
+		name="Ilker Ilcek"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ilker_Ilcek
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KOP_Hakan_Sehir={
+		name="Hakan Sehir"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Hakan_Sehir
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KOP_Haruk_Sonba={
+		name="Haruk Sonba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Haruk_Sonba
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Ilkerkan_Koplu={
+		name="Ilkerkan Koplu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Ilkerkan_Koplu
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KOP_Ener_Bulul={
+		name="Ener Bulul"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Ener_Bulul
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	KOP_Borat_Yolculturt={
+		name="Borat Yolculturt"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Borat_Yolculturt
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KOP_Ahmet_Asildirlik={
+		name="Ahmet Asildirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Ahmet_Asildirlik
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	KOP_Murat_Yesil={
+		name="Murat Yesil"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Murat_Yesil
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KOP_Mustafa_Haylak={
+		name="Mustafa Haylak"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Mustafa_Haylak
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KOP_Salhan_Ilce={
+		name="Salhan Ilce"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Salhan_Ilce
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	KOP_Ertugrunc_Deni={
+		name="Ertugrunc Deni"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Ertugrunc_Deni
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	KOP_Hakanerkan_Haye={
+		name="Hakanerkan Haye"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Hakanerkan_Haye
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	KOP_Savas_Doguk={
+		name="Savas Doguk"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOP_Utku_Yoldir={
+		name="Utku Yoldir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Utku_Yoldir
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Muratugrun_Doru={
+		name="Muratugrun Doru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Muratugrun_Doru
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Muratugrun_Deniz={
+		name="Muratugrun Deniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Muratugrun_Deniz
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Salhan_Obahirli={
+		name="Salhan Obahirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Salhan_Obahirli
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KOP_Zafer_Gecmisar={
+		name="Zafer Gecmisar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Zafer_Gecmisar
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KOP_Savas_Gecmis={
+		name="Savas Gecmis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOP_Savas_Gecmis
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KOP_Ertugrunc_Orman={
+		name="Ertugrunc Orman"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ertugrunc_Orman
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	KOP_Muratugrun_Orman={
+		name="Muratugrun Orman"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Muratugrun_Orman
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	KOP_Ener_Yaske={
+		name="Ener Yaske"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ener_Yaske
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KOP_Ertugrunc_Gecmisar={
+		name="Ertugrunc Gecmisar"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOP_Ertugrunc_Gecmisar
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Salhan_Gecmisar={
+		name="Salhan Gecmisar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Salhan_Gecmisar
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	KOP_Borat_Efsarla={
+		name="Borat Efsarla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOP_Borat_Efsarla
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KOP_Adem_Gece={
+		name="Adem Gece"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Adem_Gece
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	KOP_Sinan_Umut={
+		name="Sinan Umut"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOP_Sinan_Umut
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KOP_Zafer_Duvarih={
+		name="Zafer Duvarih"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Zafer_Duvarih
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	KOP_Fara_Yayat={
+		name="Fara Yayat"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Fara_Yayat
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	KOP_Mustafa_Ilce={
+		name="Mustafa Ilce"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Mustafa_Ilce
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	KOP_Kerkan_Yolculturt={
+		name="Kerkan Yolculturt"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Kerkan_Yolculturt
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	KOP_Musul_Sesil={
+		name="Musul Sesil"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Musul_Sesil
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KOP_Adem_Deni={
+		name="Adem Deni"
+
+		advisor={
+			slot = high_command
+			idea_token = KOP_Adem_Deni
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	KOP_Ilkerkan_Duyum={
+		name="Ilkerkan Duyum"
+
+		advisor={
+			slot = theorist
+			idea_token = KOP_Ilkerkan_Duyum
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KOP_Salih_Atesil={
+		name="Salih Atesil"
+
+		advisor={
+			slot = theorist
+			idea_token = KOP_Salih_Atesil
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KOP_Isker_Koplu={
+		name="Isker Koplu"
+
+		advisor={
+			slot = theorist
+			idea_token = KOP_Isker_Koplu
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

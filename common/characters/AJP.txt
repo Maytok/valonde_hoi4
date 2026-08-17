@@ -1,0 +1,1083 @@
+characters = {
+	AJP_Popo_Nacan={
+		name="Popo Nacan"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { he_who_bears_the_throne  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJP_Chak_Nohil={
+		name="Chak Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Chak_Nohil
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Ekchichen_Ahca={
+		name="Ekchichen Ahca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Ekchichen_Ahca
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Popo_Baktunam={
+		name="Popo Baktunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Popo_Baktunam
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Ekchil_Nahlam={
+		name="Ekchil Nahlam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Ekchil_Nahlam
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Chakalam_Tojilaktun={
+		name="Chakalam Tojilaktun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Chakalam_Tojilaktun
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Acatl_Kanil={
+		name="Acatl Kanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Acatl_Kanil
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Chichen_Bonai={
+		name="Chichen Bonai"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Chichen_Bonai
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	AJP_Ahkin_Chakalahuale={
+		name="Ahkin Chakalahuale"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Ahkin_Chakalahuale
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	AJP_Ahkin_Cobahlam={
+		name="Ahkin Cobahlam"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Ahkin_Cobahlam
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AJP_Popo_Ajawak={
+		name="Popo Ajawak"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Popo_Ajawak
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	AJP_Pakanek_Aguatun={
+		name="Pakanek Aguatun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Pakanek_Aguatun
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	AJP_Oxib_Kanah={
+		name="Oxib Kanah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Oxib_Kanah
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	AJP_Kukulkalam_Palacol={
+		name="Kukulkalam Palacol"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Kukulkalam_Palacol
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	AJP_Oxib_Sayil={
+		name="Oxib Sayil"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Oxib_Sayil
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	AJP_Pakan_Palanamna={
+		name="Pakan Palanamna"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Pakan_Palanamna
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	AJP_Chakanek_Tzol={
+		name="Chakanek Tzol"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chakanek_Tzol
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	AJP_Chil_Bakmulkanila={
+		name="Chil Bakmulkanila"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chil_Bakmulkanila
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	AJP_Chua_Mutal={
+		name="Chua Mutal"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chua_Mutal
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	AJP_Bacab_Canahunai={
+		name="Bacab Canahunai"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Bacab_Canahunai
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	AJP_Ahkin_Bachel={
+		name="Ahkin Bachel"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Ahkin_Bachel
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	AJP_Balam_Bach={
+		name="Balam Bach"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJP_Bacom_Sotzal={
+		name="Bacom Sotzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Bacom_Sotzal
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Itzam_Chilan={
+		name="Itzam Chilan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Itzam_Chilan
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Chakanek_Halam={
+		name="Chakanek Halam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Chakanek_Halam
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Balam_Nohil={
+		name="Balam Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Balam_Nohil
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Nacom_Tzamna={
+		name="Nacom Tzamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Nacom_Tzamna
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Kanek_Bona={
+		name="Kanek Bona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Kanek_Bona
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Nacab_Xbalanil={
+		name="Nacab Xbalanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Nacab_Xbalanil
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AJP_Bacom_Tojilaktun={
+		name="Bacom Tojilaktun"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Bacom_Tojilaktun
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	AJP_Bacom_Nacan={
+		name="Bacom Nacan"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Bacom_Nacan
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	AJP_Ekchichen_Canai={
+		name="Ekchichen Canai"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Ekchichen_Canai
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	AJP_Popo_Chakalahuale={
+		name="Popo Chakalahuale"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Popo_Chakalahuale
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AJP_Bacab_Becan={
+		name="Bacab Becan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Bacab_Becan
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	AJP_Ekchil_Cobahlam={
+		name="Ekchil Cobahlam"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Ekchil_Cobahlam
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	AJP_Chakal_Uxun={
+		name="Chakal Uxun"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Chakal_Uxun
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	AJP_Kanek_Ajawak={
+		name="Kanek Ajawak"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Kanek_Ajawak
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	AJP_Chakalam_Ajawak={
+		name="Chakalam Ajawak"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chakalam_Ajawak
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	AJP_Ekchichen_Akbah={
+		name="Ekchichen Akbah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Ekchichen_Akbah
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	AJP_Yaxkin_Balakcha={
+		name="Yaxkin Balakcha"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Yaxkin_Balakcha
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	AJP_Nacom_Chilacom={
+		name="Nacom Chilacom"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Nacom_Chilacom
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	AJP_Oxib_Nahpu={
+		name="Oxib Nahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Oxib_Nahpu
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	AJP_Chak_Katun={
+		name="Chak Katun"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJP_Ekchua_Akbanek={
+		name="Ekchua Akbanek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Ekchua_Akbanek
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Popo_Bakmulkanila={
+		name="Popo Bakmulkanila"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Popo_Bakmulkanila
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Moctez_Bahpu={
+		name="Moctez Bahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Moctez_Bahpu
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Chakalam_Chilan={
+		name="Chakalam Chilan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Chakalam_Chilan
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	AJP_Kukulkanek_Ajpu={
+		name="Kukulkanek Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Kukulkanek_Ajpu
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Bacatl_Nohil={
+		name="Bacatl Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Bacatl_Nohil
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	AJP_Kukulkanek_Haaj={
+		name="Kukulkanek Haaj"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Kukulkanek_Haaj
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	AJP_Pakal_Yaxchen={
+		name="Pakal Yaxchen"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Pakal_Yaxchen
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	AJP_Ekchichen_Bonai={
+		name="Ekchichen Bonai"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Ekchichen_Bonai
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	AJP_Balam_Aguatun={
+		name="Balam Aguatun"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Balam_Aguatun
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	AJP_Acatl_Palacol={
+		name="Acatl Palacol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Acatl_Palacol
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AJP_Kukulkanek_Naax={
+		name="Kukulkanek Naax"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Kukulkanek_Naax
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	AJP_Pakan_Bakab={
+		name="Pakan Bakab"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Pakan_Bakab
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	AJP_Bacatl_Kanil={
+		name="Bacatl Kanil"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Bacatl_Kanil
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	AJP_Chakal_Kanah={
+		name="Chakal Kanah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chakal_Kanah
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	AJP_Bacatl_Bona={
+		name="Bacatl Bona"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Bacatl_Bona
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	AJP_Kanek_Nahuna={
+		name="Kanek Nahuna"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Kanek_Nahuna
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	AJP_Balam_Ikal={
+		name="Balam Ikal"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Balam_Ikal
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	AJP_Chil_Chakalahuale={
+		name="Chil Chakalahuale"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Chil_Chakalahuale
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	AJP_Kanek_Tzib={
+		name="Kanek Tzib"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Kanek_Tzib
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	AJP_Tecun_Nahuna={
+		name="Tecun Nahuna"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AJP_Yaxkin_Xbalanil={
+		name="Yaxkin Xbalanil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Yaxkin_Xbalanil
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Pakanek_Witzal={
+		name="Pakanek Witzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Pakanek_Witzal
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Kukulkalam_Cobahlam={
+		name="Kukulkalam Cobahlam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Kukulkalam_Cobahlam
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Tecun_Ahcan={
+		name="Tecun Ahcan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Tecun_Ahcan
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Bacom_Baktunam={
+		name="Bacom Baktunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Bacom_Baktunam
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Tohil_Akbah={
+		name="Tohil Akbah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AJP_Tohil_Akbah
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	AJP_Kukulkan_Yaxchen={
+		name="Kukulkan Yaxchen"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Kukulkan_Yaxchen
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	AJP_Kukulkalam_Palamnabalak={
+		name="Kukulkalam Palamnabalak"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Kukulkalam_Palamnabalak
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	AJP_Kukulkan_Uxmanjo={
+		name="Kukulkan Uxmanjo"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Kukulkan_Uxmanjo
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	AJP_Pakal_Akbe={
+		name="Pakal Akbe"
+
+		advisor={
+			slot = army_chief
+			idea_token = AJP_Pakal_Akbe
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	AJP_Oxib_Tzolkab={
+		name="Oxib Tzolkab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Oxib_Tzolkab
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	AJP_Pakan_Ajpu={
+		name="Pakan Ajpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AJP_Pakan_Ajpu
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	AJP_Ekchichen_Kanah={
+		name="Ekchichen Kanah"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Ekchichen_Kanah
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	AJP_Acab_Haaj={
+		name="Acab Haaj"
+
+		advisor={
+			slot = air_chief
+			idea_token = AJP_Acab_Haaj
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	AJP_Pakan_Balakcha={
+		name="Pakan Balakcha"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Pakan_Balakcha
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	AJP_Oxib_Tzamna={
+		name="Oxib Tzamna"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Oxib_Tzamna
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	AJP_Nacom_Balahualaktu={
+		name="Nacom Balahualaktu"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Nacom_Balahualaktu
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	AJP_Kanek_Chok={
+		name="Kanek Chok"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Kanek_Chok
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	AJP_Tohichen_Kanah={
+		name="Tohichen Kanah"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Tohichen_Kanah
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	AJP_Bacatl_Sayil={
+		name="Bacatl Sayil"
+
+		advisor={
+			slot = high_command
+			idea_token = AJP_Bacatl_Sayil
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	AJP_Tecun_Mutal={
+		name="Tecun Mutal"
+
+		advisor={
+			slot = theorist
+			idea_token = AJP_Tecun_Mutal
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	AJP_Pakal_Xbalanil={
+		name="Pakal Xbalanil"
+
+		advisor={
+			slot = theorist
+			idea_token = AJP_Pakal_Xbalanil
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	AJP_Ekchil_Akbe={
+		name="Ekchil Akbe"
+
+		advisor={
+			slot = theorist
+			idea_token = AJP_Ekchil_Akbe
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

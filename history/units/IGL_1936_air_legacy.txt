@@ -1,0 +1,94 @@
+air_wings = {
+		860 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+
+	}
+	184 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+strat_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	315 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+
+	}
+	1533 = { 								
+		strat_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	429 = { 								
+		strat_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	586 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+tac_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	1676 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+
+	}
+	779 = { 								
+		tac_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	809 = { 								
+		nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	196 = { 								
+		nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+
+	}
+	886 = { 								
+		nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	178 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	783 = { 								
+		nav_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	522 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	611 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	906 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	357 = { 								
+		fighter_equipment_0 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+
+	}
+	210 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+
+	}
+	718 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+
+	}
+	74 = { 								
+		tac_bomber_equipment_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	1560 = { 								
+		CAS_equipment_0 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+
+	}
+
+
+}

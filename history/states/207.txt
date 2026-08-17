@@ -1,0 +1,37 @@
+
+state={
+	id=207
+	name="STATE_207"
+	manpower = 2061754
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		2635 2636 2637 2638 2639 2640 2641 2642 2643 2644 2645 2646 
+	}
+	local_supplies=0.0 
+}

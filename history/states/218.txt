@@ -1,0 +1,37 @@
+
+state={
+	id=218
+	name="STATE_218"
+	manpower = 2695630
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		2744 2745 2746 2747 2748 2749 2750 2751 2752 2753 2754 2755 2756 
+	}
+	local_supplies=0.0 
+}

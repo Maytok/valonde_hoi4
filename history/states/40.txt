@@ -1,0 +1,37 @@
+
+state={
+	id=40
+	name="STATE_40"
+	manpower = 1822003
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		568 569 570 571 572 573 574 575 576 577 
+	}
+	local_supplies=0.0 
+}

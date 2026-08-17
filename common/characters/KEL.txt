@@ -1,0 +1,1083 @@
+characters = {
+	KEL_Bakari_Upenda={
+		name="Bakari Upenda"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { royal_dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KEL_Tano_Mshidisto={
+		name="Tano Mshidisto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Tano_Mshidisto
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Mbwamari_Mpando={
+		name="Mbwamari Mpando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Mbwamari_Mpando
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Baka_Bahawithi={
+		name="Baka Bahawithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Baka_Bahawithi
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Kamaraka_Mliku={
+		name="Kamaraka Mliku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kamaraka_Mliku
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Juma_Kivule={
+		name="Juma Kivule"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Juma_Kivule
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Temba_Saraluja={
+		name="Temba Saraluja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Temba_Saraluja
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Omau_Neno={
+		name="Omau Neno"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Omau_Neno
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KEL_Shakaraka_Dara={
+		name="Shakaraka Dara"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Shakaraka_Dara
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KEL_Kato_Majeshalkia={
+		name="Kato Majeshalkia"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kato_Majeshalkia
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	KEL_Juma_Taanguzi={
+		name="Juma Taanguzi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Juma_Taanguzi
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KEL_Omari_Majeshalkia={
+		name="Omari Majeshalkia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Omari_Majeshalkia
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KEL_Nuru_Ukwe={
+		name="Nuru Ukwe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Nuru_Ukwe
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KEL_Amari_Neno={
+		name="Amari Neno"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Amari_Neno
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	KEL_Omau_Jumbukufu={
+		name="Omau Jumbukufu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Omau_Jumbukufu
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KEL_Musa_Saraluja={
+		name="Musa Saraluja"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Musa_Saraluja
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KEL_Amari_Chuo={
+		name="Amari Chuo"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Amari_Chuo
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	KEL_Tano_Amria={
+		name="Tano Amria"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Tano_Amria
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KEL_Kwana_Male={
+		name="Kwana Male"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Kwana_Male
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	KEL_Kamaraka_Teka={
+		name="Kamaraka Teka"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Kamaraka_Teka
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	KEL_Jumari_Maji={
+		name="Jumari Maji"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Jumari_Maji
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	KEL_Lubano_Ukwelu={
+		name="Lubano Ukwelu"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KEL_Simba_Majeshalkia={
+		name="Simba Majeshalkia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Simba_Majeshalkia
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Mbwamari_Mpakati={
+		name="Mbwamari Mpakati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Mbwamari_Mpakati
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Mbwano_Saraluja={
+		name="Mbwano Saraluja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Mbwano_Saraluja
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Kwana_Panishawili={
+		name="Kwana Panishawili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kwana_Panishawili
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Simbano_Kiondwano={
+		name="Simbano Kiondwano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Simbano_Kiondwano
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Jumari_Heshi={
+		name="Jumari Heshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Jumari_Heshi
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Tana_Moto={
+		name="Tana Moto"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Tana_Moto
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KEL_Tembanga_Bondithi={
+		name="Tembanga Bondithi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Tembanga_Bondithi
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KEL_Kwanga_Hofunga={
+		name="Kwanga Hofunga"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kwanga_Hofunga
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KEL_Simba_Shuji={
+		name="Simba Shuji"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Simba_Shuji
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	KEL_Kwamaraka_Heshi={
+		name="Kwamaraka Heshi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Kwamaraka_Heshi
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	KEL_Shaka_Jumbukufu={
+		name="Shaka Jumbukufu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Shaka_Jumbukufu
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	KEL_Tembano_Upenda={
+		name="Tembano Upenda"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Tembano_Upenda
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KEL_Kama_Siri={
+		name="Kama Siri"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Kama_Siri
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	KEL_Mosi_Laango={
+		name="Mosi Laango"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Mosi_Laango
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	KEL_Simbano_Moyo={
+		name="Simbano Moyo"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Simbano_Moyo
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KEL_Taji_Heshi={
+		name="Taji Heshi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Taji_Heshi
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	KEL_Tembano_Uaguzi={
+		name="Tembano Uaguzi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Tembano_Uaguzi
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KEL_Amari_Pano={
+		name="Amari Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Amari_Pano
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KEL_Kamaraka_Watifo={
+		name="Kamaraka Watifo"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Kamaraka_Watifo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KEL_Shaka_Sikalu={
+		name="Shaka Sikalu"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { devoted_marxist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KEL_Amari_Shini={
+		name="Amari Shini"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Amari_Shini
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Kame_Mvua={
+		name="Kame Mvua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kame_Mvua
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Kwana_Siki={
+		name="Kwana Siki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kwana_Siki
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Kwanga_Kiondwano={
+		name="Kwanga Kiondwano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kwanga_Kiondwano
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Mbwamari_Mshidisto={
+		name="Mbwamari Mshidisto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Mbwamari_Mshidisto
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Juma_Kithi={
+		name="Juma Kithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Juma_Kithi
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Kato_Kamu={
+		name="Kato Kamu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kato_Kamu
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	KEL_Temba_Nyumba={
+		name="Temba Nyumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Temba_Nyumba
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KEL_Chidi_Amria={
+		name="Chidi Amria"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Chidi_Amria
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KEL_Kamau_Jumu={
+		name="Kamau Jumu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kamau_Jumu
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KEL_Kamau_Hofunga={
+		name="Kamau Hofunga"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Kamau_Hofunga
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KEL_Tanga_Laango={
+		name="Tanga Laango"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Tanga_Laango
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KEL_Nuru_Kifu={
+		name="Nuru Kifu"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Nuru_Kifu
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KEL_Tano_Histo={
+		name="Tano Histo"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Tano_Histo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KEL_Mosi_Bahawithi={
+		name="Mosi Bahawithi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Mosi_Bahawithi
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	KEL_Baka_Kumbo={
+		name="Baka Kumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Baka_Kumbo
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	KEL_Amaraka_Maanganguzi={
+		name="Amaraka Maanganguzi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Amaraka_Maanganguzi
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	KEL_Tano_Moyo={
+		name="Tano Moyo"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Tano_Moyo
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	KEL_Bakari_Adui={
+		name="Bakari Adui"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Bakari_Adui
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KEL_Tano_Milikia={
+		name="Tano Milikia"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Tano_Milikia
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KEL_Tembano_Kumo={
+		name="Tembano Kumo"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KEL_Musa_Taanguzi={
+		name="Musa Taanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Musa_Taanguzi
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Kato_Uaguzi={
+		name="Kato Uaguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kato_Uaguzi
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Musa_Malujijiza={
+		name="Musa Malujijiza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Musa_Malujijiza
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	KEL_Mbwamari_Tumba={
+		name="Mbwamari Tumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Mbwamari_Tumba
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Kamaraka_Mpakati={
+		name="Kamaraka Mpakati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Kamaraka_Mpakati
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	KEL_Nuru_Siki={
+		name="Nuru Siki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KEL_Nuru_Siki
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	KEL_Mbwano_Kamu={
+		name="Mbwano Kamu"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Mbwano_Kamu
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KEL_Kama_Maanganguzi={
+		name="Kama Maanganguzi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kama_Maanganguzi
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KEL_Mbwano_Kifalme={
+		name="Mbwano Kifalme"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Mbwano_Kifalme
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KEL_Kato_Ufalkia={
+		name="Kato Ufalkia"
+
+		advisor={
+			slot = army_chief
+			idea_token = KEL_Kato_Ufalkia
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KEL_Juma_Deli={
+		name="Juma Deli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Juma_Deli
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KEL_Chidi_Ukwe={
+		name="Chidi Ukwe"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KEL_Chidi_Ukwe
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	KEL_Simbano_Upenda={
+		name="Simbano Upenda"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Simbano_Upenda
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KEL_Temba_Upeno={
+		name="Temba Upeno"
+
+		advisor={
+			slot = air_chief
+			idea_token = KEL_Temba_Upeno
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KEL_Amaraka_Laanara={
+		name="Amaraka Laanara"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Amaraka_Laanara
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	KEL_Kwana_Upenda={
+		name="Kwana Upenda"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Kwana_Upenda
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	KEL_Tanga_Bondithi={
+		name="Tanga Bondithi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Tanga_Bondithi
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	KEL_Shaka_Saua={
+		name="Shaka Saua"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Shaka_Saua
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	KEL_Sefu_Bahawithi={
+		name="Sefu Bahawithi"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Sefu_Bahawithi
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	KEL_Kwamaraka_Kamu={
+		name="Kwamaraka Kamu"
+
+		advisor={
+			slot = high_command
+			idea_token = KEL_Kwamaraka_Kamu
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	KEL_Mosi_Neno={
+		name="Mosi Neno"
+
+		advisor={
+			slot = theorist
+			idea_token = KEL_Mosi_Neno
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KEL_Bakari_Kumbo={
+		name="Bakari Kumbo"
+
+		advisor={
+			slot = theorist
+			idea_token = KEL_Bakari_Kumbo
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KEL_Tano_Kumbo={
+		name="Tano Kumbo"
+
+		advisor={
+			slot = theorist
+			idea_token = KEL_Tano_Kumbo
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

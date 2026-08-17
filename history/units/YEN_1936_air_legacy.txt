@@ -1,0 +1,26 @@
+air_wings = {
+		1515 = { 								
+		fighter_equipment_0 = { owner = "YEN" amount = 32 version_name = "Yesillik Mk 0" }
+tac_bomber_equipment_0 = { owner = "YEN" amount = 30 version_name = "Gelden Mk 1" }
+
+	}
+	1465 = { 								
+		CAS_equipment_0 = { owner = "YEN" amount = 31 version_name = "Yasamaniz Mk 0" }
+
+	}
+	1418 = { 								
+		nav_bomber_equipment_0 = { owner = "YEN" amount = 29 version_name = "Sesik Mk 0" }
+
+	}
+	1499 = { 								
+		fighter_equipment_0 = { owner = "YEN" amount = 34 version_name = "Toprakinlik Mk 0" }
+
+	}
+	1417 = { 								
+		nav_bomber_equipment_0 = { owner = "YEN" amount = 34 version_name = "Gultur Mk 0" }
+CAS_equipment_0 = { owner = "YEN" amount = 28 version_name = "Akguklut Mk 1" }
+
+	}
+
+
+}

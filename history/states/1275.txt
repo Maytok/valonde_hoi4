@@ -1,0 +1,37 @@
+
+state={
+	id=1275
+	name="STATE_1275"
+	manpower = 2647081
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = GAU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = GAU
+	}
+
+	provinces={
+		14922 14923 14924 14925 14926 14927 14928 14929 14930 14931 14932 14933 14934 14935 
+	}
+	local_supplies=0.0 
+}

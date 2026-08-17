@@ -1,0 +1,37 @@
+
+state={
+	id=527
+	name="STATE_527"
+	manpower = 13234
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=21
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		6278 6279 6280 6281 6282 
+	}
+	local_supplies=0.0 
+}

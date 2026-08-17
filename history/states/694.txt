@@ -1,0 +1,37 @@
+
+state={
+	id=694
+	name="STATE_694"
+	manpower = 4137005
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HOR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = HOR
+	}
+
+	provinces={
+		8243 8244 8245 8246 8247 8248 8249 8250 8251 8252 8253 8254 8255 8256 8257 8258 8259 8260 8261 8262 8263 8264 8265 8266 8267 8268 8269 
+	}
+	local_supplies=0.0 
+}

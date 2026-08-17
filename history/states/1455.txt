@@ -1,0 +1,37 @@
+
+state={
+	id=1455
+	name="STATE_1455"
+	manpower = 2741398
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SAN
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = SAN
+	}
+
+	provinces={
+		16732 16733 16734 16735 16736 16737 16738 16739 16740 16741 16742 16743 16744 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=813
+	name="STATE_813"
+	manpower = 1866885
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		9645 9646 9647 9648 9649 9650 9651 9652 9653 9654 
+	}
+	local_supplies=0.0 
+}

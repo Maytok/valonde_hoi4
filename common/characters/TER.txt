@@ -1,0 +1,1083 @@
+characters = {
+	TER_Rama_Pelus={
+		name="Rama Pelus"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TER_Suryang_Masjidungit={
+		name="Suryang Masjidungit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Suryang_Masjidungit
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Andi_Lani={
+		name="Andi Lani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Andi_Lani
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Andi_Sejata={
+		name="Andi Sejata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Andi_Sejata
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Bambang_Masjidungit={
+		name="Bambang Masjidungit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Bambang_Masjidungit
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Lutfi_Petir={
+		name="Lutfi Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Lutfi_Petir
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Fajar_Beraman={
+		name="Fajar Beraman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Fajar_Beraman
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Bambang_Danaharanamb={
+		name="Bambang Danaharanamb"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Bambang_Danaharanamb
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TER_Lutra_Suci={
+		name="Lutra Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Lutra_Suci
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TER_Surya_Senyawa={
+		name="Surya Senyawa"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Surya_Senyawa
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TER_Fajari_Pempunun={
+		name="Fajari Pempunun"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Fajari_Pempunun
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TER_Hario_Pung={
+		name="Hario Pung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Hario_Pung
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TER_Rizal_Menyarempung={
+		name="Rizal Menyarempung"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Rizal_Menyarempung
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TER_Arjuna_Sejata={
+		name="Arjuna Sejata"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Arjuna_Sejata
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TER_Fajario_Kerejara={
+		name="Fajario Kerejara"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Fajario_Kerejara
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	TER_Ketutra_Legenjaga={
+		name="Ketutra Legenjaga"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Ketutra_Legenjaga
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TER_Sakti_Beraman={
+		name="Sakti Beraman"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Sakti_Beraman
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TER_Rama_Suat={
+		name="Rama Suat"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Rama_Suat
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	TER_Putra_Ratang={
+		name="Putra Ratang"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Putra_Ratang
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	TER_Putfi_Gungitu={
+		name="Putfi Gungitu"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Putfi_Gungitu
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TER_Putfi_Kampata={
+		name="Putfi Kampata"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Putfi_Kampata
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TER_Fajari_Tulamhalusaa={
+		name="Fajari Tulamhalusaa"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { dictator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TER_Mario_Gurgarga={
+		name="Mario Gurgarga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Mario_Gurgarga
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Putra_Trah={
+		name="Putra Trah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Putra_Trah
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Bama_Trah={
+		name="Bama Trah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Bama_Trah
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Waya_Senyawa={
+		name="Waya Senyawa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Waya_Senyawa
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Ketutfi_Musai={
+		name="Ketutfi Musai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Ketutfi_Musai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Rama_Bintu={
+		name="Rama Bintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Rama_Bintu
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Rama_Jenjaradih={
+		name="Rama Jenjaradih"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Rama_Jenjaradih
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	TER_Budi_Kertan={
+		name="Budi Kertan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Budi_Kertan
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TER_Rambang_Apisuana={
+		name="Rambang Apisuana"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Rambang_Apisuana
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TER_Fajario_Bapangis={
+		name="Fajario Bapangis"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Fajario_Bapangis
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TER_Hari_Perada={
+		name="Hari Perada"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Hari_Perada
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TER_Fajar_Ayaremu={
+		name="Fajar Ayaremu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Fajar_Ayaremu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TER_Sakti_Tulaunya={
+		name="Sakti Tulaunya"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Sakti_Tulaunya
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TER_Bama_Bahliatan={
+		name="Bama Bahliatan"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Bama_Bahliatan
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TER_Agus_Jembukual={
+		name="Agus Jembukual"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Agus_Jembukual
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	TER_Budi_Rita={
+		name="Budi Rita"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Budi_Rita
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	TER_Rama_Rita={
+		name="Rama Rita"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Rama_Rita
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TER_Fajar_Sehat={
+		name="Fajar Sehat"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Fajar_Sehat
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	TER_Sakti_Kampata={
+		name="Sakti Kampata"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Sakti_Kampata
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	TER_Agus_Sensi={
+		name="Agus Sensi"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Agus_Sensi
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	TER_Joko_Rambata={
+		name="Joko Rambata"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { patriotic_socialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TER_Putfi_Senda={
+		name="Putfi Senda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Putfi_Senda
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Waya_Mulangga={
+		name="Waya Mulangga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Waya_Mulangga
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Bambang_Guruma={
+		name="Bambang Guruma"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Bambang_Guruma
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Wayan_Pasir={
+		name="Wayan Pasir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Wayan_Pasir
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Waya_Wargagai={
+		name="Waya Wargagai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Waya_Wargagai
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Bambang_Kelak={
+		name="Bambang Kelak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Bambang_Kelak
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Rizal_Berejat={
+		name="Rizal Berejat"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Rizal_Berejat
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	TER_Waya_Kertan={
+		name="Waya Kertan"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Waya_Kertan
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TER_Rambang_Toko={
+		name="Rambang Toko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Rambang_Toko
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TER_Hari_Bapangis={
+		name="Hari Bapangis"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Hari_Bapangis
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TER_Budi_Guruma={
+		name="Budi Guruma"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Budi_Guruma
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	TER_Fajario_Kulang={
+		name="Fajario Kulang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Fajario_Kulang
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TER_Suryan_Kebintan={
+		name="Suryan Kebintan"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Suryan_Kebintan
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TER_Joko_Kulang={
+		name="Joko Kulang"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Joko_Kulang
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TER_Arjuna_Tarap={
+		name="Arjuna Tarap"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Arjuna_Tarap
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	TER_Waya_Pung={
+		name="Waya Pung"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Waya_Pung
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TER_Fajari_Senyawa={
+		name="Fajari Senyawa"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Fajari_Senyawa
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TER_Rambang_Kebintan={
+		name="Rambang Kebintan"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Rambang_Kebintan
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	TER_Andi_Ayaremu={
+		name="Andi Ayaremu"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Andi_Ayaremu
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	TER_Hario_Pekua={
+		name="Hario Pekua"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Hario_Pekua
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	TER_Fajario_Jeni={
+		name="Fajario Jeni"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TER_Waya_Bapangis={
+		name="Waya Bapangis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Waya_Bapangis
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Waya_Sejargagembu={
+		name="Waya Sejargagembu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Waya_Sejargagembu
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Andi_Bahliatan={
+		name="Andi Bahliatan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Andi_Bahliatan
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	TER_Sakti_Kertan={
+		name="Sakti Kertan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Sakti_Kertan
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Joko_Badik={
+		name="Joko Badik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Joko_Badik
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	TER_Bama_Gurga={
+		name="Bama Gurga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TER_Bama_Gurga
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	TER_Ramban_Terada={
+		name="Ramban Terada"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Ramban_Terada
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TER_Suryan_Badik={
+		name="Suryan Badik"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Suryan_Badik
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TER_Dewa_Toko={
+		name="Dewa Toko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Dewa_Toko
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TER_Bambang_Rambata={
+		name="Bambang Rambata"
+
+		advisor={
+			slot = army_chief
+			idea_token = TER_Bambang_Rambata
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TER_Agus_Lani={
+		name="Agus Lani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Agus_Lani
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	TER_Waya_Sehaba={
+		name="Waya Sehaba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TER_Waya_Sehaba
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TER_Fajari_Nafsu={
+		name="Fajari Nafsu"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Fajari_Nafsu
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TER_Agus_Pempunun={
+		name="Agus Pempunun"
+
+		advisor={
+			slot = air_chief
+			idea_token = TER_Agus_Pempunun
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TER_Fajario_Tulaunya={
+		name="Fajario Tulaunya"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Fajario_Tulaunya
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	TER_Bambang_Suci={
+		name="Bambang Suci"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Bambang_Suci
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	TER_Ketutra_Ratang={
+		name="Ketutra Ratang"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Ketutra_Ratang
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	TER_Ramban_Berembata={
+		name="Ramban Berembata"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Ramban_Berembata
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	TER_Hario_Kebintan={
+		name="Hario Kebintan"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Hario_Kebintan
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	TER_Putra_Pencara={
+		name="Putra Pencara"
+
+		advisor={
+			slot = high_command
+			idea_token = TER_Putra_Pencara
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	TER_Rama_Sejargagembu={
+		name="Rama Sejargagembu"
+
+		advisor={
+			slot = theorist
+			idea_token = TER_Rama_Sejargagembu
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TER_Arjuna_Gurgarga={
+		name="Arjuna Gurgarga"
+
+		advisor={
+			slot = theorist
+			idea_token = TER_Arjuna_Gurgarga
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TER_Rama_Danaharanamb={
+		name="Rama Danaharanamb"
+
+		advisor={
+			slot = theorist
+			idea_token = TER_Rama_Danaharanamb
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,1083 @@
+characters = {
+	NAN_Qajaq_Tingiq={
+		name="Qajaq Tingiq"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAN_Amaq_Qikiq={
+		name="Amaq Qikiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Amaq_Qikiq
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Mana_Kuskak={
+		name="Mana Kuskak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Mana_Kuskak
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Manik_Qilattaq={
+		name="Manik Qilattaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Manik_Qilattaq
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Nanaq_Kuvaq={
+		name="Nanaq Kuvaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Nanaq_Kuvaq
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Kana_Inuat={
+		name="Kana Inuat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Kana_Inuat
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Nanik_Kuvik={
+		name="Nanik Kuvik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Nanik_Kuvik
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Nuvuk_Tuniqpak={
+		name="Nuvuk Tuniqpak"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Nuvuk_Tuniqpak
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Colvik={
+		name="Kavikigaq Colvik"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Kavikigaq_Colvik
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NAN_Ukpikigaq_Selaq={
+		name="Ukpikigaq Selaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Ukpikigaq_Selaq
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	NAN_Kanik_Nivak={
+		name="Kanik Nivak"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Kanik_Nivak
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Nivaq={
+		name="Kavikigaq Nivaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Kavikigaq_Nivaq
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Kuvibuk={
+		name="Kavikigaq Kuvibuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Kavikigaq_Kuvibuk
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAN_Nuvuk_Anatak={
+		name="Nuvuk Anatak"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Nuvuk_Anatak
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	NAN_Manik_Nalaq={
+		name="Manik Nalaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Manik_Nalaq
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	NAN_Kanuq_Nall={
+		name="Kanuq Nall"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kanuq_Nall
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Nigaq={
+		name="Kavikigaq Nigaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kavikigaq_Nigaq
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NAN_Kunik_Imaruq={
+		name="Kunik Imaruq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kunik_Imaruq
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	NAN_Qajaq_Kaniq={
+		name="Qajaq Kaniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Qajaq_Kaniq
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	NAN_Panaq_Selaq={
+		name="Panaq Selaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Panaq_Selaq
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	NAN_Nuvuk_Kuvaq={
+		name="Nuvuk Kuvaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Nuvuk_Kuvaq
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	NAN_Manik_Nigaq={
+		name="Manik Nigaq"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAN_Sila_Nall={
+		name="Sila Nall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Sila_Nall
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Nanik_Kuvigak={
+		name="Nanik Kuvigak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Nanik_Kuvigak
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Olikigaq_Tamaq={
+		name="Olikigaq Tamaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Olikigaq_Tamaq
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Olikigaq_Anatak={
+		name="Olikigaq Anatak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Olikigaq_Anatak
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Kanuq_Nivak={
+		name="Kanuq Nivak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Kanuq_Nivak
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Amaq_Iliggik={
+		name="Amaq Iliggik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Amaq_Iliggik
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Panaq_Kigaq={
+		name="Panaq Kigaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Panaq_Kigaq
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	NAN_Amaq_Qilattaq={
+		name="Amaq Qilattaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Amaq_Qilattaq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	NAN_Kanik_Kuvuk={
+		name="Kanik Kuvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Kanik_Kuvuk
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	NAN_Nanuq_Nivanuk={
+		name="Nanuq Nivanuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Nanuq_Nivanuk
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NAN_Iluk_Angmiaqpaq={
+		name="Iluk Angmiaqpaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Iluk_Angmiaqpaq
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	NAN_Nuvuk_Nall={
+		name="Nuvuk Nall"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Nuvuk_Nall
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAN_Sila_Kuvivangiq={
+		name="Sila Kuvivangiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Sila_Kuvivangiq
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NAN_Ukpik_Imarutaq={
+		name="Ukpik Imarutaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Ukpik_Imarutaq
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	NAN_Kunikigaq_Kuviajaq={
+		name="Kunikigaq Kuviajaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kunikigaq_Kuviajaq
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	NAN_Amaq_Nalupaq={
+		name="Amaq Nalupaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Amaq_Nalupaq
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	NAN_Olik_Nuskon={
+		name="Olik Nuskon"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Olik_Nuskon
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	NAN_Olik_Nall={
+		name="Olik Nall"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Olik_Nall
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	NAN_Mana_Colvik={
+		name="Mana Colvik"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Mana_Colvik
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Tikupak={
+		name="Kavikigaq Tikupak"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kavikigaq_Tikupak
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	NAN_Sila_Ukpiq={
+		name="Sila Ukpiq"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAN_Manuq_Nalaq={
+		name="Manuq Nalaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Manuq_Nalaq
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Ukpiku_Tuna={
+		name="Ukpiku Tuna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Ukpiku_Tuna
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Kanaq_Ukkuvikipiku={
+		name="Kanaq Ukkuvikipiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Kanaq_Ukkuvikipiku
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Tulok_Nalaq={
+		name="Tulok Nalaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Tulok_Nalaq
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Kanik_Tikupak={
+		name="Kanik Tikupak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Kanik_Tikupak
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Panik_Kamuvibutukt={
+		name="Panik Kamuvibutukt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Panik_Kamuvibutukt
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Olik_Kuvik={
+		name="Olik Kuvik"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Olik_Kuvik
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Qilattaq={
+		name="Kavikigaq Qilattaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Kavikigaq_Qilattaq
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NAN_Kunikigaq_Nivanuk={
+		name="Kunikigaq Nivanuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Kunikigaq_Nivanuk
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NAN_Manaq_Atuk={
+		name="Manaq Atuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Manaq_Atuk
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	NAN_Nanuq_Tatchagutanu={
+		name="Nanuq Tatchagutanu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Nanuq_Tatchagutanu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	NAN_Kanik_Iliya={
+		name="Kanik Iliya"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Kanik_Iliya
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	NAN_Olikigaq_Kuvik={
+		name="Olikigaq Kuvik"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Olikigaq_Kuvik
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	NAN_Kuniku_Avanak={
+		name="Kuniku Avanak"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Kuniku_Avanak
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NAN_Nanaq_Avana={
+		name="Nanaq Avana"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Nanaq_Avana
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	NAN_Naluk_Nuvigaq={
+		name="Naluk Nuvigaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Naluk_Nuvigaq
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	NAN_Ukpik_Colvik={
+		name="Ukpik Colvik"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Ukpik_Colvik
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	NAN_Atka_Kuvuk={
+		name="Atka Kuvuk"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Atka_Kuvuk
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NAN_Sila_Kamnaaq={
+		name="Sila Kamnaaq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Sila_Kamnaaq
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	NAN_Iluk_Anatak={
+		name="Iluk Anatak"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Iluk_Anatak
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	NAN_Kanaq_Niviajaqpaga={
+		name="Kanaq Niviajaqpaga"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NAN_Pana_Arnapalagak={
+		name="Pana Arnapalagak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Pana_Arnapalagak
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Kavik_Kuvigak={
+		name="Kavik Kuvigak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Kavik_Kuvigak
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	NAN_Pana_Imaruq={
+		name="Pana Imaruq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Pana_Imaruq
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Manik_Kamnak={
+		name="Manik Kamnak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Manik_Kamnak
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Nanaq_Nivaq={
+		name="Nanaq Nivaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Nanaq_Nivaq
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	NAN_Manaq_Qani={
+		name="Manaq Qani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NAN_Manaq_Qani
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	NAN_Nanik_Kamnaaq={
+		name="Nanik Kamnaaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Nanik_Kamnaaq
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	NAN_Nana_Tuniqpak={
+		name="Nana Tuniqpak"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Nana_Tuniqpak
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NAN_Pana_Tuna={
+		name="Pana Tuna"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Pana_Tuna
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NAN_Mana_Kuvigaq={
+		name="Mana Kuvigaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = NAN_Mana_Kuvigaq
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	NAN_Manik_Arnapalagak={
+		name="Manik Arnapalagak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Manik_Arnapalagak
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NAN_Kana_Pannuka={
+		name="Kana Pannuka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NAN_Kana_Pannuka
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	NAN_Kanik_Ukpiq={
+		name="Kanik Ukpiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Kanik_Ukpiq
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	NAN_Ukpik_Kuvuk={
+		name="Ukpik Kuvuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = NAN_Ukpik_Kuvuk
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	NAN_Manuq_Kuvigak={
+		name="Manuq Kuvigak"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Manuq_Kuvigak
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	NAN_Nanuq_Nalawik={
+		name="Nanuq Nalawik"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Nanuq_Nalawik
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	NAN_Kunikigaq_Nipak={
+		name="Kunikigaq Nipak"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kunikigaq_Nipak
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	NAN_Mikigaq_Kuvivangiq={
+		name="Mikigaq Kuvivangiq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Mikigaq_Kuvivangiq
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	NAN_Ukpikigaq_Kaniq={
+		name="Ukpikigaq Kaniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Ukpikigaq_Kaniq
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	NAN_Kuniku_Saniq={
+		name="Kuniku Saniq"
+
+		advisor={
+			slot = high_command
+			idea_token = NAN_Kuniku_Saniq
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	NAN_Kavikigaq_Nipak={
+		name="Kavikigaq Nipak"
+
+		advisor={
+			slot = theorist
+			idea_token = NAN_Kavikigaq_Nipak
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NAN_Kanaq_Kuviq={
+		name="Kanaq Kuviq"
+
+		advisor={
+			slot = theorist
+			idea_token = NAN_Kanaq_Kuviq
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NAN_Ukpik_Iliya={
+		name="Ukpik Iliya"
+
+		advisor={
+			slot = theorist
+			idea_token = NAN_Ukpik_Iliya
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

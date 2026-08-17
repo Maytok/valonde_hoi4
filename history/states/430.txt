@@ -1,0 +1,37 @@
+
+state={
+	id=430
+	name="STATE_430"
+	manpower = 4601391
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 4
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		5205 5206 5207 5208 5209 5210 5211 5212 5213 5214 5215 5216 5217 5218 5219 5220 5221 5222 5223 5224 5225 5226 
+	}
+	local_supplies=0.0 
+}

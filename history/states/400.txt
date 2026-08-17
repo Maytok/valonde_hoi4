@@ -1,0 +1,37 @@
+
+state={
+	id=400
+	name="STATE_400"
+	manpower = 835855
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=10
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=24
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		4824 4825 4826 4827 4828 
+	}
+	local_supplies=0.0 
+}

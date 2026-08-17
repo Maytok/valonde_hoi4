@@ -1,0 +1,37 @@
+
+state={
+	id=825
+	name="STATE_825"
+	manpower = 2159263
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		9787 9788 9789 9790 9791 9792 9793 9794 9795 9796 9797 9798 9799 
+	}
+	local_supplies=0.0 
+}

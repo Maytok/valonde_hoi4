@@ -1,0 +1,37 @@
+
+state={
+	id=188
+	name="STATE_188"
+	manpower = 6176266
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		2388 2389 2390 2391 2392 2393 2394 2395 2396 2397 2398 2399 2400 2401 2402 2403 2404 2405 2406 2407 2408 2409 2410 2411 2412 2413 2414 2415 2416 2417 2418 
+	}
+	local_supplies=0.0 
+}

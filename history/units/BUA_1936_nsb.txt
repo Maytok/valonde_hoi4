@@ -1,0 +1,186 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+			engineer = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Buimha' Militia Division"
+		location = 15197
+		division_template = "Militia Division"
+		start_experience_factor = 0.693047
+		start_equipment_factor = 0.917314
+	}
+	division= {
+		name = "2nd 'Feath' Militia Division"
+		location = 14252
+		division_template = "Militia Division"
+		start_experience_factor = 0.085904
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Feas' Militia Division"
+		location = 15175
+		division_template = "Militia Division"
+		start_experience_factor = 0.352888
+		start_equipment_factor = 0.887528
+	}
+	division= {
+		name = "1st 'Seann' Infantry Division"
+		location = 15016
+		division_template = "Infantry Division"
+		start_experience_factor = 0.223084
+		start_equipment_factor = 0.939594
+	}
+	division= {
+		name = "1st 'Criath' Supported Infantry Division"
+		location = 15429
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.096275
+		start_equipment_factor = 0.929334
+	}
+	division= {
+		name = "2nd 'Deach' Supported Infantry Division"
+		location = 14483
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.145239
+		start_equipment_factor = 0.928061
+	}
+	division= {
+		name = "3rd 'Gorg' Supported Infantry Division"
+		location = 14486
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.619535
+		start_equipment_factor = 0.996066
+	}
+	division= {
+		name = "1st 'Boglachailea' Artillery Division"
+		location = 14275
+		division_template = "Artillery Division"
+		start_experience_factor = 0.089571
+		start_equipment_factor = 0.869021
+	}
+	division= {
+		name = "2nd 'Sabh' Artillery Division"
+		location = 15083
+		division_template = "Artillery Division"
+		start_experience_factor = 0.740942
+		start_equipment_factor = 0.950234
+	}
+	division= {
+		name = "3rd 'Bunach' Artillery Division"
+		location = 15174
+		division_template = "Artillery Division"
+		start_experience_factor = 0.151899
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Milt' Cavalry Division"
+		location = 14484
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.018835
+		start_equipment_factor = 0.929961
+	}
+	division= {
+		name = "2nd 'Bais' Cavalry Division"
+		location = 15098
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.929004
+		start_equipment_factor = 0.975564
+	}
+	division= {
+		name = "3rd 'Gorg' Cavalry Division"
+		location = 14486
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.005579
+		start_equipment_factor = 0.868205
+	}
+
+}

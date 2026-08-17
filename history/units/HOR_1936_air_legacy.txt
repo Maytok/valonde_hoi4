@@ -1,0 +1,50 @@
+air_wings = {
+		969 = { 								
+		nav_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+	750 = { 								
+		fighter_equipment_0 = { owner = "HOR" amount = 50 version_name = "Nilal Mk 1" }
+tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	694 = { 								
+		tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	602 = { 								
+		CAS_equipment_0 = { owner = "HOR" amount = 50 version_name = "Nadil Mk 1" }
+
+	}
+	1727 = { 								
+		tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+
+	}
+	1370 = { 								
+		nav_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+	1350 = { 								
+		tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+
+	}
+	397 = { 								
+		tac_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	1369 = { 								
+		CAS_equipment_0 = { owner = "HOR" amount = 50 version_name = "Nadil Mk 1" }
+
+	}
+	774 = { 								
+		fighter_equipment_0 = { owner = "HOR" amount = 50 version_name = "Nilal Mk 1" }
+
+	}
+	1362 = { 								
+		nav_bomber_equipment_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+
+
+}

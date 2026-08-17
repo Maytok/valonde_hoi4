@@ -1,0 +1,12 @@
+air_wings = {
+		1574 = { 								
+		tac_bomber_equipment_0 = { owner = "SUA" amount = 50 version_name = "Ratang Mk 1" }
+
+	}
+	1653 = { 								
+		tac_bomber_equipment_0 = { owner = "SUA" amount = 50 version_name = "Ratang Mk 1" }
+
+	}
+
+
+}

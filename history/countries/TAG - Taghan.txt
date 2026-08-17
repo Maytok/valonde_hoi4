@@ -1,0 +1,349 @@
+capital = 290
+
+oob = "TAG_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TAG_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TAG_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	infantry_weapons1= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TAG_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			armor_piercing_bombs = 1
+			iw_small_airframe = 1
+			basic_medium_airframe = 1
+			basic_large_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Tagzi Mk 0"
+			type = medium_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Asirt Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Taghzi Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Takfar Mk 0"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tighbalut Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TAG_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TAG_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Tazda Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TAG_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Tazda Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TAG_Massinis_Tazegzilt
+recruit_character = TAG_Amariq_Tamassirt
+recruit_character = TAG_Massa_Tidra
+recruit_character = TAG_Ziriq_Afus
+recruit_character = TAG_Tariq_Taru
+recruit_character = TAG_Amokrane_Tamsiri
+recruit_character = TAG_Kariq_Tigman
+recruit_character = TAG_Massinissa_Tafawenzal
+recruit_character = TAG_Iderfax_Tamurt
+recruit_character = TAG_Iskar_Tagzi
+recruit_character = TAG_Iskariq_Taru
+recruit_character = TAG_Mimokrane_Asifast
+recruit_character = TAG_Azian_Tafassirt
+recruit_character = TAG_Mezian_Tissirt
+recruit_character = TAG_Iskariq_Agou
+recruit_character = TAG_Taharimokran_Tawin
+recruit_character = TAG_Mokrane_Tifelt
+recruit_character = TAG_Amad_Azemouka
+recruit_character = TAG_Ziriq_Taghan
+recruit_character = TAG_Yuba_Tamsirt
+recruit_character = TAG_Massa_Tamsiri
+recruit_character = TAG_Iderfane_Tasnast
+recruit_character = TAG_Iderfan_Tafassirt
+recruit_character = TAG_Amokrane_Tazrourt
+recruit_character = TAG_Lyes_Tafassirt
+recruit_character = TAG_Yuba_Tiwizrar
+recruit_character = TAG_Amoun_Amezwasnast
+recruit_character = TAG_Amoun_Amenzar
+recruit_character = TAG_Sifan_Tagzi
+recruit_character = TAG_Tahar_Tiwin
+recruit_character = TAG_Lyes_Tamsirt
+recruit_character = TAG_Zirim_Akalt
+recruit_character = TAG_Iderfane_Tazran
+recruit_character = TAG_Amad_Amdarwast
+recruit_character = TAG_Mokrannis_Tawt
+recruit_character = TAG_Amad_Tamsiri
+recruit_character = TAG_Zirim_Takfaw
+recruit_character = TAG_Amokrane_Nfou
+recruit_character = TAG_Amad_Azrawt
+recruit_character = TAG_Amokrane_Tafaru
+recruit_character = TAG_Meziane_Tamurt
+recruit_character = TAG_Yuba_Amezwasnast
+recruit_character = TAG_Aziane_Azrart
+recruit_character = TAG_Mokran_Taghan
+recruit_character = TAG_Tarim_Amdirart
+recruit_character = TAG_Massinissa_Tigman
+recruit_character = TAG_Aselmarim_Tamazrou
+recruit_character = TAG_Meziane_Tatrit
+recruit_character = TAG_Iderfane_Azert
+recruit_character = TAG_Taren_Tamurt
+recruit_character = TAG_Mokrane_Than
+recruit_character = TAG_Yuba_Azegzi
+recruit_character = TAG_Massa_Tagzi
+recruit_character = TAG_Tariq_Azegzart
+recruit_character = TAG_Ziri_Tawt
+recruit_character = TAG_Yannis_Azrart
+recruit_character = TAG_Iderfan_Tawin
+recruit_character = TAG_Karen_Tazrawizrouf
+recruit_character = TAG_Tariq_Azemouka
+recruit_character = TAG_Ziri_Tazrar
+recruit_character = TAG_Aselmarim_Takranem
+recruit_character = TAG_Mezian_Tist
+recruit_character = TAG_Ziri_Taghan
+recruit_character = TAG_Aziz_Azrart
+recruit_character = TAG_Mokran_Tasnast
+recruit_character = TAG_Tahar_Azrawt
+recruit_character = TAG_Meziz_Tamdar
+recruit_character = TAG_Meziz_Tatrit
+recruit_character = TAG_Tariq_Than
+recruit_character = TAG_Azian_Tiwizrar
+recruit_character = TAG_Sifax_Tagzi
+recruit_character = TAG_Iskariq_Tazran
+recruit_character = TAG_Sifax_Tiwizrar
+recruit_character = TAG_Ziriq_Tissirt
+recruit_character = TAG_Massa_Tist
+recruit_character = TAG_Iskariq_Tamazrawt
+recruit_character = TAG_Massinis_Akalt
+recruit_character = TAG_Ziri_Tazart
+recruit_character = TAG_Iderfane_Tidett
+recruit_character = TAG_Mokrannis_Afsut
+recruit_character = TAG_Sifan_Tamassirt
+recruit_character = TAG_Iderfane_Azrarwas
+recruit_character = TAG_Mokran_Tissirt
+recruit_character = TAG_Tarim_Tighbalut
+recruit_character = TAG_Aselmarim_Tifawt
+recruit_character = TAG_Mimokran_Amdirart
+recruit_character = TAG_Azian_Tighzi
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.93
+set_war_support = 0.58
+
+add_ideas = {
+disarmed_nation
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1918.8.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 22
+	communism = 31
+	neutrality = 17
+}
+
+
+
+
+

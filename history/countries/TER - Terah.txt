@@ -1,0 +1,475 @@
+capital = 1553
+
+oob = "TER_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TER_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	fuel_refining= 1
+	electronic_mechanical_engineering= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Guruma Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mimpacakak Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tarap Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Badik Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Jeni Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TER_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Kebintan Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Musai Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Kertan Mk 0"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Ratang Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Teri Mk 1"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TER_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TER_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Berembata Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TER_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Berembata Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TER_Rama_Pelus
+recruit_character = TER_Suryang_Masjidungit
+recruit_character = TER_Andi_Lani
+recruit_character = TER_Andi_Sejata
+recruit_character = TER_Bambang_Masjidungit
+recruit_character = TER_Lutfi_Petir
+recruit_character = TER_Fajar_Beraman
+recruit_character = TER_Bambang_Danaharanamb
+recruit_character = TER_Lutra_Suci
+recruit_character = TER_Surya_Senyawa
+recruit_character = TER_Fajari_Pempunun
+recruit_character = TER_Hario_Pung
+recruit_character = TER_Rizal_Menyarempung
+recruit_character = TER_Arjuna_Sejata
+recruit_character = TER_Fajario_Kerejara
+recruit_character = TER_Ketutra_Legenjaga
+recruit_character = TER_Sakti_Beraman
+recruit_character = TER_Rama_Suat
+recruit_character = TER_Putra_Ratang
+recruit_character = TER_Putfi_Gungitu
+recruit_character = TER_Putfi_Kampata
+recruit_character = TER_Fajari_Tulamhalusaa
+recruit_character = TER_Mario_Gurgarga
+recruit_character = TER_Putra_Trah
+recruit_character = TER_Bama_Trah
+recruit_character = TER_Waya_Senyawa
+recruit_character = TER_Ketutfi_Musai
+recruit_character = TER_Rama_Bintu
+recruit_character = TER_Rama_Jenjaradih
+recruit_character = TER_Budi_Kertan
+recruit_character = TER_Rambang_Apisuana
+recruit_character = TER_Fajario_Bapangis
+recruit_character = TER_Hari_Perada
+recruit_character = TER_Fajar_Ayaremu
+recruit_character = TER_Sakti_Tulaunya
+recruit_character = TER_Bama_Bahliatan
+recruit_character = TER_Agus_Jembukual
+recruit_character = TER_Budi_Rita
+recruit_character = TER_Rama_Rita
+recruit_character = TER_Fajar_Sehat
+recruit_character = TER_Sakti_Kampata
+recruit_character = TER_Agus_Sensi
+recruit_character = TER_Joko_Rambata
+recruit_character = TER_Putfi_Senda
+recruit_character = TER_Waya_Mulangga
+recruit_character = TER_Bambang_Guruma
+recruit_character = TER_Wayan_Pasir
+recruit_character = TER_Waya_Wargagai
+recruit_character = TER_Bambang_Kelak
+recruit_character = TER_Rizal_Berejat
+recruit_character = TER_Waya_Kertan
+recruit_character = TER_Rambang_Toko
+recruit_character = TER_Hari_Bapangis
+recruit_character = TER_Budi_Guruma
+recruit_character = TER_Fajario_Kulang
+recruit_character = TER_Suryan_Kebintan
+recruit_character = TER_Joko_Kulang
+recruit_character = TER_Arjuna_Tarap
+recruit_character = TER_Waya_Pung
+recruit_character = TER_Fajari_Senyawa
+recruit_character = TER_Rambang_Kebintan
+recruit_character = TER_Andi_Ayaremu
+recruit_character = TER_Hario_Pekua
+recruit_character = TER_Fajario_Jeni
+recruit_character = TER_Waya_Bapangis
+recruit_character = TER_Waya_Sejargagembu
+recruit_character = TER_Andi_Bahliatan
+recruit_character = TER_Sakti_Kertan
+recruit_character = TER_Joko_Badik
+recruit_character = TER_Bama_Gurga
+recruit_character = TER_Ramban_Terada
+recruit_character = TER_Suryan_Badik
+recruit_character = TER_Dewa_Toko
+recruit_character = TER_Bambang_Rambata
+recruit_character = TER_Agus_Lani
+recruit_character = TER_Waya_Sehaba
+recruit_character = TER_Fajari_Nafsu
+recruit_character = TER_Agus_Pempunun
+recruit_character = TER_Fajario_Tulaunya
+recruit_character = TER_Bambang_Suci
+recruit_character = TER_Ketutra_Ratang
+recruit_character = TER_Ramban_Berembata
+recruit_character = TER_Hario_Kebintan
+recruit_character = TER_Putra_Pencara
+recruit_character = TER_Rama_Sejargagembu
+recruit_character = TER_Arjuna_Gurgarga
+recruit_character = TER_Rama_Danaharanamb
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.58
+set_war_support = 0.69
+
+add_ideas = {
+extensive_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1893.9.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 29
+	fascism = 16
+	communism = 38
+	neutrality = 17
+}
+
+
+
+
+

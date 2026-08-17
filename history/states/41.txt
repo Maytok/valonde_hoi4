@@ -1,0 +1,37 @@
+
+state={
+	id=41
+	name="STATE_41"
+	manpower = 55614
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=18
+		chromium=19
+		oil=29
+		rubber=0
+		steel=0
+		tungsten=18
+		coal=46
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 
+	}
+	local_supplies=0.0 
+}

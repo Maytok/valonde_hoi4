@@ -1,0 +1,9 @@
+air_wings = {
+		1109 = { 								
+		small_plane_airframe_0 = { owner = "DHO" amount = 8 version_name = "Aduiyanaja Mk 2" }
+small_plane_naval_bomber_airframe_0 = { owner = "DHO" amount = 14 version_name = "Jota Mk 1" }
+
+	}
+
+
+}

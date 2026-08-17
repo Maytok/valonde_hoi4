@@ -1,0 +1,1083 @@
+characters = {
+	TLI_Frano_Lanyonerita={
+		name="Frano Lanyonerita"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TLI_Robertonario_Accipesime={
+		name="Robertonario Accipesime"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Robertonario_Accipesime
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Robertonio_Comenta={
+		name="Robertonio Comenta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Robertonio_Comenta
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Mardo_Nombra={
+		name="Mardo Nombra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Mardo_Nombra
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Stefano_Ricolo={
+		name="Stefano Ricolo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Stefano_Ricolo
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Vico_Stestizianto={
+		name="Vico Stestizianto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Vico_Stestizianto
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Bruno_Amia={
+		name="Bruno Amia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Bruno_Amia
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Felierry_Abbato={
+		name="Felierry Abbato"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Felierry_Abbato
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TLI_Andro_Accanguardiz={
+		name="Andro Accanguardiz"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Andro_Accanguardiz
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TLI_Alberto_Alberritta={
+		name="Alberto Alberritta"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Alberto_Alberritta
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TLI_Luca_Sancipe={
+		name="Luca Sancipe"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Luca_Sancipe
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TLI_Jeancesco_Legontura={
+		name="Jeancesco Legontura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Jeancesco_Legontura
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TLI_Stefano_Regio={
+		name="Stefano Regio"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Stefano_Regio
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TLI_Alberto_Scudo={
+		name="Alberto Scudo"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Alberto_Scudo
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TLI_Andro_Comenta={
+		name="Andro Comenta"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Andro_Comenta
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TLI_Steo_Navaleanto={
+		name="Steo Navaleanto"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Steo_Navaleanto
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TLI_Antonario_Campa={
+		name="Antonario Campa"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Antonario_Campa
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	TLI_Robertor_Malediavale={
+		name="Robertor Malediavale"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Robertor_Malediavale
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	TLI_Robertonio_Memicolda={
+		name="Robertonio Memicolda"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Robertonio_Memicolda
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TLI_Robertonio_Regio={
+		name="Robertonio Regio"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Robertonio_Regio
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	TLI_Robertonario_Malediavale={
+		name="Robertonario Malediavale"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Robertonario_Malediavale
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	TLI_Ramon_Accipesime={
+		name="Ramon Accipesime"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TLI_Jean_Campa={
+		name="Jean Campa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Jean_Campa
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Antonario_Casa={
+		name="Antonario Casa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Antonario_Casa
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Robertor_Notturanza={
+		name="Robertor Notturanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Robertor_Notturanza
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Anton_Memorta={
+		name="Anton Memorta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Anton_Memorta
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Vica_Ombazio={
+		name="Vica Ombazio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Vica_Ombazio
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Thierry_Amia={
+		name="Thierry Amia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Thierry_Amia
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Giacolos_Trinte={
+		name="Giacolos Trinte"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Giacolos_Trinte
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TLI_Thierto_Tria={
+		name="Thierto Tria"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Thierto_Tria
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TLI_Thierry_Mago={
+		name="Thierry Mago"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Thierry_Mago
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TLI_Jeandro_Poria={
+		name="Jeandro Poria"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Jeandro_Poria
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TLI_Pedre_Giume={
+		name="Pedre Giume"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Pedre_Giume
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	TLI_Julien_Anito={
+		name="Julien Anito"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Julien_Anito
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TLI_Antonio_Pore={
+		name="Antonio Pore"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Antonio_Pore
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	TLI_Ramonio_Poria={
+		name="Ramonio Poria"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Ramonio_Poria
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TLI_Thiertor_Ombazio={
+		name="Thiertor Ombazio"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Thiertor_Ombazio
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	TLI_Francesco_Alberritta={
+		name="Francesco Alberritta"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Francesco_Alberritta
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	TLI_Stefandro_Manza={
+		name="Stefandro Manza"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Stefandro_Manza
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	TLI_Julien_Accipesime={
+		name="Julien Accipesime"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Julien_Accipesime
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	TLI_Andro_Casi={
+		name="Andro Casi"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Andro_Casi
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	TLI_Cario_Nave={
+		name="Cario Nave"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Cario_Nave
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	TLI_Lucario_Oasa={
+		name="Lucario Oasa"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TLI_Lucario_Alberritta={
+		name="Lucario Alberritta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Lucario_Alberritta
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Ricolose_Memorta={
+		name="Ricolose Memorta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Ricolose_Memorta
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Antonario_Vittezza={
+		name="Antonario Vittezza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Antonario_Vittezza
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Alberry_Acquarionto={
+		name="Alberry Acquarionto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Alberry_Acquarionto
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Francesco_Casimento={
+		name="Francesco Casimento"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Francesco_Casimento
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Lucarlo_Mempo={
+		name="Lucarlo Mempo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Lucarlo_Mempo
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TLI_Robertonario_Sancipe={
+		name="Robertonario Sancipe"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Robertonario_Sancipe
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TLI_Vico_Mago={
+		name="Vico Mago"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Vico_Mago
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TLI_Felierry_Memicolda={
+		name="Felierry Memicolda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Felierry_Memicolda
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TLI_Leonio_Manza={
+		name="Leonio Manza"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Leonio_Manza
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	TLI_Thien_Malediavale={
+		name="Thien Malediavale"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Thien_Malediavale
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TLI_Lucarlo_Nave={
+		name="Lucarlo Nave"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Lucarlo_Nave
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	TLI_Nico_Libro={
+		name="Nico Libro"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Nico_Libro
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TLI_Enzo_Erbazia={
+		name="Enzo Erbazia"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Enzo_Erbazia
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	TLI_Andre_Ombazio={
+		name="Andre Ombazio"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Andre_Ombazio
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TLI_Giacolos_Comenta={
+		name="Giacolos Comenta"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Giacolos_Comenta
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	TLI_Anto_Guelleano={
+		name="Anto Guelleano"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Anto_Guelleano
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TLI_Alberry_Desima={
+		name="Alberry Desima"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Alberry_Desima
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TLI_Jeandro_Mago={
+		name="Jeandro Mago"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Jeandro_Mago
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	TLI_Antonio_Odizionto={
+		name="Antonio Odizionto"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Antonio_Odizionto
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	TLI_Antonario_Anito={
+		name="Antonario Anito"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TLI_Ramonardo_Messa={
+		name="Ramonardo Messa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Ramonardo_Messa
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Luis_Segioria={
+		name="Luis Segioria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Luis_Segioria
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TLI_Lucarlo_Avve={
+		name="Lucarlo Avve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Lucarlo_Avve
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Pablos_Desso={
+		name="Pablos Desso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Pablos_Desso
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Stefandre_Gionta={
+		name="Stefandre Gionta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Stefandre_Gionta
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Enzo_Oasa={
+		name="Enzo Oasa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TLI_Enzo_Oasa
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TLI_Luca_Merroe={
+		name="Luca Merroe"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Luca_Merroe
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TLI_Jeano_Ombazio={
+		name="Jeano Ombazio"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Jeano_Ombazio
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TLI_Stefano_Legontura={
+		name="Stefano Legontura"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Stefano_Legontura
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TLI_Jeano_Nave={
+		name="Jeano Nave"
+
+		advisor={
+			slot = army_chief
+			idea_token = TLI_Jeano_Nave
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TLI_Luca_Abbato={
+		name="Luca Abbato"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Luca_Abbato
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	TLI_Ramon_Camenza={
+		name="Ramon Camenza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TLI_Ramon_Camenza
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	TLI_Giacolos_Desso={
+		name="Giacolos Desso"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Giacolos_Desso
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	TLI_Anto_Manza={
+		name="Anto Manza"
+
+		advisor={
+			slot = air_chief
+			idea_token = TLI_Anto_Manza
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TLI_Cario_Vero={
+		name="Cario Vero"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Cario_Vero
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TLI_Thiertor_Destaleano={
+		name="Thiertor Destaleano"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Thiertor_Destaleano
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	TLI_Lucarlos_Prianime={
+		name="Lucarlos Prianime"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Lucarlos_Prianime
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	TLI_Jeano_Abbato={
+		name="Jeano Abbato"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Jeano_Abbato
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	TLI_Alberto_Manza={
+		name="Alberto Manza"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Alberto_Manza
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	TLI_Andro_Messa={
+		name="Andro Messa"
+
+		advisor={
+			slot = high_command
+			idea_token = TLI_Andro_Messa
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	TLI_Antonio_Memorta={
+		name="Antonio Memorta"
+
+		advisor={
+			slot = theorist
+			idea_token = TLI_Antonio_Memorta
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TLI_Cario_Armanzio={
+		name="Cario Armanzio"
+
+		advisor={
+			slot = theorist
+			idea_token = TLI_Cario_Armanzio
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TLI_Anto_Torio={
+		name="Anto Torio"
+
+		advisor={
+			slot = theorist
+			idea_token = TLI_Anto_Torio
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

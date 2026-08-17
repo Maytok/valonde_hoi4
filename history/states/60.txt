@@ -1,0 +1,37 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 5635027
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=36
+		steel=32
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VZR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VZR
+	}
+
+	provinces={
+		814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 834 835 836 837 838 839 840 841 842 843 844 845 846 847 848 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=520
+	name="STATE_520"
+	manpower = 4612113
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=12
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		6202 6203 6204 6205 6206 6207 6208 6209 6210 6211 6212 6213 6214 6215 6216 6217 6218 6219 6220 6221 6222 6223 6224 6225 6226 6227 6228 
+	}
+	local_supplies=0.0 
+}

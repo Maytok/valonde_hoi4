@@ -1,0 +1,37 @@
+
+state={
+	id=86
+	name="STATE_86"
+	manpower = 2847559
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KOP
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KOP
+	}
+
+	provinces={
+		1139 1140 1141 1142 1143 1144 1145 1146 1147 1148 1149 1150 1151 1152 
+	}
+	local_supplies=0.0 
+}

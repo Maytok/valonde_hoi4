@@ -1,0 +1,37 @@
+
+state={
+	id=380
+	name="STATE_380"
+	manpower = 1290379
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		4562 4563 4564 4565 4566 4567 4568 
+	}
+	local_supplies=0.0 
+}

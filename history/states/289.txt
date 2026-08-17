@@ -1,0 +1,37 @@
+
+state={
+	id=289
+	name="STATE_289"
+	manpower = 99401
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=13
+		chromium=14
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=14
+		coal=34
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		3525 3526 3527 3528 3529 3530 3531 3532 3533 3534 3535 3536 3537 3538 3539 
+	}
+	local_supplies=0.0 
+}

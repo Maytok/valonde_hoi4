@@ -1,0 +1,1083 @@
+characters = {
+	PUV_Yannis_Azegzi={
+		name="Yannis Azegzi"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUV_Iskariq_Tazran={
+		name="Iskariq Tazran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Iskariq_Tazran
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Mimoun_Afus={
+		name="Mimoun Afus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Mimoun_Afus
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Yannis_Tafawenzal={
+		name="Yannis Tafawenzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Yannis_Tafawenzal
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Amad_Tamsalt={
+		name="Amad Tamsalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Amad_Tamsalt
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Yannis_Azemouka={
+		name="Yannis Azemouka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Yannis_Azemouka
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Iskariq_Tawin={
+		name="Iskariq Tawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Iskariq_Tawin
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Tahari_Thant={
+		name="Tahari Thant"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Tahari_Thant
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	PUV_Tahar_Azemouka={
+		name="Tahar Azemouka"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Tahar_Azemouka
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	PUV_Saidi_Tazegzilt={
+		name="Saidi Tazegzilt"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Saidi_Tazegzilt
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	PUV_Karen_Asifast={
+		name="Karen Asifast"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Karen_Asifast
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	PUV_Kariq_Tidett={
+		name="Kariq Tidett"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Kariq_Tidett
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	PUV_Mokrane_Takranem={
+		name="Mokrane Takranem"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Mokrane_Takranem
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	PUV_Tarim_Tamdar={
+		name="Tarim Tamdar"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Tarim_Tamdar
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	PUV_Iskar_Tasnast={
+		name="Iskar Tasnast"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Iskar_Tasnast
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	PUV_Kariq_Aghrart={
+		name="Kariq Aghrart"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Kariq_Aghrart
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	PUV_Zirim_Imghrem={
+		name="Zirim Imghrem"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Zirim_Imghrem
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	PUV_Tarim_Imghrem={
+		name="Tarim Imghrem"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tarim_Imghrem
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	PUV_Zirim_Tiwizi={
+		name="Zirim Tiwizi"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Zirim_Tiwizi
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	PUV_Tariq_Takfar={
+		name="Tariq Takfar"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tariq_Takfar
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	PUV_Aselmad_Tamazrou={
+		name="Aselmad Tamazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Aselmad_Tamazrou
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	PUV_Amariq_Tazegzilt={
+		name="Amariq Tazegzilt"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUV_Massinissa_Tigh={
+		name="Massinissa Tigh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Massinissa_Tigh
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Iderfan_Imghrem={
+		name="Iderfan Imghrem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Iderfan_Imghrem
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Amariq_Asifast={
+		name="Amariq Asifast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Amariq_Asifast
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Mokrannis_Tifasnast={
+		name="Mokrannis Tifasnast"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Mokrannis_Tifasnast
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Taren_Tigman={
+		name="Taren Tigman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Taren_Tigman
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Mokran_Agadiremmi={
+		name="Mokran Agadiremmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Mokran_Agadiremmi
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Iderfane_Amdarwast={
+		name="Iderfane Amdarwast"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Iderfane_Amdarwast
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	PUV_Kariq_Tafawenzal={
+		name="Kariq Tafawenzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Kariq_Tafawenzal
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	PUV_Iskar_Tadday={
+		name="Iskar Tadday"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Iskar_Tadday
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	PUV_Mimoun_Taru={
+		name="Mimoun Taru"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Mimoun_Taru
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	PUV_Amad_Amenzar={
+		name="Amad Amenzar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Amad_Amenzar
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	PUV_Ziriq_Tamazrou={
+		name="Ziriq Tamazrou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Ziriq_Tamazrou
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	PUV_Ziriq_Amenzar={
+		name="Ziriq Amenzar"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Ziriq_Amenzar
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	PUV_Tahar_Nfou={
+		name="Tahar Nfou"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Tahar_Nfou
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	PUV_Aselmad_Tislit={
+		name="Aselmad Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Aselmad_Tislit
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	PUV_Tahariq_Taghzi={
+		name="Tahariq Taghzi"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tahariq_Taghzi
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	PUV_Amad_Amella={
+		name="Amad Amella"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Amad_Amella
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	PUV_Iderfane_Tazrar={
+		name="Iderfane Tazrar"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Iderfane_Tazrar
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	PUV_Amad_Azrawinim={
+		name="Amad Azrawinim"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Amad_Azrawinim
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	PUV_Tahar_Tamazrou={
+		name="Tahar Tamazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tahar_Tamazrou
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	PUV_Yannis_Takranem={
+		name="Yannis Takranem"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUV_Massa_Azemouka={
+		name="Massa Azemouka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Massa_Azemouka
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Massinis_Tigmmi={
+		name="Massinis Tigmmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Massinis_Tigmmi
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Aziz_Takfaw={
+		name="Aziz Takfaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Aziz_Takfaw
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Taharen_Tawin={
+		name="Taharen Tawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Taharen_Tawin
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Yannissiniss_Agou={
+		name="Yannissiniss Agou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Yannissiniss_Agou
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	PUV_Yannis_Imnayen={
+		name="Yannis Imnayen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Yannis_Imnayen
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Sifax_Than={
+		name="Sifax Than"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Sifax_Than
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	PUV_Aziane_Tidra={
+		name="Aziane Tidra"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Aziane_Tidra
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	PUV_Iderfax_Tighbalut={
+		name="Iderfax Tighbalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Iderfax_Tighbalut
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	PUV_Yannis_Tazran={
+		name="Yannis Tazran"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Yannis_Tazran
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	PUV_Massinis_Tidra={
+		name="Massinis Tidra"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Massinis_Tidra
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	PUV_Iderfan_Ayurt={
+		name="Iderfan Ayurt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Iderfan_Ayurt
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	PUV_Azian_Tamsiri={
+		name="Azian Tamsiri"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Azian_Tamsiri
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	PUV_Iskari_Tamazrou={
+		name="Iskari Tamazrou"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Iskari_Tamazrou
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	PUV_Massa_Tissirt={
+		name="Massa Tissirt"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Massa_Tissirt
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	PUV_Iderfax_Afus={
+		name="Iderfax Afus"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Iderfax_Afus
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	PUV_Iderfax_Tidra={
+		name="Iderfax Tidra"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Iderfax_Tidra
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	PUV_Tarim_Taghan={
+		name="Tarim Taghan"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tarim_Taghan
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	PUV_Mokrane_Tamazrou={
+		name="Mokrane Tamazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Mokrane_Tamazrou
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	PUV_Yuba_Nfou={
+		name="Yuba Nfou"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Yuba_Nfou
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	PUV_Amoun_Tawen={
+		name="Amoun Tawen"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	PUV_Iderfan_Azemouka={
+		name="Iderfan Azemouka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Iderfan_Azemouka
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Taharen_Tigman={
+		name="Taharen Tigman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Taharen_Tigman
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Aziane_Tighbalalt={
+		name="Aziane Tighbalalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Aziane_Tighbalalt
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Iskari_Amdir={
+		name="Iskari Amdir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Iskari_Amdir
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Aziane_Tifawt={
+		name="Aziane Tifawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Aziane_Tifawt
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	PUV_Mokran_Tazzur={
+		name="Mokran Tazzur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = PUV_Mokran_Tazzur
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	PUV_Karen_Tissirt={
+		name="Karen Tissirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Karen_Tissirt
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	PUV_Iskar_Tamsalt={
+		name="Iskar Tamsalt"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Iskar_Tamsalt
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	PUV_Amariq_Tamazrou={
+		name="Amariq Tamazrou"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Amariq_Tamazrou
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	PUV_Massinissa_Nfou={
+		name="Massinissa Nfou"
+
+		advisor={
+			slot = army_chief
+			idea_token = PUV_Massinissa_Nfou
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	PUV_Mimokran_Afrart={
+		name="Mimokran Afrart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Mimokran_Afrart
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	PUV_Amariq_Anzawt={
+		name="Amariq Anzawt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = PUV_Amariq_Anzawt
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	PUV_Zirim_Tamsirt={
+		name="Zirim Tamsirt"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Zirim_Tamsirt
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	PUV_Tahari_Afus={
+		name="Tahari Afus"
+
+		advisor={
+			slot = air_chief
+			idea_token = PUV_Tahari_Afus
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	PUV_Tahari_Takfaw={
+		name="Tahari Takfaw"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Tahari_Takfaw
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	PUV_Yannis_Tamurt={
+		name="Yannis Tamurt"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Yannis_Tamurt
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	PUV_Iderfax_Tifasnast={
+		name="Iderfax Tifasnast"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Iderfax_Tifasnast
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	PUV_Kariq_Tawt={
+		name="Kariq Tawt"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Kariq_Tawt
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	PUV_Sifan_Tamsirt={
+		name="Sifan Tamsirt"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Sifan_Tamsirt
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	PUV_Aziz_Tafawin={
+		name="Aziz Tafawin"
+
+		advisor={
+			slot = high_command
+			idea_token = PUV_Aziz_Tafawin
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	PUV_Tariq_Taru={
+		name="Tariq Taru"
+
+		advisor={
+			slot = theorist
+			idea_token = PUV_Tariq_Taru
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	PUV_Ziri_Azrouka={
+		name="Ziri Azrouka"
+
+		advisor={
+			slot = theorist
+			idea_token = PUV_Ziri_Azrouka
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	PUV_Tahariq_Tifelt={
+		name="Tahariq Tifelt"
+
+		advisor={
+			slot = theorist
+			idea_token = PUV_Tahariq_Tifelt
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

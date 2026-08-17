@@ -1,0 +1,37 @@
+
+state={
+	id=1123
+	name="STATE_1123"
+	manpower = 1338903
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=6
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = UPE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UPE
+	}
+
+	provinces={
+		13333 13334 13335 13336 13337 13338 13339 13340 
+	}
+	local_supplies=0.0 
+}

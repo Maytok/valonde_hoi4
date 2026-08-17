@@ -1,0 +1,37 @@
+
+state={
+	id=346
+	name="STATE_346"
+	manpower = 4041976
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIZ
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TIZ
+	}
+
+	provinces={
+		4198 4199 4200 4201 4202 4203 4204 4205 4206 4207 4208 4209 4210 4211 4212 4213 4214 4215 4216 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	manpower = 3852545
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=41
+		chromium=44
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=42
+		coal=105
+	}
+
+	history={
+		
+		owner = UPE
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UPE
+	}
+
+	provinces={
+		12372 12373 12374 12375 12376 12377 12378 12379 12380 12381 12382 12383 12384 12385 12386 12387 12388 12389 12390 12391 12392 12393 12394 12395 
+	}
+	local_supplies=0.0 
+}

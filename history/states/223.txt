@@ -1,0 +1,37 @@
+
+state={
+	id=223
+	name="STATE_223"
+	manpower = 2397387
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIZ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TIZ
+	}
+
+	provinces={
+		2812 2813 2814 2815 2816 2817 2818 2819 2820 2821 2822 
+	}
+	local_supplies=0.0 
+}

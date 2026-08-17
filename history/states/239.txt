@@ -1,0 +1,37 @@
+
+state={
+	id=239
+	name="STATE_239"
+	manpower = 1402488
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ATE
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ATE
+	}
+
+	provinces={
+		3030 3031 3032 3033 3034 3035 3036 
+	}
+	local_supplies=0.0 
+}

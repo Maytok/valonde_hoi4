@@ -1,0 +1,1083 @@
+characters = {
+	GEC_Talih_Isilis={
+		name="Talih Isilis"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GEC_Haruk_Hayat={
+		name="Haruk Hayat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Haruk_Hayat
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Ramazan_Ates={
+		name="Ramazan Ates"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Ramazan_Ates
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Bulent_Doru={
+		name="Bulent Doru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Bulent_Doru
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Borat_Sani={
+		name="Borat Sani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Borat_Sani
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Ilker_Anat={
+		name="Ilker Anat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Ilker_Anat
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Sinan_Obahirli={
+		name="Sinan Obahirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Sinan_Obahirli
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Iskerha_Kirlik={
+		name="Iskerha Kirlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Iskerha_Kirlik
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	GEC_Iskent_Sicak={
+		name="Iskent Sicak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Iskent_Sicak
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GEC_Ilkerhat_Asimseke={
+		name="Ilkerhat Asimseke"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Ilkerhat_Asimseke
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	GEC_Haruk_Anat={
+		name="Haruk Anat"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Haruk_Anat
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	GEC_Ilker_Yayla={
+		name="Ilker Yayla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Ilker_Yayla
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	GEC_Hakan_Isilis={
+		name="Hakan Isilis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Hakan_Isilis
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	GEC_Ertugrunc_Obahirli={
+		name="Ertugrunc Obahirli"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Ertugrunc_Obahirli
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GEC_Ahmet_Topru={
+		name="Ahmet Topru"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Ahmet_Topru
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GEC_Ilkender_Savar={
+		name="Ilkender Savar"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ilkender_Savar
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	GEC_Savas_Asildirlik={
+		name="Savas Asildirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Savas_Asildirlik
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	GEC_Ener_Efsarla={
+		name="Ener Efsarla"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ener_Efsarla
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	GEC_Ilkerkan_Guluk={
+		name="Ilkerkan Guluk"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ilkerkan_Guluk
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	GEC_Suat_Yaske={
+		name="Suat Yaske"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Suat_Yaske
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	GEC_Yustafer_Karisan={
+		name="Yustafer Karisan"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Yustafer_Karisan
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	GEC_Ertugrunc_Sonba={
+		name="Ertugrunc Sonba"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GEC_Zafe_Guluk={
+		name="Zafe Guluk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Zafe_Guluk
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Suatuhan_Koprakinlik={
+		name="Suatuhan Koprakinlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Suatuhan_Koprakinlik
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Kaan_Sogac={
+		name="Kaan Sogac"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Kaan_Sogac
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Yusul_Goldiz={
+		name="Yusul Goldiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Yusul_Goldiz
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Emir_Saat={
+		name="Emir Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Emir_Saat
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Talih_Obahirli={
+		name="Talih Obahirli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Talih_Obahirli
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Yustafer_Ordu={
+		name="Yustafer Ordu"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Yustafer_Ordu
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	GEC_Salhan_Sicak={
+		name="Salhan Sicak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Salhan_Sicak
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GEC_Suat_Baharih={
+		name="Suat Baharih"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Suat_Baharih
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	GEC_Zafa_Golge={
+		name="Zafa Golge"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Zafa_Golge
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	GEC_Muratugrun_Sehildi={
+		name="Muratugrun Sehildi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Muratugrun_Sehildi
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	GEC_Salhat_Doru={
+		name="Salhat Doru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Salhat_Doru
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	GEC_Ilkerkan_Saat={
+		name="Ilkerkan Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Ilkerkan_Saat
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	GEC_Haruk_Hisla={
+		name="Haruk Hisla"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Haruk_Hisla
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	GEC_Utku_Anat={
+		name="Utku Anat"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Utku_Anat
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	GEC_Mustafa_Ormane={
+		name="Mustafa Ormane"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Mustafa_Ormane
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	GEC_Salhan_Aksaniz={
+		name="Salhan Aksaniz"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Salhan_Aksaniz
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GEC_Cemal_Isilis={
+		name="Cemal Isilis"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Cemal_Isilis
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	GEC_Iskerha_Bele={
+		name="Iskerha Bele"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Iskerha_Bele
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	GEC_Ener_Asimseke={
+		name="Ener Asimseke"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ener_Asimseke
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GEC_Mustafa_Barimseket={
+		name="Mustafa Barimseket"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { socialist_autocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GEC_Utku_Kapi={
+		name="Utku Kapi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Utku_Kapi
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Salhat_Efsarla={
+		name="Salhat Efsarla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Salhat_Efsarla
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Musul_Sana={
+		name="Musul Sana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Musul_Sana
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Isker_Atesiman={
+		name="Isker Atesiman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Isker_Atesiman
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Iskerem_Asildirlik={
+		name="Iskerem Asildirlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Iskerem_Asildirlik
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Iskerha_Efsarla={
+		name="Iskerha Efsarla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Iskerha_Efsarla
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Salih_Gunce={
+		name="Salih Gunce"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Salih_Gunce
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	GEC_Tunc_Sesil={
+		name="Tunc Sesil"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Tunc_Sesil
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	GEC_Talih_Nehir={
+		name="Talih Nehir"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Talih_Nehir
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	GEC_Yilmazan_Kadeni={
+		name="Yilmazan Kadeni"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Yilmazan_Kadeni
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GEC_Ertugrunc_Gece={
+		name="Ertugrunc Gece"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Ertugrunc_Gece
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	GEC_Salhat_Akinlik={
+		name="Salhat Akinlik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Salhat_Akinlik
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	GEC_Kaan_Efsarla={
+		name="Kaan Efsarla"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Kaan_Efsarla
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	GEC_Adem_Doguk={
+		name="Adem Doguk"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Adem_Doguk
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	GEC_Adem_Sehildi={
+		name="Adem Sehildi"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Adem_Sehildi
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	GEC_Fara_Kapi={
+		name="Fara Kapi"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Fara_Kapi
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	GEC_Ertuhan_Aksaniz={
+		name="Ertuhan Aksaniz"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ertuhan_Aksaniz
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	GEC_Bekir_Gultur={
+		name="Bekir Gultur"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Bekir_Gultur
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	GEC_Utku_Ormane={
+		name="Utku Ormane"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Utku_Ormane
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	GEC_Suat_Haylak={
+		name="Suat Haylak"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Suat_Haylak
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	GEC_Salhan_Goldiz={
+		name="Salhan Goldiz"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	GEC_Hakanerkan_Golcultur={
+		name="Hakanerkan Golcultur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Hakanerkan_Golcultur
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Sinan_Koprakinlik={
+		name="Sinan Koprakinlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Sinan_Koprakinlik
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Sinan_Nehir={
+		name="Sinan Nehir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Sinan_Nehir
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	GEC_Ilkerhat_Kopruklulut={
+		name="Ilkerhat Kopruklulut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Ilkerhat_Kopruklulut
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Haruk_Kapi={
+		name="Haruk Kapi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Haruk_Kapi
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	GEC_Savas_Gultur={
+		name="Savas Gultur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = GEC_Savas_Gultur
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	GEC_Hakanerkan_Atesiman={
+		name="Hakanerkan Atesiman"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Hakanerkan_Atesiman
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	GEC_Onur_Haylak={
+		name="Onur Haylak"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Onur_Haylak
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	GEC_Yusul_Sonbahtar={
+		name="Yusul Sonbahtar"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Yusul_Sonbahtar
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	GEC_Faran_Bultur={
+		name="Faran Bultur"
+
+		advisor={
+			slot = army_chief
+			idea_token = GEC_Faran_Bultur
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	GEC_Kadir_Gemisla={
+		name="Kadir Gemisla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Kadir_Gemisla
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	GEC_Salih_Sanak={
+		name="Salih Sanak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = GEC_Salih_Sanak
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	GEC_Muratugrun_Aksaniz={
+		name="Muratugrun Aksaniz"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Muratugrun_Aksaniz
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	GEC_Borat_Basarin={
+		name="Borat Basarin"
+
+		advisor={
+			slot = air_chief
+			idea_token = GEC_Borat_Basarin
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	GEC_Farun_Umut={
+		name="Farun Umut"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Farun_Umut
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	GEC_Faruk_Isiman={
+		name="Faruk Isiman"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Faruk_Isiman
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	GEC_Ahmet_Basket={
+		name="Ahmet Basket"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Ahmet_Basket
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	GEC_Yilmazan_Sesil={
+		name="Yilmazan Sesil"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Yilmazan_Sesil
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	GEC_Iskerhanerha_Kirla={
+		name="Iskerhanerha Kirla"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Iskerhanerha_Kirla
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	GEC_Boran_Gece={
+		name="Boran Gece"
+
+		advisor={
+			slot = high_command
+			idea_token = GEC_Boran_Gece
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	GEC_Onura_Gecek={
+		name="Onura Gecek"
+
+		advisor={
+			slot = theorist
+			idea_token = GEC_Onura_Gecek
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	GEC_Suat_Hisla={
+		name="Suat Hisla"
+
+		advisor={
+			slot = theorist
+			idea_token = GEC_Suat_Hisla
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	GEC_Mustafa_Asimseke={
+		name="Mustafa Asimseke"
+
+		advisor={
+			slot = theorist
+			idea_token = GEC_Mustafa_Asimseke
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

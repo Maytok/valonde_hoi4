@@ -1,0 +1,37 @@
+
+state={
+	id=785
+	name="STATE_785"
+	manpower = 2284432
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		9350 9351 9352 9353 9354 9355 9356 9357 9358 9359 
+	}
+	local_supplies=0.0 
+}

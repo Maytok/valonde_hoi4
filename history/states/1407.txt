@@ -1,0 +1,37 @@
+
+state={
+	id=1407
+	name="STATE_1407"
+	manpower = 5434966
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=27
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CAE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CAE
+	}
+
+	provinces={
+		16268 16269 16270 16271 16272 16273 16274 16275 16276 16277 16278 16279 16280 16281 16282 16283 16284 16285 16286 16287 16288 16289 16290 16291 16292 16293 16294 16295 16296 16297 16298 16299 16300 16301 16302 16303 16304 16305 
+	}
+	local_supplies=0.0 
+}

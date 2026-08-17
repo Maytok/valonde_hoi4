@@ -1,0 +1,55 @@
+air_wings = {
+		1450 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 1" }
+nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Tanupak Mk 2" }
+
+	}
+	547 = { 								
+		nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Tikiggiqpaq Mk 1" }
+
+	}
+	182 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 1" }
+nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Tanupak Mk 2" }
+
+	}
+	247 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+
+	}
+	1454 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Qill Mk 1" }
+
+	}
+	792 = { 								
+		nav_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Tikiggiqpaq Mk 1" }
+
+	}
+	1595 = { 								
+		tac_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 0" }
+
+	}
+	453 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+tac_bomber_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 0" }
+
+	}
+	1458 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+
+	}
+	1510 = { 								
+		fighter_equipment_0 = { owner = "SAN" amount = 50 version_name = "Qill Mk 1" }
+
+	}
+	1449 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nulatchagak Mk 2" }
+
+	}
+	449 = { 								
+		CAS_equipment_0 = { owner = "SAN" amount = 50 version_name = "Nulatchagak Mk 2" }
+
+	}
+
+
+}

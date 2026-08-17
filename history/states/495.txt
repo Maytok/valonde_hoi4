@@ -1,0 +1,37 @@
+
+state={
+	id=495
+	name="STATE_495"
+	manpower = 1756022
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = TAG
+	}
+
+	provinces={
+		5901 5902 5903 5904 5905 5906 5907 5908 5909 
+	}
+	local_supplies=0.0 
+}

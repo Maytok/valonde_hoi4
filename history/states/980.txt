@@ -1,0 +1,37 @@
+
+state={
+	id=980
+	name="STATE_980"
+	manpower = 626723
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CEL
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = CEL
+	}
+
+	provinces={
+		11548 11549 11550 
+	}
+	local_supplies=0.0 
+}

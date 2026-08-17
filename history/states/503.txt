@@ -1,0 +1,37 @@
+
+state={
+	id=503
+	name="STATE_503"
+	manpower = 2341343
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=16
+		chromium=17
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=16
+		coal=41
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		5976 5977 5978 5979 5980 5981 5982 5983 5984 5985 5986 5987 5988 5989 
+	}
+	local_supplies=0.0 
+}

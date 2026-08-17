@@ -1,0 +1,1083 @@
+characters = {
+	TAW_Mimokrane_Tamsirt={
+		name="Mimokrane Tamsirt"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAW_Tahari_Tamazrou={
+		name="Tahari Tamazrou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Tahari_Tamazrou
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Amokrane_Tamsalt={
+		name="Amokrane Tamsalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Amokrane_Tamsalt
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Taren_Tamsirt={
+		name="Taren Tamsirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Taren_Tamsirt
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Iskari_Imghrem={
+		name="Iskari Imghrem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Iskari_Imghrem
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Meziane_Tawen={
+		name="Meziane Tawen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Meziane_Tawen
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Ziri_Tamazrawt={
+		name="Ziri Tamazrawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Ziri_Tamazrawt
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Mimokrane_Imnayen={
+		name="Mimokrane Imnayen"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Mimokrane_Imnayen
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TAW_Tariq_Tamdar={
+		name="Tariq Tamdar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Tariq_Tamdar
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAW_Iskari_Tislit={
+		name="Iskari Tislit"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Iskari_Tislit
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TAW_Sifax_Imnayen={
+		name="Sifax Imnayen"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Sifax_Imnayen
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TAW_Sifan_Agou={
+		name="Sifan Agou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Sifan_Agou
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	TAW_Tahar_Azrawinim={
+		name="Tahar Azrawinim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Tahar_Azrawinim
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TAW_Mimokran_Tazda={
+		name="Mimokran Tazda"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Mimokran_Tazda
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TAW_Saidi_Tissirt={
+		name="Saidi Tissirt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Saidi_Tissirt
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TAW_Tarim_Tawen={
+		name="Tarim Tawen"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Tarim_Tawen
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	TAW_Aziane_Tazrawizrouf={
+		name="Aziane Tazrawizrouf"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Aziane_Tazrawizrouf
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	TAW_Sifax_Asifast={
+		name="Sifax Asifast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Sifax_Asifast
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	TAW_Amariq_Tifasnast={
+		name="Amariq Tifasnast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Amariq_Tifasnast
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	TAW_Mokrane_Tissirt={
+		name="Mokrane Tissirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Mokrane_Tissirt
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	TAW_Meziz_Agou={
+		name="Meziz Agou"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Meziz_Agou
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	TAW_Mezian_Azrouka={
+		name="Mezian Azrouka"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { militant_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAW_Mimokrane_Afrart={
+		name="Mimokrane Afrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mimokrane_Afrart
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Zirim_Tighbalut={
+		name="Zirim Tighbalut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Zirim_Tighbalut
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Mimokran_Tifelt={
+		name="Mimokran Tifelt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mimokran_Tifelt
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Iderfane_Tiwizrar={
+		name="Iderfane Tiwizrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Iderfane_Tiwizrar
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Mimokran_Tazzur={
+		name="Mimokran Tazzur"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mimokran_Tazzur
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Mokrane_Agou={
+		name="Mokrane Agou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mokrane_Agou
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Iderfane_Afsut={
+		name="Iderfane Afsut"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Iderfane_Afsut
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TAW_Massinissa_Than={
+		name="Massinissa Than"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Massinissa_Than
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TAW_Taren_Azenzawin={
+		name="Taren Azenzawin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Taren_Azenzawin
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TAW_Iderfan_Tigmmi={
+		name="Iderfan Tigmmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Iderfan_Tigmmi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TAW_Amariq_Afsut={
+		name="Amariq Afsut"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Amariq_Afsut
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TAW_Ziri_Tazrar={
+		name="Ziri Tazrar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Ziri_Tazrar
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TAW_Aselmarim_Takfaw={
+		name="Aselmarim Takfaw"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Aselmarim_Takfaw
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	TAW_Meziane_Afsut={
+		name="Meziane Afsut"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Meziane_Afsut
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TAW_Mokrane_Tislit={
+		name="Mokrane Tislit"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Mokrane_Tislit
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TAW_Amariq_Asirt={
+		name="Amariq Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Amariq_Asirt
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	TAW_Aselmarim_Amdarwast={
+		name="Aselmarim Amdarwast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Aselmarim_Amdarwast
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	TAW_Azian_Tawen={
+		name="Azian Tawen"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Azian_Tawen
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	TAW_Meziz_Tazrar={
+		name="Meziz Tazrar"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Meziz_Tazrar
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	TAW_Karen_Tart={
+		name="Karen Tart"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Karen_Tart
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	TAW_Mimokran_Takfar={
+		name="Mimokran Takfar"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAW_Amariq_Tawin={
+		name="Amariq Tawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Amariq_Tawin
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Iderfane_Nfou={
+		name="Iderfane Nfou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Iderfane_Nfou
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Mokrannis_Tiwizrar={
+		name="Mokrannis Tiwizrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mokrannis_Tiwizrar
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Ziriq_Azrarwas={
+		name="Ziriq Azrarwas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Ziriq_Azrarwas
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Massinis_Tazrawizrouf={
+		name="Massinis Tazrawizrouf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Massinis_Tazrawizrouf
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Amariq_Tamazrawt={
+		name="Amariq Tamazrawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Amariq_Tamazrawt
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Massinissa_Amdarwast={
+		name="Massinissa Amdarwast"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Massinissa_Amdarwast
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAW_Iskar_Afus={
+		name="Iskar Afus"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Iskar_Afus
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	TAW_Amokrane_Taru={
+		name="Amokrane Taru"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Amokrane_Taru
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TAW_Kariq_Tazrar={
+		name="Kariq Tazrar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Kariq_Tazrar
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	TAW_Mokran_Taru={
+		name="Mokran Taru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Mokran_Taru
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TAW_Amokrane_Tart={
+		name="Amokrane Tart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Amokrane_Tart
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	TAW_Meziz_Adrart={
+		name="Meziz Adrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Meziz_Adrart
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	TAW_Aziz_Takfaw={
+		name="Aziz Takfaw"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Aziz_Takfaw
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TAW_Saidi_Taru={
+		name="Saidi Taru"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Saidi_Taru
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	TAW_Mimokrane_Tamazrou={
+		name="Mimokrane Tamazrou"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Mimokrane_Tamazrou
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	TAW_Tafsut_Ayurt={
+		name="Tafsut Ayurt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Tafsut_Ayurt
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	TAW_Taren_Tamassirt={
+		name="Taren Tamassirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Taren_Tamassirt
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	TAW_Iderfax_Tamsirt={
+		name="Iderfax Tamsirt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Iderfax_Tamsirt
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	TAW_Azian_Azegzi={
+		name="Azian Azegzi"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Azian_Azegzi
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	TAW_Meziane_Tifasnast={
+		name="Meziane Tifasnast"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TAW_Tariq_Tighbalalt={
+		name="Tariq Tighbalalt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Tariq_Tighbalalt
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Aselmad_Tifelt={
+		name="Aselmad Tifelt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Aselmad_Tifelt
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Lyes_Afrart={
+		name="Lyes Afrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Lyes_Afrart
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Mezian_Azrarwas={
+		name="Mezian Azrarwas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Mezian_Azrarwas
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	TAW_Tarim_Azrawt={
+		name="Tarim Azrawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Tarim_Azrawt
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	TAW_Massinis_Adrart={
+		name="Massinis Adrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TAW_Massinis_Adrart
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	TAW_Tahari_Tafaru={
+		name="Tahari Tafaru"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Tahari_Tafaru
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	TAW_Tafsut_Tadin={
+		name="Tafsut Tadin"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Tafsut_Tadin
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TAW_Iderfan_Tamsirt={
+		name="Iderfan Tamsirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Iderfan_Tamsirt
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	TAW_Yannis_Asifast={
+		name="Yannis Asifast"
+
+		advisor={
+			slot = army_chief
+			idea_token = TAW_Yannis_Asifast
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TAW_Taharimokran_Tigmmi={
+		name="Taharimokran Tigmmi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Taharimokran_Tigmmi
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	TAW_Mimoun_Tigman={
+		name="Mimoun Tigman"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TAW_Mimoun_Tigman
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TAW_Iderfax_Tizir={
+		name="Iderfax Tizir"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Iderfax_Tizir
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	TAW_Yuba_Taghzi={
+		name="Yuba Taghzi"
+
+		advisor={
+			slot = air_chief
+			idea_token = TAW_Yuba_Taghzi
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	TAW_Aselmarim_Tifawt={
+		name="Aselmarim Tifawt"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Aselmarim_Tifawt
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	TAW_Aziz_Tifasnast={
+		name="Aziz Tifasnast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Aziz_Tifasnast
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	TAW_Meziz_Tasnast={
+		name="Meziz Tasnast"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Meziz_Tasnast
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	TAW_Saidi_Amenzar={
+		name="Saidi Amenzar"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Saidi_Amenzar
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	TAW_Sifan_Tazrar={
+		name="Sifan Tazrar"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Sifan_Tazrar
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	TAW_Tahar_Taru={
+		name="Tahar Taru"
+
+		advisor={
+			slot = high_command
+			idea_token = TAW_Tahar_Taru
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TAW_Kariq_Tigman={
+		name="Kariq Tigman"
+
+		advisor={
+			slot = theorist
+			idea_token = TAW_Kariq_Tigman
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TAW_Iskari_Thant={
+		name="Iskari Thant"
+
+		advisor={
+			slot = theorist
+			idea_token = TAW_Iskari_Thant
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TAW_Tahari_Tamsiri={
+		name="Tahari Tamsiri"
+
+		advisor={
+			slot = theorist
+			idea_token = TAW_Tahari_Tamsiri
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

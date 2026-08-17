@@ -1,0 +1,37 @@
+
+state={
+	id=1405
+	name="STATE_1405"
+	manpower = 1506785
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CAE
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CAE
+	}
+
+	provinces={
+		16242 16243 16244 16245 16246 16247 16248 16249 16250 
+	}
+	local_supplies=0.0 
+}

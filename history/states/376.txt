@@ -1,0 +1,37 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 2051536
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PUV
+	}
+
+	provinces={
+		4524 4525 4526 4527 4528 4529 4530 4531 4532 4533 4534 4535 
+	}
+	local_supplies=0.0 
+}

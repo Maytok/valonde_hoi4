@@ -1,0 +1,37 @@
+
+state={
+	id=529
+	name="STATE_529"
+	manpower = 2368904
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=23
+		chromium=25
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=23
+		coal=59
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		6298 6299 6300 6301 6302 6303 6304 6305 6306 6307 6308 6309 6310 6311 6312 
+	}
+	local_supplies=0.0 
+}

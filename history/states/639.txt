@@ -1,0 +1,37 @@
+
+state={
+	id=639
+	name="STATE_639"
+	manpower = 1797152
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAV
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = DAV
+	}
+
+	provinces={
+		7628 7629 7630 7631 7632 7633 7634 7635 7636 
+	}
+	local_supplies=0.0 
+}

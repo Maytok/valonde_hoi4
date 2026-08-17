@@ -1,0 +1,13 @@
+air_wings = {
+		1769 = { 								
+		tac_bomber_equipment_0 = { owner = "GEC" amount = 9 version_name = "Doru Mk 2" }
+
+	}
+	1740 = { 								
+		CAS_equipment_0 = { owner = "GEC" amount = 7 version_name = "Yolge Mk 0" }
+fighter_equipment_0 = { owner = "GEC" amount = 6 version_name = "Duyum Mk 2" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=981
+	name="STATE_981"
+	manpower = 2208164
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=12
+		chromium=13
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=12
+		coal=31
+	}
+
+	history={
+		
+		owner = UPE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UPE
+	}
+
+	provinces={
+		11551 11552 11553 11554 11555 11556 11557 11558 11559 11560 11561 11562 11563 11564 
+	}
+	local_supplies=0.0 
+}

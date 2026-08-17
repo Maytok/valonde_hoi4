@@ -1,0 +1,37 @@
+
+state={
+	id=677
+	name="STATE_677"
+	manpower = 1755147
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		8047 8048 8049 8050 8051 8052 8053 8054 8055 
+	}
+	local_supplies=0.0 
+}

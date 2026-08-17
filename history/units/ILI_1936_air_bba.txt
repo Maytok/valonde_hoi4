@@ -1,0 +1,38 @@
+air_wings = {
+		932 = { 								
+		large_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Arnapalagak Mk 0" }
+
+	}
+	398 = { 								
+		small_plane_cas_airframe_0 = { owner = "ILI" amount = 50 version_name = "Anatak Mk 1" }
+
+	}
+	465 = { 								
+		medium_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Forak Mk 1" }
+
+	}
+	181 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "ILI" amount = 50 version_name = "Tikupak Mk 2" }
+
+	}
+	68 = { 								
+		small_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Kigaq Mk 1" }
+
+	}
+	16 = { 								
+		small_plane_cas_airframe_0 = { owner = "ILI" amount = 50 version_name = "Anatak Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "ILI" amount = 50 version_name = "Tikupak Mk 2" }
+medium_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Forak Mk 1" }
+
+	}
+	284 = { 								
+		large_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Arnapalagak Mk 0" }
+
+	}
+	684 = { 								
+		small_plane_airframe_0 = { owner = "ILI" amount = 50 version_name = "Kigaq Mk 1" }
+
+	}
+
+
+}

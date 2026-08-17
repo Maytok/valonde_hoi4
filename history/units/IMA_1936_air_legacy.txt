@@ -1,0 +1,25 @@
+air_wings = {
+		317 = { 								
+		CAS_equipment_0 = { owner = "IMA" amount = 50 version_name = "Avanaapagavi Mk 1" }
+
+	}
+	1561 = { 								
+		fighter_equipment_0 = { owner = "IMA" amount = 48 version_name = "Kuvatuka Mk 1" }
+
+	}
+	79 = { 								
+		CAS_equipment_0 = { owner = "IMA" amount = 50 version_name = "Avanaapagavi Mk 1" }
+nav_bomber_equipment_0 = { owner = "IMA" amount = 42 version_name = "Kuvik Mk 2" }
+
+	}
+	11 = { 								
+		tac_bomber_equipment_0 = { owner = "IMA" amount = 50 version_name = "Naku Mk 0" }
+
+	}
+	582 = { 								
+		tac_bomber_equipment_0 = { owner = "IMA" amount = 50 version_name = "Naku Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=37
+	name="STATE_37"
+	manpower = 2489990
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 
+	}
+	local_supplies=0.0 
+}

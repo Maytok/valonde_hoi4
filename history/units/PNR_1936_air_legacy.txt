@@ -1,0 +1,12 @@
+air_wings = {
+		1687 = { 								
+		fighter_equipment_0 = { owner = "PNR" amount = 50 version_name = "Senebs Mk 1" }
+
+	}
+	1033 = { 								
+		fighter_equipment_0 = { owner = "PNR" amount = 50 version_name = "Senebs Mk 1" }
+
+	}
+
+
+}

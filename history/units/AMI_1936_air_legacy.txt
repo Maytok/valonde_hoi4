@@ -1,0 +1,40 @@
+air_wings = {
+		939 = { 								
+		fighter_equipment_0 = { owner = "AMI" amount = 50 version_name = "Accipesime Mk 0" }
+tac_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 1" }
+
+	}
+	485 = { 								
+		CAS_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 2" }
+tac_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 1" }
+
+	}
+	737 = { 								
+		strat_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Guelleano Mk 1" }
+
+	}
+	115 = { 								
+		CAS_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 2" }
+
+	}
+	845 = { 								
+		fighter_equipment_0 = { owner = "AMI" amount = 50 version_name = "Accipesime Mk 0" }
+strat_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Guelleano Mk 1" }
+strat_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Guelleano Mk 1" }
+
+	}
+	1544 = { 								
+		tac_bomber_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 1" }
+
+	}
+	43 = { 								
+		fighter_equipment_0 = { owner = "AMI" amount = 50 version_name = "Accipesime Mk 0" }
+
+	}
+	133 = { 								
+		CAS_equipment_0 = { owner = "AMI" amount = 50 version_name = "Fordo Mk 2" }
+
+	}
+
+
+}

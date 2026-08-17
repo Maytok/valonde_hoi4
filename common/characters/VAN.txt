@@ -1,0 +1,1083 @@
+characters = {
+	VAN_Mandran_Siran={
+		name="Mandran Siran"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { staunch_aristocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Gandrakash_Thunai={
+		name="Gandrakash Thunai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Gandrakash_Thunai
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Chandrak_Kavam={
+		name="Chandrak Kavam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Chandrak_Kavam
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Vijay_Kazhurai={
+		name="Vijay Kazhurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Vijay_Kazhurai
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Rajesh_Poru={
+		name="Rajesh Poru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Rajesh_Poru
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Pran_Suvam={
+		name="Pran Suvam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Pran_Suvam
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Harun_Vidutru={
+		name="Harun Vidutru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Harun_Vidutru
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Raveesh_Thar={
+		name="Raveesh Thar"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Raveesh_Thar
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	VAN_Manoj_Vilalai={
+		name="Manoj Vilalai"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Manoj_Vilalai
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAN_Harun_Mozhunaraign={
+		name="Harun Mozhunaraign"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Harun_Mozhunaraign
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAN_Navi_Merasi={
+		name="Navi Merasi"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Navi_Merasi
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VAN_Manoj_Pasi={
+		name="Manoj Pasi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Manoj_Pasi
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Raveenthil_Vanaru={
+		name="Raveenthil Vanaru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Raveenthil_Vanaru
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	VAN_Raveenthik_Thunbu={
+		name="Raveenthik Thunbu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Raveenthik_Thunbu
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Presh_Magantham={
+		name="Presh Magantham"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Presh_Magantham
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Raveenth_Magantham={
+		name="Raveenth Magantham"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raveenth_Magantham
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	VAN_Vinod_Merasi={
+		name="Vinod Merasi"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Vinod_Merasi
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	VAN_Mandranesh_Nadhunam={
+		name="Mandranesh Nadhunam"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Mandranesh_Nadhunam
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	VAN_Moharun_Kulichakkiri={
+		name="Moharun Kulichakkiri"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Moharun_Kulichakkiri
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	VAN_Deenth_Nadakku={
+		name="Deenth Nadakku"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Deenth_Nadakku
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VAN_Varthik_Mozhi={
+		name="Varthik Mozhi"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Varthik_Mozhi
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	VAN_Rajesh_Kalichilam={
+		name="Rajesh Kalichilam"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Surem_Mozhi={
+		name="Surem Mozhi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Surem_Mozhi
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Deenth_Oosai={
+		name="Deenth Oosai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Deenth_Oosai
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Chav_Kazhurai={
+		name="Chav Kazhurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Chav_Kazhurai
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Pran_Siran={
+		name="Pran Siran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Pran_Siran
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Dinoj_Udappu={
+		name="Dinoj Udappu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Dinoj_Udappu
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Mohaveepakas_Kanaiaru={
+		name="Mohaveepakas Kanaiaru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Mohaveepakas_Kanaiaru
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Raghanesh_Porunaignam={
+		name="Raghanesh Porunaignam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Raghanesh_Porunaignam
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VAN_Deenth_Thuram={
+		name="Deenth Thuram"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Deenth_Thuram
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VAN_Chav_Nilal={
+		name="Chav Nilal"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Chav_Nilal
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VAN_Raveenthil_Vanal={
+		name="Raveenthil Vanal"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Raveenthil_Vanal
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAN_Ajay_Kulichakkiri={
+		name="Ajay Kulichakkiri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Ajay_Kulichakkiri
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VAN_Krish_Natrangugamb={
+		name="Krish Natrangugamb"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Krish_Natrangugamb
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VAN_Harun_Pasi={
+		name="Harun Pasi"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Harun_Pasi
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VAN_Raveenth_Kavu={
+		name="Raveenth Kavu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Raveenth_Kavu
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VAN_Varun_Pesu={
+		name="Varun Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Varun_Pesu
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	VAN_Surem_Mani={
+		name="Surem Mani"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Surem_Mani
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	VAN_Varun_Nadil={
+		name="Varun Nadil"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Varun_Nadil
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	VAN_Moharun_Pesu={
+		name="Moharun Pesu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Moharun_Pesu
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VAN_Dinoj_Kuramudhunbu={
+		name="Dinoj Kuramudhunbu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Dinoj_Kuramudhunbu
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	VAN_Rajiv_Valam={
+		name="Rajiv Valam"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Rajiv_Valam
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	VAN_Navi_Aaravu={
+		name="Navi Aaravu"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Siddhav_Puyam={
+		name="Siddhav Puyam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Siddhav_Puyam
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAN_Pran_Kattidu={
+		name="Pran Kattidu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Pran_Kattidu
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Siddhav_Tham={
+		name="Siddhav Tham"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Siddhav_Tham
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAN_Moharthik_Irai={
+		name="Moharthik Irai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Moharthik_Irai
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAN_Manoj_Pesu={
+		name="Manoj Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Manoj_Pesu
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAN_Mohaveepakas_Thagamai={
+		name="Mohaveepakas Thagamai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Mohaveepakas_Thagamai
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Manoj_Veer={
+		name="Manoj Veer"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Manoj_Veer
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VAN_Pranesh_Mozhi={
+		name="Pranesh Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Pranesh_Mozhi
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VAN_Suresh_Kattu={
+		name="Suresh Kattu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Suresh_Kattu
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VAN_Charun_Aaravu={
+		name="Charun Aaravu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Charun_Aaravu
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	VAN_Dinoj_Irai={
+		name="Dinoj Irai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Dinoj_Irai
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	VAN_Deenth_Magantham={
+		name="Deenth Magantham"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Deenth_Magantham
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Ravi_Kulichakkiri={
+		name="Ravi Kulichakkiri"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Ravi_Kulichakkiri
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	VAN_Varthik_Merasi={
+		name="Varthik Merasi"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Varthik_Merasi
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	VAN_Chaveesh_Inbam={
+		name="Chaveesh Inbam"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Chaveesh_Inbam
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	VAN_Kumar_Kattu={
+		name="Kumar Kattu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Kumar_Kattu
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	VAN_Manoj_Thunavithil={
+		name="Manoj Thunavithil"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Manoj_Thunavithil
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	VAN_Prandrak_Kavu={
+		name="Prandrak Kavu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Prandrak_Kavu
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	VAN_Raghavi_Thunbu={
+		name="Raghavi Thunbu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Raghavi_Thunbu
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	VAN_Moharthik_Poru={
+		name="Moharthik Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Moharthik_Poru
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	VAN_Navi_Pesu={
+		name="Navi Pesu"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAN_Bala_Thunai={
+		name="Bala Thunai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Bala_Thunai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Chav_Kalichilam={
+		name="Chav Kalichilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Chav_Kalichilam
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Raghavi_Katruvaivizh={
+		name="Raghavi Katruvaivizh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Raghavi_Katruvaivizh
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAN_Mandran_Irai={
+		name="Mandran Irai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Mandran_Irai
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Suresh_Siran={
+		name="Suresh Siran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Suresh_Siran
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAN_Rajiv_Nilal={
+		name="Rajiv Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAN_Rajiv_Nilal
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAN_Moharthik_Kuramudhunbu={
+		name="Moharthik Kuramudhunbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Moharthik_Kuramudhunbu
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAN_Charun_Nattu={
+		name="Charun Nattu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Charun_Nattu
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	VAN_Gandrakash_Kavam={
+		name="Gandrakash Kavam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Gandrakash_Kavam
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	VAN_Mandranesh_Kanbam={
+		name="Mandranesh Kanbam"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAN_Mandranesh_Kanbam
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VAN_Chandrak_Kazhurai={
+		name="Chandrak Kazhurai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Chandrak_Kazhurai
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Vinod_Thar={
+		name="Vinod Thar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAN_Vinod_Thar
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VAN_Chaveesh_Thuranam={
+		name="Chaveesh Thuranam"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Chaveesh_Thuranam
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VAN_Moharthik_Ariyalaiyam={
+		name="Moharthik Ariyalaiyam"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAN_Moharthik_Ariyalaiyam
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	VAN_Ajay_Kattu={
+		name="Ajay Kattu"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Ajay_Kattu
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	VAN_Harthil_Sirai={
+		name="Harthil Sirai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Harthil_Sirai
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	VAN_Chandrak_Natrangugamb={
+		name="Chandrak Natrangugamb"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Chandrak_Natrangugamb
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	VAN_Chandran_Paal={
+		name="Chandran Paal"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Chandran_Paal
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	VAN_Karun_Arai={
+		name="Karun Arai"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Karun_Arai
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	VAN_Siddhav_Thirangam={
+		name="Siddhav Thirangam"
+
+		advisor={
+			slot = high_command
+			idea_token = VAN_Siddhav_Thirangam
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	VAN_Dinoj_Mozhakku={
+		name="Dinoj Mozhakku"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Dinoj_Mozhakku
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VAN_Moharun_Vidal={
+		name="Moharun Vidal"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Moharun_Vidal
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VAN_Deen_Pasi={
+		name="Deen Pasi"
+
+		advisor={
+			slot = theorist
+			idea_token = VAN_Deen_Pasi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

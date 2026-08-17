@@ -1,0 +1,37 @@
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 2162342
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YOL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YOL
+	}
+
+	provinces={
+		9250 9251 9252 9253 9254 9255 9256 9257 9258 9259 9260 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1356
+	name="STATE_1356"
+	manpower = 777078
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VAN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VAN
+	}
+
+	provinces={
+		15774 15775 15776 15777 
+	}
+	local_supplies=0.0 
+}

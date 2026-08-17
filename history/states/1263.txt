@@ -1,0 +1,37 @@
+
+state={
+	id=1263
+	name="STATE_1263"
+	manpower = 1571833
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		14807 14808 14809 14810 14811 14812 14813 14814 
+	}
+	local_supplies=0.0 
+}

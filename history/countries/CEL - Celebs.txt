@@ -1,0 +1,425 @@
+capital = 1110
+
+oob = "CEL_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "CEL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "CEL_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Taberria Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Conor Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Domenator Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Ratortiscium Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CEL_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			bba_early_transport_plane = 1
+			armor_piercing_bombs = 1
+			iw_small_airframe = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Prum Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Nator Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Libunus Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "CEL_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			early_transport_plane = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "CEL_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Sonsum Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "CEL_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Sonsum Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = CEL_Marcellius_Ignum
+recruit_character = CEL_Marcus_Sonsarita
+recruit_character = CEL_Drus_Strum
+recruit_character = CEL_Antonginus_Ratortiscium
+recruit_character = CEL_Publius_Argensulticu
+recruit_character = CEL_Titelius_Ignum
+recruit_character = CEL_Nerviustustu_Silicola
+recruit_character = CEL_Vitus_Herta
+recruit_character = CEL_Coraticusus_Fonitastia
+recruit_character = CEL_Cornellius_Regotithare
+recruit_character = CEL_Lucimus_Cama
+recruit_character = CEL_Gaianlius_Scatoriberra
+recruit_character = CEL_Quinus_Otiscientia
+recruit_character = CEL_Vitus_Domenator
+recruit_character = CEL_Quinus_Lachilla
+recruit_character = CEL_Priscus_Tenatrum
+recruit_character = CEL_Titelius_Corsulmenebr
+recruit_character = CEL_Scaevolavius_Pophus
+recruit_character = CEL_Longinus_Parvus
+recruit_character = CEL_Drutus_Maculmen
+recruit_character = CEL_Gaius_Oticaella
+recruit_character = CEL_Priscus_Vilicien
+recruit_character = CEL_Severviusus_Orbum
+recruit_character = CEL_Marcus_Sempes
+recruit_character = CEL_Decius_Nomena
+recruit_character = CEL_Claus_Domus
+recruit_character = CEL_Aulus_Herta
+recruit_character = CEL_Regulus_Sapiensus
+recruit_character = CEL_Aulus_Milis
+recruit_character = CEL_Attius_Deus
+recruit_character = CEL_Vitus_Scae
+recruit_character = CEL_Caius_Poetericolor
+recruit_character = CEL_Cassiustus_Silita
+recruit_character = CEL_Titellius_Malum
+recruit_character = CEL_Scaeverus_Scribunumbus
+recruit_character = CEL_Nongintonius_Poetelebs
+recruit_character = CEL_Flaudius_Maculmen
+recruit_character = CEL_Graiustustus_Spertas
+recruit_character = CEL_Graticus_Domus
+recruit_character = CEL_Julusustus_Corsulmenebr
+recruit_character = CEL_Antonginus_Cama
+recruit_character = CEL_Nonginus_Poetericolor
+recruit_character = CEL_Nonginus_Gloriptoruda
+recruit_character = CEL_Gaianlius_Sempes
+recruit_character = CEL_Otho_Silita
+recruit_character = CEL_Vibius_Sonsum
+recruit_character = CEL_Nongintonius_Sonsum
+recruit_character = CEL_Neriscus_Famma
+recruit_character = CEL_Coraticusus_Spertas
+recruit_character = CEL_Scaevolavius_Litas
+recruit_character = CEL_Cornellius_Virtum
+recruit_character = CEL_Cornellianus_Tenatrum
+recruit_character = CEL_Publius_Picus
+recruit_character = CEL_Manus_Militas
+recruit_character = CEL_Livius_Virtum
+recruit_character = CEL_Priscus_Scribunumbus
+recruit_character = CEL_Coratius_Scaella
+recruit_character = CEL_Severo_Celebs
+recruit_character = CEL_Cassius_Corsulmenebr
+recruit_character = CEL_Scaeverus_Agritastrum
+recruit_character = CEL_Claus_Poetelebs
+recruit_character = CEL_Otho_Nobis
+recruit_character = CEL_Cornellus_Celebs
+recruit_character = CEL_Decius_Strum
+recruit_character = CEL_Longinus_Carvus
+recruit_character = CEL_Titellius_Poetelebs
+recruit_character = CEL_Cornellius_Gloriptoruda
+recruit_character = CEL_Cornellus_Plumensul
+recruit_character = CEL_Cassiustus_Conor
+recruit_character = CEL_Cassiustus_Citternistor
+recruit_character = CEL_Severviusus_Scribunumbus
+recruit_character = CEL_Titius_Tenatrum
+recruit_character = CEL_Nonginus_Nomentus
+recruit_character = CEL_Coraticusus_Anis
+recruit_character = CEL_Lucius_Prum
+recruit_character = CEL_Severo_Litas
+recruit_character = CEL_Gaianlius_Domenator
+recruit_character = CEL_Antonginus_Regotithare
+recruit_character = CEL_Nongintonius_Regotithare
+recruit_character = CEL_Flaudius_Milis
+recruit_character = CEL_Lonius_Taberria
+recruit_character = CEL_Caius_Parvus
+recruit_character = CEL_Gaianlius_Verba
+recruit_character = CEL_Nerius_Nomena
+recruit_character = CEL_Julusustus_Maculmen
+recruit_character = CEL_Nerius_Galus
+recruit_character = CEL_Faus_Sonsum
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.45
+set_war_support = 0.75
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1891.6.27"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 32
+	communism = 2
+	neutrality = 56
+}
+
+
+
+
+

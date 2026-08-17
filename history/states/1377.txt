@@ -1,0 +1,37 @@
+
+state={
+	id=1377
+	name="STATE_1377"
+	manpower = 3068149
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KIF
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = KIF
+	}
+
+	provinces={
+		15987 15988 15989 15990 15991 15992 15993 15994 15995 15996 15997 15998 15999 16000 16001 16002 16003 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,106 @@
+air_wings = {
+		198 = { 								
+		large_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	303 = { 								
+		small_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	480 = { 								
+		small_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	797 = { 								
+		small_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	428 = { 								
+		small_plane_cas_airframe_1 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+	1430 = { 								
+		medium_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	359 = { 								
+		small_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	177 = { 								
+		large_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	1505 = { 								
+		large_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	443 = { 								
+		large_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	1420 = { 								
+		medium_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	641 = { 								
+		medium_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	404 = { 								
+		medium_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+
+	}
+	83 = { 								
+		small_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	50 = { 								
+		small_plane_cas_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1625 = { 								
+		medium_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	10 = { 								
+		medium_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+small_plane_cas_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1576 = { 								
+		small_plane_cas_airframe_1 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+	519 = { 								
+		small_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	1428 = { 								
+		large_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	232 = { 								
+		small_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	267 = { 								
+		small_plane_cas_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1427 = { 								
+		large_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+medium_plane_airframe_1 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+
+	}
+	785 = { 								
+		large_plane_airframe_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	669 = { 								
+		small_plane_cas_airframe_1 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=591
+	name="STATE_591"
+	manpower = 1916145
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IMA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IMA
+	}
+
+	provinces={
+		7055 7056 7057 7058 7059 7060 7061 7062 7063 7064 7065 7066 
+	}
+	local_supplies=0.0 
+}

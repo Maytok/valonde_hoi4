@@ -1,0 +1,37 @@
+
+state={
+	id=715
+	name="STATE_715"
+	manpower = 1134670
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KOP
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KOP
+	}
+
+	provinces={
+		8486 8487 8488 8489 8490 
+	}
+	local_supplies=0.0 
+}

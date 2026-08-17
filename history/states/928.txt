@@ -1,0 +1,37 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 2918217
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		10910 10911 10912 10913 10914 10915 10916 10917 10918 10919 10920 10921 10922 10923 
+	}
+	local_supplies=0.0 
+}

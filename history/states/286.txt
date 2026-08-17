@@ -1,0 +1,37 @@
+
+state={
+	id=286
+	name="STATE_286"
+	manpower = 2137753
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKG
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AKG
+	}
+
+	provinces={
+		3481 3482 3483 3484 3485 3486 3487 3488 3489 3490 3491 3492 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=12
+	name="STATE_12"
+	manpower = 21502
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		205 206 207 208 209 210 211 212 
+	}
+	local_supplies=0.0 
+}

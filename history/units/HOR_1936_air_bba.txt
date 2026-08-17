@@ -1,0 +1,50 @@
+air_wings = {
+		969 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+	750 = { 								
+		small_plane_airframe_0 = { owner = "HOR" amount = 50 version_name = "Nilal Mk 1" }
+medium_plane_airframe_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	694 = { 								
+		medium_plane_airframe_1 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+medium_plane_airframe_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	602 = { 								
+		small_plane_cas_airframe_0 = { owner = "HOR" amount = 50 version_name = "Nadil Mk 1" }
+
+	}
+	1727 = { 								
+		medium_plane_airframe_1 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+
+	}
+	1370 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+	1350 = { 								
+		medium_plane_airframe_1 = { owner = "HOR" amount = 50 version_name = "Oosai Mk 0" }
+
+	}
+	397 = { 								
+		medium_plane_airframe_0 = { owner = "HOR" amount = 50 version_name = "Kudi Mk 1" }
+
+	}
+	1369 = { 								
+		small_plane_cas_airframe_0 = { owner = "HOR" amount = 50 version_name = "Nadil Mk 1" }
+
+	}
+	774 = { 								
+		small_plane_airframe_0 = { owner = "HOR" amount = 50 version_name = "Nilal Mk 1" }
+
+	}
+	1362 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "HOR" amount = 50 version_name = "Thunbu Mk 1" }
+
+	}
+
+
+}

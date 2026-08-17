@@ -1,0 +1,37 @@
+
+state={
+	id=1543
+	name="STATE_1543"
+	manpower = 775949
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AQU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AQU
+	}
+
+	provinces={
+		17161 17162 
+	}
+	local_supplies=0.0 
+}

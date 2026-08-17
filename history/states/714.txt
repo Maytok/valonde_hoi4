@@ -1,0 +1,37 @@
+
+state={
+	id=714
+	name="STATE_714"
+	manpower = 1424172
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIK
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TIK
+	}
+
+	provinces={
+		8480 8481 8482 8483 8484 8485 
+	}
+	local_supplies=0.0 
+}

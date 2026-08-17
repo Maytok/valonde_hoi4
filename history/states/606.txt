@@ -1,0 +1,37 @@
+
+state={
+	id=606
+	name="STATE_606"
+	manpower = 6594358
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SAN
+		buildings = {
+			infrastructure = 4
+			air_base = 4
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			
+		}
+		add_core_of = SAN
+	}
+
+	provinces={
+		7230 7231 7232 7233 7234 7235 7236 7237 7238 7239 7240 7241 7242 7243 7244 7245 7246 7247 7248 7249 7250 7251 7252 7253 7254 7255 7256 7257 7258 7259 7260 7261 7262 7263 
+	}
+	local_supplies=0.0 
+}

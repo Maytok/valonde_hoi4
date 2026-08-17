@@ -1,0 +1,1083 @@
+characters = {
+	MTL_Kato_Mkia={
+		name="Kato Mkia"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { right_industrialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTL_Nuru_Saua={
+		name="Nuru Saua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Nuru_Saua
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Luba_Kanajanaji={
+		name="Luba Kanajanaji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Luba_Kanajanaji
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Luba_Kanara={
+		name="Luba Kanara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Luba_Kanara
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Kwamaraka_Shuji={
+		name="Kwamaraka Shuji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Kwamaraka_Shuji
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Baka_Upeneri={
+		name="Baka Upeneri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Baka_Upeneri
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Amaraka_Shukweleltab={
+		name="Amaraka Shukweleltab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Amaraka_Shukweleltab
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Omau_Ufalkia={
+		name="Omau Ufalkia"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Omau_Ufalkia
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	MTL_Kama_Tekete={
+		name="Kama Tekete"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Kama_Tekete
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	MTL_Mbwano_Shimya={
+		name="Mbwano Shimya"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Mbwano_Shimya
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	MTL_Lubana_Kelta={
+		name="Lubana Kelta"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Lubana_Kelta
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MTL_Kamaraka_Kumba={
+		name="Kamaraka Kumba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Kamaraka_Kumba
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MTL_Kamau_Uaguzi={
+		name="Kamau Uaguzi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Kamau_Uaguzi
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MTL_Musa_Panishawili={
+		name="Musa Panishawili"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Musa_Panishawili
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MTL_Lubanga_Histo={
+		name="Lubanga Histo"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Lubanga_Histo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MTL_Simbano_Ukwe={
+		name="Simbano Ukwe"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Simbano_Ukwe
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MTL_Mosi_Mwano={
+		name="Mosi Mwano"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Mosi_Mwano
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	MTL_Taji_Ukwelu={
+		name="Taji Ukwelu"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Taji_Ukwelu
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	MTL_Shakaraka_Mtifo={
+		name="Shakaraka Mtifo"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Shakaraka_Mtifo
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MTL_Kato_Mnajeshindit={
+		name="Kato Mnajeshindit"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Kato_Mnajeshindit
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	MTL_Simba_Kumbo={
+		name="Simba Kumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Simba_Kumbo
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	MTL_Luba_Maanganguzi={
+		name="Luba Maanganguzi"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { inexperienced_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTL_Kame_Kili={
+		name="Kame Kili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Kame_Kili
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Sefu_Kiondwano={
+		name="Sefu Kiondwano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Sefu_Kiondwano
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Kame_Laanara={
+		name="Kame Laanara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Kame_Laanara
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Taji_Deli={
+		name="Taji Deli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Taji_Deli
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Jumari_Siri={
+		name="Jumari Siri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Jumari_Siri
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Tembano_Histo={
+		name="Tembano Histo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Tembano_Histo
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Simba_Mnajeshindit={
+		name="Simba Mnajeshindit"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Simba_Mnajeshindit
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTL_Taji_Moto={
+		name="Taji Moto"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Taji_Moto
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MTL_Omau_Jumu={
+		name="Omau Jumu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Omau_Jumu
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MTL_Amari_Teka={
+		name="Amari Teka"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Amari_Teka
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	MTL_Chidi_Ufalele={
+		name="Chidi Ufalele"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Chidi_Ufalele
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	MTL_Juma_Mkia={
+		name="Juma Mkia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Juma_Mkia
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	MTL_Bakari_Maanganguzi={
+		name="Bakari Maanganguzi"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Bakari_Maanganguzi
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	MTL_Kamaraka_Mpando={
+		name="Kamaraka Mpando"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Kamaraka_Mpando
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MTL_Juma_Dara={
+		name="Juma Dara"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Juma_Dara
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MTL_Tembanga_Jota={
+		name="Tembanga Jota"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Tembanga_Jota
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MTL_Nuru_Dhoro={
+		name="Nuru Dhoro"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Nuru_Dhoro
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	MTL_Lubanga_Landafare={
+		name="Lubanga Landafare"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Lubanga_Landafare
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	MTL_Juma_Ardhidishinz={
+		name="Juma Ardhidishinz"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Juma_Ardhidishinz
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	MTL_Mbwame_Bondithi={
+		name="Mbwame Bondithi"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Mbwame_Bondithi
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	MTL_Simbano_Kifalme={
+		name="Simbano Kifalme"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTL_Shaka_Chukwezi={
+		name="Shaka Chukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Shaka_Chukwezi
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Kwana_Ufalkia={
+		name="Kwana Ufalkia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Kwana_Ufalkia
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Nuru_Pano={
+		name="Nuru Pano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Nuru_Pano
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Mosi_Pepo={
+		name="Mosi Pepo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Mosi_Pepo
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Amaraka_Nyoto={
+		name="Amaraka Nyoto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Amaraka_Nyoto
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Mbwano_Mnajeshindit={
+		name="Mbwano Mnajeshindit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Mbwano_Mnajeshindit
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Amaraka_Jumu={
+		name="Amaraka Jumu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Amaraka_Jumu
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	MTL_Omau_Ukwe={
+		name="Omau Ukwe"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Omau_Ukwe
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	MTL_Omari_Moyoto={
+		name="Omari Moyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Omari_Moyoto
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	MTL_Jumari_Tumba={
+		name="Jumari Tumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Jumari_Tumba
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTL_Kwamaraka_Siki={
+		name="Kwamaraka Siki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Kwamaraka_Siki
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	MTL_Omari_Kumba={
+		name="Omari Kumba"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Omari_Kumba
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	MTL_Shaka_Shukweleltab={
+		name="Shaka Shukweleltab"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Shaka_Shukweleltab
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	MTL_Musa_Jumu={
+		name="Musa Jumu"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Musa_Jumu
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	MTL_Omau_Kamu={
+		name="Omau Kamu"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Omau_Kamu
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	MTL_Bari_Mvua={
+		name="Bari Mvua"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Bari_Mvua
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	MTL_Temba_Cheliki={
+		name="Temba Cheliki"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Temba_Cheliki
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	MTL_Mbwamari_Nyumba={
+		name="Mbwamari Nyumba"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Mbwamari_Nyumba
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	MTL_Tanga_Kivule={
+		name="Tanga Kivule"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Tanga_Kivule
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	MTL_Kamau_Upeneri={
+		name="Kamau Upeneri"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Kamau_Upeneri
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	MTL_Lubanga_Kithi={
+		name="Lubanga Kithi"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_independent  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	MTL_Temba_Mwano={
+		name="Temba Mwano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Temba_Mwano
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Mosi_Mnajeshindit={
+		name="Mosi Mnajeshindit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Mosi_Mnajeshindit
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Temba_Bahawithi={
+		name="Temba Bahawithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Temba_Bahawithi
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	MTL_Tembano_Moto={
+		name="Tembano Moto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Tembano_Moto
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	MTL_Temba_Siki={
+		name="Temba Siki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Temba_Siki
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Shaka_Moyo={
+		name="Shaka Moyo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = MTL_Shaka_Moyo
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	MTL_Omau_Siki={
+		name="Omau Siki"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Omau_Siki
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	MTL_Kamaraka_Amria={
+		name="Kamaraka Amria"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Kamaraka_Amria
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	MTL_Juma_Tumba={
+		name="Juma Tumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Juma_Tumba
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	MTL_Tano_Kisu={
+		name="Tano Kisu"
+
+		advisor={
+			slot = army_chief
+			idea_token = MTL_Tano_Kisu
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	MTL_Musa_Moyoto={
+		name="Musa Moyoto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Musa_Moyoto
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	MTL_Taji_Kiondwano={
+		name="Taji Kiondwano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = MTL_Taji_Kiondwano
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	MTL_Bakari_Shukweleltab={
+		name="Bakari Shukweleltab"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Bakari_Shukweleltab
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	MTL_Tembano_Mtifo={
+		name="Tembano Mtifo"
+
+		advisor={
+			slot = air_chief
+			idea_token = MTL_Tembano_Mtifo
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	MTL_Mbwame_Mpakati={
+		name="Mbwame Mpakati"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Mbwame_Mpakati
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	MTL_Mbwano_Moyo={
+		name="Mbwano Moyo"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Mbwano_Moyo
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	MTL_Amari_Shuji={
+		name="Amari Shuji"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Amari_Shuji
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	MTL_Chidi_Kithi={
+		name="Chidi Kithi"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Chidi_Kithi
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MTL_Kwana_Maji={
+		name="Kwana Maji"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Kwana_Maji
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	MTL_Juma_Kifalme={
+		name="Juma Kifalme"
+
+		advisor={
+			slot = high_command
+			idea_token = MTL_Juma_Kifalme
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	MTL_Chidi_Mchaiku={
+		name="Chidi Mchaiku"
+
+		advisor={
+			slot = theorist
+			idea_token = MTL_Chidi_Mchaiku
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	MTL_Omari_Wima={
+		name="Omari Wima"
+
+		advisor={
+			slot = theorist
+			idea_token = MTL_Omari_Wima
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	MTL_Omau_Saraluja={
+		name="Omau Saraluja"
+
+		advisor={
+			slot = theorist
+			idea_token = MTL_Omau_Saraluja
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

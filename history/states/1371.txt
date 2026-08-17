@@ -1,0 +1,37 @@
+
+state={
+	id=1371
+	name="STATE_1371"
+	manpower = 3131409
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=37
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ANI
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = ANI
+	}
+
+	provinces={
+		15920 15921 15922 15923 15924 15925 15926 15927 15928 15929 15930 15931 15932 15933 15934 15935 15936 15937 15938 15939 15940 
+	}
+	local_supplies=0.0 
+}

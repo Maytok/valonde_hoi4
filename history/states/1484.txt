@@ -1,0 +1,37 @@
+
+state={
+	id=1484
+	name="STATE_1484"
+	manpower = 66241
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YEN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEN
+	}
+
+	provinces={
+		16929 
+	}
+	local_supplies=0.0 
+}

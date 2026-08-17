@@ -1,0 +1,21 @@
+air_wings = {
+		1099 = { 								
+		fighter_equipment_0 = { owner = "NJN" amount = 29 version_name = "Kanara Mk 0" }
+
+	}
+	1166 = { 								
+		strat_bomber_equipment_0 = { owner = "NJN" amount = 26 version_name = "Panishawili Mk 0" }
+
+	}
+	1043 = { 								
+		CAS_equipment_0 = { owner = "NJN" amount = 33 version_name = "Upenda Mk 2" }
+nav_bomber_equipment_0 = { owner = "NJN" amount = 37 version_name = "Moto Mk 0" }
+
+	}
+	1194 = { 								
+		tac_bomber_equipment_0 = { owner = "NJN" amount = 31 version_name = "Upeno Mk 0" }
+
+	}
+
+
+}

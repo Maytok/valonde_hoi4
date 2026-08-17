@@ -1,0 +1,106 @@
+air_wings = {
+		198 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	303 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	480 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	797 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	428 = { 								
+		CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+	1430 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	359 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	177 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	1505 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	443 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	1420 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	641 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	404 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+
+	}
+	83 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	50 = { 								
+		CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1625 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizirem Mk 1" }
+
+	}
+	10 = { 								
+		tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1576 = { 								
+		CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+	519 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tadin Mk 0" }
+
+	}
+	1428 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+
+	}
+	232 = { 								
+		fighter_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazran Mk 1" }
+
+	}
+	267 = { 								
+		CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tazegzilt Mk 2" }
+
+	}
+	1427 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tamsiri Mk 0" }
+tac_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tafassirt Mk 2" }
+
+	}
+	785 = { 								
+		strat_bomber_equipment_0 = { owner = "AKA" amount = 50 version_name = "Tizir Mk 1" }
+
+	}
+	669 = { 								
+		CAS_equipment_0 = { owner = "AKA" amount = 50 version_name = "Anzawt Mk 0" }
+
+	}
+
+
+}

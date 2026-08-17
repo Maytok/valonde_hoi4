@@ -1,0 +1,37 @@
+
+state={
+	id=147
+	name="STATE_147"
+	manpower = 3148837
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IMA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = IMA
+	}
+
+	provinces={
+		1846 1847 1848 1849 1850 1851 1852 1853 1854 1855 1856 1857 1858 1859 1860 
+	}
+	local_supplies=0.0 
+}

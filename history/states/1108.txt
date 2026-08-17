@@ -1,0 +1,37 @@
+
+state={
+	id=1108
+	name="STATE_1108"
+	manpower = 2293339
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PNR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = PNR
+	}
+
+	provinces={
+		13155 13156 13157 13158 13159 13160 13161 13162 13163 13164 13165 13166 
+	}
+	local_supplies=0.0 
+}

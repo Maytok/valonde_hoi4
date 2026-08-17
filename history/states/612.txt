@@ -1,0 +1,37 @@
+
+state={
+	id=612
+	name="STATE_612"
+	manpower = 6253382
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IGL
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			
+		}
+		add_core_of = IGL
+	}
+
+	provinces={
+		7326 7327 7328 7329 7330 7331 7332 7333 7334 7335 7336 7337 7338 7339 7340 7341 7342 7343 7344 7345 7346 7347 7348 7349 7350 7351 7352 7353 7354 7355 7356 
+	}
+	local_supplies=0.0 
+}

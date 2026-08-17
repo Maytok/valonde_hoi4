@@ -1,0 +1,41 @@
+air_wings = {
+		1077 = { 								
+		fighter_equipment_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1177 = { 								
+		fighter_equipment_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1090 = { 								
+		CAS_equipment_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1589 = { 								
+		fighter_equipment_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	990 = { 								
+		fighter_equipment_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1004 = { 								
+		CAS_equipment_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1190 = { 								
+		CAS_equipment_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+fighter_equipment_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1036 = { 								
+		CAS_equipment_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1202 = { 								
+		CAS_equipment_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+
+
+}

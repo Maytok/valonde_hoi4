@@ -1,0 +1,37 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower = 3158265
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAV
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = DAV
+	}
+
+	provinces={
+		7525 7526 7527 7528 7529 7530 7531 7532 7533 7534 7535 7536 7537 7538 7539 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 1334483
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SAN
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SAN
+	}
+
+	provinces={
+		5491 5492 5493 5494 5495 5496 
+	}
+	local_supplies=0.0 
+}

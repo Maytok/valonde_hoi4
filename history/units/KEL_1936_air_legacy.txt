@@ -1,0 +1,8 @@
+air_wings = {
+		1048 = { 								
+		tac_bomber_equipment_0 = { owner = "KEL" amount = 46 version_name = "Upeneri Mk 0" }
+
+	}
+
+
+}

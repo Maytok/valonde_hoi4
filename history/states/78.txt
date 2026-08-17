@@ -1,0 +1,37 @@
+
+state={
+	id=78
+	name="STATE_78"
+	manpower = 900897
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=4
+		coal=10
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		1022 1023 1024 1025 
+	}
+	local_supplies=0.0 
+}

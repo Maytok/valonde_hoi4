@@ -1,0 +1,55 @@
+air_wings = {
+		1060 = { 								
+		fighter_equipment_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1136 = { 								
+		nav_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Tzolkab Mk 1" }
+tac_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Oxib Mk 0" }
+
+	}
+	1597 = { 								
+		CAS_equipment_0 = { owner = "AJP" amount = 50 version_name = "Chilacom Mk 2" }
+
+	}
+	1173 = { 								
+		strat_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+tac_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Oxib Mk 0" }
+
+	}
+	1615 = { 								
+		fighter_equipment_0 = { owner = "AJP" amount = 50 version_name = "Bakmulkanila Mk 1" }
+
+	}
+	1126 = { 								
+		CAS_equipment_0 = { owner = "AJP" amount = 50 version_name = "Chilacom Mk 2" }
+
+	}
+	1174 = { 								
+		fighter_equipment_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1154 = { 								
+		CAS_equipment_0 = { owner = "AJP" amount = 48 version_name = "Zotz Mk 1" }
+
+	}
+	1552 = { 								
+		nav_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Uxun Mk 1" }
+
+	}
+	1102 = { 								
+		nav_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Uxun Mk 1" }
+strat_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Kanjo Mk 0" }
+
+	}
+	1135 = { 								
+		fighter_equipment_0 = { owner = "AJP" amount = 50 version_name = "Bakmulkanila Mk 1" }
+
+	}
+	1138 = { 								
+		nav_bomber_equipment_0 = { owner = "AJP" amount = 50 version_name = "Tzolkab Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=985
+	name="STATE_985"
+	manpower = 1764611
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DHO
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DHO
+	}
+
+	provinces={
+		11610 11611 11612 11613 11614 11615 11616 11617 11618 
+	}
+	local_supplies=0.0 
+}

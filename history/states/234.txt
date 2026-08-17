@@ -1,0 +1,37 @@
+
+state={
+	id=234
+	name="STATE_234"
+	manpower = 2333400
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HOR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HOR
+	}
+
+	provinces={
+		2941 2942 2943 2944 2945 2946 2947 2948 2949 2950 2951 2952 2953 
+	}
+	local_supplies=0.0 
+}

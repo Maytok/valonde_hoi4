@@ -1,0 +1,37 @@
+
+state={
+	id=8
+	name="STATE_8"
+	manpower = 39468
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=22
+		chromium=24
+		oil=21
+		rubber=0
+		steel=0
+		tungsten=22
+		coal=57
+	}
+
+	history={
+		
+		owner = TIZ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TIZ
+	}
+
+	provinces={
+		121 122 123 124 125 126 127 128 129 130 131 132 
+	}
+	local_supplies=0.0 
+}

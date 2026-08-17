@@ -1,0 +1,37 @@
+
+state={
+	id=719
+	name="STATE_719"
+	manpower = 2042700
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		8524 8525 8526 8527 8528 8529 8530 8531 8532 8533 
+	}
+	local_supplies=0.0 
+}

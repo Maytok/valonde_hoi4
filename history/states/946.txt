@@ -1,0 +1,37 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 1686554
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ATE
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = ATE
+	}
+
+	provinces={
+		11129 11130 11131 11132 11133 11134 11135 11136 
+	}
+	local_supplies=0.0 
+}

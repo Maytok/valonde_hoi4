@@ -1,0 +1,1083 @@
+characters = {
+	VIT_Kwana_Laanara={
+		name="Kwana Laanara"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIT_Temba_Kivule={
+		name="Temba Kivule"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Temba_Kivule
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Lubanga_Malme={
+		name="Lubanga Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Lubanga_Malme
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Tembano_Hofunga={
+		name="Tembano Hofunga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Tembano_Hofunga
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Amaraka_Bondithi={
+		name="Amaraka Bondithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Amaraka_Bondithi
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Kwanga_Mpando={
+		name="Kwanga Mpando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Kwanga_Mpando
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Simbano_Mvua={
+		name="Simbano Mvua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Simbano_Mvua
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Lubana_Moyoto={
+		name="Lubana Moyoto"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Lubana_Moyoto
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	VIT_Bakari_Kanajanaji={
+		name="Bakari Kanajanaji"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Bakari_Kanajanaji
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	VIT_Kwamaraka_Bondithi={
+		name="Kwamaraka Bondithi"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Kwamaraka_Bondithi
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	VIT_Mbwano_Ardhidishinz={
+		name="Mbwano Ardhidishinz"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Mbwano_Ardhidishinz
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VIT_Omari_Maanganguzi={
+		name="Omari Maanganguzi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Omari_Maanganguzi
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VIT_Tano_Shinzi={
+		name="Tano Shinzi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Tano_Shinzi
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	VIT_Lubanga_Dhoro={
+		name="Lubanga Dhoro"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Lubanga_Dhoro
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VIT_Bari_Kiondwano={
+		name="Bari Kiondwano"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Bari_Kiondwano
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	VIT_Kama_Sikalu={
+		name="Kama Sikalu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Kama_Sikalu
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	VIT_Tembanga_Tekete={
+		name="Tembanga Tekete"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Tembanga_Tekete
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VIT_Amaraka_Mwano={
+		name="Amaraka Mwano"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Amaraka_Mwano
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	VIT_Chidi_Mtifo={
+		name="Chidi Mtifo"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Chidi_Mtifo
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	VIT_Juma_Sikalu={
+		name="Juma Sikalu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Juma_Sikalu
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	VIT_Tana_Mtifo={
+		name="Tana Mtifo"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Tana_Mtifo
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	VIT_Kamau_Milikia={
+		name="Kamau Milikia"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIT_Juma_Panishati={
+		name="Juma Panishati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Juma_Panishati
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Jumari_Taanguzi={
+		name="Jumari Taanguzi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Jumari_Taanguzi
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Juma_Dhoro={
+		name="Juma Dhoro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Juma_Dhoro
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Taji_Amria={
+		name="Taji Amria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Taji_Amria
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Lubana_Bondithi={
+		name="Lubana Bondithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Lubana_Bondithi
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Baka_Wima={
+		name="Baka Wima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Baka_Wima
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Amaraka_Bahawithi={
+		name="Amaraka Bahawithi"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Amaraka_Bahawithi
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	VIT_Lubano_Panishawili={
+		name="Lubano Panishawili"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Lubano_Panishawili
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	VIT_Shaka_Laango={
+		name="Shaka Laango"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Shaka_Laango
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	VIT_Tembanga_Pepo={
+		name="Tembanga Pepo"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Tembanga_Pepo
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VIT_Chidi_Kumbo={
+		name="Chidi Kumbo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Chidi_Kumbo
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	VIT_Lubanga_Watifo={
+		name="Lubanga Watifo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Lubanga_Watifo
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	VIT_Shakaraka_Ukwe={
+		name="Shakaraka Ukwe"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Shakaraka_Ukwe
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VIT_Luba_Tumba={
+		name="Luba Tumba"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Luba_Tumba
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	VIT_Taji_Dara={
+		name="Taji Dara"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Taji_Dara
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	VIT_Jumari_Kisu={
+		name="Jumari Kisu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Jumari_Kisu
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	VIT_Sefu_Male={
+		name="Sefu Male"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Sefu_Male
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	VIT_Tembanga_Mtifo={
+		name="Tembanga Mtifo"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Tembanga_Mtifo
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	VIT_Taji_Kifalme={
+		name="Taji Kifalme"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Taji_Kifalme
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	VIT_Omari_Upenda={
+		name="Omari Upenda"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Omari_Upenda
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	VIT_Shakaraka_Aduiyanaja={
+		name="Shakaraka Aduiyanaja"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIT_Kama_Chukwezi={
+		name="Kama Chukwezi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Kama_Chukwezi
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Mbwame_Panishati={
+		name="Mbwame Panishati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Mbwame_Panishati
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Nuru_Saua={
+		name="Nuru Saua"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Nuru_Saua
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Tembanga_Moto={
+		name="Tembanga Moto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Tembanga_Moto
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Baka_Shukutifu={
+		name="Baka Shukutifu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Baka_Shukutifu
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	VIT_Bakari_Ufalkia={
+		name="Bakari Ufalkia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Bakari_Ufalkia
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Kwana_Siri={
+		name="Kwana Siri"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Kwana_Siri
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIT_Mbwano_Mtifo={
+		name="Mbwano Mtifo"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Mbwano_Mtifo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	VIT_Omau_Kili={
+		name="Omau Kili"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Omau_Kili
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VIT_Tembanga_Pigangu={
+		name="Tembanga Pigangu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Tembanga_Pigangu
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VIT_Nuru_Upeno={
+		name="Nuru Upeno"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Nuru_Upeno
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VIT_Kame_Laanara={
+		name="Kame Laanara"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Kame_Laanara
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	VIT_Shakaraka_Vitu={
+		name="Shakaraka Vitu"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Shakaraka_Vitu
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	VIT_Lubana_Kanara={
+		name="Lubana Kanara"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Lubana_Kanara
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	VIT_Simba_Mtifo={
+		name="Simba Mtifo"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Simba_Mtifo
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VIT_Chidi_Pigangu={
+		name="Chidi Pigangu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Chidi_Pigangu
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	VIT_Baka_Mvua={
+		name="Baka Mvua"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Baka_Mvua
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	VIT_Kwanga_Sikalu={
+		name="Kwanga Sikalu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Kwanga_Sikalu
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	VIT_Nuru_Mpando={
+		name="Nuru Mpando"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Nuru_Mpando
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VIT_Simba_Hofunga={
+		name="Simba Hofunga"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Simba_Hofunga
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	VIT_Mosi_Amria={
+		name="Mosi Amria"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VIT_Tembanga_Cheliki={
+		name="Tembanga Cheliki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Tembanga_Cheliki
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Kato_Panishati={
+		name="Kato Panishati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Kato_Panishati
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Mosi_Siri={
+		name="Mosi Siri"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Mosi_Siri
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Tana_Maji={
+		name="Tana Maji"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Tana_Maji
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Kamau_Mpando={
+		name="Kamau Mpando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Kamau_Mpando
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	VIT_Kwamaraka_Laango={
+		name="Kwamaraka Laango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VIT_Kwamaraka_Laango
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	VIT_Lubana_Mshidisto={
+		name="Lubana Mshidisto"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Lubana_Mshidisto
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VIT_Kato_Hofunga={
+		name="Kato Hofunga"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Kato_Hofunga
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	VIT_Kamau_Shukutifu={
+		name="Kamau Shukutifu"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Kamau_Shukutifu
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	VIT_Bari_Nyumba={
+		name="Bari Nyumba"
+
+		advisor={
+			slot = army_chief
+			idea_token = VIT_Bari_Nyumba
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	VIT_Simbano_Watifo={
+		name="Simbano Watifo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Simbano_Watifo
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	VIT_Juma_Deli={
+		name="Juma Deli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VIT_Juma_Deli
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VIT_Baka_Heshi={
+		name="Baka Heshi"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Baka_Heshi
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VIT_Kame_Mvua={
+		name="Kame Mvua"
+
+		advisor={
+			slot = air_chief
+			idea_token = VIT_Kame_Mvua
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VIT_Chidi_Vitu={
+		name="Chidi Vitu"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Chidi_Vitu
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	VIT_Kwamaraka_Heshi={
+		name="Kwamaraka Heshi"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Kwamaraka_Heshi
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	VIT_Tembano_Mpakati={
+		name="Tembano Mpakati"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Tembano_Mpakati
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	VIT_Shaka_Siki={
+		name="Shaka Siki"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Shaka_Siki
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	VIT_Lubano_Chukwezi={
+		name="Lubano Chukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Lubano_Chukwezi
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	VIT_Mosi_Chukwezi={
+		name="Mosi Chukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = VIT_Mosi_Chukwezi
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	VIT_Kame_Cheliki={
+		name="Kame Cheliki"
+
+		advisor={
+			slot = theorist
+			idea_token = VIT_Kame_Cheliki
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VIT_Musa_Panishawili={
+		name="Musa Panishawili"
+
+		advisor={
+			slot = theorist
+			idea_token = VIT_Musa_Panishawili
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VIT_Amaraka_Taanguzi={
+		name="Amaraka Taanguzi"
+
+		advisor={
+			slot = theorist
+			idea_token = VIT_Amaraka_Taanguzi
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

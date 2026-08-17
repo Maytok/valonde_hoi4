@@ -1,0 +1,1083 @@
+characters = {
+	NJN_Lubano_Mliku={
+		name="Lubano Mliku"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { noble_beurocrat  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NJN_Luba_Mpakati={
+		name="Luba Mpakati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Luba_Mpakati
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NJN_Kamau_Neno={
+		name="Kamau Neno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kamau_Neno
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Kwamaraka_Mchaiku={
+		name="Kwamaraka Mchaiku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kwamaraka_Mchaiku
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Lubana_Landafare={
+		name="Lubana Landafare"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Lubana_Landafare
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Kwanga_Chuo={
+		name="Kwanga Chuo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kwanga_Chuo
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Juma_Malme={
+		name="Juma Malme"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Juma_Malme
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Kwana_Landafare={
+		name="Kwana Landafare"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Kwana_Landafare
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NJN_Amari_Kiondwano={
+		name="Amari Kiondwano"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Amari_Kiondwano
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NJN_Taji_Maji={
+		name="Taji Maji"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Taji_Maji
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	NJN_Chidi_Dhoro={
+		name="Chidi Dhoro"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Chidi_Dhoro
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NJN_Omau_Jota={
+		name="Omau Jota"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Omau_Jota
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	NJN_Simbano_Teka={
+		name="Simbano Teka"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Simbano_Teka
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	NJN_Tembanga_Sikalu={
+		name="Tembanga Sikalu"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Tembanga_Sikalu
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NJN_Lubano_Kamu={
+		name="Lubano Kamu"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Lubano_Kamu
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	NJN_Tembanga_Mliku={
+		name="Tembanga Mliku"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Tembanga_Mliku
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	NJN_Simba_Majeshalkia={
+		name="Simba Majeshalkia"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Simba_Majeshalkia
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	NJN_Sefu_Kanara={
+		name="Sefu Kanara"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Sefu_Kanara
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	NJN_Kama_Siki={
+		name="Kama Siki"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kama_Siki
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	NJN_Tana_Maji={
+		name="Tana Maji"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Tana_Maji
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	NJN_Kamau_Jota={
+		name="Kamau Jota"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kamau_Jota
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	NJN_Tembanga_Mchaiku={
+		name="Tembanga Mchaiku"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NJN_Shaka_Wima={
+		name="Shaka Wima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Shaka_Wima
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Kamaraka_Shini={
+		name="Kamaraka Shini"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kamaraka_Shini
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Tembano_Kumbo={
+		name="Tembano Kumbo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Tembano_Kumbo
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Kwana_Kithi={
+		name="Kwana Kithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kwana_Kithi
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Chidi_Laango={
+		name="Chidi Laango"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Chidi_Laango
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Mbwano_Heshi={
+		name="Mbwano Heshi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Mbwano_Heshi
+			traits = {	militant_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NJN_Shaka_Shimya={
+		name="Shaka Shimya"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Shaka_Shimya
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	NJN_Kamau_Shukweleltab={
+		name="Kamau Shukweleltab"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Kamau_Shukweleltab
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	NJN_Taji_Aduiyanaja={
+		name="Taji Aduiyanaja"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Taji_Aduiyanaja
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NJN_Bakari_Pigangu={
+		name="Bakari Pigangu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Bakari_Pigangu
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	NJN_Kwamaraka_Neno={
+		name="Kwamaraka Neno"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Kwamaraka_Neno
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NJN_Omari_Kifu={
+		name="Omari Kifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Omari_Kifu
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	NJN_Kamau_Laanara={
+		name="Kamau Laanara"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Kamau_Laanara
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NJN_Baka_Bondithi={
+		name="Baka Bondithi"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Baka_Bondithi
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	NJN_Simba_Landafare={
+		name="Simba Landafare"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Simba_Landafare
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	NJN_Tanga_Milikia={
+		name="Tanga Milikia"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Tanga_Milikia
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	NJN_Kwanga_Ukwelu={
+		name="Kwanga Ukwelu"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kwanga_Ukwelu
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	NJN_Tembano_Kanara={
+		name="Tembano Kanara"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Tembano_Kanara
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	NJN_Amaraka_Mshidisto={
+		name="Amaraka Mshidisto"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Amaraka_Mshidisto
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	NJN_Kamau_Mshidisto={
+		name="Kamau Mshidisto"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kamau_Mshidisto
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	NJN_Lubano_Ufalele={
+		name="Lubano Ufalele"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { socialist_justice  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NJN_Nuru_Mpando={
+		name="Nuru Mpando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Nuru_Mpando
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NJN_Shakaraka_Kelele={
+		name="Shakaraka Kelele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Shakaraka_Kelele
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Mbwamari_Kithi={
+		name="Mbwamari Kithi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Mbwamari_Kithi
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Bakari_Mliku={
+		name="Bakari Mliku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Bakari_Mliku
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Shaka_Mwano={
+		name="Shaka Mwano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Shaka_Mwano
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Kame_Hofunga={
+		name="Kame Hofunga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Kame_Hofunga
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NJN_Bari_Kumo={
+		name="Bari Kumo"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Bari_Kumo
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	NJN_Kwana_Upeneri={
+		name="Kwana Upeneri"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Kwana_Upeneri
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NJN_Lubanga_Kumbo={
+		name="Lubanga Kumbo"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Lubanga_Kumbo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	NJN_Kwana_Shini={
+		name="Kwana Shini"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Kwana_Shini
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	NJN_Kame_Kifu={
+		name="Kame Kifu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Kame_Kifu
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	NJN_Kwanga_Malme={
+		name="Kwanga Malme"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Kwanga_Malme
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	NJN_Tembano_Histo={
+		name="Tembano Histo"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Tembano_Histo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	NJN_Lubanga_Kivule={
+		name="Lubanga Kivule"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Lubanga_Kivule
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NJN_Tana_Shini={
+		name="Tana Shini"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Tana_Shini
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	NJN_Kato_Upeno={
+		name="Kato Upeno"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kato_Upeno
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NJN_Kamau_Mliku={
+		name="Kamau Mliku"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kamau_Mliku
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NJN_Omari_Sikalu={
+		name="Omari Sikalu"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Omari_Sikalu
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	NJN_Musa_Shimya={
+		name="Musa Shimya"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Musa_Shimya
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	NJN_Shakaraka_Kithi={
+		name="Shakaraka Kithi"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Shakaraka_Kithi
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	NJN_Taji_Kifu={
+		name="Taji Kifu"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	NJN_Temba_Jumbukufu={
+		name="Temba Jumbukufu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Temba_Jumbukufu
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+
+
+	}
+	NJN_Lubanga_Milikia={
+		name="Lubanga Milikia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Lubanga_Milikia
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+
+
+	}
+	NJN_Lubano_Neno={
+		name="Lubano Neno"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Lubano_Neno
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Taji_Kumo={
+		name="Taji Kumo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Taji_Kumo
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Tembanga_Nyumba={
+		name="Tembanga Nyumba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Tembanga_Nyumba
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Luba_Mpando={
+		name="Luba Mpando"
+
+		advisor={
+			slot = political_advisor
+			idea_token = NJN_Luba_Mpando
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+
+
+	}
+	NJN_Temba_Moto={
+		name="Temba Moto"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Temba_Moto
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	NJN_Mbwame_Siki={
+		name="Mbwame Siki"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Mbwame_Siki
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	NJN_Mbwamari_Dhoro={
+		name="Mbwamari Dhoro"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Mbwamari_Dhoro
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	NJN_Kwamaraka_Kamu={
+		name="Kwamaraka Kamu"
+
+		advisor={
+			slot = army_chief
+			idea_token = NJN_Kwamaraka_Kamu
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	NJN_Amari_Shukweleltab={
+		name="Amari Shukweleltab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Amari_Shukweleltab
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NJN_Temba_Shinzi={
+		name="Temba Shinzi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = NJN_Temba_Shinzi
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	NJN_Tembano_Saua={
+		name="Tembano Saua"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Tembano_Saua
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	NJN_Jumari_Nyumba={
+		name="Jumari Nyumba"
+
+		advisor={
+			slot = air_chief
+			idea_token = NJN_Jumari_Nyumba
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	NJN_Amaraka_Cheliki={
+		name="Amaraka Cheliki"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Amaraka_Cheliki
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	NJN_Kwamaraka_Chukwezi={
+		name="Kwamaraka Chukwezi"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Kwamaraka_Chukwezi
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	NJN_Luba_Vitu={
+		name="Luba Vitu"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Luba_Vitu
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	NJN_Shaka_Saraluja={
+		name="Shaka Saraluja"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Shaka_Saraluja
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	NJN_Bari_Kelta={
+		name="Bari Kelta"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Bari_Kelta
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	NJN_Lubana_Kelta={
+		name="Lubana Kelta"
+
+		advisor={
+			slot = high_command
+			idea_token = NJN_Lubana_Kelta
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	NJN_Shakaraka_Wima={
+		name="Shakaraka Wima"
+
+		advisor={
+			slot = theorist
+			idea_token = NJN_Shakaraka_Wima
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	NJN_Simba_Taanguzi={
+		name="Simba Taanguzi"
+
+		advisor={
+			slot = theorist
+			idea_token = NJN_Simba_Taanguzi
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	NJN_Shaka_Pigangu={
+		name="Shaka Pigangu"
+
+		advisor={
+			slot = theorist
+			idea_token = NJN_Shaka_Pigangu
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=53
+	name="STATE_53"
+	manpower = 2571248
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=9
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ATE
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = ATE
+	}
+
+	provinces={
+		719 720 721 722 723 724 725 726 727 728 729 730 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=990
+	name="STATE_990"
+	manpower = 1263413
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = MTL
+	}
+
+	provinces={
+		11675 11676 11677 11678 11679 11680 11681 11682 
+	}
+	local_supplies=0.0 
+}

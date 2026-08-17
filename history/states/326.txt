@@ -1,0 +1,37 @@
+
+state={
+	id=326
+	name="STATE_326"
+	manpower = 2194439
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		3965 3966 3967 3968 3969 3970 3971 3972 3973 3974 
+	}
+	local_supplies=0.0 
+}

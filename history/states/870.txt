@@ -1,0 +1,37 @@
+
+state={
+	id=870
+	name="STATE_870"
+	manpower = 1276305
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YAS
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = YAS
+	}
+
+	provinces={
+		10258 10259 10260 10261 10262 10263 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=885
+	name="STATE_885"
+	manpower = 2344291
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=1
+		rubber=1
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		
+		owner = TIZ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TIZ
+	}
+
+	provinces={
+		10460 10461 10462 10463 10464 10465 10466 10467 10468 10469 10470 10471 
+	}
+	local_supplies=0.0 
+}

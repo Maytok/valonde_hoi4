@@ -1,0 +1,37 @@
+
+state={
+	id=1114
+	name="STATE_1114"
+	manpower = 2470196
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MWA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MWA
+	}
+
+	provinces={
+		13214 13215 13216 13217 13218 13219 13220 13221 13222 13223 13224 13225 13226 
+	}
+	local_supplies=0.0 
+}

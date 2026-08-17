@@ -1,0 +1,37 @@
+
+state={
+	id=284
+	name="STATE_284"
+	manpower = 2376582
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ILI
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ILI
+	}
+
+	provinces={
+		3464 3465 3466 3467 3468 3469 3470 3471 3472 3473 3474 3475 
+	}
+	local_supplies=0.0 
+}

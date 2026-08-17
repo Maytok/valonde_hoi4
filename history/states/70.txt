@@ -1,0 +1,37 @@
+
+state={
+	id=70
+	name="STATE_70"
+	manpower = 3901421
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAW
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TAW
+	}
+
+	provinces={
+		934 935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 951 952 953 954 
+	}
+	local_supplies=0.0 
+}

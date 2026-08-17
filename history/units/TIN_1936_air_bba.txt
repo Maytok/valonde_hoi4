@@ -1,0 +1,8 @@
+air_wings = {
+		1440 = { 								
+		small_plane_airframe_0 = { owner = "TIN" amount = 48 version_name = "Colvikuktaru Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,1083 @@
+characters = {
+	ATE_Bulent_Golcultur={
+		name="Bulent Golcultur"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATE_Zafer_Isilis={
+		name="Zafer Isilis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Zafer_Isilis
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Murat_Sanak={
+		name="Murat Sanak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Murat_Sanak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Kaan_Hayat={
+		name="Kaan Hayat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Kaan_Hayat
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Yilmazan_Koplu={
+		name="Yilmazan Koplu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Yilmazan_Koplu
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Suat_Bulul={
+		name="Suat Bulul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Suat_Bulul
+			traits = {	humble 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Iskerhanerha_Yaske={
+		name="Iskerhanerha Yaske"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Iskerhanerha_Yaske
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Talih_Doru={
+		name="Talih Doru"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Talih_Doru
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	ATE_Ader_Gecek={
+		name="Ader Gecek"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ader_Gecek
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	ATE_Talih_Deniz={
+		name="Talih Deniz"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Talih_Deniz
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ATE_Salih_Gece={
+		name="Salih Gece"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Salih_Gece
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	ATE_Sinan_Haynat={
+		name="Sinan Haynat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Sinan_Haynat
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	ATE_Onur_Ates={
+		name="Onur Ates"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Onur_Ates
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	ATE_Ener_Saat={
+		name="Ener Saat"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Ener_Saat
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ATE_Selil_Nehir={
+		name="Selil Nehir"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Selil_Nehir
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	ATE_Ilkerhat_Nehir={
+		name="Ilkerhat Nehir"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ilkerhat_Nehir
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	ATE_Iskerha_Yanlik={
+		name="Iskerha Yanlik"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Iskerha_Yanlik
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	ATE_Hakan_Doguk={
+		name="Hakan Doguk"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Hakan_Doguk
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	ATE_Salih_Asimseke={
+		name="Salih Asimseke"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Salih_Asimseke
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	ATE_Iskerhanerha_Isilis={
+		name="Iskerhanerha Isilis"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Iskerhanerha_Isilis
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	ATE_Ademazan_Akinlik={
+		name="Ademazan Akinlik"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ademazan_Akinlik
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	ATE_Ilker_Yolculturt={
+		name="Ilker Yolculturt"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATE_Iskerha_Deni={
+		name="Iskerha Deni"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Iskerha_Deni
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Iskerhanerha_Ates={
+		name="Iskerhanerha Ates"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Iskerhanerha_Ates
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Faruk_Gecek={
+		name="Faruk Gecek"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Faruk_Gecek
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Zafer_Gemiz={
+		name="Zafer Gemiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Zafer_Gemiz
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Ademazan_Gece={
+		name="Ademazan Gece"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Ademazan_Gece
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Salhan_Umut={
+		name="Salhan Umut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Salhan_Umut
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Ilkender_Gunce={
+		name="Ilkender Gunce"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ilkender_Gunce
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	ATE_Boran_Barimseket={
+		name="Boran Barimseket"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Boran_Barimseket
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	ATE_Ilkender_Yoldir={
+		name="Ilkender Yoldir"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ilkender_Yoldir
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	ATE_Ilkerkan_Bele={
+		name="Ilkerkan Bele"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ilkerkan_Bele
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	ATE_Ramazan_Temiz={
+		name="Ramazan Temiz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Ramazan_Temiz
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	ATE_Bekir_Gemisla={
+		name="Bekir Gemisla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Bekir_Gemisla
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	ATE_Farun_Anat={
+		name="Farun Anat"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Farun_Anat
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ATE_Yustafer_Orman={
+		name="Yustafer Orman"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Yustafer_Orman
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	ATE_Kadir_Gecmisar={
+		name="Kadir Gecmisar"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Kadir_Gecmisar
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	ATE_Farun_Gemisla={
+		name="Farun Gemisla"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Farun_Gemisla
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	ATE_Salhan_Sani={
+		name="Salhan Sani"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Salhan_Sani
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	ATE_Faruk_Yayat={
+		name="Faruk Yayat"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Faruk_Yayat
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	ATE_Ilkerkan_Basket={
+		name="Ilkerkan Basket"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ilkerkan_Basket
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	ATE_Ertugruk_Sonbahtar={
+		name="Ertugruk Sonbahtar"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ertugruk_Sonbahtar
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	ATE_Savas_Topru={
+		name="Savas Topru"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATE_Suat_Yanlik={
+		name="Suat Yanlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Suat_Yanlik
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Bulent_Basket={
+		name="Bulent Basket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Bulent_Basket
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Faruk_Aksaniz={
+		name="Faruk Aksaniz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Faruk_Aksaniz
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Muratugrun_Isiman={
+		name="Muratugrun Isiman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Muratugrun_Isiman
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Yilmazan_Doru={
+		name="Yilmazan Doru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Yilmazan_Doru
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Talih_Gunci={
+		name="Talih Gunci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Talih_Gunci
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Serkan_Koprakinlik={
+		name="Serkan Koprakinlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Serkan_Koprakinlik
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	ATE_Ramaz_Yayla={
+		name="Ramaz Yayla"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ramaz_Yayla
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	ATE_Ilkerhat_Deni={
+		name="Ilkerhat Deni"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ilkerhat_Deni
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	ATE_Salhat_Golge={
+		name="Salhat Golge"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Salhat_Golge
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	ATE_Yilmazan_Aksaniz={
+		name="Yilmazan Aksaniz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Yilmazan_Aksaniz
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	ATE_Murat_Yayla={
+		name="Murat Yayla"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Murat_Yayla
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	ATE_Emin_Asimseke={
+		name="Emin Asimseke"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Emin_Asimseke
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	ATE_Yilmazan_Hisla={
+		name="Yilmazan Hisla"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Yilmazan_Hisla
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	ATE_Ertuhan_Yaske={
+		name="Ertuhan Yaske"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ertuhan_Yaske
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	ATE_Muratugrun_Gultur={
+		name="Muratugrun Gultur"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Muratugrun_Gultur
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	ATE_Borat_Umut={
+		name="Borat Umut"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Borat_Umut
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	ATE_Ahmet_Sogukarli={
+		name="Ahmet Sogukarli"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ahmet_Sogukarli
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	ATE_Ilker_Sehildi={
+		name="Ilker Sehildi"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ilker_Sehildi
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	ATE_Ader_Sehildi={
+		name="Ader Sehildi"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Ader_Sehildi
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	ATE_Ader_Doru={
+		name="Ader Doru"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	ATE_Talih_Bele={
+		name="Talih Bele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Talih_Bele
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Cemal_Kirla={
+		name="Cemal Kirla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Cemal_Kirla
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Hakanerkan_Basket={
+		name="Hakanerkan Basket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Hakanerkan_Basket
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Emin_Gemiz={
+		name="Emin Gemiz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Emin_Gemiz
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	ATE_Emir_Sehir={
+		name="Emir Sehir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Emir_Sehir
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	ATE_Ilker_Kopruklulut={
+		name="Ilker Kopruklulut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = ATE_Ilker_Kopruklulut
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	ATE_Salhat_Sani={
+		name="Salhat Sani"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Salhat_Sani
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	ATE_Kadir_Savar={
+		name="Kadir Savar"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Kadir_Savar
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	ATE_Adem_Sani={
+		name="Adem Sani"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Adem_Sani
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	ATE_Ilkerhat_Gunci={
+		name="Ilkerhat Gunci"
+
+		advisor={
+			slot = army_chief
+			idea_token = ATE_Ilkerhat_Gunci
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	ATE_Serkan_Kalece={
+		name="Serkan Kalece"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Serkan_Kalece
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	ATE_Emin_Ilce={
+		name="Emin Ilce"
+
+		advisor={
+			slot = navy_chief
+			idea_token = ATE_Emin_Ilce
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	ATE_Mustafa_Doru={
+		name="Mustafa Doru"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Mustafa_Doru
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	ATE_Yusul_Sani={
+		name="Yusul Sani"
+
+		advisor={
+			slot = air_chief
+			idea_token = ATE_Yusul_Sani
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	ATE_Iskerha_Sani={
+		name="Iskerha Sani"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Iskerha_Sani
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	ATE_Muratugrun_Anat={
+		name="Muratugrun Anat"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Muratugrun_Anat
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	ATE_Serkan_Yolge={
+		name="Serkan Yolge"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Serkan_Yolge
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	ATE_Iskerhanerha_Barimseket={
+		name="Iskerhanerha Barimseket"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Iskerhanerha_Barimseket
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	ATE_Fara_Sehildi={
+		name="Fara Sehildi"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Fara_Sehildi
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	ATE_Kerkan_Bulul={
+		name="Kerkan Bulul"
+
+		advisor={
+			slot = high_command
+			idea_token = ATE_Kerkan_Bulul
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	ATE_Emin_Bele={
+		name="Emin Bele"
+
+		advisor={
+			slot = theorist
+			idea_token = ATE_Emin_Bele
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	ATE_Zafer_Haynat={
+		name="Zafer Haynat"
+
+		advisor={
+			slot = theorist
+			idea_token = ATE_Zafer_Haynat
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	ATE_Bulent_Bele={
+		name="Bulent Bele"
+
+		advisor={
+			slot = theorist
+			idea_token = ATE_Bulent_Bele
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

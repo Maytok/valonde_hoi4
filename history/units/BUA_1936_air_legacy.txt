@@ -1,0 +1,38 @@
+air_wings = {
+		1313 = { 								
+		tac_bomber_equipment_0 = { owner = "BUA" amount = 42 version_name = "Spiona Mk 0" }
+
+	}
+	1278 = { 								
+		CAS_equipment_0 = { owner = "BUA" amount = 50 version_name = "Talte Mk 1" }
+
+	}
+	1300 = { 								
+		fighter_equipment_0 = { owner = "BUA" amount = 50 version_name = "Dubh Mk 1" }
+
+	}
+	1756 = { 								
+		nav_bomber_equipment_0 = { owner = "BUA" amount = 50 version_name = "Faill Mk 2" }
+
+	}
+	1219 = { 								
+		CAS_equipment_0 = { owner = "BUA" amount = 50 version_name = "Talte Mk 1" }
+nav_bomber_equipment_0 = { owner = "BUA" amount = 50 version_name = "Faill Mk 2" }
+strat_bomber_equipment_0 = { owner = "BUA" amount = 50 version_name = "Greintigh Mk 1" }
+
+	}
+	1291 = { 								
+		fighter_equipment_0 = { owner = "BUA" amount = 50 version_name = "Dubh Mk 1" }
+
+	}
+	1233 = { 								
+		strat_bomber_equipment_0 = { owner = "BUA" amount = 50 version_name = "Greintigh Mk 1" }
+
+	}
+	1334 = { 								
+		tac_bomber_equipment_0 = { owner = "BUA" amount = 47 version_name = "Cluas Mk 1" }
+
+	}
+
+
+}

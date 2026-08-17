@@ -1,0 +1,37 @@
+
+state={
+	id=422
+	name="STATE_422"
+	manpower = 2553862
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		5139 5140 5141 5142 5143 5144 5145 5146 5147 5148 5149 
+	}
+	local_supplies=0.0 
+}

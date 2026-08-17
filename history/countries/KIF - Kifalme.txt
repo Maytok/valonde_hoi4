@@ -1,0 +1,467 @@
+capital = 982
+
+oob = "KIF_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KIF_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KIF_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	paratroopers= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	synth_oil_experiments= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Guercada Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Capircama Mk 2"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Labiria Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Segnale Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Mortine Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tritta Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KIF_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			aa_lmg = 1
+			engines_1 = 1
+			armor_piercing_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Guercada Mk 0"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Spiria Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Scriacciore Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "KIF_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KIF_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Piontelta Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KIF_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Piontelta Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = KIF_Paolose_Freccade
+recruit_character = KIF_Ramon_Alla
+recruit_character = KIF_Leon_Labiria
+recruit_character = KIF_Giacolos_Piontelta
+recruit_character = KIF_Giaco_Ciere
+recruit_character = KIF_Thierry_Reggintra
+recruit_character = KIF_Steo_Canto
+recruit_character = KIF_Giacolas_Monere
+recruit_character = KIF_Nica_Mortine
+recruit_character = KIF_Ramon_Maggelta
+recruit_character = KIF_Pablo_Amicolda
+recruit_character = KIF_Steo_Terre
+recruit_character = KIF_Antonardo_Comenza
+recruit_character = KIF_Pablo_Spito
+recruit_character = KIF_Antor_Guercada
+recruit_character = KIF_Thien_Guerotta
+recruit_character = KIF_Lucardo_Amicolda
+recruit_character = KIF_Jeandre_Magonerregge
+recruit_character = KIF_Jeandre_Messo
+recruit_character = KIF_Nicardo_Spiria
+recruit_character = KIF_Giacolas_Guerotta
+recruit_character = KIF_Thien_Segione
+recruit_character = KIF_Thien_Cielle
+recruit_character = KIF_Mario_Batta
+recruit_character = KIF_Robertonarlo_Pacolorita
+recruit_character = KIF_Mario_Abisi
+recruit_character = KIF_Alexandre_Giumonfo
+recruit_character = KIF_Alexandro_Valle
+recruit_character = KIF_Francescolas_Canto
+recruit_character = KIF_Stefan_Nempo
+recruit_character = KIF_Thierto_Fiumo
+recruit_character = KIF_Ricto_Divaledintel
+recruit_character = KIF_Stefan_Pone
+recruit_character = KIF_Antonardo_Spito
+recruit_character = KIF_Roberry_Diva
+recruit_character = KIF_Paolose_Guerotta
+recruit_character = KIF_Nicto_Nempo
+recruit_character = KIF_Stefancesco_Seggia
+recruit_character = KIF_Nicto_Sanyontorpol
+recruit_character = KIF_Roberry_Destesagna
+recruit_character = KIF_Paolo_Piontelta
+recruit_character = KIF_Pedre_Sanyontorpol
+recruit_character = KIF_Paolo_Nempo
+recruit_character = KIF_Andre_Visi
+recruit_character = KIF_Mardo_Ciere
+recruit_character = KIF_Leon_Neve
+recruit_character = KIF_Steo_Piontelta
+recruit_character = KIF_Giaco_Casago
+recruit_character = KIF_Antor_Comenza
+recruit_character = KIF_Victor_Miria
+recruit_character = KIF_Thierto_Messo
+recruit_character = KIF_Robertonio_Tera
+recruit_character = KIF_Giaco_Librotto
+recruit_character = KIF_Jeandre_Mera
+recruit_character = KIF_Paolose_Segione
+recruit_character = KIF_Rico_Ghia
+recruit_character = KIF_Lucarco_Destesagna
+recruit_character = KIF_Nictor_Odizio
+recruit_character = KIF_Thien_Stra
+recruit_character = KIF_Nica_Diva
+recruit_character = KIF_Cardo_Dello
+recruit_character = KIF_Alexandro_Lancuola
+recruit_character = KIF_Paolose_Incionede
+recruit_character = KIF_Giaco_Batta
+recruit_character = KIF_Alexandre_Animo
+recruit_character = KIF_Robertonarlo_Tria
+recruit_character = KIF_Bruno_Onortelo
+recruit_character = KIF_Nicto_Casago
+recruit_character = KIF_Nicto_Amonedine
+recruit_character = KIF_Alexandro_Amonedine
+recruit_character = KIF_Jeano_Rivino
+recruit_character = KIF_Alexandro_Visi
+recruit_character = KIF_Alexandre_Legioggia
+recruit_character = KIF_Victor_Guelo
+recruit_character = KIF_Andre_Mortine
+recruit_character = KIF_Antonardo_Anieste
+recruit_character = KIF_Thierry_Amicolda
+recruit_character = KIF_Leon_Nomano
+recruit_character = KIF_Jose_Canto
+recruit_character = KIF_Marcomonio_Amicolda
+recruit_character = KIF_Andro_Solo
+recruit_character = KIF_Rico_Guelo
+recruit_character = KIF_Nicarlos_Seggia
+recruit_character = KIF_Pedro_Fiortima
+recruit_character = KIF_Thierry_Ghia
+recruit_character = KIF_Luca_Tria
+recruit_character = KIF_Nica_Ricolo
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.06
+set_war_support = 0.44
+
+add_ideas = {
+volunteer_only
+low_economic_mobilisation
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1899.10.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 21
+	fascism = 27
+	communism = 39
+	neutrality = 13
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+state={
+	id=1000
+	name="STATE_1000"
+	manpower = 868223
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJP
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AJP
+	}
+
+	provinces={
+		11834 11835 11836 11837 
+	}
+	local_supplies=0.0 
+}

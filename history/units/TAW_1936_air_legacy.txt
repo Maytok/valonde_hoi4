@@ -1,0 +1,25 @@
+air_wings = {
+		776 = { 								
+		CAS_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tigmmi Mk 2" }
+
+	}
+	70 = { 								
+		fighter_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tazrawizrouf Mk 2" }
+
+	}
+	48 = { 								
+		fighter_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tazrawizrouf Mk 2" }
+
+	}
+	172 = { 								
+		CAS_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tigmmi Mk 2" }
+
+	}
+	330 = { 								
+		tac_bomber_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tigh Mk 2" }
+tac_bomber_equipment_0 = { owner = "TAW" amount = 50 version_name = "Tigh Mk 2" }
+
+	}
+
+
+}

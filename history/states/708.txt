@@ -1,0 +1,37 @@
+
+state={
+	id=708
+	name="STATE_708"
+	manpower = 2125700
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAD
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TAD
+	}
+
+	provinces={
+		8430 8431 8432 8433 8434 8435 8436 8437 8438 8439 8440 8441 
+	}
+	local_supplies=0.0 
+}

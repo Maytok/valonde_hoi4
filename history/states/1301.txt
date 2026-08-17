@@ -1,0 +1,37 @@
+
+state={
+	id=1301
+	name="STATE_1301"
+	manpower = 1225380
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		
+		owner = BUA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = BUA
+	}
+
+	provinces={
+		15191 15192 15193 15194 15195 15196 15197 
+	}
+	local_supplies=0.0 
+}

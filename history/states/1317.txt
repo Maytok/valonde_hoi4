@@ -1,0 +1,37 @@
+
+state={
+	id=1317
+	name="STATE_1317"
+	manpower = 2884487
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KRA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KRA
+	}
+
+	provinces={
+		15328 15329 15330 15331 15332 15333 15334 15335 15336 15337 15338 15339 15340 15341 15342 
+	}
+	local_supplies=0.0 
+}

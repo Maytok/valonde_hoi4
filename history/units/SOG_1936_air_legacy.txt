@@ -1,0 +1,38 @@
+air_wings = {
+		1658 = { 								
+		fighter_equipment_0 = { owner = "SOG" amount = 34 version_name = "Kalp Mk 2" }
+
+	}
+	1565 = { 								
+		fighter_equipment_0 = { owner = "SOG" amount = 37 version_name = "Sani Mk 2" }
+
+	}
+	734 = { 								
+		strat_bomber_equipment_0 = { owner = "SOG" amount = 29 version_name = "Duyum Mk 0" }
+strat_bomber_equipment_0 = { owner = "SOG" amount = 31 version_name = "Asket Mk 1" }
+
+	}
+	763 = { 								
+		CAS_equipment_0 = { owner = "SOG" amount = 33 version_name = "Akinlik Mk 1" }
+
+	}
+	709 = { 								
+		nav_bomber_equipment_0 = { owner = "SOG" amount = 28 version_name = "Yolge Mk 2" }
+
+	}
+	1494 = { 								
+		CAS_equipment_0 = { owner = "SOG" amount = 23 version_name = "Efsarla Mk 0" }
+
+	}
+	469 = { 								
+		nav_bomber_equipment_0 = { owner = "SOG" amount = 26 version_name = "Basarin Mk 2" }
+tac_bomber_equipment_0 = { owner = "SOG" amount = 22 version_name = "Sehildi Mk 1" }
+
+	}
+	678 = { 								
+		tac_bomber_equipment_0 = { owner = "SOG" amount = 35 version_name = "Sani Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,40 @@
+air_wings = {
+		534 = { 								
+		fighter_equipment_0 = { owner = "PIN" amount = 50 version_name = "Agadiremmi Mk 0" }
+
+	}
+	548 = { 								
+		nav_bomber_equipment_0 = { owner = "PIN" amount = 50 version_name = "Tiwizrar Mk 0" }
+
+	}
+	814 = { 								
+		CAS_equipment_0 = { owner = "PIN" amount = 35 version_name = "Azemouka Mk 0" }
+
+	}
+	563 = { 								
+		nav_bomber_equipment_0 = { owner = "PIN" amount = 45 version_name = "Tart Mk 0" }
+
+	}
+	231 = { 								
+		tac_bomber_equipment_0 = { owner = "PIN" amount = 31 version_name = "Tasnast Mk 2" }
+
+	}
+	291 = { 								
+		CAS_equipment_0 = { owner = "PIN" amount = 43 version_name = "Aghrart Mk 2" }
+
+	}
+	767 = { 								
+		fighter_equipment_0 = { owner = "PIN" amount = 47 version_name = "Tazegzilt Mk 1" }
+
+	}
+	699 = { 								
+		fighter_equipment_0 = { owner = "PIN" amount = 50 version_name = "Agadiremmi Mk 0" }
+
+	}
+	188 = { 								
+		nav_bomber_equipment_0 = { owner = "PIN" amount = 50 version_name = "Tiwizrar Mk 0" }
+
+	}
+
+
+}

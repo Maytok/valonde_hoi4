@@ -1,0 +1,433 @@
+capital = 889
+
+oob = "VAL_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "VAL_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "VAL_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Scubo Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Memicolda Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Messa Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Regia Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Silede Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Armanzio Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "VAL_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			photo_reconnaisance = 1
+			
+		}
+
+	else = {
+		set_air_oob = "VAL_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "VAL_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Memorta Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "VAL_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Memorta Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = VAL_Francesco_Ricolo
+recruit_character = VAL_Nico_Campa
+recruit_character = VAL_Antor_Scudo
+recruit_character = VAL_Jeandro_Pria
+recruit_character = VAL_Felierry_Tria
+recruit_character = VAL_Andre_Messa
+recruit_character = VAL_Thierry_Segioria
+recruit_character = VAL_Roberry_Casa
+recruit_character = VAL_Robertonio_Lanyonerita
+recruit_character = VAL_Mario_Toreto
+recruit_character = VAL_Thien_Regnalo
+recruit_character = VAL_Antor_Regia
+recruit_character = VAL_Matteo_Gionta
+recruit_character = VAL_Alexancesco_Cirade
+recruit_character = VAL_Thierto_Prito
+recruit_character = VAL_Felien_Mappada
+recruit_character = VAL_Felien_Torio
+recruit_character = VAL_Pedre_Mempo
+recruit_character = VAL_Robertonio_Camenza
+recruit_character = VAL_Cario_Prianime
+recruit_character = VAL_Lucario_Luce
+recruit_character = VAL_Luis_Anito
+recruit_character = VAL_Cario_Aria
+recruit_character = VAL_Antonario_Albero
+recruit_character = VAL_Mario_Acquarionto
+recruit_character = VAL_Thierry_Lincubo
+recruit_character = VAL_Jean_Pore
+recruit_character = VAL_Stefano_Pore
+recruit_character = VAL_Mardo_Voce
+recruit_character = VAL_Anton_Comenta
+recruit_character = VAL_Bruno_Scriave
+recruit_character = VAL_Thierto_Prianime
+recruit_character = VAL_Vica_Reggionercol
+recruit_character = VAL_Anto_Casaggiore
+recruit_character = VAL_Thierry_Scubo
+recruit_character = VAL_Alberto_Scuolaggera
+recruit_character = VAL_Ramon_Toreto
+recruit_character = VAL_Pedre_Torio
+recruit_character = VAL_Roberry_Memorta
+recruit_character = VAL_Thierry_Gionta
+recruit_character = VAL_Frano_Cuocelo
+recruit_character = VAL_Stefandre_Guelleano
+recruit_character = VAL_Jeandro_Desso
+recruit_character = VAL_Andre_Avve
+recruit_character = VAL_Alexancesco_Vittezza
+recruit_character = VAL_Jeancesco_Casa
+recruit_character = VAL_Antonio_Fordo
+recruit_character = VAL_Jeandro_Regia
+recruit_character = VAL_Stefano_Mempo
+recruit_character = VAL_Antonario_Pore
+recruit_character = VAL_Leonio_Lamenturace
+recruit_character = VAL_Steo_Anito
+recruit_character = VAL_Jean_Guelleano
+recruit_character = VAL_Alexancesco_Voce
+recruit_character = VAL_Lucarlos_Destaleano
+recruit_character = VAL_Mario_Allaggeriavo
+recruit_character = VAL_Stefandro_Viledizioned
+recruit_character = VAL_Thiertor_Anito
+recruit_character = VAL_Leonio_Popoleanza
+recruit_character = VAL_Ricolose_Anguelta
+recruit_character = VAL_Luis_Poritalla
+recruit_character = VAL_Thiertor_Alberritta
+recruit_character = VAL_Stefano_Poria
+recruit_character = VAL_Jeandro_Amia
+recruit_character = VAL_Jeancesco_Esero
+recruit_character = VAL_Alexancesco_Navaleanto
+recruit_character = VAL_Jeano_Casa
+recruit_character = VAL_Robertonario_Sole
+recruit_character = VAL_Antonario_Popoleanza
+recruit_character = VAL_Lucarlo_Memicolda
+recruit_character = VAL_Thierry_Oasa
+recruit_character = VAL_Andro_Regio
+recruit_character = VAL_Antor_Albero
+recruit_character = VAL_Enzo_Vittezza
+recruit_character = VAL_Frano_Casaggiore
+recruit_character = VAL_Ramo_Scubo
+recruit_character = VAL_Thien_Vittezza
+recruit_character = VAL_Ramonio_Legontura
+recruit_character = VAL_Vico_Sancipe
+recruit_character = VAL_Felien_Memorta
+recruit_character = VAL_Mario_Giume
+recruit_character = VAL_Pedro_Malediavale
+recruit_character = VAL_Felien_Fordo
+recruit_character = VAL_Roberto_Giume
+recruit_character = VAL_Thierry_Casa
+recruit_character = VAL_Pablos_Popoleanza
+recruit_character = VAL_Mario_Mesta
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.30
+set_war_support = 0.63
+
+add_ideas = {
+limited_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1898.10.3"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 37
+	communism = 9
+	neutrality = 34
+}
+
+
+
+
+

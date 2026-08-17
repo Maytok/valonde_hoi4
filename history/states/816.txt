@@ -1,0 +1,37 @@
+
+state={
+	id=816
+	name="STATE_816"
+	manpower = 5053398
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=8
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=5
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		9682 9683 9684 9685 9686 9687 9688 9689 9690 9691 9692 9693 9694 9695 9696 9697 9698 9699 9700 9701 9702 9703 9704 9705 9706 9707 9708 9709 9710 9711 9712 9713 
+	}
+	local_supplies=0.0 
+}

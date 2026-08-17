@@ -1,0 +1,37 @@
+
+state={
+	id=992
+	name="STATE_992"
+	manpower = 2792113
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AJP
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AJP
+	}
+
+	provinces={
+		11703 11704 11705 11706 11707 11708 11709 11710 11711 11712 11713 11714 11715 
+	}
+	local_supplies=0.0 
+}

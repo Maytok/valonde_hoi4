@@ -1,0 +1,37 @@
+
+state={
+	id=748
+	name="STATE_748"
+	manpower = 2164735
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		8938 8939 8940 8941 8942 8943 8944 8945 8946 8947 8948 8949 8950 8951 
+	}
+	local_supplies=0.0 
+}

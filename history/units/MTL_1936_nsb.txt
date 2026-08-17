@@ -1,0 +1,242 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+			artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Adui' Militia Division"
+		location = 12498
+		division_template = "Militia Division"
+		start_experience_factor = 0.749993
+		start_equipment_factor = 0.887961
+	}
+	division= {
+		name = "2nd 'Coluvia' Militia Division"
+		location = 13596
+		division_template = "Militia Division"
+		start_experience_factor = 0.429841
+		start_equipment_factor = 0.945475
+	}
+	division= {
+		name = "3rd 'Sikalu' Militia Division"
+		location = 13070
+		division_template = "Militia Division"
+		start_experience_factor = 0.822325
+		start_equipment_factor = 0.965353
+	}
+	division= {
+		name = "4th 'Malme' Militia Division"
+		location = 14069
+		division_template = "Militia Division"
+		start_experience_factor = 0.888488
+		start_equipment_factor = 0.911004
+	}
+	division= {
+		name = "5th 'Mvua' Militia Division"
+		location = 14149
+		division_template = "Militia Division"
+		start_experience_factor = 0.303299
+		start_equipment_factor = 0.905009
+	}
+	division= {
+		name = "6th 'Ngome' Militia Division"
+		location = 11942
+		division_template = "Militia Division"
+		start_experience_factor = 0.296583
+		start_equipment_factor = 0.869769
+	}
+	division= {
+		name = "7th 'Mtifo' Militia Division"
+		location = 12858
+		division_template = "Militia Division"
+		start_experience_factor = 0.997090
+		start_equipment_factor = 0.856157
+	}
+	division= {
+		name = "1st 'Ngome' Infantry Division"
+		location = 14145
+		division_template = "Infantry Division"
+		start_experience_factor = 0.591516
+		start_equipment_factor = 0.861629
+	}
+	division= {
+		name = "2nd 'Shini' Infantry Division"
+		location = 13881
+		division_template = "Infantry Division"
+		start_experience_factor = 0.289689
+		start_equipment_factor = 0.820132
+	}
+	division= {
+		name = "1st 'Mtifo' Supported Infantry Division"
+		location = 14071
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.285694
+		start_equipment_factor = 0.979654
+	}
+	division= {
+		name = "2nd 'Mpakati' Supported Infantry Division"
+		location = 14133
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.365554
+		start_equipment_factor = 0.804328
+	}
+	division= {
+		name = "3rd 'Upenda' Supported Infantry Division"
+		location = 12791
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.299358
+		start_equipment_factor = 0.928159
+	}
+	division= {
+		name = "4th 'Shukutifu' Supported Infantry Division"
+		location = 12500
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.737664
+		start_equipment_factor = 0.958665
+	}
+	division= {
+		name = "5th 'Malme' Supported Infantry Division"
+		location = 14069
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.627163
+		start_equipment_factor = 0.995417
+	}
+	division= {
+		name = "1st 'Panishati' Artillery Division"
+		location = 13402
+		division_template = "Artillery Division"
+		start_experience_factor = 0.663447
+		start_equipment_factor = 0.907066
+	}
+	division= {
+		name = "2nd 'Laanara' Artillery Division"
+		location = 13405
+		division_template = "Artillery Division"
+		start_experience_factor = 0.488711
+		start_equipment_factor = 0.941542
+	}
+	division= {
+		name = "3rd 'Kithi' Artillery Division"
+		location = 12907
+		division_template = "Artillery Division"
+		start_experience_factor = 0.389215
+		start_equipment_factor = 0.877258
+	}
+	division= {
+		name = "1st 'Mchaiku' Cavalry Division"
+		location = 13880
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.996581
+		start_equipment_factor = 0.818149
+	}
+	division= {
+		name = "2nd 'Kili' Cavalry Division"
+		location = 13879
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.925178
+		start_equipment_factor = 0.891525
+	}
+	division= {
+		name = "3rd 'Moto' Cavalry Division"
+		location = 11999
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.292675
+		start_equipment_factor = 0.833993
+	}
+
+}

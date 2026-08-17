@@ -1,0 +1,37 @@
+
+state={
+	id=1480
+	name="STATE_1480"
+	manpower = 2955331
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YEN
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+			
+		}
+		add_core_of = YEN
+	}
+
+	provinces={
+		16905 16906 16907 16908 16909 16910 16911 16912 16913 16914 16915 16916 
+	}
+	local_supplies=0.0 
+}

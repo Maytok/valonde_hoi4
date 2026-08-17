@@ -1,0 +1,25 @@
+air_wings = {
+		317 = { 								
+		small_plane_cas_airframe_0 = { owner = "IMA" amount = 50 version_name = "Avanaapagavi Mk 1" }
+
+	}
+	1561 = { 								
+		small_plane_airframe_0 = { owner = "IMA" amount = 48 version_name = "Kuvatuka Mk 1" }
+
+	}
+	79 = { 								
+		small_plane_cas_airframe_0 = { owner = "IMA" amount = 50 version_name = "Avanaapagavi Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IMA" amount = 42 version_name = "Kuvik Mk 2" }
+
+	}
+	11 = { 								
+		medium_plane_airframe_0 = { owner = "IMA" amount = 50 version_name = "Naku Mk 0" }
+
+	}
+	582 = { 								
+		medium_plane_airframe_0 = { owner = "IMA" amount = 50 version_name = "Naku Mk 0" }
+
+	}
+
+
+}

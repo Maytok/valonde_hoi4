@@ -1,0 +1,37 @@
+
+state={
+	id=1685
+	name="STATE_1685"
+	manpower = 41826
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = YEN
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = YEN
+	}
+
+	provinces={
+		17309 
+	}
+	local_supplies=0.0 
+}

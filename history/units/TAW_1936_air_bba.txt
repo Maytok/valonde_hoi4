@@ -1,0 +1,25 @@
+air_wings = {
+		776 = { 								
+		small_plane_cas_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tigmmi Mk 2" }
+
+	}
+	70 = { 								
+		small_plane_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tazrawizrouf Mk 2" }
+
+	}
+	48 = { 								
+		small_plane_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tazrawizrouf Mk 2" }
+
+	}
+	172 = { 								
+		small_plane_cas_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tigmmi Mk 2" }
+
+	}
+	330 = { 								
+		medium_plane_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tigh Mk 2" }
+medium_plane_airframe_0 = { owner = "TAW" amount = 50 version_name = "Tigh Mk 2" }
+
+	}
+
+
+}

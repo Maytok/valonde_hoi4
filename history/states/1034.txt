@@ -1,0 +1,37 @@
+
+state={
+	id=1034
+	name="STATE_1034"
+	manpower = 1028687
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CEL
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = CEL
+	}
+
+	provinces={
+		12250 12251 12252 12253 12254 
+	}
+	local_supplies=0.0 
+}

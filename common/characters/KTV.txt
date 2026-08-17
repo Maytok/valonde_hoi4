@@ -1,0 +1,1083 @@
+characters = {
+	KTV_Manuq_Aknak={
+		name="Manuq Aknak"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KTV_Taluk_Nanirnavik={
+		name="Taluk Nanirnavik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Taluk_Nanirnavik
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Panik_Nanirnavik={
+		name="Panik Nanirnavik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Panik_Nanirnavik
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Panik_Nangmi={
+		name="Panik Nangmi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Panik_Nangmi
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Atka_Wrak={
+		name="Atka Wrak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Atka_Wrak
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Ukpikigaq_Ipik={
+		name="Ukpikigaq Ipik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Ukpikigaq_Ipik
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Amaq_Tuuqak={
+		name="Amaq Tuuqak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Amaq_Tuuqak
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Amaq_Nuttaq={
+		name="Amaq Nuttaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Amaq_Nuttaq
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KTV_Amaq_Nangmi={
+		name="Amaq Nangmi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Amaq_Nangmi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Qajaq_Bubt={
+		name="Qajaq Bubt"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Qajaq_Bubt
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KTV_Kanik_Kuvatuka={
+		name="Kanik Kuvatuka"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Kanik_Kuvatuka
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	KTV_Nutarak_Nuttaq={
+		name="Nutarak Nuttaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Nutarak_Nuttaq
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KTV_Olik_Tunak={
+		name="Olik Tunak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Olik_Tunak
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KTV_Nanaq_Tuuqpakuq={
+		name="Nanaq Tuuqpakuq"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Nanaq_Tuuqpakuq
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	KTV_Ukpik_Napiqpait={
+		name="Ukpik Napiqpait"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Ukpik_Napiqpait
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	KTV_Kunik_Avaniq={
+		name="Kunik Avaniq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Kunik_Avaniq
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	KTV_Olik_Nutaqpagak={
+		name="Olik Nutaqpagak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Olik_Nutaqpagak
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	KTV_Nutarak_Tamuvik={
+		name="Nutarak Tamuvik"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nutarak_Tamuvik
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	KTV_Nana_Itugak={
+		name="Nana Itugak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nana_Itugak
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	KTV_Nanaq_Agluk={
+		name="Nanaq Agluk"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nanaq_Agluk
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KTV_Panaq_Avak={
+		name="Panaq Avak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Panaq_Avak
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KTV_Iluk_Napiqpait={
+		name="Iluk Napiqpait"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KTV_Kunikigaq_Aknak={
+		name="Kunikigaq Aknak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Kunikigaq_Aknak
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Amaq_Upiqtu={
+		name="Amaq Upiqtu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Amaq_Upiqtu
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Sila_Saqtuktak={
+		name="Sila Saqtuktak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Sila_Saqtuktak
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Panaq_Kamnaviglagu={
+		name="Panaq Kamnaviglagu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Panaq_Kamnaviglagu
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Mikigaq_Kipak={
+		name="Mikigaq Kipak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Mikigaq_Kipak
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Mikigaq_Napaangiq={
+		name="Mikigaq Napaangiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Mikigaq_Napaangiq
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Nanik_Atuk={
+		name="Nanik Atuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Nanik_Atuk
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KTV_Nana_Saqtuktak={
+		name="Nana Saqtuktak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Nana_Saqtuktak
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	KTV_Pana_Saqtuktak={
+		name="Pana Saqtuktak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Pana_Saqtuktak
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Nuvuk_Naku={
+		name="Nuvuk Naku"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Nuvuk_Naku
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	KTV_Ukpiku_Aglaq={
+		name="Ukpiku Aglaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Ukpiku_Aglaq
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	KTV_Kana_Kangik={
+		name="Kana Kangik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Kana_Kangik
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KTV_Kanuq_Avak={
+		name="Kanuq Avak"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Kanuq_Avak
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	KTV_Naluk_Noat={
+		name="Naluk Noat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Naluk_Noat
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	KTV_Mikigaq_Atuk={
+		name="Mikigaq Atuk"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Mikigaq_Atuk
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KTV_Amaq_Tikuq={
+		name="Amaq Tikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Amaq_Tikuq
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	KTV_Kunikigaq_Tuuqak={
+		name="Kunikigaq Tuuqak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Kunikigaq_Tuuqak
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KTV_Nanik_Itugak={
+		name="Nanik Itugak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nanik_Itugak
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	KTV_Nutarak_Angmiak={
+		name="Nutarak Angmiak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nutarak_Angmiak
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	KTV_Taluk_Itugak={
+		name="Taluk Itugak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Taluk_Itugak
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	KTV_Iluk_Napaangiq={
+		name="Iluk Napaangiq"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KTV_Naluk_Tunangelataq={
+		name="Naluk Tunangelataq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Naluk_Tunangelataq
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Nanik_Kuvatuka={
+		name="Nanik Kuvatuka"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Nanik_Kuvatuka
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Nutarak_Upiqtu={
+		name="Nutarak Upiqtu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Nutarak_Upiqtu
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Ukpik_Tummaqtu={
+		name="Ukpik Tummaqtu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Ukpik_Tummaqtu
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Taluk_Avigaall={
+		name="Taluk Avigaall"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Taluk_Avigaall
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Ukpikigaq_Atuk={
+		name="Ukpikigaq Atuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Ukpikigaq_Atuk
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Amaq_Noat={
+		name="Amaq Noat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Amaq_Noat
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	KTV_Olik_Manik={
+		name="Olik Manik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Olik_Manik
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Nanaq_Kalaq={
+		name="Nanaq Kalaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Nanaq_Kalaq
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KTV_Naluk_Aqulokwikiga={
+		name="Naluk Aqulokwikiga"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Naluk_Aqulokwikiga
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KTV_Atka_Anik={
+		name="Atka Anik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Atka_Anik
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Pana_Kuvik={
+		name="Pana Kuvik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Pana_Kuvik
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	KTV_Panik_Qilagut={
+		name="Panik Qilagut"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Panik_Qilagut
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Panik_Noat={
+		name="Panik Noat"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Panik_Noat
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KTV_Kana_Avak={
+		name="Kana Avak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Kana_Avak
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KTV_Naluk_Imaq={
+		name="Naluk Imaq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Naluk_Imaq
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	KTV_Nutarak_Nigaq={
+		name="Nutarak Nigaq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nutarak_Nigaq
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KTV_Mikigaq_Kuvatuka={
+		name="Mikigaq Kuvatuka"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Mikigaq_Kuvatuka
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	KTV_Kana_Tuuqak={
+		name="Kana Tuuqak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Kana_Tuuqak
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	KTV_Qajaq_Agluk={
+		name="Qajaq Agluk"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Qajaq_Agluk
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	KTV_Kanik_Ipik={
+		name="Kanik Ipik"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KTV_Kanaq_Aglaq={
+		name="Kanaq Aglaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Kanaq_Aglaq
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Naluk_Atuk={
+		name="Naluk Atuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Naluk_Atuk
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Nuvuk_Kipak={
+		name="Nuvuk Kipak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Nuvuk_Kipak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	KTV_Iluk_Avaniq={
+		name="Iluk Avaniq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Iluk_Avaniq
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Panik_Silaganik={
+		name="Panik Silaganik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Panik_Silaganik
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	KTV_Kana_Kusitnavi={
+		name="Kana Kusitnavi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KTV_Kana_Kusitnavi
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	KTV_Kana_Asattak={
+		name="Kana Asattak"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Kana_Asattak
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KTV_Iluk_Mani={
+		name="Iluk Mani"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Iluk_Mani
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KTV_Ukpikigaq_Manik={
+		name="Ukpikigaq Manik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Ukpikigaq_Manik
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KTV_Kana_Sikiqtuvuk={
+		name="Kana Sikiqtuvuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = KTV_Kana_Sikiqtuvuk
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KTV_Taluk_Igluaqpaq={
+		name="Taluk Igluaqpaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Taluk_Igluaqpaq
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KTV_Panaq_Iligaq={
+		name="Panaq Iligaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KTV_Panaq_Iligaq
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KTV_Panik_Iglunaviaq={
+		name="Panik Iglunaviaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Panik_Iglunaviaq
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	KTV_Nuvuk_Tunak={
+		name="Nuvuk Tunak"
+
+		advisor={
+			slot = air_chief
+			idea_token = KTV_Nuvuk_Tunak
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KTV_Atka_Tikuq={
+		name="Atka Tikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Atka_Tikuq
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	KTV_Iluk_Nuttaq={
+		name="Iluk Nuttaq"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Iluk_Nuttaq
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KTV_Nanik_Iglulutak={
+		name="Nanik Iglulutak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Nanik_Iglulutak
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	KTV_Kana_Tamuvik={
+		name="Kana Tamuvik"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Kana_Tamuvik
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KTV_Panik_Ipik={
+		name="Panik Ipik"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Panik_Ipik
+			traits = {	air_bomber_interception_1 	}
+		}
+
+
+	}
+	KTV_Naluk_Saqtuktak={
+		name="Naluk Saqtuktak"
+
+		advisor={
+			slot = high_command
+			idea_token = KTV_Naluk_Saqtuktak
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	KTV_Kanik_Nuvaq={
+		name="Kanik Nuvaq"
+
+		advisor={
+			slot = theorist
+			idea_token = KTV_Kanik_Nuvaq
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KTV_Ukpiku_Mani={
+		name="Ukpiku Mani"
+
+		advisor={
+			slot = theorist
+			idea_token = KTV_Ukpiku_Mani
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KTV_Nanik_Avaniqtuk={
+		name="Nanik Avaniqtuk"
+
+		advisor={
+			slot = theorist
+			idea_token = KTV_Nanik_Avaniqtuk
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

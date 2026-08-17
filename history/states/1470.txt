@@ -1,0 +1,37 @@
+
+state={
+	id=1470
+	name="STATE_1470"
+	manpower = 2150329
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MTL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MTL
+	}
+
+	provinces={
+		16839 16840 16841 16842 16843 16844 16845 16846 16847 16848 16849 16850 16851 
+	}
+	local_supplies=0.0 
+}

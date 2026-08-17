@@ -1,0 +1,37 @@
+
+state={
+	id=99
+	name="STATE_99"
+	manpower = 967350
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		1301 1302 1303 1304 1305 1306 
+	}
+	local_supplies=0.0 
+}

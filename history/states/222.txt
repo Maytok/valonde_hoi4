@@ -1,0 +1,37 @@
+
+state={
+	id=222
+	name="STATE_222"
+	manpower = 2123258
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		2799 2800 2801 2802 2803 2804 2805 2806 2807 2808 2809 2810 2811 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=523
+	name="STATE_523"
+	manpower = 2620183
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		6244 6245 6246 6247 6248 6249 6250 6251 6252 6253 6254 6255 6256 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+air_wings = {
+		799 = { 								
+		fighter_equipment_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+tac_bomber_equipment_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+tac_bomber_equipment_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+
+	}
+	558 = { 								
+		tac_bomber_equipment_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+
+	}
+	419 = { 								
+		fighter_equipment_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	566 = { 								
+		CAS_equipment_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+	474 = { 								
+		CAS_equipment_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+	492 = { 								
+		fighter_equipment_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	501 = { 								
+		fighter_equipment_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	88 = { 								
+		CAS_equipment_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+
+
+}

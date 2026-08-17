@@ -1,0 +1,37 @@
+
+state={
+	id=1141
+	name="STATE_1141"
+	manpower = 2253062
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = POE
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POE
+	}
+
+	provinces={
+		13514 13515 13516 13517 13518 13519 13520 13521 13522 13523 13524 13525 13526 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,1083 @@
+characters = {
+	SUA_Andi_Gungitu={
+		name="Andi Gungitu"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { agricultural_nationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUA_Fajari_Mimbat={
+		name="Fajari Mimbat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Fajari_Mimbat
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SUA_Rama_Kampata={
+		name="Rama Kampata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Rama_Kampata
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Hario_Gerah={
+		name="Hario Gerah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Hario_Gerah
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SUA_Ketutra_Badik={
+		name="Ketutra Badik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ketutra_Badik
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Bama_Tulaunya={
+		name="Bama Tulaunya"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Bama_Tulaunya
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Ketutfi_Gelintasuaha={
+		name="Ketutfi Gelintasuaha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ketutfi_Gelintasuaha
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Joko_Terah={
+		name="Joko Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Joko_Terah
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	SUA_Suryang_Gurgarahroh={
+		name="Suryang Gurgarahroh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Suryang_Gurgarahroh
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	SUA_Hario_Tang={
+		name="Hario Tang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Hario_Tang
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SUA_Sakti_Beraman={
+		name="Sakti Beraman"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Sakti_Beraman
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	SUA_Fajar_Bununyah={
+		name="Fajar Bununyah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Fajar_Bununyah
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SUA_Joko_Teri={
+		name="Joko Teri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Joko_Teri
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SUA_Ramban_Dewanpulan={
+		name="Ramban Dewanpulan"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Ramban_Dewanpulan
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SUA_Ketutra_Beraman={
+		name="Ketutra Beraman"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Ketutra_Beraman
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	SUA_Hario_Sensi={
+		name="Hario Sensi"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Hario_Sensi
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	SUA_Rambang_Pempunun={
+		name="Rambang Pempunun"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Rambang_Pempunun
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	SUA_Ketutfi_Danaharanamb={
+		name="Ketutfi Danaharanamb"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Ketutfi_Danaharanamb
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	SUA_Dewa_Pemah={
+		name="Dewa Pemah"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Dewa_Pemah
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	SUA_Rizal_Kampata={
+		name="Rizal Kampata"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Rizal_Kampata
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	SUA_Waya_Perada={
+		name="Waya Perada"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Waya_Perada
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SUA_Surya_Pencara={
+		name="Surya Pencara"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUA_Ketutra_Suci={
+		name="Ketutra Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ketutra_Suci
+			traits = {	autocratic_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Lutra_Gerangit={
+		name="Lutra Gerangit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Lutra_Gerangit
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Joko_Petir={
+		name="Joko Petir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Joko_Petir
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Hari_Senda={
+		name="Hari Senda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Hari_Senda
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Suryang_Berembata={
+		name="Suryang Berembata"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Suryang_Berembata
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Bama_Suci={
+		name="Bama Suci"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Bama_Suci
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Lutfi_Sensi={
+		name="Lutfi Sensi"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Lutfi_Sensi
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	SUA_Lutra_Pembuku={
+		name="Lutra Pembuku"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Lutra_Pembuku
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	SUA_Andi_Sedih={
+		name="Andi Sedih"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Andi_Sedih
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SUA_Fajari_Ratang={
+		name="Fajari Ratang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Fajari_Ratang
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	SUA_Sakti_Suat={
+		name="Sakti Suat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Sakti_Suat
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	SUA_Rama_Nertan={
+		name="Rama Nertan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Rama_Nertan
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	SUA_Andi_Jenjaradih={
+		name="Andi Jenjaradih"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Andi_Jenjaradih
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SUA_Suryan_Nertan={
+		name="Suryan Nertan"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Suryan_Nertan
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	SUA_Hario_Sedih={
+		name="Hario Sedih"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Hario_Sedih
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SUA_Putfi_Jaluar={
+		name="Putfi Jaluar"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Putfi_Jaluar
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	SUA_Lutra_Gurgarahroh={
+		name="Lutra Gurgarahroh"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Lutra_Gurgarahroh
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SUA_Suryan_Perada={
+		name="Suryan Perada"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Suryan_Perada
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	SUA_Surya_Wargagai={
+		name="Surya Wargagai"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Surya_Wargagai
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	SUA_Ramban_Guruma={
+		name="Ramban Guruma"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Ramban_Guruma
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	SUA_Waya_Senjahayi={
+		name="Waya Senjahayi"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUA_Arjuna_Bintu={
+		name="Arjuna Bintu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Arjuna_Bintu
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Ramban_Jembukual={
+		name="Ramban Jembukual"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ramban_Jembukual
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Putfi_Sahroh={
+		name="Putfi Sahroh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Putfi_Sahroh
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Ketutfi_Ping={
+		name="Ketutfi Ping"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ketutfi_Ping
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SUA_Lutra_Ping={
+		name="Lutra Ping"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Lutra_Ping
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Bama_Pencara={
+		name="Bama Pencara"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Bama_Pencara
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Budi_Tarap={
+		name="Budi Tarap"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Budi_Tarap
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	SUA_Putfi_Legenjaga={
+		name="Putfi Legenjaga"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Putfi_Legenjaga
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SUA_Putra_Suci={
+		name="Putra Suci"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Putra_Suci
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	SUA_Rambang_Alaununungag={
+		name="Rambang Alaununungag"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Rambang_Alaununungag
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	SUA_Hari_Tulamhalusaa={
+		name="Hari Tulamhalusaa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Hari_Tulamhalusaa
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	SUA_Bambang_Jembukual={
+		name="Bambang Jembukual"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Bambang_Jembukual
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	SUA_Lutfi_Rambata={
+		name="Lutfi Rambata"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Lutfi_Rambata
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SUA_Dewa_Mulangga={
+		name="Dewa Mulangga"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Dewa_Mulangga
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SUA_Joko_Kebintan={
+		name="Joko Kebintan"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Joko_Kebintan
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	SUA_Surya_Musai={
+		name="Surya Musai"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Surya_Musai
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	SUA_Fajari_Lelaka={
+		name="Fajari Lelaka"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Fajari_Lelaka
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	SUA_Wayan_Ayaremu={
+		name="Wayan Ayaremu"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Wayan_Ayaremu
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	SUA_Dewa_Matusu={
+		name="Dewa Matusu"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Dewa_Matusu
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	SUA_Putfi_Beraman={
+		name="Putfi Beraman"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Putfi_Beraman
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	SUA_Budi_Gerah={
+		name="Budi Gerah"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUA_Rama_Trah={
+		name="Rama Trah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Rama_Trah
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Ramban_Gurgarga={
+		name="Ramban Gurgarga"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Ramban_Gurgarga
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Waya_Sehaba={
+		name="Waya Sehaba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Waya_Sehaba
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	SUA_Waya_Halapati={
+		name="Waya Halapati"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Waya_Halapati
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	SUA_Sakti_Wargagai={
+		name="Sakti Wargagai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Sakti_Wargagai
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SUA_Putfi_Badik={
+		name="Putfi Badik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUA_Putfi_Badik
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	SUA_Arjuna_Terah={
+		name="Arjuna Terah"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Arjuna_Terah
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	SUA_Lutra_Lelaka={
+		name="Lutra Lelaka"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Lutra_Lelaka
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SUA_Joko_Danaharanamb={
+		name="Joko Danaharanamb"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Joko_Danaharanamb
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	SUA_Rambang_Guruma={
+		name="Rambang Guruma"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUA_Rambang_Guruma
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	SUA_Mario_Lani={
+		name="Mario Lani"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Mario_Lani
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	SUA_Lutfi_Teri={
+		name="Lutfi Teri"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUA_Lutfi_Teri
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	SUA_Lutfi_Dewanpulan={
+		name="Lutfi Dewanpulan"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Lutfi_Dewanpulan
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	SUA_Lutfi_Tang={
+		name="Lutfi Tang"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUA_Lutfi_Tang
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	SUA_Ketutra_Bintuatasung={
+		name="Ketutra Bintuatasung"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Ketutra_Bintuatasung
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	SUA_Mario_Sahroh={
+		name="Mario Sahroh"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Mario_Sahroh
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	SUA_Suryan_Jembukual={
+		name="Suryan Jembukual"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Suryan_Jembukual
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	SUA_Hario_Gerangit={
+		name="Hario Gerangit"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Hario_Gerangit
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	SUA_Ketutfi_Guruma={
+		name="Ketutfi Guruma"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Ketutfi_Guruma
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	SUA_Bambang_Tulaunya={
+		name="Bambang Tulaunya"
+
+		advisor={
+			slot = high_command
+			idea_token = SUA_Bambang_Tulaunya
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	SUA_Lutra_Nertan={
+		name="Lutra Nertan"
+
+		advisor={
+			slot = theorist
+			idea_token = SUA_Lutra_Nertan
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	SUA_Dewa_Lani={
+		name="Dewa Lani"
+
+		advisor={
+			slot = theorist
+			idea_token = SUA_Dewa_Lani
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	SUA_Ketutra_Pencara={
+		name="Ketutra Pencara"
+
+		advisor={
+			slot = theorist
+			idea_token = SUA_Ketutra_Pencara
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

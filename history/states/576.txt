@@ -1,0 +1,37 @@
+
+state={
+	id=576
+	name="STATE_576"
+	manpower = 2638864
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=5
+		coal=12
+	}
+
+	history={
+		
+		owner = VAL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = VAL
+	}
+
+	provinces={
+		6899 6900 6901 6902 6903 6904 6905 6906 6907 6908 6909 6910 6911 
+	}
+	local_supplies=0.0 
+}

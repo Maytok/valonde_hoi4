@@ -1,0 +1,37 @@
+
+state={
+	id=373
+	name="STATE_373"
+	manpower = 3290096
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		4493 4494 4495 4496 4497 4498 4499 4500 4501 4502 4503 4504 4505 4506 4507 
+	}
+	local_supplies=0.0 
+}

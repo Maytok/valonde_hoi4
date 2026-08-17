@@ -1,0 +1,462 @@
+capital = 830
+
+oob = "GEC_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "GEC_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "GEC_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	motorised_infantry= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Asket Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Doru Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Bedeniz Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Haye Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Duyum Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Kirlik Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GEC_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Yolge Mk 0"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Duyum Mk 2"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Doru Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "GEC_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "GEC_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Orman Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "GEC_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Orman Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = GEC_Talih_Isilis
+recruit_character = GEC_Haruk_Hayat
+recruit_character = GEC_Ramazan_Ates
+recruit_character = GEC_Bulent_Doru
+recruit_character = GEC_Borat_Sani
+recruit_character = GEC_Ilker_Anat
+recruit_character = GEC_Sinan_Obahirli
+recruit_character = GEC_Iskerha_Kirlik
+recruit_character = GEC_Iskent_Sicak
+recruit_character = GEC_Ilkerhat_Asimseke
+recruit_character = GEC_Haruk_Anat
+recruit_character = GEC_Ilker_Yayla
+recruit_character = GEC_Hakan_Isilis
+recruit_character = GEC_Ertugrunc_Obahirli
+recruit_character = GEC_Ahmet_Topru
+recruit_character = GEC_Ilkender_Savar
+recruit_character = GEC_Savas_Asildirlik
+recruit_character = GEC_Ener_Efsarla
+recruit_character = GEC_Ilkerkan_Guluk
+recruit_character = GEC_Suat_Yaske
+recruit_character = GEC_Yustafer_Karisan
+recruit_character = GEC_Ertugrunc_Sonba
+recruit_character = GEC_Zafe_Guluk
+recruit_character = GEC_Suatuhan_Koprakinlik
+recruit_character = GEC_Kaan_Sogac
+recruit_character = GEC_Yusul_Goldiz
+recruit_character = GEC_Emir_Saat
+recruit_character = GEC_Talih_Obahirli
+recruit_character = GEC_Yustafer_Ordu
+recruit_character = GEC_Salhan_Sicak
+recruit_character = GEC_Suat_Baharih
+recruit_character = GEC_Zafa_Golge
+recruit_character = GEC_Muratugrun_Sehildi
+recruit_character = GEC_Salhat_Doru
+recruit_character = GEC_Ilkerkan_Saat
+recruit_character = GEC_Haruk_Hisla
+recruit_character = GEC_Utku_Anat
+recruit_character = GEC_Mustafa_Ormane
+recruit_character = GEC_Salhan_Aksaniz
+recruit_character = GEC_Cemal_Isilis
+recruit_character = GEC_Iskerha_Bele
+recruit_character = GEC_Ener_Asimseke
+recruit_character = GEC_Mustafa_Barimseket
+recruit_character = GEC_Utku_Kapi
+recruit_character = GEC_Salhat_Efsarla
+recruit_character = GEC_Musul_Sana
+recruit_character = GEC_Isker_Atesiman
+recruit_character = GEC_Iskerem_Asildirlik
+recruit_character = GEC_Iskerha_Efsarla
+recruit_character = GEC_Salih_Gunce
+recruit_character = GEC_Tunc_Sesil
+recruit_character = GEC_Talih_Nehir
+recruit_character = GEC_Yilmazan_Kadeni
+recruit_character = GEC_Ertugrunc_Gece
+recruit_character = GEC_Salhat_Akinlik
+recruit_character = GEC_Kaan_Efsarla
+recruit_character = GEC_Adem_Doguk
+recruit_character = GEC_Adem_Sehildi
+recruit_character = GEC_Fara_Kapi
+recruit_character = GEC_Ertuhan_Aksaniz
+recruit_character = GEC_Bekir_Gultur
+recruit_character = GEC_Utku_Ormane
+recruit_character = GEC_Suat_Haylak
+recruit_character = GEC_Salhan_Goldiz
+recruit_character = GEC_Hakanerkan_Golcultur
+recruit_character = GEC_Sinan_Koprakinlik
+recruit_character = GEC_Sinan_Nehir
+recruit_character = GEC_Ilkerhat_Kopruklulut
+recruit_character = GEC_Haruk_Kapi
+recruit_character = GEC_Savas_Gultur
+recruit_character = GEC_Hakanerkan_Atesiman
+recruit_character = GEC_Onur_Haylak
+recruit_character = GEC_Yusul_Sonbahtar
+recruit_character = GEC_Faran_Bultur
+recruit_character = GEC_Kadir_Gemisla
+recruit_character = GEC_Salih_Sanak
+recruit_character = GEC_Muratugrun_Aksaniz
+recruit_character = GEC_Borat_Basarin
+recruit_character = GEC_Farun_Umut
+recruit_character = GEC_Faruk_Isiman
+recruit_character = GEC_Ahmet_Basket
+recruit_character = GEC_Yilmazan_Sesil
+recruit_character = GEC_Iskerhanerha_Kirla
+recruit_character = GEC_Boran_Gece
+recruit_character = GEC_Onura_Gecek
+recruit_character = GEC_Suat_Hisla
+recruit_character = GEC_Mustafa_Asimseke
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.52
+set_war_support = 0.62
+
+add_ideas = {
+extensive_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1921.5.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 33
+	fascism = 19
+	communism = 36
+	neutrality = 12
+}
+
+
+
+
+

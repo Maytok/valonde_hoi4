@@ -1,0 +1,1083 @@
+characters = {
+	KIF_Paolose_Freccade={
+		name="Paolose Freccade"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { democratic_crusader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIF_Ramon_Alla={
+		name="Ramon Alla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Ramon_Alla
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Leon_Labiria={
+		name="Leon Labiria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Leon_Labiria
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Giacolos_Piontelta={
+		name="Giacolos Piontelta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Giacolos_Piontelta
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Giaco_Ciere={
+		name="Giaco Ciere"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Giaco_Ciere
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Thierry_Reggintra={
+		name="Thierry Reggintra"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Thierry_Reggintra
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Steo_Canto={
+		name="Steo Canto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Steo_Canto
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Giacolas_Monere={
+		name="Giacolas Monere"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Giacolas_Monere
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	KIF_Nica_Mortine={
+		name="Nica Mortine"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Nica_Mortine
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KIF_Ramon_Maggelta={
+		name="Ramon Maggelta"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Ramon_Maggelta
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KIF_Pablo_Amicolda={
+		name="Pablo Amicolda"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Pablo_Amicolda
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KIF_Steo_Terre={
+		name="Steo Terre"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Steo_Terre
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	KIF_Antonardo_Comenza={
+		name="Antonardo Comenza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Antonardo_Comenza
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	KIF_Pablo_Spito={
+		name="Pablo Spito"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Pablo_Spito
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KIF_Antor_Guercada={
+		name="Antor Guercada"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Antor_Guercada
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KIF_Thien_Guerotta={
+		name="Thien Guerotta"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Thien_Guerotta
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	KIF_Lucardo_Amicolda={
+		name="Lucardo Amicolda"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Lucardo_Amicolda
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	KIF_Jeandre_Magonerregge={
+		name="Jeandre Magonerregge"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Jeandre_Magonerregge
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	KIF_Jeandre_Messo={
+		name="Jeandre Messo"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Jeandre_Messo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KIF_Nicardo_Spiria={
+		name="Nicardo Spiria"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nicardo_Spiria
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	KIF_Giacolas_Guerotta={
+		name="Giacolas Guerotta"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Giacolas_Guerotta
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	KIF_Thien_Segione={
+		name="Thien Segione"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIF_Thien_Cielle={
+		name="Thien Cielle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Thien_Cielle
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Mario_Batta={
+		name="Mario Batta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Mario_Batta
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Robertonarlo_Pacolorita={
+		name="Robertonarlo Pacolorita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Robertonarlo_Pacolorita
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Mario_Abisi={
+		name="Mario Abisi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Mario_Abisi
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Alexandre_Giumonfo={
+		name="Alexandre Giumonfo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Alexandre_Giumonfo
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Alexandro_Valle={
+		name="Alexandro Valle"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Alexandro_Valle
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Francescolas_Canto={
+		name="Francescolas Canto"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Francescolas_Canto
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KIF_Stefan_Nempo={
+		name="Stefan Nempo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Stefan_Nempo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KIF_Thierto_Fiumo={
+		name="Thierto Fiumo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Thierto_Fiumo
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	KIF_Ricto_Divaledintel={
+		name="Ricto Divaledintel"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Ricto_Divaledintel
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KIF_Stefan_Pone={
+		name="Stefan Pone"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Stefan_Pone
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	KIF_Antonardo_Spito={
+		name="Antonardo Spito"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Antonardo_Spito
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KIF_Roberry_Diva={
+		name="Roberry Diva"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Roberry_Diva
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KIF_Paolose_Guerotta={
+		name="Paolose Guerotta"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Paolose_Guerotta
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KIF_Nicto_Nempo={
+		name="Nicto Nempo"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nicto_Nempo
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	KIF_Stefancesco_Seggia={
+		name="Stefancesco Seggia"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Stefancesco_Seggia
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	KIF_Nicto_Sanyontorpol={
+		name="Nicto Sanyontorpol"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nicto_Sanyontorpol
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KIF_Roberry_Destesagna={
+		name="Roberry Destesagna"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Roberry_Destesagna
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	KIF_Paolo_Piontelta={
+		name="Paolo Piontelta"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Paolo_Piontelta
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KIF_Pedre_Sanyontorpol={
+		name="Pedre Sanyontorpol"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Pedre_Sanyontorpol
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	KIF_Paolo_Nempo={
+		name="Paolo Nempo"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIF_Andre_Visi={
+		name="Andre Visi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Andre_Visi
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Mardo_Ciere={
+		name="Mardo Ciere"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Mardo_Ciere
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Leon_Neve={
+		name="Leon Neve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Leon_Neve
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Steo_Piontelta={
+		name="Steo Piontelta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Steo_Piontelta
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Giaco_Casago={
+		name="Giaco Casago"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Giaco_Casago
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Antor_Comenza={
+		name="Antor Comenza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Antor_Comenza
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Victor_Miria={
+		name="Victor Miria"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Victor_Miria
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KIF_Thierto_Messo={
+		name="Thierto Messo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Thierto_Messo
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KIF_Robertonio_Tera={
+		name="Robertonio Tera"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Robertonio_Tera
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KIF_Giaco_Librotto={
+		name="Giaco Librotto"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Giaco_Librotto
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KIF_Jeandre_Mera={
+		name="Jeandre Mera"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Jeandre_Mera
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	KIF_Paolose_Segione={
+		name="Paolose Segione"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Paolose_Segione
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KIF_Rico_Ghia={
+		name="Rico Ghia"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Rico_Ghia
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	KIF_Lucarco_Destesagna={
+		name="Lucarco Destesagna"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Lucarco_Destesagna
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	KIF_Nictor_Odizio={
+		name="Nictor Odizio"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nictor_Odizio
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KIF_Thien_Stra={
+		name="Thien Stra"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Thien_Stra
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	KIF_Nica_Diva={
+		name="Nica Diva"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nica_Diva
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	KIF_Cardo_Dello={
+		name="Cardo Dello"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Cardo_Dello
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	KIF_Alexandro_Lancuola={
+		name="Alexandro Lancuola"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Alexandro_Lancuola
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KIF_Paolose_Incionede={
+		name="Paolose Incionede"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Paolose_Incionede
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KIF_Giaco_Batta={
+		name="Giaco Batta"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KIF_Alexandre_Animo={
+		name="Alexandre Animo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Alexandre_Animo
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	KIF_Robertonarlo_Tria={
+		name="Robertonarlo Tria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Robertonarlo_Tria
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Bruno_Onortelo={
+		name="Bruno Onortelo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Bruno_Onortelo
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Nicto_Casago={
+		name="Nicto Casago"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Nicto_Casago
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Nicto_Amonedine={
+		name="Nicto Amonedine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Nicto_Amonedine
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	KIF_Alexandro_Amonedine={
+		name="Alexandro Amonedine"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KIF_Alexandro_Amonedine
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	KIF_Jeano_Rivino={
+		name="Jeano Rivino"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Jeano_Rivino
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KIF_Alexandro_Visi={
+		name="Alexandro Visi"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Alexandro_Visi
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	KIF_Alexandre_Legioggia={
+		name="Alexandre Legioggia"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Alexandre_Legioggia
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KIF_Victor_Guelo={
+		name="Victor Guelo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KIF_Victor_Guelo
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KIF_Andre_Mortine={
+		name="Andre Mortine"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Andre_Mortine
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KIF_Antonardo_Anieste={
+		name="Antonardo Anieste"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KIF_Antonardo_Anieste
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	KIF_Thierry_Amicolda={
+		name="Thierry Amicolda"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Thierry_Amicolda
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KIF_Leon_Nomano={
+		name="Leon Nomano"
+
+		advisor={
+			slot = air_chief
+			idea_token = KIF_Leon_Nomano
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	KIF_Jose_Canto={
+		name="Jose Canto"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Jose_Canto
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	KIF_Marcomonio_Amicolda={
+		name="Marcomonio Amicolda"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Marcomonio_Amicolda
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	KIF_Andro_Solo={
+		name="Andro Solo"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Andro_Solo
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	KIF_Rico_Guelo={
+		name="Rico Guelo"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Rico_Guelo
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KIF_Nicarlos_Seggia={
+		name="Nicarlos Seggia"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Nicarlos_Seggia
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	KIF_Pedro_Fiortima={
+		name="Pedro Fiortima"
+
+		advisor={
+			slot = high_command
+			idea_token = KIF_Pedro_Fiortima
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	KIF_Thierry_Ghia={
+		name="Thierry Ghia"
+
+		advisor={
+			slot = theorist
+			idea_token = KIF_Thierry_Ghia
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KIF_Luca_Tria={
+		name="Luca Tria"
+
+		advisor={
+			slot = theorist
+			idea_token = KIF_Luca_Tria
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KIF_Nica_Ricolo={
+		name="Nica Ricolo"
+
+		advisor={
+			slot = theorist
+			idea_token = KIF_Nica_Ricolo
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

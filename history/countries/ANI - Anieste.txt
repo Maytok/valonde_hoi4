@@ -1,0 +1,405 @@
+capital = 1379
+
+oob = "ANI_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "ANI_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "ANI_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_recon= 1
+	tech_maintenance_company= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Ciere Mk 0"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Librotto Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Labiria Mk 0"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Cielle Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Guardo Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ANI_1936_air_bba"
+		set_technology = {
+			early_bombs = 1
+			aa_lmg = 1
+			
+		}
+
+	else = {
+		set_air_oob = "ANI_1936_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "ANI_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Paura Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "ANI_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Paura Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = ANI_Luis_Torrittana
+recruit_character = ANI_Vicarco_Fattesaggio
+recruit_character = ANI_Stefancesco_Mortine
+recruit_character = ANI_Jeano_Temicolorna
+recruit_character = ANI_Rico_Cappamone
+recruit_character = ANI_Paolose_Seggia
+recruit_character = ANI_Paolo_Sano
+recruit_character = ANI_Marco_Guelo
+recruit_character = ANI_Nicarlos_Segnale
+recruit_character = ANI_Thierry_Amonedine
+recruit_character = ANI_Mario_Neve
+recruit_character = ANI_Lucardo_Animo
+recruit_character = ANI_Leon_Vissaggio
+recruit_character = ANI_Andre_Guardo
+recruit_character = ANI_Thierry_Citando
+recruit_character = ANI_Julien_Torrittana
+recruit_character = ANI_Jeano_Ricolo
+recruit_character = ANI_Paolose_Divaledintel
+recruit_character = ANI_Antonio_Arina
+recruit_character = ANI_Rica_Valle
+recruit_character = ANI_Alexandre_Visi
+recruit_character = ANI_Steo_Sogna
+recruit_character = ANI_Bruno_Reggintra
+recruit_character = ANI_Mario_Sogna
+recruit_character = ANI_Roberry_Anieste
+recruit_character = ANI_Nica_Cielle
+recruit_character = ANI_Stefan_Dello
+recruit_character = ANI_Ramonio_Spiria
+recruit_character = ANI_Rico_Guardo
+recruit_character = ANI_Rica_Paura
+recruit_character = ANI_Paolas_Luna
+recruit_character = ANI_Nicomonarlos_Guardo
+recruit_character = ANI_Nicarlos_Abisi
+recruit_character = ANI_Roberto_Batta
+recruit_character = ANI_Giaco_Libra
+recruit_character = ANI_Anto_Labiria
+recruit_character = ANI_Luca_Freccade
+recruit_character = ANI_Alexandre_Piontelta
+recruit_character = ANI_Alexandro_Prolo
+recruit_character = ANI_Giacomon_Verofezio
+recruit_character = ANI_Rico_Mortine
+recruit_character = ANI_Giacomon_Torrittana
+recruit_character = ANI_Nicardo_Abiria
+recruit_character = ANI_Ricto_Onortelo
+recruit_character = ANI_Steo_Malledia
+recruit_character = ANI_Alexandre_Onortelo
+recruit_character = ANI_Nicarlos_Cielle
+recruit_character = ANI_Antonio_Abiria
+recruit_character = ANI_Giacolos_Segione
+recruit_character = ANI_Pedro_Labiria
+recruit_character = ANI_Ricto_Reggintra
+recruit_character = ANI_Nica_Odizio
+recruit_character = ANI_Steo_Capircama
+recruit_character = ANI_Vicarco_Riconedizia
+recruit_character = ANI_Steo_Alla
+recruit_character = ANI_Ramonio_Guerotta
+recruit_character = ANI_Steo_Maggelta
+recruit_character = ANI_Victor_Sogna
+recruit_character = ANI_Luca_Guelo
+recruit_character = ANI_Ricto_Piontelta
+recruit_character = ANI_Nica_Abiria
+recruit_character = ANI_Robertonarlo_Guercada
+recruit_character = ANI_Marcolos_Valle
+recruit_character = ANI_Antonio_Labiria
+recruit_character = ANI_Alexandro_Maggiore
+recruit_character = ANI_Pedre_Citando
+recruit_character = ANI_Nicto_Fatta
+recruit_character = ANI_Paolo_Freccade
+recruit_character = ANI_Vicarco_Fiortima
+recruit_character = ANI_Nictor_Spade
+recruit_character = ANI_Vicarco_Spade
+recruit_character = ANI_Francescolas_Prolo
+recruit_character = ANI_Ramon_Animo
+recruit_character = ANI_Thierto_Ghia
+recruit_character = ANI_Nicto_Incipessagio
+recruit_character = ANI_Stefancesco_Libra
+recruit_character = ANI_Thien_Lancuola
+recruit_character = ANI_Ramonio_Come
+recruit_character = ANI_Paolose_Pone
+recruit_character = ANI_Julipe_Come
+recruit_character = ANI_Nictor_Pone
+recruit_character = ANI_Enzo_Mera
+recruit_character = ANI_Robertonarlo_Messo
+recruit_character = ANI_Ramon_Guerotta
+recruit_character = ANI_Steo_Solo
+recruit_character = ANI_Lucardo_Lancuola
+recruit_character = ANI_Thierto_Messo
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.42
+set_war_support = 0.63
+
+add_ideas = {
+extensive_conscription
+low_economic_mobilisation
+closed_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1891.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 26
+	fascism = 23
+	communism = 34
+	neutrality = 17
+}
+
+
+
+
+

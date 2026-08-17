@@ -1,0 +1,37 @@
+
+state={
+	id=919
+	name="STATE_919"
+	manpower = 1165695
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		10808 10809 10810 10811 10812 10813 10814 10815 
+	}
+	local_supplies=0.0 
+}

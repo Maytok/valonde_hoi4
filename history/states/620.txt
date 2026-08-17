@@ -1,0 +1,37 @@
+
+state={
+	id=620
+	name="STATE_620"
+	manpower = 1970788
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		7420 7421 7422 7423 7424 7425 7426 7427 7428 
+	}
+	local_supplies=0.0 
+}

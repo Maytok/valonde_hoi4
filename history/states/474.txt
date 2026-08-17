@@ -1,0 +1,37 @@
+
+state={
+	id=474
+	name="STATE_474"
+	manpower = 2760802
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = ATE
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = ATE
+	}
+
+	provinces={
+		5679 5680 5681 5682 5683 5684 5685 5686 5687 5688 5689 5690 5691 
+	}
+	local_supplies=0.0 
+}

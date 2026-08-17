@@ -1,0 +1,37 @@
+
+state={
+	id=372
+	name="STATE_372"
+	manpower = 1486160
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TAW
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TAW
+	}
+
+	provinces={
+		4485 4486 4487 4488 4489 4490 4491 4492 
+	}
+	local_supplies=0.0 
+}

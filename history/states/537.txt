@@ -1,0 +1,37 @@
+
+state={
+	id=537
+	name="STATE_537"
+	manpower = 502973
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		6392 6393 
+	}
+	local_supplies=0.0 
+}

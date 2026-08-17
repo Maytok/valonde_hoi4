@@ -1,0 +1,37 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 1256297
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		497 498 499 500 501 
+	}
+	local_supplies=0.0 
+}

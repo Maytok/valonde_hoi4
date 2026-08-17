@@ -1,0 +1,1083 @@
+characters = {
+	CAE_Gaius_Lenturumensa={
+		name="Gaius Lenturumensa"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { autocratic_archbishop  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Titius_Literba={
+		name="Titius Literba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Titius_Literba
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAE_Regustus_Mentum={
+		name="Regustus Mentum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Regustus_Mentum
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Gemus_Tabul={
+		name="Gemus Tabul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Gemus_Tabul
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Viberus_Viturum={
+		name="Viberus Viturum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Viberus_Viturum
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAE_Claulus_Aurria={
+		name="Claulus Aurria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Claulus_Aurria
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Julus_Orbors={
+		name="Julus Orbors"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Julus_Orbors
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Fabiustus_Sapienticium={
+		name="Fabiustus Sapienticium"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Fabiustus_Sapienticium
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CAE_Lonius_Structorumen={
+		name="Lonius Structorumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Lonius_Structorumen
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CAE_Noniusus_Argenatrudax={
+		name="Noniusus Argenatrudax"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Noniusus_Argenatrudax
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CAE_Caianlius_Plerba={
+		name="Caianlius Plerba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Caianlius_Plerba
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	CAE_Caianus_Orbors={
+		name="Caianus Orbors"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Caianus_Orbors
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	CAE_Tiberius_Aetes={
+		name="Tiberius Aetes"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Tiberius_Aetes
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CAE_Remus_Litas={
+		name="Remus Litas"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Remus_Litas
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	CAE_Gaianus_Camper={
+		name="Gaianus Camper"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Gaianus_Camper
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CAE_Quinus_Fulmenticus={
+		name="Quinus Fulmenticus"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Quinus_Fulmenticus
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	CAE_Otho_Bellaelebs={
+		name="Otho Bellaelebs"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Otho_Bellaelebs
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CAE_Quinus_Aeterria={
+		name="Quinus Aeterria"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Quinus_Aeterria
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	CAE_Fabiustus_Centudo={
+		name="Fabiustus Centudo"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Fabiustus_Centudo
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	CAE_Lucius_Malum={
+		name="Lucius Malum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Lucius_Malum
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CAE_Faudius_Plebra={
+		name="Faudius Plebra"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Faudius_Plebra
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	CAE_Scaevero_Orbors={
+		name="Scaevero Orbors"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Julus_Lenturumensa={
+		name="Julus Lenturumensa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Julus_Lenturumensa
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Fabiustus_Ventiumen={
+		name="Fabiustus Ventiumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Fabiustus_Ventiumen
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Tracchus_Nator={
+		name="Tracchus Nator"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Tracchus_Nator
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Marro_Flus={
+		name="Marro Flus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Marro_Flus
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAE_Servius_Codes={
+		name="Servius Codes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Servius_Codes
+			traits = {	autokrator 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Lonius_Libers={
+		name="Lonius Libers"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Lonius_Libers
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAE_Nerus_Bellaelebs={
+		name="Nerus Bellaelebs"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Nerus_Bellaelebs
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	CAE_Traius_Medicus={
+		name="Traius Medicus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Traius_Medicus
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CAE_Gracchus_Officium={
+		name="Gracchus Officium"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Gracchus_Officium
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CAE_Antonius_Aques={
+		name="Antonius Aques"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Antonius_Aques
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CAE_Tiberius_Vinum={
+		name="Tiberius Vinum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Tiberius_Vinum
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	CAE_Regulus_Ventiumen={
+		name="Regulus Ventiumen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Regulus_Ventiumen
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CAE_Tiberius_Vicolaes={
+		name="Tiberius Vicolaes"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Tiberius_Vicolaes
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CAE_Publius_Viturum={
+		name="Publius Viturum"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Publius_Viturum
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	CAE_Julustus_Vera={
+		name="Julustus Vera"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Julustus_Vera
+			traits = {	navy_naval_air_defense_1 	}
+		}
+
+
+	}
+	CAE_Scaevolaudiu_Anis={
+		name="Scaevolaudiu Anis"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Scaevolaudiu_Anis
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CAE_Sero_Aetes={
+		name="Sero Aetes"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Sero_Aetes
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CAE_Viberus_Cella={
+		name="Viberus Cella"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Viberus_Cella
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CAE_Maximus_Officiptortu={
+		name="Maximus Officiptortu"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Maximus_Officiptortu
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	CAE_Marro_Libers={
+		name="Marro Libers"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Marro_Libers
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	CAE_Fabiustus_Tris={
+		name="Fabiustus Tris"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { anti_bolshevik_leftist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Titius_Patus={
+		name="Titius Patus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Titius_Patus
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Decius_Caes={
+		name="Decius Caes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Decius_Caes
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Varcellius_Timina={
+		name="Varcellius Timina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Varcellius_Timina
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Regustus_Flus={
+		name="Regustus Flus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Regustus_Flus
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Aulus_Solumens={
+		name="Aulus Solumens"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Aulus_Solumens
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Augulus_Pluvia={
+		name="Augulus Pluvia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Augulus_Pluvia
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Claulus_Lacus={
+		name="Claulus Lacus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Claulus_Lacus
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	CAE_Cornellius_Literba={
+		name="Cornellius Literba"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Cornellius_Literba
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CAE_Lucimus_Tura={
+		name="Lucimus Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Lucimus_Tura
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	CAE_Gemus_Frumen={
+		name="Gemus Frumen"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Gemus_Frumen
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CAE_Gemus_Medix={
+		name="Gemus Medix"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Gemus_Medix
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CAE_Remus_Aquespuberit={
+		name="Remus Aquespuberit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Remus_Aquespuberit
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	CAE_Horacchus_Anis={
+		name="Horacchus Anis"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Horacchus_Anis
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CAE_Regus_Aurria={
+		name="Regus Aurria"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Regus_Aurria
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	CAE_Aulus_Officiptortu={
+		name="Aulus Officiptortu"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Aulus_Officiptortu
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	CAE_Maximus_Patus={
+		name="Maximus Patus"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Maximus_Patus
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CAE_Gaius_Malum={
+		name="Gaius Malum"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Gaius_Malum
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	CAE_Atticustus_Gena={
+		name="Atticustus Gena"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Atticustus_Gena
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	CAE_Drus_Deatorta={
+		name="Drus Deatorta"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Drus_Deatorta
+			traits = {	army_CombinedArms_2 	}
+		}
+
+
+	}
+	CAE_Urbanlius_Vilor={
+		name="Urbanlius Vilor"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Urbanlius_Vilor
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	CAE_Cornellius_Centudo={
+		name="Cornellius Centudo"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CAE_Horacchus_Sapienticium={
+		name="Horacchus Sapienticium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Horacchus_Sapienticium
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Decius_Vicolaes={
+		name="Decius Vicolaes"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Decius_Vicolaes
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Decius_Bontus={
+		name="Decius Bontus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Decius_Bontus
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	CAE_Sero_Fluvis={
+		name="Sero Fluvis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Sero_Fluvis
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Tibius_Officium={
+		name="Tibius Officium"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Tibius_Officium
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	CAE_Nonius_Frumen={
+		name="Nonius Frumen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CAE_Nonius_Frumen
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	CAE_Graius_Officium={
+		name="Graius Officium"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Graius_Officium
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CAE_Sevolavius_Bontus={
+		name="Sevolavius Bontus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Sevolavius_Bontus
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CAE_Drus_Flum={
+		name="Drus Flum"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Drus_Flum
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	CAE_Viberius_Vulus={
+		name="Viberius Vulus"
+
+		advisor={
+			slot = army_chief
+			idea_token = CAE_Viberius_Vulus
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CAE_Titius_Sciptortus={
+		name="Titius Sciptortus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Titius_Sciptortus
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	CAE_Spuriscus_Civitteritas={
+		name="Spuriscus Civitteritas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CAE_Spuriscus_Civitteritas
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CAE_Varcellius_Portifex={
+		name="Varcellius Portifex"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Varcellius_Portifex
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CAE_Tibius_Frumen={
+		name="Tibius Frumen"
+
+		advisor={
+			slot = air_chief
+			idea_token = CAE_Tibius_Frumen
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CAE_Tiberius_Cella={
+		name="Tiberius Cella"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Tiberius_Cella
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	CAE_Traticus_Lacus={
+		name="Traticus Lacus"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Traticus_Lacus
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CAE_Cornellius_Honsus={
+		name="Cornellius Honsus"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Cornellius_Honsus
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	CAE_Augulus_Caes={
+		name="Augulus Caes"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Augulus_Caes
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	CAE_Urbanlius_Frumen={
+		name="Urbanlius Frumen"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Urbanlius_Frumen
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	CAE_Quinus_Tabul={
+		name="Quinus Tabul"
+
+		advisor={
+			slot = high_command
+			idea_token = CAE_Quinus_Tabul
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CAE_Maximus_Aetes={
+		name="Maximus Aetes"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Maximus_Aetes
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CAE_Horaianus_Aques={
+		name="Horaianus Aques"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Horaianus_Aques
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CAE_Valero_Avis={
+		name="Valero Avis"
+
+		advisor={
+			slot = theorist
+			idea_token = CAE_Valero_Avis
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

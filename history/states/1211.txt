@@ -1,0 +1,37 @@
+
+state={
+	id=1211
+	name="STATE_1211"
+	manpower = 1747549
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = MWA
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = MWA
+	}
+
+	provinces={
+		14220 14221 14222 14223 14224 14225 14226 14227 14228 14229 
+	}
+	local_supplies=0.0 
+}

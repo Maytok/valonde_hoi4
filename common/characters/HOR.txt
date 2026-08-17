@@ -1,0 +1,1083 @@
+characters = {
+	HOR_Siddhav_Ariyalaiyam={
+		name="Siddhav Ariyalaiyam"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HOR_Vijay_Vanaru={
+		name="Vijay Vanaru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Vijay_Vanaru
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Raveenth_Noolai={
+		name="Raveenth Noolai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Raveenth_Noolai
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Chaveesh_Irai={
+		name="Chaveesh Irai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Chaveesh_Irai
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Satish_Nadhunam={
+		name="Satish Nadhunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Satish_Nadhunam
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Ajay_Thirangam={
+		name="Ajay Thirangam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Ajay_Thirangam
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Vijay_Urchi={
+		name="Vijay Urchi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Vijay_Urchi
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Hari_Oorunam={
+		name="Hari Oorunam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Hari_Oorunam
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HOR_Suresh_Veer={
+		name="Suresh Veer"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Suresh_Veer
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	HOR_Chav_Kuramudhunbu={
+		name="Chav Kuramudhunbu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Chav_Kuramudhunbu
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HOR_Suresh_Thagamai={
+		name="Suresh Thagamai"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Suresh_Thagamai
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	HOR_Bala_Nilal={
+		name="Bala Nilal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Bala_Nilal
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	HOR_Pran_Thunai={
+		name="Pran Thunai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Pran_Thunai
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	HOR_Hari_Thuranam={
+		name="Hari Thuranam"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Hari_Thuranam
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HOR_Siddhav_Kadhagam={
+		name="Siddhav Kadhagam"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Siddhav_Kadhagam
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	HOR_Suresh_Muriyaranaia={
+		name="Suresh Muriyaranaia"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Suresh_Muriyaranaia
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	HOR_Raveenthik_Kazhurai={
+		name="Raveenthik Kazhurai"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Raveenthik_Kazhurai
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	HOR_Navi_Merasi={
+		name="Navi Merasi"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Navi_Merasi
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	HOR_Mohaveen_Thunavithil={
+		name="Mohaveen Thunavithil"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Mohaveen_Thunavithil
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	HOR_Raghavi_Nerasi={
+		name="Raghavi Nerasi"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Raghavi_Nerasi
+			traits = {	air_air_superiority_2 	}
+		}
+
+
+	}
+	HOR_Arun_Kanaiaru={
+		name="Arun Kanaiaru"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Arun_Kanaiaru
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	HOR_Deenth_Kattidu={
+		name="Deenth Kattidu"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HOR_Raveenthik_Arivu={
+		name="Raveenthik Arivu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Raveenthik_Arivu
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Arun_Inbam={
+		name="Arun Inbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Arun_Inbam
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Rajiv_Urcharai={
+		name="Rajiv Urcharai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Rajiv_Urcharai
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Vijay_Nilal={
+		name="Vijay Nilal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Vijay_Nilal
+			traits = {	generallissimo 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Varun_Aaravu={
+		name="Varun Aaravu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Varun_Aaravu
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Vinoj_Noolai={
+		name="Vinoj Noolai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Vinoj_Noolai
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Deenth_Mozhi={
+		name="Deenth Mozhi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Deenth_Mozhi
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HOR_Jaghanesh_Vizhannoli={
+		name="Jaghanesh Vizhannoli"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Jaghanesh_Vizhannoli
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HOR_Chav_Urchi={
+		name="Chav Urchi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Chav_Urchi
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	HOR_Pran_Kudi={
+		name="Pran Kudi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Pran_Kudi
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	HOR_Vijay_Isai={
+		name="Vijay Isai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Vijay_Isai
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	HOR_Vinoj_Vanaru={
+		name="Vinoj Vanaru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Vinoj_Vanaru
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	HOR_Mohanod_Magantham={
+		name="Mohanod Magantham"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Mohanod_Magantham
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	HOR_Charun_Mozhi={
+		name="Charun Mozhi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Charun_Mozhi
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	HOR_Raghavi_Nila={
+		name="Raghavi Nila"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Raghavi_Nila
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	HOR_Gandrakash_Poru={
+		name="Gandrakash Poru"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Gandrakash_Poru
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	HOR_Ravi_Veer={
+		name="Ravi Veer"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Ravi_Veer
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	HOR_Harthil_Nilal={
+		name="Harthil Nilal"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Harthil_Nilal
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	HOR_Moharthik_Thar={
+		name="Moharthik Thar"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Moharthik_Thar
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	HOR_Vinod_Vilalai={
+		name="Vinod Vilalai"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Vinod_Vilalai
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	HOR_Manoj_Isaichavu={
+		name="Manoj Isaichavu"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HOR_Harthil_Aaravu={
+		name="Harthil Aaravu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Harthil_Aaravu
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Raghavi_Kazhurai={
+		name="Raghavi Kazhurai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Raghavi_Kazhurai
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Satish_Kudi={
+		name="Satish Kudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Satish_Kudi
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Mohanod_Idam={
+		name="Mohanod Idam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Mohanod_Idam
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Vinesh_Pesu={
+		name="Vinesh Pesu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Vinesh_Pesu
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Surem_Kudi={
+		name="Surem Kudi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Surem_Kudi
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Chandran_Iram={
+		name="Chandran Iram"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Chandran_Iram
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	HOR_Satish_Thunporu={
+		name="Satish Thunporu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Satish_Thunporu
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HOR_Navi_Paal={
+		name="Navi Paal"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Navi_Paal
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	HOR_Mohaveepakas_Kadakku={
+		name="Mohaveepakas Kadakku"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Mohaveepakas_Kadakku
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	HOR_Deenth_Thuram={
+		name="Deenth Thuram"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Deenth_Thuram
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	HOR_Chaveesh_Aaravu={
+		name="Chaveesh Aaravu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Chaveesh_Aaravu
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	HOR_Siddhav_Isai={
+		name="Siddhav Isai"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Siddhav_Isai
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	HOR_Karun_Mozhunaraign={
+		name="Karun Mozhunaraign"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Karun_Mozhunaraign
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	HOR_Rajeshna_Vanal={
+		name="Rajeshna Vanal"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Rajeshna_Vanal
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	HOR_Kumar_Udappu={
+		name="Kumar Udappu"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Kumar_Udappu
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	HOR_Charun_Vidal={
+		name="Charun Vidal"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Charun_Vidal
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	HOR_Varthik_Thamayaravai={
+		name="Varthik Thamayaravai"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Varthik_Thamayaravai
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	HOR_Prem_Urchi={
+		name="Prem Urchi"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Prem_Urchi
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	HOR_Prandrak_Kattu={
+		name="Prandrak Kattu"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Prandrak_Kattu
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	HOR_Ravi_Nadakku={
+		name="Ravi Nadakku"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HOR_Mohaveepakas_Kulichakku={
+		name="Mohaveepakas Kulichakku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Mohaveepakas_Kulichakku
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Deenth_Valam={
+		name="Deenth Valam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Deenth_Valam
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Mohaveepakas_Manneeranbam={
+		name="Mohaveepakas Manneeranbam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Mohaveepakas_Manneeranbam
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Kumarun_Mozhunaraign={
+		name="Kumarun Mozhunaraign"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Kumarun_Mozhunaraign
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_2_small
+			}
+		}
+
+
+	}
+	HOR_Senthil_Arai={
+		name="Senthil Arai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Senthil_Arai
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_3_small
+			}
+		}
+
+
+	}
+	HOR_Chav_Kolal={
+		name="Chav Kolal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HOR_Chav_Kolal
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Asia_Generic_1_small
+			}
+		}
+
+
+	}
+	HOR_Vinesh_Kudrai={
+		name="Vinesh Kudrai"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Vinesh_Kudrai
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	HOR_Surem_Thirangam={
+		name="Surem Thirangam"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Surem_Thirangam
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	HOR_Jaghanesh_Paadu={
+		name="Jaghanesh Paadu"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Jaghanesh_Paadu
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	HOR_Manoj_Kazhurai={
+		name="Manoj Kazhurai"
+
+		advisor={
+			slot = army_chief
+			idea_token = HOR_Manoj_Kazhurai
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	HOR_Ajay_Magantham={
+		name="Ajay Magantham"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Ajay_Magantham
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	HOR_Prandrak_Aaravu={
+		name="Prandrak Aaravu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HOR_Prandrak_Aaravu
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	HOR_Chandrak_Kavai={
+		name="Chandrak Kavai"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Chandrak_Kavai
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	HOR_Mohaveen_Inbam={
+		name="Mohaveen Inbam"
+
+		advisor={
+			slot = air_chief
+			idea_token = HOR_Mohaveen_Inbam
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	HOR_Chaveesh_Kulichakku={
+		name="Chaveesh Kulichakku"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Chaveesh_Kulichakku
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	HOR_Navi_Vidal={
+		name="Navi Vidal"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Navi_Vidal
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	HOR_Moharthik_Noolai={
+		name="Moharthik Noolai"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Moharthik_Noolai
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	HOR_Mandran_Thunai={
+		name="Mandran Thunai"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Mandran_Thunai
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	HOR_Krish_Thar={
+		name="Krish Thar"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Krish_Thar
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	HOR_Pran_Oorunam={
+		name="Pran Oorunam"
+
+		advisor={
+			slot = high_command
+			idea_token = HOR_Pran_Oorunam
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	HOR_Raveenthik_Merasi={
+		name="Raveenthik Merasi"
+
+		advisor={
+			slot = theorist
+			idea_token = HOR_Raveenthik_Merasi
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	HOR_Rajiv_Paal={
+		name="Rajiv Paal"
+
+		advisor={
+			slot = theorist
+			idea_token = HOR_Rajiv_Paal
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	HOR_Ganoj_Kolal={
+		name="Ganoj Kolal"
+
+		advisor={
+			slot = theorist
+			idea_token = HOR_Ganoj_Kolal
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,17 @@
+air_wings = {
+		883 = { 								
+		large_plane_airframe_0 = { owner = "NUT" amount = 2 version_name = "Bubuk Mk 2" }
+
+	}
+	801 = { 								
+		small_plane_cas_airframe_0 = { owner = "NUT" amount = 10 version_name = "Nunak Mk 1" }
+medium_plane_airframe_0 = { owner = "NUT" amount = 6 version_name = "Iluk Mk 2" }
+
+	}
+	1584 = { 								
+		small_plane_airframe_0 = { owner = "NUT" amount = 6 version_name = "Tunak Mk 0" }
+
+	}
+
+
+}

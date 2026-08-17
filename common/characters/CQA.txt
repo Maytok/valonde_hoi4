@@ -1,0 +1,1083 @@
+characters = {
+	CQA_Itzam_Nohil={
+		name="Itzam Nohil"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { veteran_anti_bolshevik  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CQA_Kanek_Beca={
+		name="Kanek Beca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Kanek_Beca
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Ekchichen_Baktunam={
+		name="Ekchichen Baktunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Ekchichen_Baktunam
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Chakanek_Baktunam={
+		name="Chakanek Baktunam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Chakanek_Baktunam
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Tohil_Nahpu={
+		name="Tohil Nahpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Tohil_Nahpu
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Ekchua_Bonai={
+		name="Ekchua Bonai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Ekchua_Bonai
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Nacab_Tzol={
+		name="Nacab Tzol"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Nacab_Tzol
+			traits = {	headstrong 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Acatl_Haalamnahuwe={
+		name="Acatl Haalamnahuwe"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Acatl_Haalamnahuwe
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CQA_Tohichen_Haaj={
+		name="Tohichen Haaj"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Tohichen_Haaj
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CQA_Ekchil_Cozumel={
+		name="Ekchil Cozumel"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Ekchil_Cozumel
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CQA_Kukulkalam_Kanah={
+		name="Kukulkalam Kanah"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Kukulkalam_Kanah
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CQA_Itzam_Naax={
+		name="Itzam Naax"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Itzam_Naax
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	CQA_Kanek_Nahlam={
+		name="Kanek Nahlam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Kanek_Nahlam
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	CQA_Nacom_Ahcan={
+		name="Nacom Ahcan"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Nacom_Ahcan
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	CQA_Pakal_Nahlam={
+		name="Pakal Nahlam"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Pakal_Nahlam
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	CQA_Chakanek_Tzamna={
+		name="Chakanek Tzamna"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chakanek_Tzamna
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	CQA_Bacatl_Sakmul={
+		name="Bacatl Sakmul"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Bacatl_Sakmul
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	CQA_Kukulkanek_Yaxchen={
+		name="Kukulkanek Yaxchen"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Kukulkanek_Yaxchen
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	CQA_Chakal_Balahualaktu={
+		name="Chakal Balahualaktu"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chakal_Balahualaktu
+			traits = {	navy_capital_ship_1 	}
+		}
+
+
+	}
+	CQA_Yaxkin_Kawaktun={
+		name="Yaxkin Kawaktun"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Yaxkin_Kawaktun
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	CQA_Acatl_Sotzal={
+		name="Acatl Sotzal"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Acatl_Sotzal
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CQA_Nacom_Canahunai={
+		name="Nacom Canahunai"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { subservient_ultranationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CQA_Pakanek_Haalamnahuwe={
+		name="Pakanek Haalamnahuwe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Pakanek_Haalamnahuwe
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Ekchua_Haaj={
+		name="Ekchua Haaj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Ekchua_Haaj
+			traits = {	spirit_of_genghis 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Popo_Bakab={
+		name="Popo Bakab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Popo_Bakab
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Ekchua_Tzamna={
+		name="Ekchua Tzamna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Ekchua_Tzamna
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Yaxkin_Sotzam={
+		name="Yaxkin Sotzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Yaxkin_Sotzam
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Oxib_Haalamnahuwe={
+		name="Oxib Haalamnahuwe"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Oxib_Haalamnahuwe
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Kanek_Uxmanjo={
+		name="Kanek Uxmanjo"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Kanek_Uxmanjo
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	CQA_Pakal_Kawaktun={
+		name="Pakal Kawaktun"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Pakal_Kawaktun
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	CQA_Kukulkal_Chilacom={
+		name="Kukulkal Chilacom"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Kukulkal_Chilacom
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	CQA_Yaxkin_Becan={
+		name="Yaxkin Becan"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Yaxkin_Becan
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	CQA_Acatl_Tzolkab={
+		name="Acatl Tzolkab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Acatl_Tzolkab
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CQA_Chak_Tzol={
+		name="Chak Tzol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Chak_Tzol
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CQA_Chakalam_Tzamna={
+		name="Chakalam Tzamna"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Chakalam_Tzamna
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	CQA_Itzam_Mutal={
+		name="Itzam Mutal"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Itzam_Mutal
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	CQA_Chua_Sotzal={
+		name="Chua Sotzal"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chua_Sotzal
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	CQA_Kukulkal_Ahca={
+		name="Kukulkal Ahca"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Kukulkal_Ahca
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	CQA_Tohichen_Xbalanil={
+		name="Tohichen Xbalanil"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Tohichen_Xbalanil
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CQA_Pakan_Kanjo={
+		name="Pakan Kanjo"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Pakan_Kanjo
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	CQA_Chichen_Becan={
+		name="Chichen Becan"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chichen_Becan
+			traits = {	army_regrouping_2 	}
+		}
+
+
+	}
+	CQA_Tohichen_Bahpu={
+		name="Tohichen Bahpu"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Tohichen_Bahpu
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CQA_Tecun_Chakalahuale={
+		name="Tecun Chakalahuale"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { revolutionary_poet  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CQA_Kukulkalam_Witzal={
+		name="Kukulkalam Witzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Kukulkalam_Witzal
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Bacab_Sakmul={
+		name="Bacab Sakmul"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Bacab_Sakmul
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Oxib_Zotz={
+		name="Oxib Zotz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Oxib_Zotz
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Tohichen_Beca={
+		name="Tohichen Beca"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Tohichen_Beca
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Pakanek_Kawaktun={
+		name="Pakanek Kawaktun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Pakanek_Kawaktun
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Acatl_Tzampakha={
+		name="Acatl Tzampakha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Acatl_Tzampakha
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Kukulkanek_Palacol={
+		name="Kukulkanek Palacol"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Kukulkanek_Palacol
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	CQA_Chakal_Sotzal={
+		name="Chakal Sotzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Chakal_Sotzal
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	CQA_Yaxkin_Bahuwen={
+		name="Yaxkin Bahuwen"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Yaxkin_Bahuwen
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CQA_Bacab_Mutal={
+		name="Bacab Mutal"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Bacab_Mutal
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	CQA_Ekchichen_Aguatun={
+		name="Ekchichen Aguatun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Ekchichen_Aguatun
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	CQA_Chakalam_Ajpu={
+		name="Chakalam Ajpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Chakalam_Ajpu
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	CQA_Nacab_Nahuna={
+		name="Nacab Nahuna"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Nacab_Nahuna
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	CQA_Chua_Chichel={
+		name="Chua Chichel"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Chua_Chichel
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	CQA_Pakanek_Halam={
+		name="Pakanek Halam"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Pakanek_Halam
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	CQA_Tohil_Chok={
+		name="Tohil Chok"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Tohil_Chok
+			traits = {	air_pilot_training_1 	}
+		}
+
+
+	}
+	CQA_Oxib_Bahuwen={
+		name="Oxib Bahuwen"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Oxib_Bahuwen
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	CQA_Nacab_Sotzam={
+		name="Nacab Sotzam"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Nacab_Sotzam
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	CQA_Balam_Ajaw={
+		name="Balam Ajaw"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Balam_Ajaw
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	CQA_Nacom_Tzib={
+		name="Nacom Tzib"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Nacom_Tzib
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	CQA_Oxib_Naax={
+		name="Oxib Naax"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	CQA_Chua_Ajpu={
+		name="Chua Ajpu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Chua_Ajpu
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Kukulkalam_Uxmanjo={
+		name="Kukulkalam Uxmanjo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Kukulkalam_Uxmanjo
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Acab_Naax={
+		name="Acab Naax"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Acab_Naax
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	CQA_Popo_Tzib={
+		name="Popo Tzib"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Popo_Tzib
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	CQA_Moctez_Cobahlam={
+		name="Moctez Cobahlam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Moctez_Cobahlam
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Pakan_Sotzam={
+		name="Pakan Sotzam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = CQA_Pakan_Sotzam
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	CQA_Pakan_Chichel={
+		name="Pakan Chichel"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Pakan_Chichel
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	CQA_Tohil_Xbalanil={
+		name="Tohil Xbalanil"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Tohil_Xbalanil
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	CQA_Ahkin_Canai={
+		name="Ahkin Canai"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Ahkin_Canai
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	CQA_Bacab_Tojilaktun={
+		name="Bacab Tojilaktun"
+
+		advisor={
+			slot = army_chief
+			idea_token = CQA_Bacab_Tojilaktun
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	CQA_Ekchichen_Nahpu={
+		name="Ekchichen Nahpu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Ekchichen_Nahpu
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	CQA_Bacatl_Halam={
+		name="Bacatl Halam"
+
+		advisor={
+			slot = navy_chief
+			idea_token = CQA_Bacatl_Halam
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	CQA_Kanek_Tzampakha={
+		name="Kanek Tzampakha"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Kanek_Tzampakha
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	CQA_Moctez_Tzib={
+		name="Moctez Tzib"
+
+		advisor={
+			slot = air_chief
+			idea_token = CQA_Moctez_Tzib
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	CQA_Kukulkalam_Beca={
+		name="Kukulkalam Beca"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Kukulkalam_Beca
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	CQA_Chil_Haalamnahuwe={
+		name="Chil Haalamnahuwe"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chil_Haalamnahuwe
+			traits = {	air_airborne_1 	}
+		}
+
+
+	}
+	CQA_Moctez_Yaxunil={
+		name="Moctez Yaxunil"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Moctez_Yaxunil
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	CQA_Pakanek_Akbe={
+		name="Pakanek Akbe"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Pakanek_Akbe
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	CQA_Ahkin_Naax={
+		name="Ahkin Naax"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Ahkin_Naax
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	CQA_Chak_Ajpu={
+		name="Chak Ajpu"
+
+		advisor={
+			slot = high_command
+			idea_token = CQA_Chak_Ajpu
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	CQA_Popo_Balakcha={
+		name="Popo Balakcha"
+
+		advisor={
+			slot = theorist
+			idea_token = CQA_Popo_Balakcha
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	CQA_Popo_Chilan={
+		name="Popo Chilan"
+
+		advisor={
+			slot = theorist
+			idea_token = CQA_Popo_Chilan
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	CQA_Moctez_Zotz={
+		name="Moctez Zotz"
+
+		advisor={
+			slot = theorist
+			idea_token = CQA_Moctez_Zotz
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=534
+	name="STATE_534"
+	manpower = 35256
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=27
+		rubber=0
+		steel=20
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		6350 6351 6352 6353 6354 6355 6356 6357 6358 6359 6360 6361 6362 
+	}
+	local_supplies=0.0 
+}

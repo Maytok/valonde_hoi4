@@ -1,0 +1,37 @@
+
+state={
+	id=701
+	name="STATE_701"
+	manpower = 366972
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=4
+		chromium=4
+		oil=0
+		rubber=0
+		steel=16
+		tungsten=4
+		coal=11
+	}
+
+	history={
+		
+		owner = KWV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KWV
+	}
+
+	provinces={
+		8336 8337 8338 8339 8340 8341 8342 8343 8344 8345 8346 8347 8348 8349 8350 8351 8352 8353 8354 8355 
+	}
+	local_supplies=0.0 
+}

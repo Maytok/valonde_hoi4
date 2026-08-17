@@ -1,0 +1,37 @@
+
+state={
+	id=1395
+	name="STATE_1395"
+	manpower = 2006472
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SUA
+	}
+
+	provinces={
+		16158 16159 16160 16161 16162 16163 16164 16165 16166 16167 16168 
+	}
+	local_supplies=0.0 
+}

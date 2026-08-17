@@ -1,0 +1,287 @@
+capital = 21
+
+oob = "TLI_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TLI_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TLI_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	tech_mountaineers= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		engine_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TLI_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			
+		}
+
+	else = {
+		set_air_oob = "TLI_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TLI_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Spestina Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TLI_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Spestina Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TLI_Frano_Lanyonerita
+recruit_character = TLI_Robertonario_Accipesime
+recruit_character = TLI_Robertonio_Comenta
+recruit_character = TLI_Mardo_Nombra
+recruit_character = TLI_Stefano_Ricolo
+recruit_character = TLI_Vico_Stestizianto
+recruit_character = TLI_Bruno_Amia
+recruit_character = TLI_Felierry_Abbato
+recruit_character = TLI_Andro_Accanguardiz
+recruit_character = TLI_Alberto_Alberritta
+recruit_character = TLI_Luca_Sancipe
+recruit_character = TLI_Jeancesco_Legontura
+recruit_character = TLI_Stefano_Regio
+recruit_character = TLI_Alberto_Scudo
+recruit_character = TLI_Andro_Comenta
+recruit_character = TLI_Steo_Navaleanto
+recruit_character = TLI_Antonario_Campa
+recruit_character = TLI_Robertor_Malediavale
+recruit_character = TLI_Robertonio_Memicolda
+recruit_character = TLI_Robertonio_Regio
+recruit_character = TLI_Robertonario_Malediavale
+recruit_character = TLI_Ramon_Accipesime
+recruit_character = TLI_Jean_Campa
+recruit_character = TLI_Antonario_Casa
+recruit_character = TLI_Robertor_Notturanza
+recruit_character = TLI_Anton_Memorta
+recruit_character = TLI_Vica_Ombazio
+recruit_character = TLI_Thierry_Amia
+recruit_character = TLI_Giacolos_Trinte
+recruit_character = TLI_Thierto_Tria
+recruit_character = TLI_Thierry_Mago
+recruit_character = TLI_Jeandro_Poria
+recruit_character = TLI_Pedre_Giume
+recruit_character = TLI_Julien_Anito
+recruit_character = TLI_Antonio_Pore
+recruit_character = TLI_Ramonio_Poria
+recruit_character = TLI_Thiertor_Ombazio
+recruit_character = TLI_Francesco_Alberritta
+recruit_character = TLI_Stefandro_Manza
+recruit_character = TLI_Julien_Accipesime
+recruit_character = TLI_Andro_Casi
+recruit_character = TLI_Cario_Nave
+recruit_character = TLI_Lucario_Oasa
+recruit_character = TLI_Lucario_Alberritta
+recruit_character = TLI_Ricolose_Memorta
+recruit_character = TLI_Antonario_Vittezza
+recruit_character = TLI_Alberry_Acquarionto
+recruit_character = TLI_Francesco_Casimento
+recruit_character = TLI_Lucarlo_Mempo
+recruit_character = TLI_Robertonario_Sancipe
+recruit_character = TLI_Vico_Mago
+recruit_character = TLI_Felierry_Memicolda
+recruit_character = TLI_Leonio_Manza
+recruit_character = TLI_Thien_Malediavale
+recruit_character = TLI_Lucarlo_Nave
+recruit_character = TLI_Nico_Libro
+recruit_character = TLI_Enzo_Erbazia
+recruit_character = TLI_Andre_Ombazio
+recruit_character = TLI_Giacolos_Comenta
+recruit_character = TLI_Anto_Guelleano
+recruit_character = TLI_Alberry_Desima
+recruit_character = TLI_Jeandro_Mago
+recruit_character = TLI_Antonio_Odizionto
+recruit_character = TLI_Antonario_Anito
+recruit_character = TLI_Ramonardo_Messa
+recruit_character = TLI_Luis_Segioria
+recruit_character = TLI_Lucarlo_Avve
+recruit_character = TLI_Pablos_Desso
+recruit_character = TLI_Stefandre_Gionta
+recruit_character = TLI_Enzo_Oasa
+recruit_character = TLI_Luca_Merroe
+recruit_character = TLI_Jeano_Ombazio
+recruit_character = TLI_Stefano_Legontura
+recruit_character = TLI_Jeano_Nave
+recruit_character = TLI_Luca_Abbato
+recruit_character = TLI_Ramon_Camenza
+recruit_character = TLI_Giacolos_Desso
+recruit_character = TLI_Anto_Manza
+recruit_character = TLI_Cario_Vero
+recruit_character = TLI_Thiertor_Destaleano
+recruit_character = TLI_Lucarlos_Prianime
+recruit_character = TLI_Jeano_Abbato
+recruit_character = TLI_Alberto_Manza
+recruit_character = TLI_Andro_Messa
+recruit_character = TLI_Antonio_Memorta
+recruit_character = TLI_Cario_Armanzio
+recruit_character = TLI_Anto_Torio
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.07
+set_war_support = 0.55
+
+add_ideas = {
+limited_conscription
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1915.2.2"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 22
+	fascism = 20
+	communism = 29
+	neutrality = 29
+}
+
+
+
+
+

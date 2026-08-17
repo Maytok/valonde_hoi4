@@ -1,0 +1,1083 @@
+characters = {
+	IMA_Panuq_Nangmi={
+		name="Panuq Nangmi"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IMA_Amaq_Tuuqpakuq={
+		name="Amaq Tuuqpakuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Amaq_Tuuqpakuq
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Maniku_Atkak={
+		name="Maniku Atkak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Maniku_Atkak
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Kanuq_Ilukon={
+		name="Kanuq Ilukon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanuq_Ilukon
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Panaq_Tuniqtak={
+		name="Panaq Tuniqtak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Panaq_Tuniqtak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Kanik_Nuniku={
+		name="Kanik Nuniku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanik_Nuniku
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Kunikigaq_Naku={
+		name="Kunikigaq Naku"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kunikigaq_Naku
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Ukpik_Iglulutak={
+		name="Ukpik Iglulutak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Ukpik_Iglulutak
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	IMA_Nanaq_Avigaall={
+		name="Nanaq Avigaall"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Nanaq_Avigaall
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	IMA_Iluk_Bubuk={
+		name="Iluk Bubuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Iluk_Bubuk
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	IMA_Qajaq_Anik={
+		name="Qajaq Anik"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Qajaq_Anik
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	IMA_Ukpik_Tummaqtu={
+		name="Ukpik Tummaqtu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Ukpik_Tummaqtu
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	IMA_Kanaq_Anik={
+		name="Kanaq Anik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Kanaq_Anik
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Kunikigaq_Sikiqtuvuk={
+		name="Kunikigaq Sikiqtuvuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Kunikigaq_Sikiqtuvuk
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Taluk_Anik={
+		name="Taluk Anik"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Taluk_Anik
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Amaq_Nutaqpagak={
+		name="Amaq Nutaqpagak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Amaq_Nutaqpagak
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	IMA_Atka_Yuktaq={
+		name="Atka Yuktaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Atka_Yuktaq
+			traits = {	army_artillery_2 	}
+		}
+
+
+	}
+	IMA_Panuq_Napikivak={
+		name="Panuq Napikivak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Panuq_Napikivak
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	IMA_Kavik_Qilagut={
+		name="Kavik Qilagut"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kavik_Qilagut
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	IMA_Manuq_Napikivak={
+		name="Manuq Napikivak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Manuq_Napikivak
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	IMA_Qajaq_Imaq={
+		name="Qajaq Imaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Qajaq_Imaq
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	IMA_Kanuq_Kusitnavi={
+		name="Kanuq Kusitnavi"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IMA_Taluk_Nuskak={
+		name="Taluk Nuskak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Taluk_Nuskak
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Manuq_Itugak={
+		name="Manuq Itugak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Manuq_Itugak
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Kanuq_Kuvik={
+		name="Kanuq Kuvik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanuq_Kuvik
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Kanuq_Tuuqak={
+		name="Kanuq Tuuqak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanuq_Tuuqak
+			traits = {	warmonger 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Nanik_Napaangiq={
+		name="Nanik Napaangiq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Nanik_Napaangiq
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	IMA_Kanaq_Ilukon={
+		name="Kanaq Ilukon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanaq_Ilukon
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Manuq_Ikiq={
+		name="Manuq Ikiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Manuq_Ikiq
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	IMA_Kunik_Aglaq={
+		name="Kunik Aglaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Kunik_Aglaq
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	IMA_Sila_Avanaapagavi={
+		name="Sila Avanaapagavi"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Sila_Avanaapagavi
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	IMA_Kavik_Bubt={
+		name="Kavik Bubt"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Kavik_Bubt
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	IMA_Olik_Itugak={
+		name="Olik Itugak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Olik_Itugak
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Kavik_Arvivanuk={
+		name="Kavik Arvivanuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Kavik_Arvivanuk
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	IMA_Iluk_Napaangiq={
+		name="Iluk Napaangiq"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Iluk_Napaangiq
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	IMA_Nanaq_Asat={
+		name="Nanaq Asat"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Nanaq_Asat
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Kanuq_Nuniku={
+		name="Kanuq Nuniku"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kanuq_Nuniku
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	IMA_Panik_Atuktuk={
+		name="Panik Atuktuk"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Panik_Atuktuk
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	IMA_Sila_Sikiqtuvuk={
+		name="Sila Sikiqtuvuk"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Sila_Sikiqtuvuk
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	IMA_Kunikigaq_Napiqpait={
+		name="Kunikigaq Napiqpait"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kunikigaq_Napiqpait
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	IMA_Pana_Nuttaq={
+		name="Pana Nuttaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Pana_Nuttaq
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	IMA_Nutarak_Tuniqtak={
+		name="Nutarak Tuniqtak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Nutarak_Tuniqtak
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	IMA_Tulok_Bubt={
+		name="Tulok Bubt"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IMA_Kavik_Asat={
+		name="Kavik Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kavik_Asat
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Pana_Upik={
+		name="Pana Upik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Pana_Upik
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Naluk_Aknak={
+		name="Naluk Aknak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Naluk_Aknak
+			traits = {	indomitable_perseverance 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Nanik_Sani={
+		name="Nanik Sani"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Nanik_Sani
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	IMA_Kanuq_Nanirnavik={
+		name="Kanuq Nanirnavik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanuq_Nanirnavik
+			traits = {	mastermind_code_cracker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Pana_Napikivak={
+		name="Pana Napikivak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Pana_Napikivak
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	IMA_Ukpikigaq_Manik={
+		name="Ukpikigaq Manik"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Ukpikigaq_Manik
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	IMA_Panaq_Avaq={
+		name="Panaq Avaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Panaq_Avaq
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	IMA_Maniku_Kuvatuka={
+		name="Maniku Kuvatuka"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Maniku_Kuvatuka
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	IMA_Kunik_Ipik={
+		name="Kunik Ipik"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Kunik_Ipik
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	IMA_Kana_Noat={
+		name="Kana Noat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Kana_Noat
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	IMA_Nana_Atkak={
+		name="Nana Atkak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Nana_Atkak
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Amaq_Upiqtu={
+		name="Amaq Upiqtu"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Amaq_Upiqtu
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	IMA_Pana_Tunak={
+		name="Pana Tunak"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Pana_Tunak
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Iluk_Tikuq={
+		name="Iluk Tikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Iluk_Tikuq
+			traits = {	army_logistics_2 	}
+		}
+
+
+	}
+	IMA_Kanuq_Kalaq={
+		name="Kanuq Kalaq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kanuq_Kalaq
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	IMA_Nuvuk_Tikuq={
+		name="Nuvuk Tikuq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Nuvuk_Tikuq
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	IMA_Taluk_Avaniqtuk={
+		name="Taluk Avaniqtuk"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Taluk_Avaniqtuk
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	IMA_Maniku_Anavik={
+		name="Maniku Anavik"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Maniku_Anavik
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	IMA_Panaq_Napaangiq={
+		name="Panaq Napaangiq"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Panaq_Napaangiq
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	IMA_Kunikigaq_Kangik={
+		name="Kunikigaq Kangik"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IMA_Kanuq_Kuvutiqiliaq={
+		name="Kanuq Kuvutiqiliaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kanuq_Kuvutiqiliaq
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	IMA_Kavik_Tunak={
+		name="Kavik Tunak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Kavik_Tunak
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	IMA_Sila_Nunak={
+		name="Sila Nunak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Sila_Nunak
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Pana_Kipak={
+		name="Pana Kipak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Pana_Kipak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Manuq_Anik={
+		name="Manuq Anik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Manuq_Anik
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Nanik_Tikuvaqpak={
+		name="Nanik Tikuvaqpak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IMA_Nanik_Tikuvaqpak
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	IMA_Kanuq_Ilupak={
+		name="Kanuq Ilupak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Kanuq_Ilupak
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	IMA_Sila_Asat={
+		name="Sila Asat"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Sila_Asat
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	IMA_Kavik_Iglulutak={
+		name="Kavik Iglulutak"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Kavik_Iglulutak
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	IMA_Amaq_Avaniq={
+		name="Amaq Avaniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = IMA_Amaq_Avaniq
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	IMA_Nanaq_Wranfora={
+		name="Nanaq Wranfora"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Nanaq_Wranfora
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	IMA_Panuq_Wrak={
+		name="Panuq Wrak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IMA_Panuq_Wrak
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	IMA_Panaq_Kusitnavi={
+		name="Panaq Kusitnavi"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Panaq_Kusitnavi
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	IMA_Kunikigaq_Atuk={
+		name="Kunikigaq Atuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = IMA_Kunikigaq_Atuk
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	IMA_Nana_Tuuqak={
+		name="Nana Tuuqak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Nana_Tuuqak
+			traits = {	navy_amphibious_assault_2 	}
+		}
+
+
+	}
+	IMA_Tulok_Qilagut={
+		name="Tulok Qilagut"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Tulok_Qilagut
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	IMA_Iluk_Silaganik={
+		name="Iluk Silaganik"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Iluk_Silaganik
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	IMA_Kana_Ilukon={
+		name="Kana Ilukon"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kana_Ilukon
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	IMA_Kunik_Kangik={
+		name="Kunik Kangik"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Kunik_Kangik
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	IMA_Iluk_Tunak={
+		name="Iluk Tunak"
+
+		advisor={
+			slot = high_command
+			idea_token = IMA_Iluk_Tunak
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	IMA_Nanik_Kuvutulok={
+		name="Nanik Kuvutulok"
+
+		advisor={
+			slot = theorist
+			idea_token = IMA_Nanik_Kuvutulok
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	IMA_Sila_Ilupak={
+		name="Sila Ilupak"
+
+		advisor={
+			slot = theorist
+			idea_token = IMA_Sila_Ilupak
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	IMA_Manuq_Tikuvaqpak={
+		name="Manuq Tikuvaqpak"
+
+		advisor={
+			slot = theorist
+			idea_token = IMA_Manuq_Tikuvaqpak
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=200
+	name="STATE_200"
+	manpower = 3523085
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=25
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=5
+	}
+
+	history={
+		
+		owner = PIN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PIN
+	}
+
+	provinces={
+		2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 
+	}
+	local_supplies=0.0 
+}

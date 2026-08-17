@@ -1,0 +1,38 @@
+air_wings = {
+		1313 = { 								
+		medium_plane_airframe_0 = { owner = "BUA" amount = 42 version_name = "Spiona Mk 0" }
+
+	}
+	1278 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUA" amount = 50 version_name = "Talte Mk 1" }
+
+	}
+	1300 = { 								
+		small_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Dubh Mk 1" }
+
+	}
+	1756 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 50 version_name = "Faill Mk 2" }
+
+	}
+	1219 = { 								
+		small_plane_cas_airframe_0 = { owner = "BUA" amount = 50 version_name = "Talte Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "BUA" amount = 50 version_name = "Faill Mk 2" }
+large_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Greintigh Mk 1" }
+
+	}
+	1291 = { 								
+		small_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Dubh Mk 1" }
+
+	}
+	1233 = { 								
+		large_plane_airframe_0 = { owner = "BUA" amount = 50 version_name = "Greintigh Mk 1" }
+
+	}
+	1334 = { 								
+		medium_plane_airframe_1 = { owner = "BUA" amount = 47 version_name = "Cluas Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=583
+	name="STATE_583"
+	manpower = 2321442
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=17
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKG
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AKG
+	}
+
+	provinces={
+		6958 6959 6960 6961 6962 6963 6964 6965 6966 6967 6968 6969 6970 6971 
+	}
+	local_supplies=0.0 
+}

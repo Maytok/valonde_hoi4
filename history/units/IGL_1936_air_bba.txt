@@ -1,0 +1,94 @@
+air_wings = {
+		860 = { 								
+		small_plane_cas_airframe_1 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+small_plane_naval_bomber_airframe_1 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+
+	}
+	184 = { 								
+		small_plane_airframe_1 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+small_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+large_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	315 = { 								
+		small_plane_airframe_1 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+
+	}
+	1533 = { 								
+		large_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	429 = { 								
+		large_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Vrefeka Mk 2" }
+
+	}
+	586 = { 								
+		small_plane_airframe_1 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+medium_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	1676 = { 								
+		small_plane_cas_airframe_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+
+	}
+	779 = { 								
+		medium_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	809 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	196 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+
+	}
+	886 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "IGL" amount = 50 version_name = "Kuca Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	178 = { 								
+		small_plane_cas_airframe_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	783 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "IGL" amount = 50 version_name = "Kapija Mk 2" }
+
+	}
+	522 = { 								
+		small_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	611 = { 								
+		small_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	906 = { 								
+		small_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Puto Mk 0" }
+
+	}
+	357 = { 								
+		small_plane_airframe_1 = { owner = "IGL" amount = 50 version_name = "Imetno Mk 2" }
+
+	}
+	210 = { 								
+		small_plane_cas_airframe_1 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+
+	}
+	718 = { 								
+		small_plane_cas_airframe_0 = { owner = "IGL" amount = 50 version_name = "Narodarst Mk 1" }
+
+	}
+	74 = { 								
+		medium_plane_airframe_0 = { owner = "IGL" amount = 50 version_name = "Misina Mk 0" }
+
+	}
+	1560 = { 								
+		small_plane_cas_airframe_1 = { owner = "IGL" amount = 50 version_name = "Strana Mk 2" }
+
+	}
+
+
+}

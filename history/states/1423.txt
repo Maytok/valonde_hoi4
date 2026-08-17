@@ -1,0 +1,37 @@
+
+state={
+	id=1423
+	name="STATE_1423"
+	manpower = 2038732
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		16445 16446 16447 16448 16449 16450 16451 16452 16453 16454 
+	}
+	local_supplies=0.0 
+}

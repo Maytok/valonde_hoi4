@@ -1,0 +1,37 @@
+
+state={
+	id=826
+	name="STATE_826"
+	manpower = 422320
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NUT
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = NUT
+	}
+
+	provinces={
+		9800 9801 
+	}
+	local_supplies=0.0 
+}

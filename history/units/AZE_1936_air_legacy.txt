@@ -1,0 +1,70 @@
+air_wings = {
+		2 = { 								
+		nav_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tinassouka Mk 1" }
+
+	}
+	307 = { 								
+		tac_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	69 = { 								
+		CAS_equipment_0 = { owner = "AZE" amount = 50 version_name = "Izegga Mk 2" }
+
+	}
+	314 = { 								
+		fighter_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tint Mk 0" }
+
+	}
+	434 = { 								
+		nav_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tinassouka Mk 1" }
+
+	}
+	446 = { 								
+		CAS_equipment_0 = { owner = "AZE" amount = 50 version_name = "Izegga Mk 2" }
+fighter_equipment_0 = { owner = "AZE" amount = 50 version_name = "Agadir Mk 1" }
+
+	}
+	1655 = { 								
+		tac_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tazrourt Mk 1" }
+
+	}
+	937 = { 								
+		strat_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	958 = { 								
+		nav_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Agadirawt Mk 0" }
+
+	}
+	771 = { 								
+		CAS_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tifella Mk 0" }
+
+	}
+	690 = { 								
+		tac_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	1631 = { 								
+		strat_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tigmi Mk 2" }
+
+	}
+	607 = { 								
+		tac_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tazrourt Mk 1" }
+
+	}
+	155 = { 								
+		nav_bomber_equipment_0 = { owner = "AZE" amount = 50 version_name = "Agadirawt Mk 0" }
+
+	}
+	625 = { 								
+		CAS_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tifella Mk 0" }
+
+	}
+	109 = { 								
+		fighter_equipment_0 = { owner = "AZE" amount = 50 version_name = "Tint Mk 0" }
+fighter_equipment_0 = { owner = "AZE" amount = 50 version_name = "Agadir Mk 1" }
+
+	}
+
+
+}

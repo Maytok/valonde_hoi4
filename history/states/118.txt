@@ -1,0 +1,37 @@
+
+state={
+	id=118
+	name="STATE_118"
+	manpower = 104086
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		1524 1525 1526 1527 1528 
+	}
+	local_supplies=0.0 
+}

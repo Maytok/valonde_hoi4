@@ -1,0 +1,37 @@
+
+state={
+	id=1434
+	name="STATE_1434"
+	manpower = 5140159
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=17
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = DAV
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAV
+	}
+
+	provinces={
+		16553 16554 16555 16556 16557 16558 16559 16560 16561 16562 16563 16564 16565 16566 16567 16568 16569 16570 16571 16572 16573 16574 16575 16576 16577 16578 16579 16580 16581 16582 
+	}
+	local_supplies=0.0 
+}

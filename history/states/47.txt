@@ -1,0 +1,37 @@
+
+state={
+	id=47
+	name="STATE_47"
+	manpower = 3001695
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+air_wings = {
+		753 = { 								
+		fighter_equipment_0 = { owner = "TIK" amount = 28 version_name = "Tingiq Mk 1" }
+
+	}
+	57 = { 								
+		tac_bomber_equipment_0 = { owner = "TIK" amount = 24 version_name = "Nipaapak Mk 0" }
+
+	}
+	1586 = { 								
+		nav_bomber_equipment_0 = { owner = "TIK" amount = 39 version_name = "Kangelle Mk 0" }
+
+	}
+	452 = { 								
+		CAS_equipment_0 = { owner = "TIK" amount = 21 version_name = "Nanuata Mk 1" }
+
+	}
+
+
+}

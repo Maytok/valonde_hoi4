@@ -1,0 +1,37 @@
+
+state={
+	id=149
+	name="STATE_149"
+	manpower = 2370193
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=13
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 
+	}
+	local_supplies=0.0 
+}

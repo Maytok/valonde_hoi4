@@ -1,0 +1,37 @@
+
+state={
+	id=1037
+	name="STATE_1037"
+	manpower = 551859
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=39
+		chromium=41
+		oil=14
+		rubber=33
+		steel=0
+		tungsten=39
+		coal=99
+	}
+
+	history={
+		
+		owner = UPE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UPE
+	}
+
+	provinces={
+		12309 12310 12311 12312 12313 12314 12315 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,30 @@
+air_wings = {
+		1038 = { 								
+		nav_bomber_equipment_0 = { owner = "MWA" amount = 50 version_name = "Taanguzi Mk 1" }
+
+	}
+	1142 = { 								
+		tac_bomber_equipment_0 = { owner = "MWA" amount = 50 version_name = "Wima Mk 0" }
+
+	}
+	1682 = { 								
+		CAS_equipment_0 = { owner = "MWA" amount = 34 version_name = "Saua Mk 2" }
+
+	}
+	1152 = { 								
+		tac_bomber_equipment_0 = { owner = "MWA" amount = 50 version_name = "Wima Mk 0" }
+
+	}
+	1103 = { 								
+		nav_bomber_equipment_0 = { owner = "MWA" amount = 50 version_name = "Taanguzi Mk 1" }
+
+	}
+	1114 = { 								
+		tac_bomber_equipment_0 = { owner = "MWA" amount = 37 version_name = "Kanara Mk 2" }
+fighter_equipment_0 = { owner = "MWA" amount = 50 version_name = "Neno Mk 2" }
+fighter_equipment_0 = { owner = "MWA" amount = 50 version_name = "Neno Mk 2" }
+
+	}
+
+
+}

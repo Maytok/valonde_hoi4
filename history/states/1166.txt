@@ -1,0 +1,37 @@
+
+state={
+	id=1166
+	name="STATE_1166"
+	manpower = 1772733
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=22
+		chromium=23
+		oil=6
+		rubber=14
+		steel=0
+		tungsten=22
+		coal=56
+	}
+
+	history={
+		
+		owner = NJN
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = NJN
+	}
+
+	provinces={
+		13775 13776 13777 13778 13779 13780 13781 13782 13783 13784 13785 
+	}
+	local_supplies=0.0 
+}

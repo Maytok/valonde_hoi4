@@ -1,0 +1,37 @@
+
+state={
+	id=848
+	name="STATE_848"
+	manpower = 7697576
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KAN
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 6
+			
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		10014 10015 10016 10017 10018 10019 10020 10021 10022 10023 10024 10025 10026 10027 10028 10029 10030 10031 10032 10033 10034 10035 10036 10037 10038 10039 10040 10041 10042 10043 10044 10045 10046 10047 10048 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,489 @@
+capital = 188
+
+oob = "PIN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "PIN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "PIN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	fuel_refining= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Akalt Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Afsut Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Azrouka Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tazzur Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tamazrawt Mk 1"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = expanded_fuel_tank
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PIN_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			air_torpedoe_1 = 1
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			range_improvements = 1
+			basic_small_airframe = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Azemouka Mk 0"
+			type = small_plane_cas_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadiremmi Mk 0"
+			type = small_plane_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tart Mk 0"
+			type = small_plane_naval_bomber_airframe_1
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Aghrart Mk 2"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tazegzilt Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tiwizrar Mk 0"
+			type = small_plane_naval_bomber_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Tasnast Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "PIN_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			naval_bomber1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "PIN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Tamsirt Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "PIN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Tamsirt Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = PIN_Tahari_Tiwizi
+recruit_character = PIN_Iderfane_Tart
+recruit_character = PIN_Lyes_Taghan
+recruit_character = PIN_Yannissiniss_Tislit
+recruit_character = PIN_Tafsut_Tawen
+recruit_character = PIN_Amoun_Adrart
+recruit_character = PIN_Taren_Tamsirt
+recruit_character = PIN_Yuba_Tart
+recruit_character = PIN_Ziri_Tazart
+recruit_character = PIN_Lyes_Tamazrawt
+recruit_character = PIN_Saidi_Afsut
+recruit_character = PIN_Aselmarim_Tigh
+recruit_character = PIN_Mezian_Azegzart
+recruit_character = PIN_Aziz_Tazran
+recruit_character = PIN_Saidi_Tazrar
+recruit_character = PIN_Azian_Agou
+recruit_character = PIN_Yannissiniss_Tissirt
+recruit_character = PIN_Kariq_Tamazrou
+recruit_character = PIN_Azian_Tawt
+recruit_character = PIN_Iderfax_Tazart
+recruit_character = PIN_Aselmad_Takfar
+recruit_character = PIN_Sifan_Azenzawin
+recruit_character = PIN_Amoun_Tazegzilt
+recruit_character = PIN_Tafsut_Tifawt
+recruit_character = PIN_Tafsut_Tamazrou
+recruit_character = PIN_Azian_Tafawin
+recruit_character = PIN_Zirim_Tighbalalt
+recruit_character = PIN_Amoun_Azegzi
+recruit_character = PIN_Amoun_Amdirart
+recruit_character = PIN_Aziz_Tamassirt
+recruit_character = PIN_Tafsut_Tighzi
+recruit_character = PIN_Tarim_Tighbalut
+recruit_character = PIN_Mokran_Azenzawin
+recruit_character = PIN_Mokrannis_Tazran
+recruit_character = PIN_Aziz_Tist
+recruit_character = PIN_Tafsut_Tissirt
+recruit_character = PIN_Mimokran_Tidra
+recruit_character = PIN_Tahariq_Thant
+recruit_character = PIN_Aselmad_Tatrit
+recruit_character = PIN_Amoun_Tazzur
+recruit_character = PIN_Yuba_Azegzart
+recruit_character = PIN_Mimoun_Amezwasnast
+recruit_character = PIN_Tahar_Afsut
+recruit_character = PIN_Lyes_Tawin
+recruit_character = PIN_Massinissa_Tazmerwal
+recruit_character = PIN_Mimokrane_Tafassirt
+recruit_character = PIN_Meziz_Tizir
+recruit_character = PIN_Iderfax_Taghan
+recruit_character = PIN_Meziane_Taru
+recruit_character = PIN_Amad_Tawt
+recruit_character = PIN_Mokrane_Aghrart
+recruit_character = PIN_Mimokran_Tawt
+recruit_character = PIN_Tahar_Tifawt
+recruit_character = PIN_Amad_Tamat
+recruit_character = PIN_Yannissiniss_Tawt
+recruit_character = PIN_Massinissa_Tazart
+recruit_character = PIN_Ziri_Tafaru
+recruit_character = PIN_Mokrannis_Imghrem
+recruit_character = PIN_Taharimokran_Tafaru
+recruit_character = PIN_Massa_Tamsalt
+recruit_character = PIN_Mimokran_Tizir
+recruit_character = PIN_Mimokrane_Azemouka
+recruit_character = PIN_Mokrannis_Tafawenzal
+recruit_character = PIN_Taharen_Tissirt
+recruit_character = PIN_Massinis_Taghzi
+recruit_character = PIN_Mezian_Tizir
+recruit_character = PIN_Aselmad_Amdirart
+recruit_character = PIN_Meziane_Tamsiri
+recruit_character = PIN_Iskari_Afsut
+recruit_character = PIN_Kariq_Azegzi
+recruit_character = PIN_Saidi_Asirt
+recruit_character = PIN_Meziz_Amella
+recruit_character = PIN_Mokran_Tagzi
+recruit_character = PIN_Iderfan_Tiwin
+recruit_character = PIN_Iderfax_Tigh
+recruit_character = PIN_Meziane_Tamat
+recruit_character = PIN_Amad_Tamsalt
+recruit_character = PIN_Zirim_Tadin
+recruit_character = PIN_Aselmad_Tigmmi
+recruit_character = PIN_Yuba_Tamsirt
+recruit_character = PIN_Mimokrane_Azrarwas
+recruit_character = PIN_Massa_Tawen
+recruit_character = PIN_Yannissiniss_Tazda
+recruit_character = PIN_Iskari_Tawen
+recruit_character = PIN_Tahari_Takfawint
+recruit_character = PIN_Amokrane_Tislit
+recruit_character = PIN_Massinis_Amdirart
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.09
+set_war_support = 0.63
+
+add_ideas = {
+extensive_conscription
+partial_economic_mobilisation
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1927.3.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 34
+	fascism = 36
+	communism = 11
+	neutrality = 19
+}
+
+
+
+
+

@@ -1,0 +1,37 @@
+
+state={
+	id=427
+	name="STATE_427"
+	manpower = 2499913
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AQU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			
+		}
+		add_core_of = AQU
+	}
+
+	provinces={
+		5185 5186 5187 5188 5189 5190 5191 5192 5193 5194 5195 
+	}
+	local_supplies=0.0 
+}

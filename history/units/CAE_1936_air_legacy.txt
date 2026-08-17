@@ -1,0 +1,15 @@
+air_wings = {
+		1405 = { 								
+		CAS_equipment_0 = { owner = "CAE" amount = 8 version_name = "Frumen Mk 0" }
+tac_bomber_equipment_0 = { owner = "CAE" amount = 2 version_name = "Plebra Mk 2" }
+
+	}
+	1556 = { 								
+		fighter_equipment_0 = { owner = "CAE" amount = 2 version_name = "Literba Mk 2" }
+nav_bomber_equipment_0 = { owner = "CAE" amount = 5 version_name = "Anis Mk 2" }
+strat_bomber_equipment_0 = { owner = "CAE" amount = 3 version_name = "Famalatus Mk 0" }
+
+	}
+
+
+}

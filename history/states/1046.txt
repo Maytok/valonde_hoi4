@@ -1,0 +1,37 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	manpower = 1737259
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NJN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NJN
+	}
+
+	provinces={
+		12463 12464 12465 12466 12467 12468 12469 12470 12471 12472 
+	}
+	local_supplies=0.0 
+}

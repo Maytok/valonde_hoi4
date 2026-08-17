@@ -1,0 +1,451 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			anti_air = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tigh' Supported Infantry Division"
+		location = 6014
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.241366
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Pung' Supported Infantry Division"
+		location = 16516
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.897997
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Azert' Supported Infantry Division"
+		location = 8211
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.476027
+		start_equipment_factor = 0.919355
+	}
+	division= {
+		name = "4th 'Pembuku' Supported Infantry Division"
+		location = 16473
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.204494
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "5th 'Azrawinim' Supported Infantry Division"
+		location = 5304
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.362502
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Azrarwas' Supported Infantry Division"
+		location = 305
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.657706
+		start_equipment_factor = 0.921603
+	}
+	division= {
+		name = "7th 'Adrart' Supported Infantry Division"
+		location = 9450
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.710625
+		start_equipment_factor = 0.896862
+	}
+	division= {
+		name = "8th 'Azenzawin' Supported Infantry Division"
+		location = 5163
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.933848
+		start_equipment_factor = 0.960277
+	}
+	division= {
+		name = "9th 'Azrarwas' Supported Infantry Division"
+		location = 3312
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.112805
+		start_equipment_factor = 0.909994
+	}
+	division= {
+		name = "10th 'Amenzar' Supported Infantry Division"
+		location = 3309
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.775687
+		start_equipment_factor = 0.963130
+	}
+	division= {
+		name = "11th 'Amezwasnast' Supported Infantry Division"
+		location = 2213
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.468464
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "12th 'Tasnast' Supported Infantry Division"
+		location = 9069
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.062118
+		start_equipment_factor = 0.960642
+	}
+	division= {
+		name = "13th 'Tazran' Supported Infantry Division"
+		location = 7695
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.122913
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "14th 'Sehaba' Supported Infantry Division"
+		location = 3763
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.652051
+		start_equipment_factor = 0.933520
+	}
+	division= {
+		name = "15th 'Tamazrawt' Supported Infantry Division"
+		location = 4872
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.109405
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "16th 'Pemah' Supported Infantry Division"
+		location = 2668
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.379351
+		start_equipment_factor = 0.924066
+	}
+	division= {
+		name = "17th 'Tiwizrar' Supported Infantry Division"
+		location = 5782
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.095009
+		start_equipment_factor = 0.991083
+	}
+	division= {
+		name = "18th 'Tighbalalt' Supported Infantry Division"
+		location = 8123
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.122189
+		start_equipment_factor = 0.880010
+	}
+	division= {
+		name = "19th 'Azert' Supported Infantry Division"
+		location = 7395
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.340222
+		start_equipment_factor = 0.951579
+	}
+	division= {
+		name = "20th 'Agou' Supported Infantry Division"
+		location = 9686
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.916273
+		start_equipment_factor = 0.859123
+	}
+	division= {
+		name = "21st 'Tasnast' Supported Infantry Division"
+		location = 9069
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.601541
+		start_equipment_factor = 0.857118
+	}
+	division= {
+		name = "22nd 'Agou' Supported Infantry Division"
+		location = 17229
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.412394
+		start_equipment_factor = 0.944597
+	}
+	division= {
+		name = "23rd 'Tepinga' Supported Infantry Division"
+		location = 16508
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.093746
+		start_equipment_factor = 0.868464
+	}
+	division= {
+		name = "1st 'Gungitu' Artillery Division"
+		location = 6195
+		division_template = "Artillery Division"
+		start_experience_factor = 0.087222
+		start_equipment_factor = 0.890458
+	}
+	division= {
+		name = "2nd 'Azenzawin' Artillery Division"
+		location = 8207
+		division_template = "Artillery Division"
+		start_experience_factor = 0.979458
+		start_equipment_factor = 0.916446
+	}
+	division= {
+		name = "3rd 'Jembukual' Artillery Division"
+		location = 5761
+		division_template = "Artillery Division"
+		start_experience_factor = 0.113368
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Kopruklulut' Artillery Division"
+		location = 4713
+		division_template = "Artillery Division"
+		start_experience_factor = 0.973228
+		start_equipment_factor = 0.876364
+	}
+	division= {
+		name = "5th 'Tadin' Artillery Division"
+		location = 3753
+		division_template = "Artillery Division"
+		start_experience_factor = 0.615502
+		start_equipment_factor = 0.996734
+	}
+	division= {
+		name = "6th 'Ping' Artillery Division"
+		location = 2683
+		division_template = "Artillery Division"
+		start_experience_factor = 0.071572
+		start_equipment_factor = 0.917975
+	}
+	division= {
+		name = "7th 'Petir' Artillery Division"
+		location = 16442
+		division_template = "Artillery Division"
+		start_experience_factor = 0.606559
+		start_equipment_factor = 0.880131
+	}
+	division= {
+		name = "8th 'Tamazrou' Artillery Division"
+		location = 2809
+		division_template = "Artillery Division"
+		start_experience_factor = 0.967808
+		start_equipment_factor = 0.981718
+	}
+	division= {
+		name = "9th 'Daung' Artillery Division"
+		location = 9356
+		division_template = "Artillery Division"
+		start_experience_factor = 0.268128
+		start_equipment_factor = 0.867588
+	}
+	division= {
+		name = "10th 'Afrart' Artillery Division"
+		location = 8141
+		division_template = "Artillery Division"
+		start_experience_factor = 0.597049
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "11th 'Tagzi' Artillery Division"
+		location = 1567
+		division_template = "Artillery Division"
+		start_experience_factor = 0.671632
+		start_equipment_factor = 0.886728
+	}
+	division= {
+		name = "12th 'Afrart' Artillery Division"
+		location = 7865
+		division_template = "Artillery Division"
+		start_experience_factor = 0.147031
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "13th 'Ayaremu' Artillery Division"
+		location = 3049
+		division_template = "Artillery Division"
+		start_experience_factor = 0.653595
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "14th 'Tadin' Artillery Division"
+		location = 9456
+		division_template = "Artillery Division"
+		start_experience_factor = 0.077517
+		start_equipment_factor = 0.972672
+	}
+	division= {
+		name = "15th 'Akalt' Artillery Division"
+		location = 8286
+		division_template = "Artillery Division"
+		start_experience_factor = 0.369754
+		start_equipment_factor = 0.927322
+	}
+	division= {
+		name = "16th 'Amella' Artillery Division"
+		location = 6022
+		division_template = "Artillery Division"
+		start_experience_factor = 0.625730
+		start_equipment_factor = 0.909286
+	}
+	division= {
+		name = "17th 'Tamazrou' Artillery Division"
+		location = 9707
+		division_template = "Artillery Division"
+		start_experience_factor = 0.856563
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "18th 'Tafassirt' Artillery Division"
+		location = 5316
+		division_template = "Artillery Division"
+		start_experience_factor = 0.922778
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "19th 'Amdarwast' Artillery Division"
+		location = 5313
+		division_template = "Artillery Division"
+		start_experience_factor = 0.912977
+		start_equipment_factor = 0.897488
+	}
+	division= {
+		name = "20th 'Teri' Artillery Division"
+		location = 287
+		division_template = "Artillery Division"
+		start_experience_factor = 0.427065
+		start_equipment_factor = 0.962948
+	}
+	division= {
+		name = "21st 'Tazda' Artillery Division"
+		location = 5779
+		division_template = "Artillery Division"
+		start_experience_factor = 0.211205
+		start_equipment_factor = 0.888039
+	}
+	division= {
+		name = "22nd 'Afrart' Artillery Division"
+		location = 168
+		division_template = "Artillery Division"
+		start_experience_factor = 0.127733
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "23rd 'Rita' Artillery Division"
+		location = 5771
+		division_template = "Artillery Division"
+		start_experience_factor = 0.946066
+		start_equipment_factor = 0.980482
+	}
+	division= {
+		name = "24th 'Apisuana' Artillery Division"
+		location = 16547
+		division_template = "Artillery Division"
+		start_experience_factor = 0.072321
+		start_equipment_factor = 0.880711
+	}
+	division= {
+		name = "25th 'Takfaw' Artillery Division"
+		location = 10348
+		division_template = "Artillery Division"
+		start_experience_factor = 0.288451
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "26th 'Bapangis' Artillery Division"
+		location = 6194
+		division_template = "Artillery Division"
+		start_experience_factor = 0.998684
+		start_equipment_factor = 0.939339
+	}
+	division= {
+		name = "27th 'Tafawin' Artillery Division"
+		location = 1574
+		division_template = "Artillery Division"
+		start_experience_factor = 0.149034
+		start_equipment_factor = 0.864155
+	}
+	division= {
+		name = "28th 'Tawt' Artillery Division"
+		location = 7696
+		division_template = "Artillery Division"
+		start_experience_factor = 0.270990
+		start_equipment_factor = 0.875774
+	}
+
+}

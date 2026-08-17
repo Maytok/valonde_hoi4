@@ -1,0 +1,37 @@
+
+state={
+	id=843
+	name="STATE_843"
+	manpower = 1738903
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IMA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IMA
+	}
+
+	provinces={
+		9979 9980 9981 9982 9983 9984 9985 9986 9987 
+	}
+	local_supplies=0.0 
+}

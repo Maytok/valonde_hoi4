@@ -1,0 +1,37 @@
+
+state={
+	id=737
+	name="STATE_737"
+	manpower = 15269
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		8792 8793 8794 8795 8796 
+	}
+	local_supplies=0.0 
+}

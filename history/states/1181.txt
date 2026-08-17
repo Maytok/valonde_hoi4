@@ -1,0 +1,37 @@
+
+state={
+	id=1181
+	name="STATE_1181"
+	manpower = 1021841
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = POE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = POE
+	}
+
+	provinces={
+		13900 13901 13902 13903 13904 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=515
+	name="STATE_515"
+	manpower = 2127337
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SOG
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SOG
+	}
+
+	provinces={
+		6156 6157 6158 6159 6160 6161 6162 6163 6164 6165 6166 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1124
+	name="STATE_1124"
+	manpower = 790244
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CQA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			
+		}
+		add_core_of = CQA
+	}
+
+	provinces={
+		13341 13342 13343 
+	}
+	local_supplies=0.0 
+}

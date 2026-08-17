@@ -1,0 +1,37 @@
+
+state={
+	id=1110
+	name="STATE_1110"
+	manpower = 4319518
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = CEL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+			
+		}
+		add_core_of = CEL
+	}
+
+	provinces={
+		13178 13179 13180 13181 13182 13183 13184 13185 13186 13187 13188 13189 13190 13191 13192 13193 13194 13195 13196 13197 13198 13199 13200 13201 
+	}
+	local_supplies=0.0 
+}

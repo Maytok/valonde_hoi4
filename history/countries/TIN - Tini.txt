@@ -1,0 +1,442 @@
+capital = 1490
+
+oob = "TIN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "TIN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "TIN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	tech_mountaineers= 1
+	motorised_infantry= 1
+	armored_car1= 1
+	tech_engineers= 1
+	tech_recon= 1
+	tech_military_police= 1
+	tech_maintenance_company= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	basic_machine_tools= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Nunak Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nivanukak Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Manikiak Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_christie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Akiaq Mk 2"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_close_support_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Oliaqpuk Mk 2"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Aglattaq Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "TIN_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Colvikuktaru Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "TIN_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "TIN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Qajuk Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "TIN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Qajuk Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = TIN_Tulok_Tamarjuk
+recruit_character = TIN_Pana_Nanik
+recruit_character = TIN_Naluk_Tikuvuk
+recruit_character = TIN_Maniku_Nipaapak
+recruit_character = TIN_Kavik_Akiaq
+recruit_character = TIN_Pana_Tingiq
+recruit_character = TIN_Olik_Nanurjukon
+recruit_character = TIN_Kavikigaq_Nangiq
+recruit_character = TIN_Ukpik_Tanupak
+recruit_character = TIN_Panuq_Aniq
+recruit_character = TIN_Sila_Kiganurtaq
+recruit_character = TIN_Atka_Aknavi
+recruit_character = TIN_Panikigaq_Tini
+recruit_character = TIN_Taluk_Nunak
+recruit_character = TIN_Kanik_Spuk
+recruit_character = TIN_Naluk_Avak
+recruit_character = TIN_Kanaq_Aglattaq
+recruit_character = TIN_Paniku_Tummaq
+recruit_character = TIN_Tulok_Qill
+recruit_character = TIN_Siku_Panurr
+recruit_character = TIN_Panik_Nanuata
+recruit_character = TIN_Ukpik_Nipiqtarutug
+recruit_character = TIN_Kunik_Napait
+recruit_character = TIN_Kunikigaq_Redoubutuviq
+recruit_character = TIN_Mikigaq_Oliaqpuk
+recruit_character = TIN_Qajaq_Kigluq
+recruit_character = TIN_Atka_Nanik
+recruit_character = TIN_Kavik_Nipaktuliaq
+recruit_character = TIN_Kanuq_Nanu
+recruit_character = TIN_Ukpikigaq_Sikiqta
+recruit_character = TIN_Kavik_Avak
+recruit_character = TIN_Kavikigaq_Kuvaniq
+recruit_character = TIN_Amaq_Aknavi
+recruit_character = TIN_Panuq_Qill
+recruit_character = TIN_Kavikigaq_Kuvutuk
+recruit_character = TIN_Kunik_Nuliaq
+recruit_character = TIN_Panuq_Oliaqpuk
+recruit_character = TIN_Panik_Sikuq
+recruit_character = TIN_Manik_Aglattaq
+recruit_character = TIN_Kunik_Tamarjuk
+recruit_character = TIN_Amaq_Noatak
+recruit_character = TIN_Pana_Sana
+recruit_character = TIN_Nutarak_Nipaktuliaq
+recruit_character = TIN_Atka_Imak
+recruit_character = TIN_Nutarak_Iglut
+recruit_character = TIN_Manaq_Kuvuk
+recruit_character = TIN_Olik_Ilik
+recruit_character = TIN_Mana_Mikiq
+recruit_character = TIN_Sila_Colvikuktaru
+recruit_character = TIN_Taluk_Kuvutuaq
+recruit_character = TIN_Kanaq_Kimaq
+recruit_character = TIN_Ukpikigaq_Avaq
+recruit_character = TIN_Taluk_Nanik
+recruit_character = TIN_Kanaq_Nivanukak
+recruit_character = TIN_Nanaq_Colvikuktaru
+recruit_character = TIN_Sila_Anuq
+recruit_character = TIN_Siku_Sana
+recruit_character = TIN_Nuvuk_Tamaqtuk
+recruit_character = TIN_Maniku_Imak
+recruit_character = TIN_Olik_Manikiak
+recruit_character = TIN_Kunik_Tuniqtuggang
+recruit_character = TIN_Kanaq_Atuvim
+recruit_character = TIN_Nanaq_Kiganurtaq
+recruit_character = TIN_Pana_Akilatuk
+recruit_character = TIN_Kavik_Iglut
+recruit_character = TIN_Maniku_Imaruq
+recruit_character = TIN_Siku_Atuviqtuviqp
+recruit_character = TIN_Kunikigaq_Nipaq
+recruit_character = TIN_Mikigaq_Nanurjukon
+recruit_character = TIN_Nanaq_Nipaktuliaq
+recruit_character = TIN_Nanaq_Aviviamna
+recruit_character = TIN_Iluk_Kangelle
+recruit_character = TIN_Nana_Colvikuktaru
+recruit_character = TIN_Manaq_Imaruq
+recruit_character = TIN_Panik_Avak
+recruit_character = TIN_Kunik_Avaq
+recruit_character = TIN_Nutarak_Kimiat
+recruit_character = TIN_Naluk_Tanupak
+recruit_character = TIN_Panikigaq_Kuggak
+recruit_character = TIN_Mikigaq_Avikivaq
+recruit_character = TIN_Kavik_Angiq
+recruit_character = TIN_Panikigaq_Kuvuk
+recruit_character = TIN_Kavik_Tingiq
+recruit_character = TIN_Iluk_Aniq
+recruit_character = TIN_Nutarak_Aknavi
+recruit_character = TIN_Tulok_Iluq
+recruit_character = TIN_Kanik_Qanuaq
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.46
+set_war_support = 0.73
+
+add_ideas = {
+extensive_conscription
+low_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1916.10.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 26
+	fascism = 31
+	communism = 20
+	neutrality = 23
+}
+
+
+
+
+

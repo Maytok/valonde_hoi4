@@ -1,0 +1,1083 @@
+characters = {
+	VAL_Francesco_Ricolo={
+		name="Francesco Ricolo"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAL_Nico_Campa={
+		name="Nico Campa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Nico_Campa
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Antor_Scudo={
+		name="Antor Scudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Antor_Scudo
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Jeandro_Pria={
+		name="Jeandro Pria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jeandro_Pria
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Felierry_Tria={
+		name="Felierry Tria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Felierry_Tria
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Andre_Messa={
+		name="Andre Messa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Andre_Messa
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Thierry_Segioria={
+		name="Thierry Segioria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Thierry_Segioria
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Roberry_Casa={
+		name="Roberry Casa"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Roberry_Casa
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	VAL_Robertonio_Lanyonerita={
+		name="Robertonio Lanyonerita"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Robertonio_Lanyonerita
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VAL_Mario_Toreto={
+		name="Mario Toreto"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Mario_Toreto
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VAL_Thien_Regnalo={
+		name="Thien Regnalo"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Thien_Regnalo
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	VAL_Antor_Regia={
+		name="Antor Regia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Antor_Regia
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	VAL_Matteo_Gionta={
+		name="Matteo Gionta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Matteo_Gionta
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VAL_Alexancesco_Cirade={
+		name="Alexancesco Cirade"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Alexancesco_Cirade
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VAL_Thierto_Prito={
+		name="Thierto Prito"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Thierto_Prito
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VAL_Felien_Mappada={
+		name="Felien Mappada"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Felien_Mappada
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	VAL_Felien_Torio={
+		name="Felien Torio"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Felien_Torio
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	VAL_Pedre_Mempo={
+		name="Pedre Mempo"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Pedre_Mempo
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	VAL_Robertonio_Camenza={
+		name="Robertonio Camenza"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Robertonio_Camenza
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	VAL_Cario_Prianime={
+		name="Cario Prianime"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Cario_Prianime
+			traits = {	army_armored_2 	}
+		}
+
+
+	}
+	VAL_Lucario_Luce={
+		name="Lucario Luce"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Lucario_Luce
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	VAL_Luis_Anito={
+		name="Luis Anito"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAL_Cario_Aria={
+		name="Cario Aria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Cario_Aria
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Antonario_Albero={
+		name="Antonario Albero"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Antonario_Albero
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Mario_Acquarionto={
+		name="Mario Acquarionto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Mario_Acquarionto
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Thierry_Lincubo={
+		name="Thierry Lincubo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Thierry_Lincubo
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Jean_Pore={
+		name="Jean Pore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jean_Pore
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Stefano_Pore={
+		name="Stefano Pore"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Stefano_Pore
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAL_Mardo_Voce={
+		name="Mardo Voce"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Mardo_Voce
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VAL_Anton_Comenta={
+		name="Anton Comenta"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Anton_Comenta
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	VAL_Bruno_Scriave={
+		name="Bruno Scriave"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Bruno_Scriave
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	VAL_Thierto_Prianime={
+		name="Thierto Prianime"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Thierto_Prianime
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VAL_Vica_Reggionercol={
+		name="Vica Reggionercol"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Vica_Reggionercol
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	VAL_Anto_Casaggiore={
+		name="Anto Casaggiore"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Anto_Casaggiore
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	VAL_Thierry_Scubo={
+		name="Thierry Scubo"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Thierry_Scubo
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	VAL_Alberto_Scuolaggera={
+		name="Alberto Scuolaggera"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Alberto_Scuolaggera
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	VAL_Ramon_Toreto={
+		name="Ramon Toreto"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Ramon_Toreto
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	VAL_Pedre_Torio={
+		name="Pedre Torio"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Pedre_Torio
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	VAL_Roberry_Memorta={
+		name="Roberry Memorta"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Roberry_Memorta
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	VAL_Thierry_Gionta={
+		name="Thierry Gionta"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Thierry_Gionta
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	VAL_Frano_Cuocelo={
+		name="Frano Cuocelo"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Frano_Cuocelo
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	VAL_Stefandre_Guelleano={
+		name="Stefandre Guelleano"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Stefandre_Guelleano
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	VAL_Jeandro_Desso={
+		name="Jeandro Desso"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAL_Andre_Avve={
+		name="Andre Avve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Andre_Avve
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAL_Alexancesco_Vittezza={
+		name="Alexancesco Vittezza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Alexancesco_Vittezza
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Jeancesco_Casa={
+		name="Jeancesco Casa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jeancesco_Casa
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Antonio_Fordo={
+		name="Antonio Fordo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Antonio_Fordo
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Jeandro_Regia={
+		name="Jeandro Regia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jeandro_Regia
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Stefano_Mempo={
+		name="Stefano Mempo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Stefano_Mempo
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Antonario_Pore={
+		name="Antonario Pore"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Antonario_Pore
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAL_Leonio_Lamenturace={
+		name="Leonio Lamenturace"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Leonio_Lamenturace
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	VAL_Steo_Anito={
+		name="Steo Anito"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Steo_Anito
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	VAL_Jean_Guelleano={
+		name="Jean Guelleano"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Jean_Guelleano
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	VAL_Alexancesco_Voce={
+		name="Alexancesco Voce"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Alexancesco_Voce
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	VAL_Lucarlos_Destaleano={
+		name="Lucarlos Destaleano"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Lucarlos_Destaleano
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	VAL_Mario_Allaggeriavo={
+		name="Mario Allaggeriavo"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Mario_Allaggeriavo
+			traits = {	air_chief_safety_2 	}
+		}
+
+
+	}
+	VAL_Stefandro_Viledizioned={
+		name="Stefandro Viledizioned"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Stefandro_Viledizioned
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	VAL_Thiertor_Anito={
+		name="Thiertor Anito"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Thiertor_Anito
+			traits = {	air_tactical_bombing_2 	}
+		}
+
+
+	}
+	VAL_Leonio_Popoleanza={
+		name="Leonio Popoleanza"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Leonio_Popoleanza
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	VAL_Ricolose_Anguelta={
+		name="Ricolose Anguelta"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Ricolose_Anguelta
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	VAL_Luis_Poritalla={
+		name="Luis Poritalla"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Luis_Poritalla
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VAL_Thiertor_Alberritta={
+		name="Thiertor Alberritta"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Thiertor_Alberritta
+			traits = {	navy_fleet_logistics_2 	}
+		}
+
+
+	}
+	VAL_Stefano_Poria={
+		name="Stefano Poria"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Stefano_Poria
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VAL_Jeandro_Amia={
+		name="Jeandro Amia"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	VAL_Jeancesco_Esero={
+		name="Jeancesco Esero"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jeancesco_Esero
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	VAL_Alexancesco_Navaleanto={
+		name="Alexancesco Navaleanto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Alexancesco_Navaleanto
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAL_Jeano_Casa={
+		name="Jeano Casa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Jeano_Casa
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAL_Robertonario_Sole={
+		name="Robertonario Sole"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Robertonario_Sole
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Antonario_Popoleanza={
+		name="Antonario Popoleanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Antonario_Popoleanza
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	VAL_Lucarlo_Memicolda={
+		name="Lucarlo Memicolda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = VAL_Lucarlo_Memicolda
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	VAL_Thierry_Oasa={
+		name="Thierry Oasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Thierry_Oasa
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	VAL_Andro_Regio={
+		name="Andro Regio"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Andro_Regio
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	VAL_Antor_Albero={
+		name="Antor Albero"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Antor_Albero
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	VAL_Enzo_Vittezza={
+		name="Enzo Vittezza"
+
+		advisor={
+			slot = army_chief
+			idea_token = VAL_Enzo_Vittezza
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	VAL_Frano_Casaggiore={
+		name="Frano Casaggiore"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Frano_Casaggiore
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	VAL_Ramo_Scubo={
+		name="Ramo Scubo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = VAL_Ramo_Scubo
+			traits = {	navy_chief_maneuver_1 	}
+		}
+
+
+	}
+	VAL_Thien_Vittezza={
+		name="Thien Vittezza"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Thien_Vittezza
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	VAL_Ramonio_Legontura={
+		name="Ramonio Legontura"
+
+		advisor={
+			slot = air_chief
+			idea_token = VAL_Ramonio_Legontura
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	VAL_Vico_Sancipe={
+		name="Vico Sancipe"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Vico_Sancipe
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	VAL_Felien_Memorta={
+		name="Felien Memorta"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Felien_Memorta
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	VAL_Mario_Giume={
+		name="Mario Giume"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Mario_Giume
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	VAL_Pedro_Malediavale={
+		name="Pedro Malediavale"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Pedro_Malediavale
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	VAL_Felien_Fordo={
+		name="Felien Fordo"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Felien_Fordo
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	VAL_Roberto_Giume={
+		name="Roberto Giume"
+
+		advisor={
+			slot = high_command
+			idea_token = VAL_Roberto_Giume
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	VAL_Thierry_Casa={
+		name="Thierry Casa"
+
+		advisor={
+			slot = theorist
+			idea_token = VAL_Thierry_Casa
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	VAL_Pablos_Popoleanza={
+		name="Pablos Popoleanza"
+
+		advisor={
+			slot = theorist
+			idea_token = VAL_Pablos_Popoleanza
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	VAL_Mario_Mesta={
+		name="Mario Mesta"
+
+		advisor={
+			slot = theorist
+			idea_token = VAL_Mario_Mesta
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

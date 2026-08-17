@@ -1,0 +1,50 @@
+air_wings = {
+		780 = { 								
+		fighter_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+
+	}
+	847 = { 								
+		nav_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+
+	}
+	1657 = { 								
+		CAS_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	219 = { 								
+		CAS_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	110 = { 								
+		CAS_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	256 = { 								
+		nav_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+tac_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	550 = { 								
+		tac_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	1716 = { 								
+		fighter_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+fighter_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+
+	}
+	29 = { 								
+		tac_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	277 = { 								
+		nav_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+
+	}
+	930 = { 								
+		tac_bomber_equipment_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+
+
+}

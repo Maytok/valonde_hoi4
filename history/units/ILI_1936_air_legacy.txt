@@ -1,0 +1,38 @@
+air_wings = {
+		932 = { 								
+		strat_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Arnapalagak Mk 0" }
+
+	}
+	398 = { 								
+		CAS_equipment_0 = { owner = "ILI" amount = 50 version_name = "Anatak Mk 1" }
+
+	}
+	465 = { 								
+		tac_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Forak Mk 1" }
+
+	}
+	181 = { 								
+		nav_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Tikupak Mk 2" }
+
+	}
+	68 = { 								
+		fighter_equipment_0 = { owner = "ILI" amount = 50 version_name = "Kigaq Mk 1" }
+
+	}
+	16 = { 								
+		CAS_equipment_0 = { owner = "ILI" amount = 50 version_name = "Anatak Mk 1" }
+nav_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Tikupak Mk 2" }
+tac_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Forak Mk 1" }
+
+	}
+	284 = { 								
+		strat_bomber_equipment_0 = { owner = "ILI" amount = 50 version_name = "Arnapalagak Mk 0" }
+
+	}
+	684 = { 								
+		fighter_equipment_0 = { owner = "ILI" amount = 50 version_name = "Kigaq Mk 1" }
+
+	}
+
+
+}

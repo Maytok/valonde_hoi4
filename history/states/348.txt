@@ -1,0 +1,37 @@
+
+state={
+	id=348
+	name="STATE_348"
+	manpower = 2174399
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SOG
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SOG
+	}
+
+	provinces={
+		4234 4235 4236 4237 4238 4239 4240 4241 4242 4243 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=43
+	name="STATE_43"
+	manpower = 3777662
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AMI
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AMI
+	}
+
+	provinces={
+		607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 
+	}
+	local_supplies=0.0 
+}

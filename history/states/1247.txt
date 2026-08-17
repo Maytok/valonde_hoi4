@@ -1,0 +1,37 @@
+
+state={
+	id=1247
+	name="STATE_1247"
+	manpower = 1250023
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KRA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = KRA
+	}
+
+	provinces={
+		14605 14606 14607 14608 14609 
+	}
+	local_supplies=0.0 
+}

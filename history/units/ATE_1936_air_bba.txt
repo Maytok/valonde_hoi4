@@ -1,0 +1,38 @@
+air_wings = {
+		799 = { 								
+		small_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+medium_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+medium_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+
+	}
+	558 = { 								
+		medium_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Savar Mk 0" }
+
+	}
+	419 = { 								
+		small_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	566 = { 								
+		small_plane_cas_airframe_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+	474 = { 								
+		small_plane_cas_airframe_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+	492 = { 								
+		small_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	501 = { 								
+		small_plane_airframe_0 = { owner = "ATE" amount = 50 version_name = "Orman Mk 2" }
+
+	}
+	88 = { 								
+		small_plane_cas_airframe_0 = { owner = "ATE" amount = 50 version_name = "Kadeni Mk 2" }
+
+	}
+
+
+}

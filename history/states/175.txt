@@ -1,0 +1,37 @@
+
+state={
+	id=175
+	name="STATE_175"
+	manpower = 4941870
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=3
+		coal=7
+	}
+
+	history={
+		
+		owner = KOP
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = KOP
+	}
+
+	provinces={
+		2179 2180 2181 2182 2183 2184 2185 2186 2187 2188 2189 2190 2191 2192 2193 2194 2195 2196 2197 2198 2199 2200 2201 2202 
+	}
+	local_supplies=0.0 
+}

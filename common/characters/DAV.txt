@@ -1,0 +1,1083 @@
+characters = {
+	DAV_Julipe_Silede={
+		name="Julipe Silede"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { agricultural_nationalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAV_Robertonario_Desso={
+		name="Robertonario Desso"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Robertonario_Desso
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Lucario_Desima={
+		name="Lucario Desima"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Lucario_Desima
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Julien_Acquarionto={
+		name="Julien Acquarionto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Julien_Acquarionto
+			traits = {	the_statist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Lucarlos_Memorta={
+		name="Lucarlos Memorta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Lucarlos_Memorta
+			traits = {	socialite_connections 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAV_Paolos_Campa={
+		name="Paolos Campa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Paolos_Campa
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAV_Thierry_Anito={
+		name="Thierry Anito"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Thierry_Anito
+			traits = {	national_determinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Mario_Popoleanza={
+		name="Mario Popoleanza"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Mario_Popoleanza
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	DAV_Felien_Spestina={
+		name="Felien Spestina"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Felien_Spestina
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	DAV_Leonio_Comenta={
+		name="Leonio Comenta"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Leonio_Comenta
+			traits = {	army_chief_morale_1 	}
+		}
+
+
+	}
+	DAV_Ramonardo_Erbazia={
+		name="Ramonardo Erbazia"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Ramonardo_Erbazia
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAV_Felierry_Prianime={
+		name="Felierry Prianime"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Felierry_Prianime
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	DAV_Jeano_Nave={
+		name="Jeano Nave"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Jeano_Nave
+			traits = {	navy_chief_reform_1 	}
+		}
+
+
+	}
+	DAV_Lucario_Nave={
+		name="Lucario Nave"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Lucario_Nave
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	DAV_Luca_Regio={
+		name="Luca Regio"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Luca_Regio
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAV_Luis_Lanyonerita={
+		name="Luis Lanyonerita"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Luis_Lanyonerita
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	DAV_Frano_Stestizianto={
+		name="Frano Stestizianto"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Frano_Stestizianto
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	DAV_Leonio_Merroe={
+		name="Leonio Merroe"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Leonio_Merroe
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	DAV_Steo_Sole={
+		name="Steo Sole"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Steo_Sole
+			traits = {	army_logistics_1 	}
+		}
+
+
+	}
+	DAV_Felierry_Comenta={
+		name="Felierry Comenta"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Felierry_Comenta
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	DAV_Anto_Tria={
+		name="Anto Tria"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Anto_Tria
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	DAV_Julien_Esero={
+		name="Julien Esero"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { collaborator_king  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAV_Francesco_Voce={
+		name="Francesco Voce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Francesco_Voce
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Frano_Avve={
+		name="Frano Avve"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Frano_Avve
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Giacolos_Vale={
+		name="Giacolos Vale"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Giacolos_Vale
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Antonio_Regio={
+		name="Antonio Regio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Antonio_Regio
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Ramo_Aria={
+		name="Ramo Aria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Ramo_Aria
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Alberto_Poritalla={
+		name="Alberto Poritalla"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Alberto_Poritalla
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Anto_Libro={
+		name="Anto Libro"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Anto_Libro
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	DAV_Luca_Vale={
+		name="Luca Vale"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Luca_Vale
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	DAV_Felierry_Amia={
+		name="Felierry Amia"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Felierry_Amia
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DAV_Anto_Oasa={
+		name="Anto Oasa"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Anto_Oasa
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	DAV_Rico_Campa={
+		name="Rico Campa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Rico_Campa
+			traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+
+	}
+	DAV_Ramo_Cirade={
+		name="Ramo Cirade"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Ramo_Cirade
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	DAV_Paolos_Odizionto={
+		name="Paolos Odizionto"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Paolos_Odizionto
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	DAV_Ramon_Spestina={
+		name="Ramon Spestina"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Ramon_Spestina
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	DAV_Felien_Silede={
+		name="Felien Silede"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Felien_Silede
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	DAV_Robertonario_Ombazio={
+		name="Robertonario Ombazio"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Robertonario_Ombazio
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DAV_Ramonardo_Viledizioned={
+		name="Ramonardo Viledizioned"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Ramonardo_Viledizioned
+			traits = {	navy_screen_2 	}
+		}
+
+
+	}
+	DAV_Roberry_Anito={
+		name="Roberry Anito"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Roberry_Anito
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	DAV_Steo_Casaggiore={
+		name="Steo Casaggiore"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Steo_Casaggiore
+			traits = {	navy_submarine_2 	}
+		}
+
+
+	}
+	DAV_Robertonio_Alberritta={
+		name="Robertonio Alberritta"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Robertonio_Alberritta
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	DAV_Roberto_Fordo={
+		name="Roberto Fordo"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { leftist_intellectual  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAV_Andre_Memorta={
+		name="Andre Memorta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Andre_Memorta
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Robertonio_Laggio={
+		name="Robertonio Laggio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Robertonio_Laggio
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAV_Pablos_Scudo={
+		name="Pablos Scudo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Pablos_Scudo
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Robertonario_Mempo={
+		name="Robertonario Mempo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Robertonario_Mempo
+			traits = {	marxist_fundamentalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Lucarlo_Pria={
+		name="Lucarlo Pria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Lucarlo_Pria
+			traits = {	leftist_independent 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Julien_Luce={
+		name="Julien Luce"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Julien_Luce
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Andro_Desso={
+		name="Andro Desso"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Andro_Desso
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DAV_Pedre_Memicolda={
+		name="Pedre Memicolda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Pedre_Memicolda
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	DAV_Thiertor_Regnalo={
+		name="Thiertor Regnalo"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Thiertor_Regnalo
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	DAV_Ricolose_Viledizioned={
+		name="Ricolose Viledizioned"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Ricolose_Viledizioned
+			traits = {	army_chief_organizational_2 	}
+		}
+
+
+	}
+	DAV_Roberto_Ghia={
+		name="Roberto Ghia"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Roberto_Ghia
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	DAV_Francesco_Prianime={
+		name="Francesco Prianime"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Francesco_Prianime
+			traits = {	navy_chief_maneuver_2 	}
+		}
+
+
+	}
+	DAV_Leonio_Spestina={
+		name="Leonio Spestina"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Leonio_Spestina
+			traits = {	air_chief_night_operations_1 	}
+		}
+
+
+	}
+	DAV_Jose_Trinte={
+		name="Jose Trinte"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Jose_Trinte
+			traits = {	air_chief_ground_support_2 	}
+		}
+
+
+	}
+	DAV_Ramon_Erba={
+		name="Ramon Erba"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Ramon_Erba
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	DAV_Antor_Voce={
+		name="Antor Voce"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Antor_Voce
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	DAV_Anton_Ventaggionto={
+		name="Anton Ventaggionto"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Anton_Ventaggionto
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	DAV_Lucario_Stestizianto={
+		name="Lucario Stestizianto"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Lucario_Stestizianto
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	DAV_Antonario_Reggionercol={
+		name="Antonario Reggionercol"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Antonario_Reggionercol
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	DAV_Francesco_Notturanza={
+		name="Francesco Notturanza"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Francesco_Notturanza
+			traits = {	army_regrouping_1 	}
+		}
+
+
+	}
+	DAV_Roberto_Armanzio={
+		name="Roberto Armanzio"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { leftist_legionary  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAV_Mardo_Messa={
+		name="Mardo Messa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Mardo_Messa
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Robertonario_Mago={
+		name="Robertonario Mago"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Robertonario_Mago
+			traits = {	rearmer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAV_Giaco_Viledizioned={
+		name="Giaco Viledizioned"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Giaco_Viledizioned
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Steo_Toreto={
+		name="Steo Toreto"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Steo_Toreto
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_3_small
+			}
+		}
+
+
+	}
+	DAV_Alberry_Pria={
+		name="Alberry Pria"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Alberry_Pria
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_1_small
+			}
+		}
+
+
+	}
+	DAV_Felien_Regia={
+		name="Felien Regia"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAV_Felien_Regia
+			traits = {	veteran_minister 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Arabia_Generic_2_small
+			}
+		}
+
+
+	}
+	DAV_Antonio_Albero={
+		name="Antonio Albero"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Antonio_Albero
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	DAV_Andre_Trinte={
+		name="Andre Trinte"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Andre_Trinte
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	DAV_Enzo_Lanyonerita={
+		name="Enzo Lanyonerita"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Enzo_Lanyonerita
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	DAV_Ramon_Cirade={
+		name="Ramon Cirade"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAV_Ramon_Cirade
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	DAV_Mario_Odizionto={
+		name="Mario Odizionto"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Mario_Odizionto
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	DAV_Ramo_Regnalo={
+		name="Ramo Regnalo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAV_Ramo_Regnalo
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	DAV_Robertor_Prito={
+		name="Robertor Prito"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Robertor_Prito
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAV_Pablos_Allaggeriavo={
+		name="Pablos Allaggeriavo"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAV_Pablos_Allaggeriavo
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	DAV_Stefandro_Lamenturace={
+		name="Stefandro Lamenturace"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Stefandro_Lamenturace
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	DAV_Matteo_Oasa={
+		name="Matteo Oasa"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Matteo_Oasa
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	DAV_Jeancesco_Pria={
+		name="Jeancesco Pria"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Jeancesco_Pria
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	DAV_Stefandro_Poritalla={
+		name="Stefandro Poritalla"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Stefandro_Poritalla
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	DAV_Jean_Ombazio={
+		name="Jean Ombazio"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Jean_Ombazio
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	DAV_Pedre_Spestina={
+		name="Pedre Spestina"
+
+		advisor={
+			slot = high_command
+			idea_token = DAV_Pedre_Spestina
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	DAV_Alberry_Esero={
+		name="Alberry Esero"
+
+		advisor={
+			slot = theorist
+			idea_token = DAV_Alberry_Esero
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	DAV_Stefandre_Ventaggionto={
+		name="Stefandre Ventaggionto"
+
+		advisor={
+			slot = theorist
+			idea_token = DAV_Stefandre_Ventaggionto
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	DAV_Thiertor_Bene={
+		name="Thiertor Bene"
+
+		advisor={
+			slot = theorist
+			idea_token = DAV_Thiertor_Bene
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

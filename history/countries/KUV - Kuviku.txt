@@ -1,0 +1,351 @@
+capital = 435
+
+oob = "KUV_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "KUV_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "KUV_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	paratroopers= 1
+	marines= 1
+	armored_car1= 1
+	tech_military_police= 1
+	interwar_antiair= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Nuliak Mk 1"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Imarutaq Mk 1"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Nalawik Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "KUV_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "KUV_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "KUV_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Amaq Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "KUV_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Amaq Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_anti_air_1
+			}
+		}
+
+	}
+
+
+recruit_character = KUV_Nana_Nuvigaq
+recruit_character = KUV_Kanaq_Nanuataqtuva
+recruit_character = KUV_Taluk_Avana
+recruit_character = KUV_Amaq_Alapaanurang
+recruit_character = KUV_Olik_Tamaq
+recruit_character = KUV_Nanuq_Tikupak
+recruit_character = KUV_Manik_Iglapik
+recruit_character = KUV_Naluk_Avanak
+recruit_character = KUV_Manuq_Inuat
+recruit_character = KUV_Ukpik_Iliya
+recruit_character = KUV_Atka_Tuniqpak
+recruit_character = KUV_Manuq_Nuliak
+recruit_character = KUV_Kavik_Tuna
+recruit_character = KUV_Panik_Tikupak
+recruit_character = KUV_Kana_Ukkuvikipiku
+recruit_character = KUV_Sila_Nuvigaq
+recruit_character = KUV_Mana_Selaq
+recruit_character = KUV_Kanuq_Niviajaqpaga
+recruit_character = KUV_Ukpikigaq_Napik
+recruit_character = KUV_Kavik_Oliak
+recruit_character = KUV_Kuniku_Nangmi
+recruit_character = KUV_Kanaq_Spurtak
+recruit_character = KUV_Ukpiku_Aliqtaq
+recruit_character = KUV_Kunik_Kamnaaq
+recruit_character = KUV_Manik_Napik
+recruit_character = KUV_Mana_Nuni
+recruit_character = KUV_Kanik_Selaq
+recruit_character = KUV_Olik_Nalupaq
+recruit_character = KUV_Olik_Nangik
+recruit_character = KUV_Ukpiku_Imak
+recruit_character = KUV_Kana_Upik
+recruit_character = KUV_Panaq_Imak
+recruit_character = KUV_Mikigaq_Avaq
+recruit_character = KUV_Atka_Imaq
+recruit_character = KUV_Pana_Tatchagutanu
+recruit_character = KUV_Nana_Nivak
+recruit_character = KUV_Nanik_Kigaq
+recruit_character = KUV_Tulok_Qikiq
+recruit_character = KUV_Pana_Kuvuk
+recruit_character = KUV_Kanik_Tuna
+recruit_character = KUV_Nuvuk_Nipak
+recruit_character = KUV_Nutarak_Tuniqpak
+recruit_character = KUV_Kanaq_Tatchagutanu
+recruit_character = KUV_Nuvuk_Silawik
+recruit_character = KUV_Panaq_Anatak
+recruit_character = KUV_Ukpik_Naliqiluaq
+recruit_character = KUV_Manuq_Aliqtaq
+recruit_character = KUV_Manuq_Saniq
+recruit_character = KUV_Tulok_Nalaq
+recruit_character = KUV_Tulok_Sikiglupaq
+recruit_character = KUV_Kavik_Avaq
+recruit_character = KUV_Olik_Kuvik
+recruit_character = KUV_Qajaq_Avana
+recruit_character = KUV_Atka_Tikupak
+recruit_character = KUV_Ukpikigaq_Imaruq
+recruit_character = KUV_Sila_Tuna
+recruit_character = KUV_Kunik_Kuvigaq
+recruit_character = KUV_Kunikigaq_Aglupaitna
+recruit_character = KUV_Qajaq_Nanuataqtuva
+recruit_character = KUV_Kanuq_Nalawik
+recruit_character = KUV_Kanuq_Nall
+recruit_character = KUV_Ukpikigaq_Nivaq
+recruit_character = KUV_Ukpik_Tuniqpak
+recruit_character = KUV_Kuniku_Amak
+recruit_character = KUV_Manaq_Kigaq
+recruit_character = KUV_Nana_Sikiglupaq
+recruit_character = KUV_Amaq_Avana
+recruit_character = KUV_Olik_Qajaqtuaqak
+recruit_character = KUV_Taluk_Nalupaq
+recruit_character = KUV_Mana_Arnapalagak
+recruit_character = KUV_Kanik_Iglapik
+recruit_character = KUV_Qajaq_Iglapik
+recruit_character = KUV_Sila_Kuvivangiq
+recruit_character = KUV_Nanuq_Kuvaq
+recruit_character = KUV_Kana_Nalaq
+recruit_character = KUV_Ukpiku_Ukpiq
+recruit_character = KUV_Mana_Kuvuk
+recruit_character = KUV_Taluk_Nipak
+recruit_character = KUV_Kanuq_Angutaruq
+recruit_character = KUV_Nanik_Kuvut
+recruit_character = KUV_Manik_Angutaruq
+recruit_character = KUV_Nanaq_Iliya
+recruit_character = KUV_Mana_Nalawik
+recruit_character = KUV_Manik_Qilattaq
+recruit_character = KUV_Olik_Avanak
+recruit_character = KUV_Kanik_Iliya
+recruit_character = KUV_Kunik_Nuliak
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.89
+set_war_support = 0.76
+
+add_ideas = {
+limited_conscription
+partial_economic_mobilisation
+limited_exports
+}
+
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1884.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 16
+	fascism = 61
+	communism = 8
+	neutrality = 15
+}
+
+
+
+
+

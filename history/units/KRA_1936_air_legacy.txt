@@ -1,0 +1,36 @@
+air_wings = {
+		1247 = { 								
+		nav_bomber_equipment_0 = { owner = "KRA" amount = 34 version_name = "Scen Mk 2" }
+
+	}
+	1246 = { 								
+		tac_bomber_equipment_0 = { owner = "KRA" amount = 32 version_name = "Semenitak Mk 1" }
+
+	}
+	1242 = { 								
+		CAS_equipment_0 = { owner = "KRA" amount = 37 version_name = "Muzikar Mk 2" }
+
+	}
+	1269 = { 								
+		strat_bomber_equipment_0 = { owner = "KRA" amount = 50 version_name = "Knjican Mk 1" }
+
+	}
+	1325 = { 								
+		strat_bomber_equipment_0 = { owner = "KRA" amount = 46 version_name = "Dobar Mk 0" }
+
+	}
+	1274 = { 								
+		tac_bomber_equipment_0 = { owner = "KRA" amount = 48 version_name = "Ptirisacin Mk 1" }
+
+	}
+	1232 = { 								
+		strat_bomber_equipment_0 = { owner = "KRA" amount = 50 version_name = "Knjican Mk 1" }
+
+	}
+	1262 = { 								
+		fighter_equipment_0 = { owner = "KRA" amount = 31 version_name = "Sven Mk 0" }
+
+	}
+
+
+}

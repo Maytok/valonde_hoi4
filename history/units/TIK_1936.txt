@@ -1,0 +1,135 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 3 y = 0 }
+			artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			anti_air = {  x = 0 y = 0 }
+			artillery = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tini' Supported Infantry Division"
+		location = 1355
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.088730
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Redoubutuviq' Supported Infantry Division"
+		location = 5485
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.133567
+		start_equipment_factor = 0.913862
+	}
+	division= {
+		name = "3rd 'Kapija' Supported Infantry Division"
+		location = 1254
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.634696
+		start_equipment_factor = 0.917124
+	}
+	division= {
+		name = "1st 'Sela' Artillery Division"
+		location = 782
+		division_template = "Artillery Division"
+		start_experience_factor = 0.181758
+		start_equipment_factor = 0.950006
+	}
+	division= {
+		name = "2nd 'Atuviqtuviqp' Artillery Division"
+		location = 8985
+		division_template = "Artillery Division"
+		start_experience_factor = 0.825639
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Aniq' Artillery Division"
+		location = 7030
+		division_template = "Artillery Division"
+		start_experience_factor = 0.854973
+		start_equipment_factor = 0.944943
+	}
+
+}

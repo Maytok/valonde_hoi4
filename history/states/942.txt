@@ -1,0 +1,37 @@
+
+state={
+	id=942
+	name="STATE_942"
+	manpower = 2266792
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = XUV
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = XUV
+	}
+
+	provinces={
+		11094 11095 11096 11097 11098 11099 11100 11101 11102 11103 11104 11105 
+	}
+	local_supplies=0.0 
+}

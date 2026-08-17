@@ -1,0 +1,1083 @@
+characters = {
+	TIK_Nanaq_Avat={
+		name="Nanaq Avat"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { agricultural_capitalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Qajaq_Kimiat={
+		name="Qajaq Kimiat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Qajaq_Kimiat
+			traits = {	celebrity_junta_leader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Amaq_Qajuk={
+		name="Amaq Qajuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Amaq_Qajuk
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Taluk_Kimaq={
+		name="Taluk Kimaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Taluk_Kimaq
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Panikigaq_Avak={
+		name="Panikigaq Avak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Panikigaq_Avak
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Kanik_Avana={
+		name="Kanik Avana"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kanik_Avana
+			traits = {	agricultural_capitalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Manaq_Aliqtuktaq={
+		name="Manaq Aliqtuktaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Manaq_Aliqtuktaq
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Iluk_Kuvaniq={
+		name="Iluk Kuvaniq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Iluk_Kuvaniq
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TIK_Mikigaq_Kangelle={
+		name="Mikigaq Kangelle"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Mikigaq_Kangelle
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	TIK_Tulok_Avak={
+		name="Tulok Avak"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Tulok_Avak
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TIK_Qajaq_Akiaq={
+		name="Qajaq Akiaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Qajaq_Akiaq
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TIK_Manaq_Noata={
+		name="Manaq Noata"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Manaq_Noata
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TIK_Sila_Tikuvuk={
+		name="Sila Tikuvuk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Sila_Tikuvuk
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	TIK_Olik_Akilatuk={
+		name="Olik Akilatuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Olik_Akilatuk
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TIK_Pana_Tikiggiqpaq={
+		name="Pana Tikiggiqpaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Pana_Tikiggiqpaq
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TIK_Panikigaq_Atuviqtuviqp={
+		name="Panikigaq Atuviqtuviqp"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Panikigaq_Atuviqtuviqp
+			traits = {	air_air_combat_training_1 	}
+		}
+
+
+	}
+	TIK_Kunikigaq_Sikilaqpaluk={
+		name="Kunikigaq Sikilaqpaluk"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kunikigaq_Sikilaqpaluk
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	TIK_Panik_Sikilaqpaluk={
+		name="Panik Sikilaqpaluk"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Panik_Sikilaqpaluk
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	TIK_Maniku_Kuggak={
+		name="Maniku Kuggak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Maniku_Kuggak
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	TIK_Nana_Nivim={
+		name="Nana Nivim"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Nana_Nivim
+			traits = {	air_close_air_support_2 	}
+		}
+
+
+	}
+	TIK_Maniku_Nivanukak={
+		name="Maniku Nivanukak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Maniku_Nivanukak
+			traits = {	navy_fleet_logistics_1 	}
+		}
+
+
+	}
+	TIK_Amaq_Atuvim={
+		name="Amaq Atuvim"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Kanik_Aglattaq={
+		name="Kanik Aglattaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kanik_Aglattaq
+			traits = {	subservient_ultranationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Taluk_Sela={
+		name="Taluk Sela"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Taluk_Sela
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Paniku_Kuvaniq={
+		name="Paniku Kuvaniq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Paniku_Kuvaniq
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Kunikigaq_Redoubutuviq={
+		name="Kunikigaq Redoubutuviq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kunikigaq_Redoubutuviq
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Panuq_Redoubutuviq={
+		name="Panuq Redoubutuviq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Panuq_Redoubutuviq
+			traits = {	inexperienced_imperialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Mikigaq_Aliqtuktaq={
+		name="Mikigaq Aliqtuktaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Mikigaq_Aliqtuktaq
+			traits = {	vapsid_economist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Amaq_Nuvuktuggiqt={
+		name="Amaq Nuvuktuggiqt"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Amaq_Nuvuktuggiqt
+			traits = {	army_chief_planning_2 	}
+		}
+
+
+	}
+	TIK_Olik_Nangiq={
+		name="Olik Nangiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Olik_Nangiq
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	TIK_Panik_Iluq={
+		name="Panik Iluq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Panik_Iluq
+			traits = {	army_chief_maneuver_1 	}
+		}
+
+
+	}
+	TIK_Panik_Iglut={
+		name="Panik Iglut"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Panik_Iglut
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	TIK_Mikigaq_Nipaapak={
+		name="Mikigaq Nipaapak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Mikigaq_Nipaapak
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TIK_Panikigaq_Nalakuq={
+		name="Panikigaq Nalakuq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Panikigaq_Nalakuq
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TIK_Kaviku_Oliaqpuk={
+		name="Kaviku Oliaqpuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Kaviku_Oliaqpuk
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TIK_Ukpik_Iliq={
+		name="Ukpik Iliq"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Ukpik_Iliq
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TIK_Paniku_Aniq={
+		name="Paniku Aniq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Paniku_Aniq
+			traits = {	navy_submarine_1 	}
+		}
+
+
+	}
+	TIK_Nutarak_Aknaviak={
+		name="Nutarak Aknaviak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Nutarak_Aknaviak
+			traits = {	army_artillery_1 	}
+		}
+
+
+	}
+	TIK_Iluk_Tummaq={
+		name="Iluk Tummaq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Iluk_Tummaq
+			traits = {	air_air_combat_training_2 	}
+		}
+
+
+	}
+	TIK_Manaq_Kuvutuk={
+		name="Manaq Kuvutuk"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Manaq_Kuvutuk
+			traits = {	army_infantry_2 	}
+		}
+
+
+	}
+	TIK_Kavikigaq_Mikiq={
+		name="Kavikigaq Mikiq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kavikigaq_Mikiq
+			traits = {	army_concealment_2 	}
+		}
+
+
+	}
+	TIK_Kanaq_Kangelle={
+		name="Kanaq Kangelle"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kanaq_Kangelle
+			traits = {	air_bomber_interception_2 	}
+		}
+
+
+	}
+	TIK_Qajaq_Anuq={
+		name="Qajaq Anuq"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { patriotic_socialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Kanik_Anuq={
+		name="Kanik Anuq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kanik_Anuq
+			traits = {	socialist_justice 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Sila_Nanurjukon={
+		name="Sila Nanurjukon"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Sila_Nanurjukon
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Manik_Noatak={
+		name="Manik Noatak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Manik_Noatak
+			traits = {	anti_bolshevik_leftist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Sila_Saqadlak={
+		name="Sila Saqadlak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Sila_Saqadlak
+			traits = {	devoted_marxist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Nuvuk_Sikuiliaqpak={
+		name="Nuvuk Sikuiliaqpak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Nuvuk_Sikuiliaqpak
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Panikigaq_Spuk={
+		name="Panikigaq Spuk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Panikigaq_Spuk
+			traits = {	leftist_intellectual 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Sila_Angiq={
+		name="Sila Angiq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Sila_Angiq
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TIK_Tulok_Nivim={
+		name="Tulok Nivim"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Tulok_Nivim
+			traits = {	army_chief_planning_1 	}
+		}
+
+
+	}
+	TIK_Kanik_Sikiqta={
+		name="Kanik Sikiqta"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kanik_Sikiqta
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TIK_Mikigaq_Avak={
+		name="Mikigaq Avak"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Mikigaq_Avak
+			traits = {	army_chief_drill_2 	}
+		}
+
+
+	}
+	TIK_Manik_Napaitna={
+		name="Manik Napaitna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Manik_Napaitna
+			traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+
+	}
+	TIK_Naluk_Sikilaqpaluk={
+		name="Naluk Sikilaqpaluk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Naluk_Sikilaqpaluk
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	TIK_Paniku_Tamaqtuk={
+		name="Paniku Tamaqtuk"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Paniku_Tamaqtuk
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	TIK_Manaq_Nulatchagak={
+		name="Manaq Nulatchagak"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Manaq_Nulatchagak
+			traits = {	air_chief_old_guard 	}
+		}
+
+
+	}
+	TIK_Tulok_Anuq={
+		name="Tulok Anuq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Tulok_Anuq
+			traits = {	air_air_superiority_1 	}
+		}
+
+
+	}
+	TIK_Kanaq_Aknaviak={
+		name="Kanaq Aknaviak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kanaq_Aknaviak
+			traits = {	army_cavalry_1 	}
+		}
+
+
+	}
+	TIK_Taluk_Saqadlak={
+		name="Taluk Saqadlak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Taluk_Saqadlak
+			traits = {	army_commando_2 	}
+		}
+
+
+	}
+	TIK_Panuq_Napait={
+		name="Panuq Napait"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Panuq_Napait
+			traits = {	air_close_air_support_1 	}
+		}
+
+
+	}
+	TIK_Paniku_Tingiq={
+		name="Paniku Tingiq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Paniku_Tingiq
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	TIK_Kaviku_Nipaktuliaq={
+		name="Kaviku Nipaktuliaq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kaviku_Nipaktuliaq
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	TIK_Panikigaq_Redoubutuviq={
+		name="Panikigaq Redoubutuviq"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { veteran_minister  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIK_Naluk_Atuvim={
+		name="Naluk Atuvim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Naluk_Atuvim
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Pana_Nulatchagak={
+		name="Pana Nulatchagak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Pana_Nulatchagak
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Ukpik_Sikilaqpaluk={
+		name="Ukpik Sikilaqpaluk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Ukpik_Sikilaqpaluk
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Kunik_Kiganurtaq={
+		name="Kunik Kiganurtaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kunik_Kiganurtaq
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+
+
+	}
+	TIK_Kunik_Avikivaq={
+		name="Kunik Avikivaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kunik_Avikivaq
+			traits = {	first_lady 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+
+
+	}
+	TIK_Kaviku_Napaitna={
+		name="Kaviku Napaitna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIK_Kaviku_Napaitna
+			traits = {	leftist_legionary 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+
+
+	}
+	TIK_Tulok_Sela={
+		name="Tulok Sela"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Tulok_Sela
+			traits = {	army_chief_offensive_1 	}
+		}
+
+
+	}
+	TIK_Kanuq_Akilatuk={
+		name="Kanuq Akilatuk"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Kanuq_Akilatuk
+			traits = {	army_chief_maneuver_2 	}
+		}
+
+
+	}
+	TIK_Amaq_Kuggak={
+		name="Amaq Kuggak"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Amaq_Kuggak
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	TIK_Manik_Tuliq={
+		name="Manik Tuliq"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIK_Manik_Tuliq
+			traits = {	army_chief_defensive_1 	}
+		}
+
+
+	}
+	TIK_Tulok_Tini={
+		name="Tulok Tini"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Tulok_Tini
+			traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+
+	}
+	TIK_Nanaq_Avaq={
+		name="Nanaq Avaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIK_Nanaq_Avaq
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	TIK_Naluk_Napaitna={
+		name="Naluk Napaitna"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Naluk_Napaitna
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	TIK_Siku_Avana={
+		name="Siku Avana"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIK_Siku_Avana
+			traits = {	air_chief_ground_support_1 	}
+		}
+
+
+	}
+	TIK_Sila_Qikuqpak={
+		name="Sila Qikuqpak"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Sila_Qikuqpak
+			traits = {	navy_screen_1 	}
+		}
+
+
+	}
+	TIK_Nana_Iluq={
+		name="Nana Iluq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Nana_Iluq
+			traits = {	army_cavalry_2 	}
+		}
+
+
+	}
+	TIK_Kunikigaq_Kuvutuaq={
+		name="Kunikigaq Kuvutuaq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kunikigaq_Kuvutuaq
+			traits = {	army_infantry_1 	}
+		}
+
+
+	}
+	TIK_Kanaq_Qiniq={
+		name="Kanaq Qiniq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kanaq_Qiniq
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	TIK_Kunikigaq_Iluq={
+		name="Kunikigaq Iluq"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Kunikigaq_Iluq
+			traits = {	air_airborne_2 	}
+		}
+
+
+	}
+	TIK_Maniku_Tuniqtuggang={
+		name="Maniku Tuniqtuggang"
+
+		advisor={
+			slot = high_command
+			idea_token = TIK_Maniku_Tuniqtuggang
+			traits = {	army_entrenchment_2 	}
+		}
+
+
+	}
+	TIK_Paniku_Nalapak={
+		name="Paniku Nalapak"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Paniku_Nalapak
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	TIK_Naluk_Iluak={
+		name="Naluk Iluak"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Naluk_Iluak
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	TIK_Kavikigaq_Nanuata={
+		name="Kavikigaq Nanuata"
+
+		advisor={
+			slot = theorist
+			idea_token = TIK_Kavikigaq_Nanuata
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

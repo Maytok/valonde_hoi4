@@ -1,0 +1,16 @@
+air_wings = {
+		1003 = { 								
+		medium_plane_airframe_0 = { owner = "KIF" amount = 20 version_name = "Scriacciore Mk 2" }
+
+	}
+	1380 = { 								
+		small_plane_airframe_0 = { owner = "KIF" amount = 15 version_name = "Spiria Mk 0" }
+
+	}
+	982 = { 								
+		small_plane_cas_airframe_0 = { owner = "KIF" amount = 13 version_name = "Guercada Mk 0" }
+
+	}
+
+
+}

@@ -1,0 +1,12 @@
+air_wings = {
+		1574 = { 								
+		medium_plane_airframe_0 = { owner = "SUA" amount = 50 version_name = "Ratang Mk 1" }
+
+	}
+	1653 = { 								
+		medium_plane_airframe_0 = { owner = "SUA" amount = 50 version_name = "Ratang Mk 1" }
+
+	}
+
+
+}

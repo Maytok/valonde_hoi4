@@ -1,0 +1,1083 @@
+characters = {
+	KRA_Dusan_Glaverav={
+		name="Dusan Glaverav"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { veteran_anti_bolshevik  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRA_Milav_Trabrom={
+		name="Milav Trabrom"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Milav_Trabrom
+			traits = {	the_academic 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Velimiri_Ratadje={
+		name="Velimiri Ratadje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Velimiri_Ratadje
+			traits = {	noble_beurocrat 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Vikitri_Dusa={
+		name="Vikitri Dusa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Vikitri_Dusa
+			traits = {	right_industrialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Radimir_Svezduh={
+		name="Radimir Svezduh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Radimir_Svezduh
+			traits = {	agricultural_nationalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Boran_Glas={
+		name="Boran Glas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Boran_Glas
+			traits = {	veteran_anti_bolshevik 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Milos_Ptirisacin={
+		name="Milos Ptirisacin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Milos_Ptirisacin
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Velimiri_Plovo={
+		name="Velimiri Plovo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Velimiri_Plovo
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KRA_Nikita_Hlemetlo={
+		name="Nikita Hlemetlo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Nikita_Hlemetlo
+			traits = {	army_chief_drill_1 	}
+		}
+
+
+	}
+	KRA_Rado_Oblik={
+		name="Rado Oblik"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Rado_Oblik
+			traits = {	army_chief_reform_2 	}
+		}
+
+
+	}
+	KRA_Kazimitanova_Teat={
+		name="Kazimitanova Teat"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Kazimitanova_Teat
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KRA_Janisladovan_Vrefekt={
+		name="Janisladovan Vrefekt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Janisladovan_Vrefekt
+			traits = {	navy_chief_reform_2 	}
+		}
+
+
+	}
+	KRA_Luboslavel_Oblik={
+		name="Luboslavel Oblik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Luboslavel_Oblik
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KRA_Andrej_Hlebo={
+		name="Andrej Hlebo"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Andrej_Hlebo
+			traits = {	air_chief_reform_1 	}
+		}
+
+
+	}
+	KRA_Juragomas_Delik={
+		name="Juragomas Delik"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Juragomas_Delik
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KRA_Slado_Sneg={
+		name="Slado Sneg"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Slado_Sneg
+			traits = {	navy_capital_ship_2 	}
+		}
+
+
+	}
+	KRA_Aleksei_Suma={
+		name="Aleksei Suma"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Aleksei_Suma
+			traits = {	navy_amphibious_assault_1 	}
+		}
+
+
+	}
+	KRA_Dran_Oblik={
+		name="Dran Oblik"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Dran_Oblik
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	KRA_Oleksei_Teat={
+		name="Oleksei Teat"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Oleksei_Teat
+			traits = {	air_strategic_bombing_1 	}
+		}
+
+
+	}
+	KRA_Kazimir_Sven={
+		name="Kazimir Sven"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Kazimir_Sven
+			traits = {	air_strategic_bombing_2 	}
+		}
+
+
+	}
+	KRA_Kiroslavko_Ratadje={
+		name="Kiroslavko Ratadje"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Kiroslavko_Ratadje
+			traits = {	army_CombinedArms_1 	}
+		}
+
+
+	}
+	KRA_Vladeksei_Svezduh={
+		name="Vladeksei Svezduh"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRA_Juran_Ptinjava={
+		name="Juran Ptinjava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Juran_Ptinjava
+			traits = {	archon_basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Yuris_Glatar={
+		name="Yuris Glatar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Yuris_Glatar
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Bohdanko_Prija={
+		name="Bohdanko Prija"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Bohdanko_Prija
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Starkolan_Ratadje={
+		name="Starkolan Ratadje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Starkolan_Ratadje
+			traits = {	the_young_magnate 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Stan_Vecnost={
+		name="Stan Vecnost"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Stan_Vecnost
+			traits = {	collaborator_king 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Vlavko_Scen={
+		name="Vlavko Scen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Vlavko_Scen
+			traits = {	basileus 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Miroslav_Meska={
+		name="Miroslav Meska"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Miroslav_Meska
+			traits = {	army_chief_entrenchment_1 	}
+		}
+
+
+	}
+	KRA_Niktoraj_Sporebo={
+		name="Niktoraj Sporebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Niktoraj_Sporebo
+			traits = {	army_chief_offensive_2 	}
+		}
+
+
+	}
+	KRA_Starko_Kovozduh={
+		name="Starko Kovozduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Starko_Kovozduh
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KRA_Radovan_Seme={
+		name="Radovan Seme"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Radovan_Seme
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KRA_Bragomirosla_Casina={
+		name="Bragomirosla Casina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Bragomirosla_Casina
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KRA_Vlav_Muzik={
+		name="Vlav Muzik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Vlav_Muzik
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KRA_Luboslavel_Suma={
+		name="Luboslavel Suma"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Luboslavel_Suma
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KRA_Vladeksei_Hlemetlo={
+		name="Vladeksei Hlemetlo"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Vladeksei_Hlemetlo
+			traits = {	air_chief_all_weather_1 	}
+		}
+
+
+	}
+	KRA_Jarko_Vatak={
+		name="Jarko Vatak"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Jarko_Vatak
+			traits = {	navy_carrier_1 	}
+		}
+
+
+	}
+	KRA_Vikitri_Dobav={
+		name="Vikitri Dobav"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Vikitri_Dobav
+			traits = {	army_entrenchment_1 	}
+		}
+
+
+	}
+	KRA_Juragomas_Oblik={
+		name="Juragomas Oblik"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Juragomas_Oblik
+			traits = {	army_commando_1 	}
+		}
+
+
+	}
+	KRA_Matefan_Jeza={
+		name="Matefan Jeza"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Matefan_Jeza
+			traits = {	air_naval_strike_2 	}
+		}
+
+
+	}
+	KRA_Radov_Veroda={
+		name="Radov Veroda"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Radov_Veroda
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KRA_Niktor_Obicak={
+		name="Niktor Obicak"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Niktor_Obicak
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KRA_Dragomas_Lekt={
+		name="Dragomas Lekt"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRA_Janisladovan_Glatar={
+		name="Janisladovan Glatar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Janisladovan_Glatar
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_2_small
+			}
+		}
+
+
+	}
+	KRA_Radovanovan_Muzikar={
+		name="Radovanovan Muzikar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Radovanovan_Muzikar
+			traits = {	polemarch 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Rado_Scen={
+		name="Rado Scen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Rado_Scen
+			traits = {	reluctant_stalinist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Sergei_Jezerod={
+		name="Sergei Jezerod"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Sergei_Jezerod
+			traits = {	revolutionary_poet 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Niktoran_Verojska={
+		name="Niktoran Verojska"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Niktoran_Verojska
+			traits = {	patriotic_socialist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Lubos_Voda={
+		name="Lubos Voda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Lubos_Voda
+			traits = {	political_dancer 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Ivanis_Svetlo={
+		name="Ivanis Svetlo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Ivanis_Svetlo
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KRA_Juran_Sporebo={
+		name="Juran Sporebo"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Juran_Sporebo
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KRA_Nikita_Nadzbica={
+		name="Nikita Nadzbica"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Nikita_Nadzbica
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KRA_Niktoraj_Svezduh={
+		name="Niktoraj Svezduh"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Niktoraj_Svezduh
+			traits = {	army_chief_organizational_1 	}
+		}
+
+
+	}
+	KRA_Pavkoladov_Kravac={
+		name="Pavkoladov Kravac"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Pavkoladov_Kravac
+			traits = {	navy_chief_old_guard 	}
+		}
+
+
+	}
+	KRA_Juran_Muzikar={
+		name="Juran Muzikar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Juran_Muzikar
+			traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+
+	}
+	KRA_Mirosh_Ratadje={
+		name="Mirosh Ratadje"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Mirosh_Ratadje
+			traits = {	air_chief_all_weather_2 	}
+		}
+
+
+	}
+	KRA_Viko_Hlebo={
+		name="Viko Hlebo"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Viko_Hlebo
+			traits = {	air_chief_safety_1 	}
+		}
+
+
+	}
+	KRA_Bogdan_Sunce={
+		name="Bogdan Sunce"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Bogdan_Sunce
+			traits = {	army_radio_intelligence_1 	}
+		}
+
+
+	}
+	KRA_Dusz_Hrabroda={
+		name="Dusz Hrabroda"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Dusz_Hrabroda
+			traits = {	army_concealment_1 	}
+		}
+
+
+	}
+	KRA_Niktor_Sneg={
+		name="Niktor Sneg"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Niktor_Sneg
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KRA_Milos_Svezduh={
+		name="Milos Svezduh"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Milos_Svezduh
+			traits = {	air_tactical_bombing_1 	}
+		}
+
+
+	}
+	KRA_Peta_Ribava={
+		name="Peta Ribava"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Peta_Ribava
+			traits = {	army_armored_1 	}
+		}
+
+
+	}
+	KRA_Radovanovan_Reka={
+		name="Radovanovan Reka"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Radovanovan_Reka
+			traits = {	air_naval_strike_1 	}
+		}
+
+
+	}
+	KRA_Juran_Oblik={
+		name="Juran Oblik"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KRA_Slado_Ptinjava={
+		name="Slado Ptinjava"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Slado_Ptinjava
+			traits = {	liberal_democratic_paragon 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Velimiri_Hrabro={
+		name="Velimiri Hrabro"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Velimiri_Hrabro
+			traits = {	democratic_crusader 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Starkolan_Tvrdje={
+		name="Starkolan Tvrdje"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Starkolan_Tvrdje
+			traits = {	gentle_scholar 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Bran_Ptirisacin={
+		name="Bran Ptirisacin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Bran_Ptirisacin
+			traits = {	staunch_constitutionalist 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Luboslav_Voda={
+		name="Luboslav Voda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Luboslav_Voda
+			traits = {	conservative_grandee 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Africa_Generic_1_small
+			}
+		}
+
+
+	}
+	KRA_Dusz_Boginjiv={
+		name="Dusz Boginjiv"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KRA_Dusz_Boginjiv
+			traits = {	the_banker 	}
+		}
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_Africa_Political_Leader_Generic_small
+			}
+		}
+
+
+	}
+	KRA_Vikitri_Narst={
+		name="Vikitri Narst"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Vikitri_Narst
+			traits = {	army_chief_defensive_2 	}
+		}
+
+
+	}
+	KRA_Bragomirosla_Lekt={
+		name="Bragomirosla Lekt"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Bragomirosla_Lekt
+			traits = {	army_chief_entrenchment_2 	}
+		}
+
+
+	}
+	KRA_Nikita_Verojska={
+		name="Nikita Verojska"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Nikita_Verojska
+			traits = {	army_chief_reform_1 	}
+		}
+
+
+	}
+	KRA_Kazimiri_Jeza={
+		name="Kazimiri Jeza"
+
+		advisor={
+			slot = army_chief
+			idea_token = KRA_Kazimiri_Jeza
+			traits = {	army_chief_morale_2 	}
+		}
+
+
+	}
+	KRA_Ivanis_Plovo={
+		name="Ivanis Plovo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Ivanis_Plovo
+			traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+
+	}
+	KRA_Pavkoladov_Dobav={
+		name="Pavkoladov Dobav"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KRA_Pavkoladov_Dobav
+			traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+
+	}
+	KRA_Nikita_Obicak={
+		name="Nikita Obicak"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Nikita_Obicak
+			traits = {	air_chief_night_operations_2 	}
+		}
+
+
+	}
+	KRA_Dusan_Zeme={
+		name="Dusan Zeme"
+
+		advisor={
+			slot = air_chief
+			idea_token = KRA_Dusan_Zeme
+			traits = {	air_chief_reform_2 	}
+		}
+
+
+	}
+	KRA_Dusan_Hrabro={
+		name="Dusan Hrabro"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Dusan_Hrabro
+			traits = {	navy_naval_air_defense_2 	}
+		}
+
+
+	}
+	KRA_Dragomir_Plovo={
+		name="Dragomir Plovo"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Dragomir_Plovo
+			traits = {	navy_anti_submarine_1 	}
+		}
+
+
+	}
+	KRA_Draj_Hrabrija={
+		name="Draj Hrabrija"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Draj_Hrabrija
+			traits = {	air_pilot_training_2 	}
+		}
+
+
+	}
+	KRA_Ivanis_Doba={
+		name="Ivanis Doba"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Ivanis_Doba
+			traits = {	army_radio_intelligence_2 	}
+		}
+
+
+	}
+	KRA_Juragomas_Kulast={
+		name="Juragomas Kulast"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Juragomas_Kulast
+			traits = {	navy_carrier_2 	}
+		}
+
+
+	}
+	KRA_Luboslavel_Grmlja={
+		name="Luboslavel Grmlja"
+
+		advisor={
+			slot = high_command
+			idea_token = KRA_Luboslavel_Grmlja
+			traits = {	navy_anti_submarine_2 	}
+		}
+
+
+	}
+	KRA_Jarko_Kapija={
+		name="Jarko Kapija"
+
+		advisor={
+			slot = theorist
+			idea_token = KRA_Jarko_Kapija
+			traits = {	military_theorist 	}
+		}
+
+
+	}
+	KRA_Mirosh_Pesnit={
+		name="Mirosh Pesnit"
+
+		advisor={
+			slot = theorist
+			idea_token = KRA_Mirosh_Pesnit
+			traits = {	naval_theorist 	}
+		}
+
+
+	}
+	KRA_Niktoraj_Nebro={
+		name="Niktoraj Nebro"
+
+		advisor={
+			slot = theorist
+			idea_token = KRA_Niktoraj_Nebro
+			traits = {	air_warfare_theorist 	}
+		}
+
+
+	}
+}

@@ -1,0 +1,68 @@
+air_wings = {
+		1258 = { 								
+		nav_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Muga Mk 0" }
+
+	}
+	1245 = { 								
+		tac_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Hotzakaporia Mk 1" }
+
+	}
+	1297 = { 								
+		nav_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Muga Mk 0" }
+
+	}
+	1248 = { 								
+		fighter_equipment_0 = { owner = "GAU" amount = 50 version_name = "Badea Mk 0" }
+
+	}
+	1273 = { 								
+		CAS_equipment_0 = { owner = "GAU" amount = 50 version_name = "Egun Mk 1" }
+
+	}
+	1212 = { 								
+		CAS_equipment_0 = { owner = "GAU" amount = 50 version_name = "Egun Mk 1" }
+
+	}
+	1754 = { 								
+		fighter_equipment_0 = { owner = "GAU" amount = 50 version_name = "Badea Mk 0" }
+
+	}
+	1304 = { 								
+		strat_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Semea Mk 1" }
+
+	}
+	1322 = { 								
+		tac_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Hotzakaporia Mk 1" }
+
+	}
+	1275 = { 								
+		fighter_equipment_0 = { owner = "GAU" amount = 50 version_name = "Badea Mk 0" }
+
+	}
+	1228 = { 								
+		CAS_equipment_0 = { owner = "GAU" amount = 50 version_name = "Egun Mk 1" }
+
+	}
+	1331 = { 								
+		tac_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Hotzakaporia Mk 1" }
+
+	}
+	1318 = { 								
+		nav_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Muga Mk 0" }
+
+	}
+	1689 = { 								
+		CAS_equipment_0 = { owner = "GAU" amount = 50 version_name = "Egun Mk 1" }
+
+	}
+	1298 = { 								
+		strat_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Semea Mk 1" }
+
+	}
+	1282 = { 								
+		strat_bomber_equipment_0 = { owner = "GAU" amount = 50 version_name = "Semea Mk 1" }
+
+	}
+
+
+}

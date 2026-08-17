@@ -1,0 +1,37 @@
+
+state={
+	id=314
+	name="STATE_314"
+	manpower = 2616852
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AZE
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AZE
+	}
+
+	provinces={
+		3806 3807 3808 3809 3810 3811 3812 3813 3814 3815 3816 3817 
+	}
+	local_supplies=0.0 
+}

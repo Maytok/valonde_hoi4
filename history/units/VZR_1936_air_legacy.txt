@@ -1,0 +1,17 @@
+air_wings = {
+		760 = { 								
+		fighter_equipment_0 = { owner = "VZR" amount = 9 version_name = "Than Mk 0" }
+nav_bomber_equipment_0 = { owner = "VZR" amount = 11 version_name = "Amenzar Mk 1" }
+
+	}
+	1688 = { 								
+		tac_bomber_equipment_0 = { owner = "VZR" amount = 6 version_name = "Tizir Mk 0" }
+
+	}
+	1537 = { 								
+		CAS_equipment_0 = { owner = "VZR" amount = 7 version_name = "Agou Mk 1" }
+
+	}
+
+
+}

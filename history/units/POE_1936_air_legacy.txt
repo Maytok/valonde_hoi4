@@ -1,0 +1,17 @@
+air_wings = {
+		1064 = { 								
+		fighter_equipment_0 = { owner = "POE" amount = 50 version_name = "Vitastor Mk 1" }
+
+	}
+	1207 = { 								
+		CAS_equipment_0 = { owner = "POE" amount = 50 version_name = "Sterbulgus Mk 0" }
+CAS_equipment_0 = { owner = "POE" amount = 50 version_name = "Sterbulgus Mk 0" }
+
+	}
+	996 = { 								
+		fighter_equipment_0 = { owner = "POE" amount = 50 version_name = "Vitastor Mk 1" }
+
+	}
+
+
+}

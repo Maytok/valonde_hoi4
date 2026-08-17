@@ -1,0 +1,37 @@
+
+state={
+	id=995
+	name="STATE_995"
+	manpower = 1187482
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = UPE
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = UPE
+	}
+
+	provinces={
+		11751 11752 11753 11754 11755 11756 11757 
+	}
+	local_supplies=0.0 
+}

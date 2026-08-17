@@ -1,0 +1,37 @@
+
+state={
+	id=568
+	name="STATE_568"
+	manpower = 890999
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = KWV
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KWV
+	}
+
+	provinces={
+		6821 6822 6823 6824 6825 
+	}
+	local_supplies=0.0 
+}

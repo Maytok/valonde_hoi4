@@ -1,0 +1,50 @@
+air_wings = {
+		780 = { 								
+		small_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+
+	}
+	847 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+
+	}
+	1657 = { 								
+		small_plane_cas_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	219 = { 								
+		small_plane_cas_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	110 = { 								
+		small_plane_cas_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Bele Mk 2" }
+
+	}
+	256 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+medium_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	550 = { 								
+		medium_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	1716 = { 								
+		small_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+small_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Baharih Mk 1" }
+
+	}
+	29 = { 								
+		medium_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+	277 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Asket Mk 1" }
+
+	}
+	930 = { 								
+		medium_plane_airframe_0 = { owner = "TIZ" amount = 50 version_name = "Busun Mk 1" }
+
+	}
+
+
+}

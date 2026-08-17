@@ -1,0 +1,37 @@
+
+state={
+	id=1562
+	name="STATE_1562"
+	manpower = 42930
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=3
+	}
+
+	history={
+		
+		owner = SUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SUA
+	}
+
+	provinces={
+		17186 
+	}
+	local_supplies=0.0 
+}

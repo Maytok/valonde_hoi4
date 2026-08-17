@@ -1,0 +1,37 @@
+
+state={
+	id=439
+	name="STATE_439"
+	manpower = 874909
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=2
+		chromium=2
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=2
+		coal=6
+	}
+
+	history={
+		
+		owner = TAD
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TAD
+	}
+
+	provinces={
+		5352 5353 5354 5355 
+	}
+	local_supplies=0.0 
+}

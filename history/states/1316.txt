@@ -1,0 +1,37 @@
+
+state={
+	id=1316
+	name="STATE_1316"
+	manpower = 576218
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=2
+	}
+
+	history={
+		
+		owner = GAU
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = GAU
+	}
+
+	provinces={
+		15325 15326 15327 
+	}
+	local_supplies=0.0 
+}

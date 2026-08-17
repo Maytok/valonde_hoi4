@@ -1,0 +1,37 @@
+
+state={
+	id=138
+	name="STATE_138"
+	manpower = 235965
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=10
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=10
+		coal=24
+	}
+
+	history={
+		
+		owner = TAW
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TAW
+	}
+
+	provinces={
+		1761 1762 1763 1764 1765 1766 1767 1768 1769 1770 1771 
+	}
+	local_supplies=0.0 
+}

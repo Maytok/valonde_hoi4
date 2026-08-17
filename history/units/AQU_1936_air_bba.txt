@@ -1,0 +1,17 @@
+air_wings = {
+		409 = { 								
+		small_plane_cas_airframe_0 = { owner = "AQU" amount = 5 version_name = "Bubuk Mk 1" }
+
+	}
+	1707 = { 								
+		medium_plane_airframe_0 = { owner = "AQU" amount = 5 version_name = "Wrak Mk 1" }
+
+	}
+	805 = { 								
+		small_plane_airframe_0 = { owner = "AQU" amount = 7 version_name = "Avaniq Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "AQU" amount = 4 version_name = "Avak Mk 0" }
+
+	}
+
+
+}

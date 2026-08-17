@@ -1,0 +1,13 @@
+air_wings = {
+		980 = { 								
+		CAS_equipment_0 = { owner = "CEL" amount = 18 version_name = "Prum Mk 1" }
+
+	}
+	1034 = { 								
+		fighter_equipment_0 = { owner = "CEL" amount = 20 version_name = "Nator Mk 2" }
+tac_bomber_equipment_0 = { owner = "CEL" amount = 27 version_name = "Libunus Mk 2" }
+
+	}
+
+
+}

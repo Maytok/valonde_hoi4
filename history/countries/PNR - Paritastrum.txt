@@ -1,0 +1,442 @@
+capital = 1106
+
+oob = "PNR_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "PNR_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "PNR_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	marines= 1
+	tech_engineers= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	interwar_artillery= 1
+	fuel_silos= 1
+	synth_oil_experiments= 1
+	electronic_mechanical_engineering= 1
+	basic_fire_control_system= 1
+	basic_fortification_tech= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Domus Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Negotium Mk 0"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Solumens Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = expanded_fuel_tank
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Argenatrudax Mk 0"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Viturum Mk 0"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_small_cannon_2
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = expanded_fuel_tank
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Flum Mk 0"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = wet_ammo_storage
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PNR_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			photo_reconnaisance = 1
+			iw_small_airframe = 1
+			aa_lmg = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Senebs Mk 1"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+
+	else = {
+		set_air_oob = "PNR_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			scout_plane1 = 1
+			early_fighter = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	
+	}
+	set_naval_oob = "PNR_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Gena Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "PNR_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Gena Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = ship_anti_air_1
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_anti_air_1
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = PNR_Lucimus_Tabul
+recruit_character = PNR_Drus_Portifex
+recruit_character = PNR_Tratius_Vulus
+recruit_character = PNR_Maximus_Plerba
+recruit_character = PNR_Gemus_Caenaturumen
+recruit_character = PNR_Antonius_Aques
+recruit_character = PNR_Regus_Lenturumensa
+recruit_character = PNR_Titus_Nobis
+recruit_character = PNR_Decius_Officium
+recruit_character = PNR_Lonius_Mentum
+recruit_character = PNR_Viberius_Solumens
+recruit_character = PNR_Spuriscus_Reginus
+recruit_character = PNR_Fabius_Gena
+recruit_character = PNR_Gaius_Tris
+recruit_character = PNR_Quinus_Ordo
+recruit_character = PNR_Augulus_Argentithare
+recruit_character = PNR_Drus_Flos
+recruit_character = PNR_Regulus_Vera
+recruit_character = PNR_Coraius_Orbors
+recruit_character = PNR_Gaianus_Timina
+recruit_character = PNR_Lucimus_Civitteritas
+recruit_character = PNR_Gaius_Camper
+recruit_character = PNR_Remus_Volum
+recruit_character = PNR_Drus_Gena
+recruit_character = PNR_Nonius_Fluvis
+recruit_character = PNR_Traius_Viturum
+recruit_character = PNR_Nonius_Caenaturumen
+recruit_character = PNR_Marcus_Domenturribu
+recruit_character = PNR_Scaevero_Frumen
+recruit_character = PNR_Publius_Famalatus
+recruit_character = PNR_Noniusus_Timina
+recruit_character = PNR_Remus_Libers
+recruit_character = PNR_Regus_Aurria
+recruit_character = PNR_Publius_Bontus
+recruit_character = PNR_Nerus_Deatorta
+recruit_character = PNR_Marro_Civitteritas
+recruit_character = PNR_Gaius_Tabuna
+recruit_character = PNR_Fabius_Flus
+recruit_character = PNR_Regustus_Coluvia
+recruit_character = PNR_Augulus_Centudo
+recruit_character = PNR_Varcellius_Timina
+recruit_character = PNR_Fabiustus_Nator
+recruit_character = PNR_Nerus_Ordo
+recruit_character = PNR_Gemus_Tempus
+recruit_character = PNR_Cornellius_Caenaturumen
+recruit_character = PNR_Servius_Mentum
+recruit_character = PNR_Titus_Bellaelebs
+recruit_character = PNR_Spuriscus_Honsus
+recruit_character = PNR_Nonius_Flum
+recruit_character = PNR_Atticustus_Vulus
+recruit_character = PNR_Decius_Tabul
+recruit_character = PNR_Marro_Literba
+recruit_character = PNR_Tratius_Agria
+recruit_character = PNR_Claulus_Malum
+recruit_character = PNR_Maximus_Agrium
+recruit_character = PNR_Noniusus_Vera
+recruit_character = PNR_Julus_Scistra
+recruit_character = PNR_Atticustus_Ventiumen
+recruit_character = PNR_Scaevero_Deatorta
+recruit_character = PNR_Drus_Centudo
+recruit_character = PNR_Sevolavius_Tura
+recruit_character = PNR_Lucimus_Pluvia
+recruit_character = PNR_Horaianus_Aetes
+recruit_character = PNR_Julustus_Flum
+recruit_character = PNR_Titus_Vilor
+recruit_character = PNR_Maximus_Tempus
+recruit_character = PNR_Marcus_Amortis
+recruit_character = PNR_Titus_Codes
+recruit_character = PNR_Coraius_Honsus
+recruit_character = PNR_Tracchus_Pluvia
+recruit_character = PNR_Titellius_Tempus
+recruit_character = PNR_Nonius_Domenturribu
+recruit_character = PNR_Publius_Honsus
+recruit_character = PNR_Marcus_Caenaturumen
+recruit_character = PNR_Drus_Pluvia
+recruit_character = PNR_Manus_Bontus
+recruit_character = PNR_Traius_Flum
+recruit_character = PNR_Viberus_Resariptorum
+recruit_character = PNR_Atticustus_Equa
+recruit_character = PNR_Urbanlius_Vinum
+recruit_character = PNR_Scaevolaudiu_Medicus
+recruit_character = PNR_Sevolavius_Aurria
+recruit_character = PNR_Regulus_Fulmenticus
+recruit_character = PNR_Servius_Vinum
+recruit_character = PNR_Tracchus_Bellaelebs
+recruit_character = PNR_Julustus_Aurria
+recruit_character = PNR_Viberus_Reginus
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 0.24
+set_war_support = 0.60
+
+add_ideas = {
+extensive_conscription
+civilian_economy
+autarkic_economy
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1881.5.24"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 21
+	fascism = 5
+	communism = 41
+	neutrality = 33
+}
+
+
+
+
+

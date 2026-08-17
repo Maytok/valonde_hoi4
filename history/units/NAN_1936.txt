@@ -1,0 +1,230 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			recon = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+			recon = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 0 y = 3 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 1 y = 3 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 1 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Ukkuvikipiku' Supported Infantry Division"
+		location = 2088
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.514485
+		start_equipment_factor = 0.986207
+	}
+	division= {
+		name = "2nd 'Tamaq' Supported Infantry Division"
+		location = 4605
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.760225
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Tuna' Artillery Division"
+		location = 5981
+		division_template = "Artillery Division"
+		start_experience_factor = 0.887852
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kala' Artillery Division"
+		location = 8866
+		division_template = "Artillery Division"
+		start_experience_factor = 0.828716
+		start_equipment_factor = 0.968388
+	}
+	division= {
+		name = "1st 'Tuniqpak' Motorized Division"
+		location = 10706
+		division_template = "Motorized Division"
+		start_experience_factor = 0.298618
+		start_equipment_factor = 0.938520
+	}
+	division= {
+		name = "1st 'Nuliak' Supported Motorized Division"
+		location = 8983
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.208137
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "2nd 'Kuvuk' Supported Motorized Division"
+		location = 10085
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.667380
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Kamnaaq' Supported Motorized Division"
+		location = 6338
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.167148
+		start_equipment_factor = 0.982002
+	}
+	division= {
+		name = "1st 'Avana' Motorized Artillery Division"
+		location = 2237
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.832842
+		start_equipment_factor = 0.889984
+	}
+	division= {
+		name = "2nd 'Alapaanurang' Motorized Artillery Division"
+		location = 6056
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.520451
+		start_equipment_factor = 0.859607
+	}
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=28
+	name="STATE_28"
+	manpower = 2630594
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AQU
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			
+		}
+		add_core_of = AQU
+	}
+
+	provinces={
+		415 416 417 418 419 420 421 422 423 424 425 426 427 
+	}
+	local_supplies=0.0 
+}

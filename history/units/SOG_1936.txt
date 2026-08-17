@@ -1,0 +1,156 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			recon = {  x = 0 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+			artillery_brigade = {  x = 2 y = 1 }
+			artillery_brigade = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+			cavalry = {  x = 2 y = 0 }
+			cavalry = {  x = 2 y = 1 }
+			cavalry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Isiman' Supported Infantry Division"
+		location = 9119
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.573831
+		start_equipment_factor = 0.937838
+	}
+	division= {
+		name = "2nd 'Saat' Supported Infantry Division"
+		location = 4242
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.472531
+		start_equipment_factor = 0.939160
+	}
+	division= {
+		name = "3rd 'Obahirli' Supported Infantry Division"
+		location = 8458
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.031490
+		start_equipment_factor = 0.894391
+	}
+	division= {
+		name = "1st 'Guluk' Artillery Division"
+		location = 6164
+		division_template = "Artillery Division"
+		start_experience_factor = 0.210488
+		start_equipment_factor = 0.943659
+	}
+	division= {
+		name = "2nd 'Temiz' Artillery Division"
+		location = 8066
+		division_template = "Artillery Division"
+		start_experience_factor = 0.497574
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "3rd 'Karisan' Artillery Division"
+		location = 3664
+		division_template = "Artillery Division"
+		start_experience_factor = 0.781791
+		start_equipment_factor = 0.865870
+	}
+	division= {
+		name = "4th 'Kopruklulut' Artillery Division"
+		location = 8058
+		division_template = "Artillery Division"
+		start_experience_factor = 0.813491
+		start_equipment_factor = 0.918582
+	}
+
+}

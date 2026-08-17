@@ -1,0 +1,37 @@
+
+state={
+	id=750
+	name="STATE_750"
+	manpower = 3685341
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HOR
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 3
+			
+		}
+		add_core_of = HOR
+	}
+
+	provinces={
+		8956 8957 8958 8959 8960 8961 8962 8963 8964 8965 8966 8967 8968 8969 8970 8971 8972 
+	}
+	local_supplies=0.0 
+}

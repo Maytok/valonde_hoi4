@@ -1,0 +1,20 @@
+air_wings = {
+		413 = { 								
+		CAS_equipment_0 = { owner = "KOP" amount = 29 version_name = "Haye Mk 0" }
+
+	}
+	297 = { 								
+		fighter_equipment_0 = { owner = "KOP" amount = 26 version_name = "Sana Mk 2" }
+
+	}
+	280 = { 								
+		tac_bomber_equipment_0 = { owner = "KOP" amount = 39 version_name = "Gecmis Mk 0" }
+
+	}
+	715 = { 								
+		nav_bomber_equipment_0 = { owner = "KOP" amount = 27 version_name = "Umut Mk 0" }
+
+	}
+
+
+}

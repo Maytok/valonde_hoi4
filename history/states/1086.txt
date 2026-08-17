@@ -1,0 +1,37 @@
+
+state={
+	id=1086
+	name="STATE_1086"
+	manpower = 1953071
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PNR
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PNR
+	}
+
+	provinces={
+		12869 12870 12871 12872 12873 12874 12875 12876 12877 12878 12879 12880 
+	}
+	local_supplies=0.0 
+}

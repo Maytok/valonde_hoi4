@@ -1,0 +1,17 @@
+air_wings = {
+		409 = { 								
+		CAS_equipment_0 = { owner = "AQU" amount = 5 version_name = "Bubuk Mk 1" }
+
+	}
+	1707 = { 								
+		tac_bomber_equipment_0 = { owner = "AQU" amount = 5 version_name = "Wrak Mk 1" }
+
+	}
+	805 = { 								
+		fighter_equipment_0 = { owner = "AQU" amount = 7 version_name = "Avaniq Mk 1" }
+nav_bomber_equipment_0 = { owner = "AQU" amount = 4 version_name = "Avak Mk 0" }
+
+	}
+
+
+}

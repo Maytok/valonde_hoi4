@@ -1,0 +1,37 @@
+
+state={
+	id=858
+	name="STATE_858"
+	manpower = 3973884
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AKA
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			
+		}
+		add_core_of = AKA
+	}
+
+	provinces={
+		10128 10129 10130 10131 10132 10133 10134 10135 10136 10137 10138 10139 10140 10141 10142 10143 10144 10145 
+	}
+	local_supplies=0.0 
+}

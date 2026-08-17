@@ -1,0 +1,41 @@
+air_wings = {
+		1077 = { 								
+		small_plane_airframe_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1177 = { 								
+		small_plane_airframe_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1090 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1589 = { 								
+		small_plane_airframe_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	990 = { 								
+		small_plane_airframe_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1004 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1190 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+small_plane_airframe_0 = { owner = "MTL" amount = 50 version_name = "Jota Mk 2" }
+
+	}
+	1036 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+	1202 = { 								
+		small_plane_cas_airframe_0 = { owner = "MTL" amount = 50 version_name = "Wima Mk 2" }
+
+	}
+
+
+}

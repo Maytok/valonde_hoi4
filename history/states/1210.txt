@@ -1,0 +1,37 @@
+
+state={
+	id=1210
+	name="STATE_1210"
+	manpower = 2112789
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = PNR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = PNR
+	}
+
+	provinces={
+		14207 14208 14209 14210 14211 14212 14213 14214 14215 14216 14217 14218 14219 
+	}
+	local_supplies=0.0 
+}

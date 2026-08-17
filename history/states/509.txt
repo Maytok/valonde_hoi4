@@ -1,0 +1,37 @@
+
+state={
+	id=509
+	name="STATE_509"
+	manpower = 3821237
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=6
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=5
+		coal=14
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		6037 6038 6039 6040 6041 6042 6043 6044 6045 6046 6047 6048 6049 6050 6051 6052 6053 6054 6055 6056 6057 6058 6059 
+	}
+	local_supplies=0.0 
+}

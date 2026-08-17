@@ -1,0 +1,37 @@
+
+state={
+	id=608
+	name="STATE_608"
+	manpower = 3311758
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=25
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NUT
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = NUT
+	}
+
+	provinces={
+		7283 7284 7285 7286 7287 7288 7289 7290 7291 7292 7293 7294 7295 7296 7297 7298 7299 7300 7301 
+	}
+	local_supplies=0.0 
+}

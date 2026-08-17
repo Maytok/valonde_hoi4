@@ -1,0 +1,335 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 0 y = 3 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+			infantry = {  x = 1 y = 3 }
+			infantry = {  x = 2 y = 0 }
+			infantry = {  x = 2 y = 1 }
+			infantry = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+			maintenance_company = {  x = 0 y = 0 }
+
+	}
+}
+division_template = {
+	name = "Artillery Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			artillery_brigade = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+			recon = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 0 y = 2 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+			motorized = {  x = 1 y = 2 }
+			motorized = {  x = 2 y = 0 }
+			motorized = {  x = 2 y = 1 }
+			motorized = {  x = 2 y = 2 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Supported Motorized Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+			engineer = {  x = 0 y = 0 }
+			maintenance_company = {  x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Motorized Artillery Division"
+
+	regiments = {
+			motorized = {  x = 0 y = 0 }
+			motorized = {  x = 0 y = 1 }
+			motorized = {  x = 1 y = 0 }
+			motorized = {  x = 2 y = 0 }
+			mot_artillery_brigade = {  x = 3 y = 0 }
+
+	}
+	
+	support = {
+			artillery = {  x = 0 y = 0 }
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "1st 'Tiang' Militia Division"
+		location = 14977
+		division_template = "Militia Division"
+		start_experience_factor = 0.784810
+		start_equipment_factor = 0.867817
+	}
+	division= {
+		name = "2nd 'Nebrisa' Militia Division"
+		location = 14433
+		division_template = "Militia Division"
+		start_experience_factor = 0.817259
+		start_equipment_factor = 0.881507
+	}
+	division= {
+		name = "3rd 'Guai' Militia Division"
+		location = 15107
+		division_template = "Militia Division"
+		start_experience_factor = 0.774231
+		start_equipment_factor = 0.956894
+	}
+	division= {
+		name = "1st 'Cheng' Infantry Division"
+		location = 15034
+		division_template = "Infantry Division"
+		start_experience_factor = 0.457027
+		start_equipment_factor = 0.939076
+	}
+	division= {
+		name = "2nd 'Solamhradhai' Infantry Division"
+		location = 14287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.258407
+		start_equipment_factor = 0.926529
+	}
+	division= {
+		name = "1st 'Aizena' Supported Infantry Division"
+		location = 15145
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.714064
+		start_equipment_factor = 0.857143
+	}
+	division= {
+		name = "2nd 'Gvotir' Supported Infantry Division"
+		location = 14425
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.152413
+		start_equipment_factor = 0.903480
+	}
+	division= {
+		name = "3rd 'Shan' Supported Infantry Division"
+		location = 14324
+		division_template = "Supported Infantry Division"
+		start_experience_factor = 0.436685
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Vitezana' Artillery Division"
+		location = 14432
+		division_template = "Artillery Division"
+		start_experience_factor = 0.983152
+		start_equipment_factor = 0.872719
+	}
+	division= {
+		name = "2nd 'Bing' Artillery Division"
+		location = 14441
+		division_template = "Artillery Division"
+		start_experience_factor = 0.140291
+		start_equipment_factor = 0.833392
+	}
+	division= {
+		name = "3rd 'Mian' Artillery Division"
+		location = 14980
+		division_template = "Artillery Division"
+		start_experience_factor = 0.948713
+		start_equipment_factor = 0.856130
+	}
+	division= {
+		name = "4th 'Kapija' Artillery Division"
+		location = 14436
+		division_template = "Artillery Division"
+		start_experience_factor = 0.734800
+		start_equipment_factor = 0.869553
+	}
+	division= {
+		name = "1st 'Eachas' Cavalry Division"
+		location = 14558
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.030694
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Cluas' Motorized Division"
+		location = 14562
+		division_template = "Motorized Division"
+		start_experience_factor = 0.461801
+		start_equipment_factor = 0.974963
+	}
+	division= {
+		name = "2nd 'Zhou' Motorized Division"
+		location = 14573
+		division_template = "Motorized Division"
+		start_experience_factor = 0.968990
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "1st 'Xiang' Supported Motorized Division"
+		location = 14588
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.498702
+		start_equipment_factor = 0.920542
+	}
+	division= {
+		name = "2nd 'Dorc' Supported Motorized Division"
+		location = 14563
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.356731
+		start_equipment_factor = 0.865753
+	}
+	division= {
+		name = "3rd 'Mian' Supported Motorized Division"
+		location = 14904
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.921539
+		start_equipment_factor = 0.880425
+	}
+	division= {
+		name = "4th 'Dinn' Supported Motorized Division"
+		location = 14280
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.656163
+		start_equipment_factor = 0.969560
+	}
+	division= {
+		name = "5th 'Orotzartza' Supported Motorized Division"
+		location = 14722
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.667132
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "6th 'Long' Supported Motorized Division"
+		location = 15273
+		division_template = "Supported Motorized Division"
+		start_experience_factor = 0.530174
+		start_equipment_factor = 0.908246
+	}
+	division= {
+		name = "1st 'Guai' Motorized Artillery Division"
+		location = 15107
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.414185
+		start_equipment_factor = 0.859896
+	}
+	division= {
+		name = "2nd 'Ping' Motorized Artillery Division"
+		location = 15239
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.581746
+		start_equipment_factor = 0.938812
+	}
+	division= {
+		name = "3rd 'Chen' Motorized Artillery Division"
+		location = 14819
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.934269
+		start_equipment_factor = 1.000000
+	}
+	division= {
+		name = "4th 'Zarra' Motorized Artillery Division"
+		location = 14939
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.297397
+		start_equipment_factor = 0.836431
+	}
+	division= {
+		name = "5th 'Shou' Motorized Artillery Division"
+		location = 14909
+		division_template = "Motorized Artillery Division"
+		start_experience_factor = 0.229145
+		start_equipment_factor = 0.953508
+	}
+
+}

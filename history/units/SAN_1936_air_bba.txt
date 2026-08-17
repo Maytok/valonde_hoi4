@@ -1,0 +1,55 @@
+air_wings = {
+		1450 = { 								
+		small_plane_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "SAN" amount = 50 version_name = "Tanupak Mk 2" }
+
+	}
+	547 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "SAN" amount = 50 version_name = "Tikiggiqpaq Mk 1" }
+
+	}
+	182 = { 								
+		small_plane_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "SAN" amount = 50 version_name = "Tanupak Mk 2" }
+
+	}
+	247 = { 								
+		small_plane_cas_airframe_1 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+
+	}
+	1454 = { 								
+		small_plane_airframe_1 = { owner = "SAN" amount = 50 version_name = "Qill Mk 1" }
+
+	}
+	792 = { 								
+		small_plane_naval_bomber_airframe_1 = { owner = "SAN" amount = 50 version_name = "Tikiggiqpaq Mk 1" }
+
+	}
+	1595 = { 								
+		medium_plane_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 0" }
+
+	}
+	453 = { 								
+		small_plane_cas_airframe_1 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+medium_plane_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nivanukak Mk 0" }
+
+	}
+	1458 = { 								
+		small_plane_cas_airframe_1 = { owner = "SAN" amount = 50 version_name = "Avak Mk 1" }
+
+	}
+	1510 = { 								
+		small_plane_airframe_1 = { owner = "SAN" amount = 50 version_name = "Qill Mk 1" }
+
+	}
+	1449 = { 								
+		small_plane_cas_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nulatchagak Mk 2" }
+
+	}
+	449 = { 								
+		small_plane_cas_airframe_0 = { owner = "SAN" amount = 50 version_name = "Nulatchagak Mk 2" }
+
+	}
+
+
+}

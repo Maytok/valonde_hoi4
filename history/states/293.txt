@@ -1,0 +1,37 @@
+
+state={
+	id=293
+	name="STATE_293"
+	manpower = 2369474
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=19
+		steel=57
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = VZR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = VZR
+	}
+
+	provinces={
+		3601 3602 3603 3604 3605 3606 3607 3608 3609 3610 3611 3612 3613 3614 3615 
+	}
+	local_supplies=0.0 
+}

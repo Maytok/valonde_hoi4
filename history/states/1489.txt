@@ -1,0 +1,37 @@
+
+state={
+	id=1489
+	name="STATE_1489"
+	manpower = 2775132
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = NAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = NAN
+	}
+
+	provinces={
+		16948 16949 16950 16951 16952 16953 16954 16955 16956 16957 16958 16959 16960 16961 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=1342
+	name="STATE_1342"
+	manpower = 1675330
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HOR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HOR
+	}
+
+	provinces={
+		15602 15603 15604 15605 15606 15607 15608 15609 15610 
+	}
+	local_supplies=0.0 
+}

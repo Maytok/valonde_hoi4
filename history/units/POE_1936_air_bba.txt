@@ -1,0 +1,17 @@
+air_wings = {
+		1064 = { 								
+		small_plane_airframe_0 = { owner = "POE" amount = 50 version_name = "Vitastor Mk 1" }
+
+	}
+	1207 = { 								
+		small_plane_cas_airframe_0 = { owner = "POE" amount = 50 version_name = "Sterbulgus Mk 0" }
+small_plane_cas_airframe_0 = { owner = "POE" amount = 50 version_name = "Sterbulgus Mk 0" }
+
+	}
+	996 = { 								
+		small_plane_airframe_0 = { owner = "POE" amount = 50 version_name = "Vitastor Mk 1" }
+
+	}
+
+
+}

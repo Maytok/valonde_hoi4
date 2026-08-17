@@ -1,0 +1,37 @@
+
+state={
+	id=1155
+	name="STATE_1155"
+	manpower = 2621292
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=5
+		oil=11
+		rubber=10
+		steel=25
+		tungsten=5
+		coal=12
+	}
+
+	history={
+		
+		owner = POE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = POE
+	}
+
+	provinces={
+		13659 13660 13661 13662 13663 13664 13665 13666 13667 13668 13669 13670 13671 13672 13673 13674 13675 13676 
+	}
+	local_supplies=0.0 
+}
