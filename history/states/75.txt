@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = TAG
+		owner = TIZ
 		buildings = {
 			infrastructure = 1
 			
@@ -27,7 +27,7 @@ state={
 			
 			
 		}
-		add_core_of = TAG
+		add_core_of = TIZ
 	}
 
 	provinces={
